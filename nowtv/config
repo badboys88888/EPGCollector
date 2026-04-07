@@ -1,0 +1,146 @@
+{
+  "096": {
+    "name": "ViuTV",
+    "logo": "https://images.now-tv.com/shares/channelPreview/img/zh_tw/color/ch96_110_80"
+  },
+  "099": {
+    "name": "ViuTV6",
+    "logo": "https://images.now-tv.com/shares/channelPreview/img/zh_tw/color/ch99_110_80"
+  },
+  "102": {
+    "name": "Viu 頻道",
+    "logo": "https://nowplayer.now.com/tvguide/channeldetail/102/1?isfromchannel=false"
+  },
+  "105": {
+    "name": "Now华剧台",
+    "logo": "https://images.now-tv.com/shares/channelPreview/img/zh_tw/color/ch105_110_80"
+  },
+  "106": {
+    "name": "Now 影視點播站",
+    "logo": "https://images.now-tv.com/shares/channelPreview/img/zh_tw/color/ch106_110_80"
+  },
+  "108": {
+    "name": "NowJelli",
+    "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch108_170_122"
+  },
+  "111": {
+    "name": "HBO Hits",
+    "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch111_170_122"
+  },
+  "112": {
+    "name": "HBO Family",
+    "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch112_170_122"
+  },
+  "113": {
+    "name": "CINEMAX",
+    "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch113_170_122"
+  },
+  "114": {
+    "name": "HBO Signature",
+    "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch114_170_122"
+  },
+  "115": {
+    "name": "HBO",
+    "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch115_170_122"
+  },
+  "116": {
+    "name": "MOVIE MOVIE",
+    "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch116_170_122"
+  },
+  "119": {
+    "name": "HITS MOVIES",
+    "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch119_170_122"
+  },
+  "133": {
+    "name": "Now 爆谷台",
+    "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch133_170_122"
+  },
+  "138": {
+    "name": "Now爆谷星影台",
+    "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch138_170_122"
+  },
+  "150": {
+    "name": "Animax",
+    "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch150_170_122"
+  },
+  "155": {
+    "name": "tvN",
+    "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch155_170_122"
+  },
+  "156": {
+    "name": "KBS World",
+    "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch156_170_122"
+  },
+  "168": {
+    "name": "MOOV 演唱會.MV台",
+    "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch168_170_122"
+  },
+  "200": {
+    "name": "熊貓 TV",
+    "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch200_170_122"
+  },
+  "208": {
+    "name": "Discovery Asia",
+    "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch208_170_122"
+  },
+  "209": {
+    "name": "Discovery Channel",
+    "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch209_170_122"
+  },
+  "210": {
+    "name": "动物星球频道",
+    "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch210_170_122"
+  },
+  "211": {
+    "name": "Discovery 科学頻道",
+    "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch211_170_122"
+  },
+  "212": {
+    "name": "DMAX",
+    "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch212_170_122"
+  },
+  "213": {
+    "name": "TLC旅遊生活頻道",
+    "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch213_170_122"
+  },
+  "217": {
+    "name": "Love Nature",
+    "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch217_170_122"
+  },
+  "218": {
+    "name": "Love Nature 4K",
+    "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch218_170_122"
+  },
+  "220": {
+    "name": "BBC Earth",
+    "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch220_170_122"
+  },
+  "221": {
+    "name": "戶外頻道",
+    "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch221_170_122"
+  },
+  "222": {
+    "name": "罪案 + 偵緝",
+    "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch222_170_122"
+  },
+  "223": {
+    "name": "HISTORY",
+    "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch223_170_122"
+  }
+  "316": {
+    "name": "CNN",
+    "logo": "https://images.now-tv.com/shares/channelPreview/img/zh_tw/color/ch316_110_80"
+  }
+  "319": {
+    "name": "CNBC",
+    "logo": "https://images.now-tv.com/shares/channelPreview/img/zh_tw/color/ch319_110_80"
+  }
+  "320": {
+    "name": "BBC News",
+    "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch320_170_122"
+  }
+  "321": {
+    "name": "Bloomberg Television",
+    "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch321_170_122"
+  }
+}
