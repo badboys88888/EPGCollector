@@ -2,7 +2,7 @@
 <tv>
   <channel id="102">
     <display-name>Viu 頻道</display-name>
-    <icon src="https://nowplayer.now.com/tvguide/channeldetail/102/1?isfromchannel=false"/>
+    <icon src="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch102_170_122"/>
   </channel>
   <programme channel="102" start="20260406160000 +0000" stop="20260406170000 +0000" lang="zh">
     <title>奇蹟的兄弟 第1集</title>
@@ -79,9 +79,6 @@
   <programme channel="102" start="20260407160000 +0000" stop="20260407170000 +0000" lang="zh">
     <title>奇蹟的兄弟 第2集</title>
   </programme>
-  <programme channel="102" start="20260407170000 +0000" stop="20260407180000 +0000" lang="zh">
-    <title>7人的逃脫 第15集</title>
-  </programme>
   <programme channel="102" start="20260407180000 +0000" stop="20260407190000 +0000" lang="zh">
     <title>S Line 第6集</title>
   </programme>
@@ -153,7 +150,7 @@
   </programme>
   <channel id="105">
     <display-name>Now华剧台</display-name>
-    <icon src="https://images.now-tv.com/shares/channelPreview/img/zh_tw/color/ch105_110_80"/>
+    <icon src="https://images.now-tv.com/shares/channelPreview/img/zh_tw/color/ch105_170_122"/>
   </channel>
   <programme channel="105" start="20260406163000 +0000" stop="20260406173000 +0000" lang="zh">
     <title>我的人間煙火 第39集</title>
@@ -298,7 +295,7 @@
   </programme>
   <channel id="106">
     <display-name>Now 影視點播站</display-name>
-    <icon src="https://images.now-tv.com/shares/channelPreview/img/zh_tw/color/ch106_110_80"/>
+    <icon src="https://images.now-tv.com/shares/channelPreview/img/zh_tw/color/ch106_170_122"/>
   </channel>
   <programme channel="106" start="20260406160000 +0000" stop="20260406180000 +0000" lang="zh">
     <title>搖籃凡世現已上架, 立即到106台即租即睇!</title>
@@ -335,9 +332,6 @@
   </programme>
   <programme channel="106" start="20260407140000 +0000" stop="20260407160000 +0000" lang="zh">
     <title>做個有錢人現已上架, 立即到106台即租即睇!</title>
-  </programme>
-  <programme channel="106" start="20260407160000 +0000" stop="20260407180000 +0000" lang="zh">
-    <title>有聲之年現已上架, 立即到106台即租即睇!</title>
   </programme>
   <programme channel="106" start="20260407160000 +0000" stop="20260407180000 +0000" lang="zh">
     <title>有聲之年現已上架, 立即到106台即租即睇!</title>
@@ -774,9 +768,6 @@
   <programme channel="112" start="20260407161000 +0000" stop="20260407165500 +0000" lang="zh">
     <title>撕裂記憶體 第1季第7集</title>
   </programme>
-  <programme channel="112" start="20260407172500 +0000" stop="20260407175500 +0000" lang="zh">
-    <title>芝麻街 第55季第4集 -Jam Session Jam-Up</title>
-  </programme>
   <programme channel="112" start="20260407175500 +0000" stop="20260407180600 +0000" lang="zh">
     <title>天才阿公 第1季第22集 -Future Pizza</title>
   </programme>
@@ -1191,9 +1182,6 @@
   <programme channel="115" start="20260407145500 +0000" stop="20260407171500 +0000" lang="zh">
     <title>罪人們</title>
   </programme>
-  <programme channel="115" start="20260407171500 +0000" stop="20260407175500 +0000" lang="zh">
-    <title>職業槍手 第4季第9集 -A Slippery Slope</title>
-  </programme>
   <programme channel="115" start="20260407175500 +0000" stop="20260407183000 +0000" lang="zh">
     <title>職業槍手 第4季第10集 -Heaven</title>
   </programme>
@@ -1272,9 +1260,6 @@
   </programme>
   <programme channel="116" start="20260407140000 +0000" stop="20260407155500 +0000" lang="zh">
     <title>情虐巴黎</title>
-  </programme>
-  <programme channel="116" start="20260407155500 +0000" stop="20260407174500 +0000" lang="zh">
-    <title>萬千痛愛在一身</title>
   </programme>
   <programme channel="116" start="20260407155500 +0000" stop="20260407174500 +0000" lang="zh">
     <title>萬千痛愛在一身</title>
@@ -1442,9 +1427,6 @@
   </programme>
   <programme channel="133" start="20260407155000 +0000" stop="20260407160000 +0000" lang="zh">
     <title>爆谷製造 -怕樓貴定怕屋有鬼？</title>
-  </programme>
-  <programme channel="133" start="20260407160000 +0000" stop="20260407175000 +0000" lang="zh">
-    <title>鬼同你住</title>
   </programme>
   <programme channel="133" start="20260407160000 +0000" stop="20260407175000 +0000" lang="zh">
     <title>鬼同你住</title>
@@ -1733,9 +1715,6 @@
   <programme channel="150" start="20260407160000 +0000" stop="20260407163000 +0000" lang="zh">
     <title>和山田談場LV999的戀愛 第1季第13集 -In The Morning When I Wake Up</title>
   </programme>
-  <programme channel="150" start="20260407173000 +0000" stop="20260407180000 +0000" lang="zh">
-    <title>家裡蹲吸血姬的鬱悶 第1季第12集 -The Golden World</title>
-  </programme>
   <programme channel="150" start="20260407180000 +0000" stop="20260407183000 +0000" lang="zh">
     <title>排球少年!! 第4季第3集 -Perspective</title>
   </programme>
@@ -1925,9 +1904,6 @@
   </programme>
   <programme channel="155" start="20260407143000 +0000" stop="20260407161000 +0000" lang="zh">
     <title>世界餐桌白社長 第3季第8集</title>
-  </programme>
-  <programme channel="155" start="20260407161000 +0000" stop="20260407175000 +0000" lang="zh">
-    <title>帥氣級較量 第15集</title>
   </programme>
   <programme channel="155" start="20260407161000 +0000" stop="20260407175000 +0000" lang="zh">
     <title>帥氣級較量 第15集</title>
@@ -2192,9 +2168,6 @@
   <programme channel="168" start="20260407160000 +0000" stop="20260407180000 +0000" lang="zh">
     <title>提供演唱會及MV點播服務</title>
   </programme>
-  <programme channel="168" start="20260407160000 +0000" stop="20260407180000 +0000" lang="zh">
-    <title>提供演唱會及MV點播服務</title>
-  </programme>
   <programme channel="168" start="20260407180000 +0000" stop="20260407200000 +0000" lang="zh">
     <title>提供演唱會及MV點播服務</title>
   </programme>
@@ -2391,9 +2364,6 @@
   </programme>
   <programme channel="208" start="20260407162000 +0000" stop="20260407164600 +0000" lang="zh">
     <title>印度大工廠 第1季第7集</title>
-  </programme>
-  <programme channel="208" start="20260407171200 +0000" stop="20260407180000 +0000" lang="zh">
-    <title>華人藝術紀 第1季第1集 -張洹</title>
   </programme>
   <programme channel="208" start="20260407180000 +0000" stop="20260407182500 +0000" lang="zh">
     <title>亞洲手工製造 第1季第13集 -菲律賓阿克蘭皮納織品</title>
@@ -2606,9 +2576,6 @@
   <programme channel="209" start="20260407154500 +0000" stop="20260407164000 +0000" lang="zh">
     <title>求生1加1 第3季第5集 -孤島危機</title>
   </programme>
-  <programme channel="209" start="20260407164000 +0000" stop="20260407173500 +0000" lang="zh">
-    <title>探索新境 第1季第6集 -大漠孤行</title>
-  </programme>
   <programme channel="209" start="20260407173500 +0000" stop="20260407183000 +0000" lang="zh">
     <title>野地造屋 第6季第4集 -猶他沙漠屋</title>
   </programme>
@@ -2774,9 +2741,6 @@
   </programme>
   <programme channel="210" start="20260407155500 +0000" stop="20260407165000 +0000" lang="zh">
     <title>熱血獸醫師 第5季第2集 -勇敢的小狗</title>
-  </programme>
-  <programme channel="210" start="20260407165000 +0000" stop="20260407174500 +0000" lang="zh">
-    <title>野性尚比亞 第1季第1集 -流亡者</title>
   </programme>
   <programme channel="210" start="20260407174500 +0000" stop="20260407184000 +0000" lang="zh">
     <title>喬治亞水族館 第2季第4集 -海獺夏令營</title>
@@ -2976,9 +2940,6 @@
   </programme>
   <programme channel="211" start="20260407161800 +0000" stop="20260407170300 +0000" lang="zh">
     <title>全面爆破 第1季第2集 -山崩地裂</title>
-  </programme>
-  <programme channel="211" start="20260407172500 +0000" stop="20260407174800 +0000" lang="zh">
-    <title>製造的原理 第11季第22集 -真人倒模</title>
   </programme>
   <programme channel="211" start="20260407174800 +0000" stop="20260407183400 +0000" lang="zh">
     <title>層層透視古文明 第5季第17集 -亞瑟王的城堡</title>
@@ -3206,9 +3167,6 @@
   <programme channel="212" start="20260407160900 +0000" stop="20260407165500 +0000" lang="zh">
     <title>美國伐木家族 第2季第10集 -最後衝刺</title>
   </programme>
-  <programme channel="212" start="20260407165500 +0000" stop="20260407174000 +0000" lang="zh">
-    <title>叛匠車廠 第1季第16集 -零件到位</title>
-  </programme>
   <programme channel="212" start="20260407174000 +0000" stop="20260407182600 +0000" lang="zh">
     <title>汽車收藏大瘦身 第1季第2集 -小皮卡大災難</title>
   </programme>
@@ -3407,9 +3365,6 @@
   </programme>
   <programme channel="213" start="20260407161000 +0000" stop="20260407164000 +0000" lang="zh">
     <title>喬安娜的餐桌: 農場篇 第1季第6集 -南瓜麵包與培根切達鹹派</title>
-  </programme>
-  <programme channel="213" start="20260407170500 +0000" stop="20260407173500 +0000" lang="zh">
-    <title>獨特甜點 第6季第1集 -南卡海岸</title>
   </programme>
   <programme channel="213" start="20260407173500 +0000" stop="20260407185500 +0000" lang="zh">
     <title>最後一口大飯店 第1季第1集 -第一口</title>
@@ -4123,9 +4078,6 @@
   <programme channel="221" start="20260407160000 +0000" stop="20260407170000 +0000" lang="zh">
     <title>Diamond River Hunters 第1季第5集 -Big Stone Fever</title>
   </programme>
-  <programme channel="221" start="20260407173000 +0000" stop="20260407180000 +0000" lang="zh">
-    <title>My Second Restaurant In India 第2季第4集 -Staff Training</title>
-  </programme>
   <programme channel="221" start="20260407180000 +0000" stop="20260407183000 +0000" lang="zh">
     <title>Bear Grylls: Face The Wild 第1季第5集 -Vision Quest</title>
   </programme>
@@ -4508,9 +4460,6 @@
   </programme>
   <programme channel="223" start="20260407154500 +0000" stop="20260407164000 +0000" lang="zh">
     <title>沼澤人類: 蛇類入侵 第3季第11集 -猶大蛇</title>
-  </programme>
-  <programme channel="223" start="20260407164000 +0000" stop="20260407173500 +0000" lang="zh">
-    <title>消失的二戰U艇 第1集 -石沉大海的納粹祕密</title>
   </programme>
   <programme channel="223" start="20260407173500 +0000" stop="20260407183000 +0000" lang="zh">
     <title>皮行者牧場的祕密 第4季第13集 -空中萬象一瞬間</title>
