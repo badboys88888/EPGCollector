@@ -1172,92 +1172,92 @@
   "1tv.kbscokr": {
     "name": "1TV",
     "icon": "https://padmin.static.kbs.co.kr/live/2025/2/3/1738538621612_433742.png",
-    "source": "nowcomhk"
+    "source": "kbscokr"
   },
   "2tv.kbscokr": {
     "name": "2TV",
     "icon": "https://padmin.static.kbs.co.kr/live/2025/2/3/1738538621669_433753.png",
-    "source": "nowcomhk"
+    "source": "kbscokr"
   },
   "kbsworld.kbscokr": {
     "name": "KBS WORLD",
     "icon": "https://padmin.static.kbs.co.kr/live/2025/2/3/1738538621754_433764.png",
-    "source": "nowcomhk"
+    "source": "kbscokr"
   },
   "kbsnews24.kbscokr": {
     "name": "KBS NEWS 24",
     "icon": "https://padmin.static.kbs.co.kr/live/2025/3/21/1742522477055_445256.png",
-    "source": "nowcomhk"
+    "source": "kbscokr"
   },
   "kbsdrama.kbscokr": {
     "name": "KBS Drama",
     "icon": "https://padmin.static.kbs.co.kr/live/2025/3/11/1741700048773_443879.png",
-    "source": "nowcomhk"
+    "source": "kbscokr"
   },
   "kbsjoy.kbscokr": {
     "name": "KBS Joy",
     "icon": "https://padmin.static.kbs.co.kr/live/2025/3/11/1741700048850_443880.png",
-    "source": "nowcomhk"
+    "source": "kbscokr"
   },
   "kbsstory.kbscokr": {
     "name": "KBS Story",
     "icon": "https://padmin.static.kbs.co.kr/live/2025/3/11/1741700048990_443891.png",
-    "source": "nowcomhk"
+    "source": "kbscokr"
   },
   "kbslife.kbscokr": {
     "name": "KBS LIFE",
     "icon": "https://padmin.static.kbs.co.kr/live/2025/3/11/1741700049056_443904.png",
-    "source": "nowcomhk"
+    "source": "kbscokr"
   },
   "kbskids.kbscokr": {
     "name": "KBS KIDS",
     "icon": "https://padmin.static.kbs.co.kr/live/2025/3/11/1741700049148_443915.png",
-    "source": "nowcomhk"
+    "source": "kbscokr"
   },
   ".kbscokr": {
     "name": "독도",
     "icon": "https://padmin.static.kbs.co.kr/live/2025/3/11/1741700147453_443926.png",
-    "source": "nowcomhk"
+    "source": "kbscokr"
   },
   "12.kbscokr": {
     "name": "1박 2일",
     "icon": "https://padmin.static.kbs.co.kr/live/2025/3/7/1741313605812_442856.png",
-    "source": "nowcomhk"
+    "source": "kbscokr"
   },
   "1.kbscokr": {
     "name": "1라디오",
     "icon": "https://padmin.static.kbs.co.kr/live/2025/3/7/1741313100641_442721.png",
-    "source": "nowcomhk"
+    "source": "kbscokr"
   },
   "2.kbscokr": {
     "name": "2라디오",
     "icon": "https://padmin.static.kbs.co.kr/live/2025/3/11/1741700004070_443799.png",
-    "source": "nowcomhk"
+    "source": "kbscokr"
   },
   "3.kbscokr": {
     "name": "3라디오",
     "icon": "https://padmin.static.kbs.co.kr/live/2025/3/11/1741700004143_443802.png",
-    "source": "nowcomhk"
+    "source": "kbscokr"
   },
   "1fm.kbscokr": {
     "name": "1FM",
     "icon": "https://padmin.static.kbs.co.kr/live/2025/3/11/1741700004216_443813.png",
-    "source": "nowcomhk"
+    "source": "kbscokr"
   },
   "2fm.kbscokr": {
     "name": "2FM",
     "icon": "https://padmin.static.kbs.co.kr/live/2025/3/11/1741700004290_443824.png",
-    "source": "nowcomhk"
+    "source": "kbscokr"
   },
   "kbsworldmultilingual.kbscokr": {
     "name": "KBS WORLD MULTILINGUAL",
     "icon": "https://padmin.static.kbs.co.kr/live/2025/3/11/1741700004489_443846.png",
-    "source": "nowcomhk"
+    "source": "kbscokr"
   },
   "kbsworldenglish.kbscokr": {
     "name": "KBS WORLD ENGLISH",
     "icon": "https://padmin.static.kbs.co.kr/live/2025/3/11/1741700004556_443857.png",
-    "source": "nowcomhk"
+    "source": "kbscokr"
   },
   "beinsports1.beinsportsconnecthk": {
     "name": "beIN Sports 1",
