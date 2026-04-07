@@ -18,7 +18,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # 2. Python
+      # 2. Python环境
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -28,31 +28,35 @@ jobs:
       - name: Install dependencies
         run: pip install requests lxml
 
-      # 4. 运行脚本（⚠️ 修正路径）
+      # 4. 运行脚本
       - name: Run EPG script
         run: python epg_script/epg_script.py
 
-      # 5. 检查文件（⚠️ 修正路径）
+      # 🔍 5. 调试（可留可删）
+      - name: Debug files
+        run: ls -R
+
+      # 6. 检查文件（✅ 已修正路径）
       - name: Verify JSON update
         run: |
-          if [ -f epg_script/epg-pro.json ]; then
+          if [ -f epg-pro.json ]; then
             echo "JSON file exists"
-            head -n 20 epg_script/epg-pro.json
+            head -n 20 epg-pro.json
           else
             echo "JSON file not found"
             exit 1
           fi
 
-      # 6. 提交
+      # 7. 提交（✅ 已修正路径）
       - name: Commit and Push updated JSON
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "action@github.com"
-          git add epg_script/epg-pro.json
+          git add epg-pro.json
           git commit -m "Auto-update EPG-PRO JSON: $(date -u)" || echo "No changes to commit"
           git push
 
-      # 7. 失败通知（🔥 已修复）
+      # 8. 失败通知（✅ 不会404）
       - name: Notify on failure
         if: failure()
         uses: actions/github-script@v6
