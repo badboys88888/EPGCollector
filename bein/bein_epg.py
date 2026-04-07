@@ -127,47 +127,41 @@ def fetch_epg(postid):
 # ----------------------------
 # ⑤ 主流程
 # ----------------------------
+from playwright.sync_api import sync_playwright
+import time
+
+
+URL = "https://www.bein.com/en/tv-guide/embed/"
+
+
 def main():
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page()
 
-    all_data = grab_network_data()
+        print("[INFO] Opening iframe TV Guide...")
 
-    print(f"\n[INFO] XHR packets: {len(all_data)}")
+        page.goto(URL, timeout=60000)
 
-    channels_raw = extract_channels(all_data)
+        # 等 iframe 内 JS 加载
+        page.wait_for_timeout(12000)
 
-    if not channels_raw:
-        print("[ERROR] No channels found in XHR data")
-        return
+        # 直接抓 iframe DOM
+        frames = page.frames
 
-    channels = []
-    seen = set()
+        print(f"[INFO] Frames found: {len(frames)}")
 
-    for c in channels_raw:
-        nc = normalize(c)
+        for f in frames:
+            try:
+                html = f.content()
 
-        if not nc["name"] or not nc["postid"]:
-            continue
+                if "channel" in html.lower() or "epg" in html.lower():
+                    print("\n[FOUND FRAME DATA]")
+                    print(html[:2000])
+            except:
+                pass
 
-        key = (nc["name"], nc["postid"])
-        if key in seen:
-            continue
-
-        seen.add(key)
-        channels.append(nc)
-
-    print(f"\n[INFO] Channels found: {len(channels)}\n")
-
-    for i, ch in enumerate(channels, 1):
-        print(f"{i}. {ch['name']} -> {ch['postid']}")
-
-        epg = fetch_epg(ch["postid"])
-
-        if epg:
-            print("   ✔ EPG OK")
-        else:
-            print("   ✖ EPG FAIL")
-
-        time.sleep(0.3)
+        browser.close()
 
 
 if __name__ == "__main__":
