@@ -6,6 +6,8 @@ import re
 import time
 import datetime
 import gzip
+import os
+import traceback
 
 BASE_URL = "https://www.mncvision.id/schedule/table"
 
@@ -15,12 +17,23 @@ HEADERS = {
     "Origin": "https://www.mncvision.id"
 }
 
-# =========================
-# 获取频道列表
-# =========================
+# ========================
+# 日志系统
+# ========================
+def log(msg):
+    now = datetime.datetime.now().strftime("%H:%M:%S")
+    print(f"[{now}] {msg}", flush=True)
+
+
+# ========================
+# 获取频道
+# ========================
 def fetch_channels():
-    print("获取频道列表...")
-    res = requests.get(BASE_URL, headers=HEADERS, timeout=15)
+    log("🔵 开始获取频道列表...")
+
+    res = requests.get(BASE_URL, headers=HEADERS, timeout=20)
+    log(f"频道页状态码: {res.status_code}")
+
     res.raise_for_status()
 
     matches = re.findall(r'<option value="([^"]+)">([^<]+)</option>', res.text)
@@ -28,18 +41,15 @@ def fetch_channels():
     channels = []
     for value, name in matches:
         name = re.sub(r'\s*-\s*\[Channel\s*\d+\]\s*$', '', name.strip())
-        channels.append({
-            "value": value,
-            "name": name
-        })
+        channels.append({"value": value, "name": name})
 
-    print(f"频道数: {len(channels)}")
+    log(f"✅ 频道解析完成: {len(channels)} 个")
     return channels
 
 
-# =========================
-# 获取节目表
-# =========================
+# ========================
+# 获取节目
+# ========================
 def fetch_schedule(channel_value, date):
     data = {
         "search_model": "channel",
@@ -49,21 +59,29 @@ def fetch_schedule(channel_value, date):
         "submit": "Cari"
     }
 
-    res = requests.post(BASE_URL, headers=HEADERS, data=data, timeout=15)
+    res = requests.post(BASE_URL, headers=HEADERS, data=data, timeout=20)
+
+    log(f"📡 请求频道={channel_value} 状态码={res.status_code}")
+
     res.raise_for_status()
 
     times = re.findall(r'<td class="text-center">(.*?)</td>', res.text)
     programs = re.findall(r'title="(.*?)" rel', res.text)
 
+    log(f"📊 解析结果: times={len(times)} programs={len(programs)}")
+
     return times, programs
 
 
-# =========================
-# 生成节目XML
-# =========================
-def generate_program_xml(date_prefix, times, programs, channel_name):
+# ========================
+# XML生成
+# ========================
+def build_xml(date_prefix, times, programs, channel_name):
     xml = ""
+
     count = min(len(programs), len(times)//2 - 1)
+
+    log(f"    ✳️ 生成节目数: {count}")
 
     for i in range(count):
         start = date_prefix + times[i*2].replace(":", "") + "00 +0700"
@@ -73,16 +91,20 @@ def generate_program_xml(date_prefix, times, programs, channel_name):
 
         xml += f'<programme start="{start}" stop="{stop}" channel="{channel_name}">\n'
         xml += f'<title lang="zh">{title}</title>\n'
-        xml += f'<desc></desc>\n'
         xml += '</programme>\n'
 
     return xml
 
 
-# =========================
+# ========================
 # 主程序
-# =========================
+# ========================
 def main():
+
+    log("🚀 ===== MNCVISION EPG START =====")
+
+    # 🔥 强制创建目录（修复你报错核心）
+    os.makedirs("mncvision_epg", exist_ok=True)
 
     today = datetime.date.today()
     tomorrow = today + datetime.timedelta(days=1)
@@ -95,42 +117,59 @@ def main():
 
     xml = '<?xml version="1.0" encoding="UTF-8"?><tv>\n'
 
-    channels = fetch_channels()
+    try:
+        channels = fetch_channels()
+    except Exception as e:
+        log(f"❌ 获取频道失败: {e}")
+        return
 
-    # 写 channel 标签
-    for ch in channels:
-        xml += f'<channel id="{ch["name"]}">\n'
-        xml += f'<display-name>{ch["name"]}</display-name>\n'
-        xml += '</channel>\n'
+    total = len(channels)
 
-    # 抓节目
-    for ch in channels:
-        print(f"处理频道: {ch['name']}")
+    for idx, ch in enumerate(channels, 1):
+
+        log(f"\n📺 [{idx}/{total}] 频道: {ch['name']}")
 
         try:
             t1, p1 = fetch_schedule(ch["value"], d1)
-            xml += generate_program_xml(d1_xml, t1, p1, ch["name"])
+            xml += build_xml(d1_xml, t1, p1, ch["name"])
 
             t2, p2 = fetch_schedule(ch["value"], d2)
-            xml += generate_program_xml(d2_xml, t2, p2, ch["name"])
+            xml += build_xml(d2_xml, t2, p2, ch["name"])
 
             time.sleep(1)
 
         except Exception as e:
-            print("错误:", e)
+            log(f"❌ 频道失败: {ch['name']}")
+            log(str(e))
+            log(traceback.format_exc())
 
     xml += "</tv>"
 
-    # 保存
-    with open("mncvision.xml", "w", encoding="utf-8") as f:
+    # ========================
+    # 写 XML
+    # ========================
+    xml_file = "mncvision_epg/mncvision.xml"
+    gz_file = "mncvision_epg/mncvision.xml.gz"
+
+    log("💾 写入 XML...")
+
+    with open(xml_file, "w", encoding="utf-8") as f:
         f.write(xml)
 
+    log(f"✅ XML完成: {xml_file} ({len(xml)} bytes)")
+
+    # ========================
     # gzip
-    with open("mncvision_epg/mncvision.xml", "rb") as f_in:
-        with gzip.open("mncvision.xml.gz", "wb") as f_out:
+    # ========================
+    log("🗜️ 压缩 gzip...")
+
+    with open(xml_file, "rb") as f_in:
+        with gzip.open(gz_file, "wb") as f_out:
             f_out.writelines(f_in)
 
-    print("完成：mncvision.xml + mncvision.xml.gz")
+    log(f"✅ gzip完成: {gz_file}")
+
+    log("🎉 ===== 全部完成 =====")
 
 
 if __name__ == "__main__":
