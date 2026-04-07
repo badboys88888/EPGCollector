@@ -1,26 +1,38 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import os
 import json
 import requests
 import xml.etree.ElementTree as ET
 import gzip
 from datetime import datetime
 
-# ================= 读取配置 ================= #
-def load_config():
-    with open("config.json", "r", encoding="utf-8") as f:
-        return json.load(f)
+# ================= 路径修复（关键）================= #
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+CONFIG_FILE = os.path.join(BASE_DIR, "config.json")
+XML_FILE = os.path.join(BASE_DIR, "nowtv.xml")
+GZ_FILE = os.path.join(BASE_DIR, "nowtv.xml.gz")
 
 # ================= 日志 ================= #
 def log(msg):
     print(f"[{datetime.now().strftime('%H:%M:%S')}] {msg}")
 
-# ================= 时间 ================= #
+# ================= 读取配置 ================= #
+def load_config():
+    if not os.path.exists(CONFIG_FILE):
+        raise FileNotFoundError(f"config.json not found: {CONFIG_FILE}")
+
+    with open(CONFIG_FILE, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+# ================= 时间格式 ================= #
 def fmt(ts):
+    # NOWTV 是毫秒时间戳
     return datetime.utcfromtimestamp(ts / 1000).strftime("%Y%m%d%H%M%S +0000")
 
-# ================= 抓EPG（直接用你接口） ================= #
+# ================= 抓EPG ================= #
 def fetch_epg():
     url = "https://nowplayer.now.com/tvguide/epglist?day=1"
 
@@ -30,85 +42,103 @@ def fetch_epg():
         "Referer": "https://nowplayer.now.com/"
     }
 
-    log("GET NOWTV EPG")
+    log("Fetching EPG...")
 
-    r = requests.get(url, headers=headers, timeout=15)
+    r = requests.get(url, headers=headers, timeout=20)
     r.raise_for_status()
 
     return r.json()
 
 # ================= 解析EPG ================= #
-def parse(data):
+def parse_epg(data):
     epg = {}
 
+    # 结构通常是 list[list[]]
     for group in data:
+        if not isinstance(group, list):
+            continue
+
         for p in group:
+            try:
+                cid = str(p.get("channelId", ""))
+                if not cid:
+                    continue
 
-            cid = str(p.get("channelId", ""))
-            if not cid:
+                epg.setdefault(cid, []).append(p)
+
+            except Exception:
                 continue
-
-            if cid not in epg:
-                epg[cid] = []
-
-            epg[cid].append(p)
 
     return epg
 
-# ================= XML生成 ================= #
+# ================= XML构建 ================= #
 def build_xml(config, epg):
     tv = ET.Element("tv")
 
     for cid, info in config.items():
 
-        # channel
+        # ---------- channel ----------
         ch = ET.SubElement(tv, "channel", id=cid)
-        ET.SubElement(ch, "display-name").text = info["name"]
+        ET.SubElement(ch, "display-name").text = info.get("name", cid)
 
         if info.get("logo"):
             ET.SubElement(ch, "icon", {"src": info["logo"]})
 
-        # programme
+        # ---------- programme ----------
         for p in epg.get(cid, []):
 
-            prog = ET.SubElement(tv, "programme", {
-                "channel": cid,
-                "start": fmt(p["start"]),
-                "stop": fmt(p["end"])
-            })
+            try:
+                start = fmt(p["start"])
+                stop = fmt(p["end"])
+                title = p.get("name", "").strip()
 
-            ET.SubElement(prog, "title").text = p.get("name", "")
+                prog = ET.SubElement(tv, "programme", {
+                    "channel": cid,
+                    "start": start,
+                    "stop": stop
+                })
+
+                ET.SubElement(prog, "title").text = title
+
+            except Exception:
+                continue
 
     return tv
 
-# ================= 主流程 ================= #
-def main():
-    log("========== NOWTV RUN START ==========")
+# ================= 写文件 ================= #
+def save_files(xml_root):
+    xml_bytes = ET.tostring(xml_root, encoding="utf-8")
 
-    config = load_config()
-    log(f"CHANNELS: {len(config)}")
-
-    data = fetch_epg()
-    epg = parse(data)
-
-    log(f"EPG CHANNELS: {len(epg)}")
-
-    xml = build_xml(config, epg)
-
-    xml_bytes = ET.tostring(xml, encoding="utf-8")
-
-    with open("nowtv.xml", "wb") as f:
+    # XML
+    with open(XML_FILE, "wb") as f:
         f.write(xml_bytes)
 
-    log("XML OK")
+    # GZ
+    with open(XML_FILE, "rb") as f:
+        with gzip.open(GZ_FILE, "wb") as gz:
+            gz.writelines(f)
 
-    with open("nowtv.xml", "rb") as f:
-        with gzip.open("nowtv.xml.gz", "wb") as f2:
-            f2.writelines(f)
+# ================= 主函数 ================= #
+def main():
+    log("========== NOWTV START ==========")
 
-    log("GZ OK")
+    # 1. config
+    config = load_config()
+    log(f"Channels in config: {len(config)}")
 
-    log("========== DONE ==========")
+    # 2. epg
+    data = fetch_epg()
+    epg = parse_epg(data)
+    log(f"Channels in epg: {len(epg)}")
+
+    # 3. build xml
+    xml_root = build_xml(config, epg)
+
+    # 4. save
+    save_files(xml_root)
+
+    log("XML + GZ DONE")
+    log("========== FINISH ==========")
 
 
 if __name__ == "__main__":
