@@ -1,167 +1,167 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import requests
-import xml.etree.ElementTree as ET
-from datetime import datetime, timedelta
-import gzip
 import re
+import json
+import requests
+from bs4 import BeautifulSoup
+from collections import OrderedDict
 
-# ===================== 配置 ===================== #
-BASE_URL = "https://www.bein.com/en/epg-ajax-template/"
-
-POSTID = "25356"
-CATEGORY = "sports"
-SERVICE = "bein.net"
-
-DAYS = 7  # 🔥 7天EPG
+BASE_URL = "https://www.bein.com/en/tv-guide/?c=us&"
+AJAX_URL = "https://www.bein.com/en/epg-ajax-template/"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0",
-    "Referer": "https://www.bein.com/en/",
     "X-Requested-With": "XMLHttpRequest"
 }
 
-OUT_XML = "bein.xml"
-OUT_GZ = "bein.xml.gz"
 
-# ===================== 日志 ===================== #
-def log(msg):
-    print(f"[INFO] {msg}")
-
-# ===================== 请求EPG ===================== #
-def fetch_epg(cdate):
-
-    url = BASE_URL + (
-        f"?action=epg_fetch"
-        f"&offset=0"
-        f"&category={CATEGORY}"
-        f"&serviceidentity={SERVICE}"
-        f"&mins=00"
-        f"&cdate={cdate}"
-        f"&language=EN"
-        f"&postid={POSTID}"
-        f"&loadindex=0"
-    )
-
-    r = requests.get(url, headers=HEADERS, timeout=20)
-
-    log(f"{cdate} HTTP {r.status_code} size={len(r.text)}")
-
+# ================================
+# ① 抓取 TV GUIDE HTML
+# ================================
+def fetch_html():
+    print("[INFO] Fetch TV Guide HTML...")
+    r = requests.get(BASE_URL, headers=HEADERS, timeout=20)
+    r.raise_for_status()
     return r.text
 
-# ===================== 提取频道 ===================== #
-def extract_channels(html):
 
-    # 抓 beIN SPORTS 1 / 2 / 3 ...
-    channels = re.findall(r'beIN\s*SPORTS\s*\d+', html, re.I)
+# ================================
+# ② 提取 JS 里的频道 / postid
+# ================================
+def extract_channel_bootstrap(html):
+    print("[INFO] Extracting JS bootstrap data...")
+
+    # 常见：postid
+    postids = re.findall(r'postid[\"\\']?\s*[:=]\s*[\"\\']?(\d+)', html)
 
     # 去重保序
-    return list(dict.fromkeys(channels))
+    postids = list(OrderedDict.fromkeys(postids))
 
-# ===================== 提取节目 ===================== #
-def extract_programs(html):
+    print(f"[INFO] Found postids: {len(postids)}")
 
-    items = re.findall(r'<div[^>]*>(.*?)</div>', html, re.S)
+    # 尝试抓 JSON channels（如果存在）
+    json_channels = None
+    m = re.search(r'channels\s*:\s*(\[[\s\S]*?\])', html)
+    if m:
+        try:
+            json_channels = json.loads(m.group(1))
+            print(f"[INFO] Found JS channels: {len(json_channels)}")
+        except:
+            json_channels = None
 
+    return postids, json_channels
+
+
+# ================================
+# ③ 请求 epg_fetch
+# ================================
+def fetch_epg(postid):
+    params = {
+        "action": "epg_fetch",
+        "offset": "0",
+        "category": "sports",
+        "serviceidentity": "bein.net",
+        "mins": "00",
+        "cdate": "",
+        "language": "EN",
+        "postid": postid,
+        "loadindex": "0"
+    }
+
+    try:
+        r = requests.get(AJAX_URL, params=params, headers=HEADERS, timeout=20)
+        if r.status_code == 200:
+            return r.text
+    except Exception as e:
+        print("[ERR]", e)
+
+    return ""
+
+
+# ================================
+# ④ 从 epg_html 提取频道名
+# ================================
+def extract_channel_name(epg_html):
+    soup = BeautifulSoup(epg_html, "html.parser")
+
+    # 常见标题结构
+    title = soup.find("div", class_=re.compile("channel|logo|name", re.I))
+    if title:
+        return title.get_text(strip=True)
+
+    # fallback
+    text = soup.get_text(" ", strip=True)
+
+    m = re.search(r'beIN\s*SPORTS\s*\d+', text, re.I)
+    if m:
+        return m.group(0).upper()
+
+    return None
+
+
+# ================================
+# ⑤ 提取节目
+# ================================
+def extract_programs(epg_html):
+    soup = BeautifulSoup(epg_html, "html.parser")
     programs = []
 
-    for it in items:
+    items = soup.find_all("div")
+    for i in items:
+        txt = i.get_text(" ", strip=True)
+        if len(txt) > 10 and ":" in txt:
+            programs.append(txt)
 
-        text = re.sub(r'<.*?>', '', it).strip()
+    return programs[:50]
 
-        if not text:
-            continue
 
-        if len(text) < 6:
-            continue
-
-        if "script" in text.lower():
-            continue
-
-        if "=" in text and ";" in text:
-            continue
-
-        programs.append(text)
-
-    return programs
-
-# ===================== 主程序 ===================== #
+# ================================
+# ⑥ 主流程
+# ================================
 def main():
+    html = fetch_html()
 
-    log("===== BEIN 7-DAY EPG START =====")
+    postids, js_channels = extract_channel_bootstrap(html)
 
-    root = ET.Element("tv")
+    results = OrderedDict()
 
-    base_time = datetime.utcnow().replace(minute=0, second=0, microsecond=0)
+    print("[INFO] Fetching EPG per postid...\n")
 
-    total_programs = 0
+    for idx, pid in enumerate(postids):
+        print(f"[INFO] ({idx+1}/{len(postids)}) postid={pid}")
 
-    # =========================
-    # 🔥 遍历7天
-    # =========================
-    for d in range(DAYS):
-
-        day = (datetime.utcnow() + timedelta(days=d)).strftime("%Y-%m-%d")
-
-        log(f"===== 抓取日期: {day} =====")
-
-        html = fetch_epg(day)
-
-        channels = extract_channels(html)
-
-        if not channels:
-            log("❌ 没解析到频道")
+        epg_html = fetch_epg(pid)
+        if not epg_html:
             continue
 
-        programs = extract_programs(html)
+        channel_name = extract_channel_name(epg_html)
+        programs = extract_programs(epg_html)
 
-        log(f"频道: {len(channels)} | 节目: {len(programs)}")
+        if not channel_name:
+            channel_name = f"UNKNOWN_{pid}"
 
-        # =========================
-        # 按频道生成
-        # =========================
-        for ci, ch in enumerate(channels):
+        # 防止重复
+        if channel_name in results:
+            continue
 
-            channel_id = ch.replace(" ", "_")
+        results[channel_name] = {
+            "postid": pid,
+            "programs": programs
+        }
 
-            # 只写一次 channel（避免重复）
-            if d == 0:
-                cnode = ET.SubElement(root, "channel", id=channel_id)
-                ET.SubElement(cnode, "display-name").text = ch
+    # ================================
+    # 输出结果
+    # ================================
+    print("\n========== FINAL CHANNEL LIST ==========")
+    print(f"Total Channels: {len(results)}\n")
 
-            for pi, title in enumerate(programs[:30]):
+    for name, data in results.items():
+        print(f"[{name}] (postid={data['postid']})")
+        for p in data["programs"][:5]:
+            print("   -", p)
+        print()
 
-                start = base_time + timedelta(days=d, minutes=pi * 30)
-                stop = start + timedelta(minutes=30)
 
-                prog = ET.SubElement(root, "programme")
-                prog.set("start", start.strftime("%Y%m%d%H%M%S") + " +0000")
-                prog.set("stop", stop.strftime("%Y%m%d%H%M%S") + " +0000")
-                prog.set("channel", channel_id)
-
-                ET.SubElement(prog, "title").text = title
-
-                total_programs += 1
-
-    # =========================
-    # 输出 XML
-    # =========================
-    tree = ET.ElementTree(root)
-    tree.write(OUT_XML, encoding="utf-8", xml_declaration=True)
-
-    # gzip
-    with open(OUT_XML, "rb") as f:
-        data = f.read()
-
-    with gzip.open(OUT_GZ, "wb") as f:
-        f.write(data)
-
-    log("===== DONE =====")
-    log(f"节目总数: {total_programs}")
-    log(f"输出: {OUT_XML}")
-    log(f"输出: {OUT_GZ}")
-
-# ===================== RUN ===================== #
 if __name__ == "__main__":
     main()
