@@ -19,25 +19,20 @@ HEADERS = {
     "X-Requested-With": "XMLHttpRequest"
 }
 
-# ===================== 输出 ===================== #
+# ⚠️ 固定 postid（关键：不要再从HTML抓）
+POSTIDS = [
+    "25356",
+    "25357",
+    "25358",
+    "25359"
+]
+
 OUT_XML = "bein.xml"
 OUT_GZ = "bein.xml.gz"
 
 # ===================== 日志 ===================== #
 def log(msg):
     print(f"[INFO] {msg}")
-
-# ===================== 请求 ===================== #
-def fetch_epg():
-    log("请求 beIN EPG...")
-
-    url = BASE_URL + "?action=epg_fetch&offset=+0&category=sports&serviceidentity=bein.net&mins=00&cdate=&language=EN&postid=25356&loadindex=0"
-
-    r = requests.get(url, headers=HEADERS, timeout=20)
-
-    log(f"HTTP: {r.status_code}, size={len(r.text)}")
-
-    return r.text
 
 # ===================== 清洗 ===================== #
 def clean_text(html):
@@ -46,7 +41,15 @@ def clean_text(html):
 
     programs = []
 
-    blacklist = ["var", "script", "container", "lastday", "function"]
+    blacklist = [
+        "script",
+        "var ",
+        "function",
+        "container",
+        "category",
+        "ajax",
+        "lastday"
+    ]
 
     for it in items:
 
@@ -55,7 +58,9 @@ def clean_text(html):
         if not text:
             continue
 
-        if any(b in text.lower() for b in blacklist):
+        low = text.lower()
+
+        if any(b in low for b in blacklist):
             continue
 
         if len(text) < 6:
@@ -73,47 +78,38 @@ def main():
 
     log("===== BEIN EPG START =====")
 
-    base_html = fetch_epg()
-
-    # =========================
-    # 🔥 1. 提取所有 postid
-    # =========================
-    postids = list(set(re.findall(r'postid=(\d+)', base_html)))
-
-    if not postids:
-        log("❌ 没找到任何 postid")
-        print(base_html[:300])
-        return
-
-    log(f"找到 postid: {postids}")
-
     root = ET.Element("tv")
 
     start_time = datetime.utcnow().replace(minute=0, second=0, microsecond=0)
 
+    total = 0
+
     # =========================
-    # 🔥 2. 循环抓所有频道
+    # 遍历所有频道
     # =========================
-    for pid in postids:
+    for pid in POSTIDS:
 
-        log(f"抓取频道 postid={pid}")
+        log(f"请求 postid={pid}")
 
-        params = {
-            "action": "epg_fetch",
-            "offset": "+0",
-            "category": CATEGORY,
-            "serviceidentity": SERVICE,
-            "mins": "00",
-            "cdate": "",
-            "language": "EN",
-            "postid": pid,
-            "loadindex": "0",
-            "ajax": "true"
-        }
+        url = BASE_URL + (
+            f"?action=epg_fetch"
+            f"&offset=+0"
+            f"&category={CATEGORY}"
+            f"&serviceidentity={SERVICE}"
+            f"&mins=00"
+            f"&cdate="
+            f"&language=EN"
+            f"&postid={pid}"
+            f"&loadindex=0"
+        )
 
-        r = requests.get(BASE_URL, params=params, headers=HEADERS, timeout=20)
+        r = requests.get(url, headers=HEADERS, timeout=20)
+
+        log(f"HTTP {r.status_code} size={len(r.text)}")
 
         programs = clean_text(r.text)
+
+        log(f"解析节目数: {len(programs)}")
 
         if not programs:
             continue
@@ -121,10 +117,10 @@ def main():
         channel_id = f"beIN_{pid}"
 
         # =========================
-        # channel（只写一次！非常关键）
+        # channel（每个频道只写一次）
         # =========================
         channel = ET.SubElement(root, "channel", id=channel_id)
-        ET.SubElement(channel, "display-name").text = f"beIN {pid}"
+        ET.SubElement(channel, "display-name").text = f"beIN SPORTS {pid}"
 
         # =========================
         # programme
@@ -141,8 +137,10 @@ def main():
 
             ET.SubElement(prog, "title").text = title
 
+            total += 1
+
     # =========================
-    # 🔥 3. 输出 XML
+    # 输出 XML
     # =========================
     tree = ET.ElementTree(root)
     tree.write(OUT_XML, encoding="utf-8", xml_declaration=True)
@@ -154,9 +152,10 @@ def main():
     with gzip.open(OUT_GZ, "wb") as f:
         f.write(data)
 
-    log("完成输出:")
-    log(f"- {OUT_XML}")
-    log(f"- {OUT_GZ}")
+    log("===== 完成 =====")
+    log(f"节目总数: {total}")
+    log(f"输出: {OUT_XML}")
+    log(f"输出: {OUT_GZ}")
 
 # ===================== RUN ===================== #
 if __name__ == "__main__":
