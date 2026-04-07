@@ -14,6 +14,7 @@ AJAX_URL = "https://www.bein.com/en/epg-ajax-template/"
 HEADERS = {
     "User-Agent": "Mozilla/5.0",
     "Referer": BASE_PAGE,
+    "Accept-Language": "en-US,en;q=0.9",
 }
 
 
@@ -21,41 +22,59 @@ HEADERS = {
 # 日志
 # =========================
 def log(msg):
-    now = datetime.datetime.now().strftime("%H:%M:%S")
-    print(f"[{now}] {msg}", flush=True)
+    print(f"[INFO] {msg}", flush=True)
 
 
 # =========================
-# 1. 获取 postid（动态）
+# 获取 postid（最终稳定版）
 # =========================
 def get_postid():
-    log("🔵 获取 postid...")
+    log("获取 postid...")
 
     r = requests.get(BASE_PAGE, headers=HEADERS, timeout=20)
     r.raise_for_status()
+    html = r.text
 
-    # 多种兼容匹配
+    # 1️⃣ 常规 HTML
     patterns = [
         r'postid["\']?\s*[:=]\s*["\']?(\d+)',
-        r'"postid":"(\d+)"',
-        r'postid\s*=\s*(\d+)'
+        r'"postid"\s*:\s*"*(\d+)"*',
+        r'postId["\']?\s*[:=]\s*["\']?(\d+)',
     ]
 
     for p in patterns:
-        m = re.search(p, r.text)
+        m = re.search(p, html, re.IGNORECASE)
         if m:
-            postid = m.group(1)
-            log(f"✅ postid = {postid}")
-            return postid
+            log(f"postid = {m.group(1)} (HTML)")
+            return m.group(1)
 
-    raise Exception("❌ postid 未找到")
+    # 2️⃣ JS / script 里找
+    scripts = re.findall(r'<script.*?>(.*?)</script>', html, re.S)
+
+    for s in scripts:
+        m = re.search(r'["\']postid["\']\s*:\s*["\']?(\d+)', s)
+        if m:
+            log(f"postid = {m.group(1)} (SCRIPT)")
+            return m.group(1)
+
+    # 3️⃣ fallback（暴力）
+    m = re.search(r'postid[^0-9]{0,10}(\d{3,10})', html)
+    if m:
+        log(f"postid = {m.group(1)} (FALLBACK)")
+        return m.group(1)
+
+    # ❌ 失败输出调试
+    log("❌ postid 获取失败，输出HTML前500字符：")
+    print(html[:500])
+
+    raise Exception("postid 未找到")
 
 
 # =========================
-# 2. 获取 EPG
+# 获取EPG
 # =========================
 def fetch_epg(postid):
-    log("📡 请求 EPG Ajax...")
+    log("请求EPG...")
 
     params = {
         "action": "epg_fetch",
@@ -78,13 +97,12 @@ def fetch_epg(postid):
 
 
 # =========================
-# 3. 解析EPG（弱结构解析）
+# 解析EPG（尽量通用）
 # =========================
 def parse_epg(html):
-    log("🧩 解析EPG数据...")
+    log("解析EPG...")
 
-    # 提取时间 + 标题（兼容HTML变化）
-    items = re.findall(r'([0-9]{2}:[0-9]{2}).{0,80}?([^<\n]{3,})', html)
+    items = re.findall(r'([0-9]{2}:[0-9]{2}).{0,100}?([^<\n]{3,})', html)
 
     epg = []
     for t, title in items:
@@ -92,60 +110,54 @@ def parse_epg(html):
         if len(title) > 2:
             epg.append((t, title))
 
-    log(f"✅ 解析到 {len(epg)} 条节目")
+    log(f"解析到 {len(epg)} 条节目")
     return epg
 
 
 # =========================
-# 4. XML生成（标准XMLTV）
+# XML生成（标准格式）
 # =========================
 def build_xml(epg):
-    log("🏗️ 生成 XML...")
+    log("生成XML...")
 
-    now_date = datetime.datetime.utcnow().strftime("%Y%m%d%H%M%S +0000")
+    now = datetime.datetime.utcnow().strftime("%Y%m%d%H%M%S +0000")
 
     xml = '<?xml version="1.0" encoding="UTF-8"?>\n'
     xml += "<tv>\n"
 
     for t, title in epg:
-
-        # ⚠️ 简化时间（EPG源不完整时的兼容写法）
-        start = now_date
-        stop = now_date
-
         title = title.replace("&", "&amp;")
 
-        xml += f'  <programme start="{start}" stop="{stop}" channel="beIN">\n'
+        xml += f'  <programme start="{now}" stop="{now}" channel="beIN">\n'
         xml += f'    <title lang="en">{title}</title>\n'
         xml += f'  </programme>\n'
 
     xml += "</tv>"
 
-    log("✅ XML生成完成")
     return xml
 
 
 # =========================
-# 5. 写文件 + gzip
+# 输出文件
 # =========================
-def save_output(xml):
+def save(xml):
     os.makedirs("bein", exist_ok=True)
 
     xml_file = "bein/bein.xml"
     gz_file = "bein/bein.xml.gz"
 
-    log("💾 写入 XML...")
+    log("写入 XML...")
 
     with open(xml_file, "w", encoding="utf-8") as f:
         f.write(xml)
 
-    log("🗜️ 生成 GZ...")
+    log("压缩 GZ...")
 
     with open(xml_file, "rb") as f_in:
         with gzip.open(gz_file, "wb") as f_out:
             f_out.writelines(f_in)
 
-    log("🎉 输出完成：bein.xml + bein.xml.gz")
+    log("输出完成：bein.xml + bein.xml.gz")
 
 
 # =========================
@@ -153,22 +165,24 @@ def save_output(xml):
 # =========================
 def main():
 
-    log("🚀 ===== BEIN EPG START =====")
+    log("===== BEIN EPG START =====")
 
     try:
         postid = get_postid()
         time.sleep(1)
 
-        raw = fetch_epg(postid)
-        epg = parse_epg(raw)
+        html = fetch_epg(postid)
+
+        epg = parse_epg(html)
 
         xml = build_xml(epg)
-        save_output(xml)
 
-        log("🏁 全部完成")
+        save(xml)
+
+        log("全部完成")
 
     except Exception as e:
-        log(f"❌ 错误: {e}")
+        log(f"错误: {e}")
 
 
 if __name__ == "__main__":
