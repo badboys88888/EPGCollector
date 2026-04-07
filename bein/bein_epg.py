@@ -1,5 +1,5 @@
 import json
-import re
+import time
 from playwright.sync_api import sync_playwright
 
 
@@ -7,9 +7,11 @@ URL = "https://www.bein.com/en/tv-guide/"
 
 
 # ----------------------------
-# ① 用浏览器打开页面
+# ① 抓取所有 XHR 数据
 # ----------------------------
-def get_rendered_html():
+def grab_network_data():
+    data_store = []
+
     with sync_playwright() as p:
         browser = p.chromium.launch(
             headless=True,
@@ -17,88 +19,103 @@ def get_rendered_html():
         )
 
         page = browser.new_page()
+
+        # 捕获所有 response
+        def handle_response(response):
+            try:
+                url = response.url.lower()
+
+                # 重点：抓 epg / channel / guide
+                if any(k in url for k in ["epg", "channel", "guide"]):
+                    try:
+                        data = response.json()
+                        data_store.append(data)
+                        print(f"[XHR] Captured: {url}")
+                    except:
+                        pass
+            except:
+                pass
+
+        page.on("response", handle_response)
+
+        print("[INFO] Loading TV Guide...")
         page.goto(URL, timeout=60000)
 
-        # 等 JS 加载完成（关键）
-        page.wait_for_timeout(8000)
+        # 等 JS 完全加载
+        page.wait_for_timeout(12000)
 
-        html = page.content()
         browser.close()
 
-        return html
+    return data_store
 
 
 # ----------------------------
-# ② 提取 JS 数据（核心）
+# ② 提取频道列表（通用结构扫描）
 # ----------------------------
-def extract_channels(html):
-    """
-    从 Next.js / window state 中提取频道
-    """
+def extract_channels(all_data):
 
-    # 找 __NEXT_DATA__
-    match = re.search(
-        r'__NEXT_DATA__"\s*type="application/json"\s*>(.*?)</script>',
-        html
-    )
-
-    if not match:
-        raise Exception("No JS state found")
-
-    data = json.loads(match.group(1))
-
-    # 递归找 channels
-    def find(obj):
+    def find_channels(obj):
         if isinstance(obj, dict):
+
             for k, v in obj.items():
-                if k.lower() in ["channels", "channel", "items"]:
+
+                lk = k.lower()
+
+                # 常见字段
+                if lk in ["channels", "channel_list", "items", "data"]:
                     if isinstance(v, list) and len(v) > 0:
-                        return v
-                res = find(v)
+                        # 判断是否像频道
+                        if isinstance(v[0], dict):
+                            if any(x in v[0] for x in ["name", "title", "id"]):
+                                return v
+
+                res = find_channels(v)
                 if res:
                     return res
 
         elif isinstance(obj, list):
             for i in obj:
-                res = find(i)
+                res = find_channels(i)
                 if res:
                     return res
+
         return None
 
-    channels = find(data)
+    for d in all_data:
+        channels = find_channels(d)
+        if channels:
+            return channels
 
-    if not channels:
-        raise Exception("No channels found")
-
-    return channels
+    return []
 
 
 # ----------------------------
-# ③ 标准化频道结构
+# ③ 标准化频道
 # ----------------------------
-def normalize(c):
+def normalize(ch):
     return {
-        "name": c.get("name") or c.get("title"),
+        "name": ch.get("name") or ch.get("title") or ch.get("channel"),
         "postid": str(
-            c.get("postid")
-            or c.get("epgId")
-            or c.get("id")
+            ch.get("postid")
+            or ch.get("epgId")
+            or ch.get("id")
             or ""
         )
     }
 
 
 # ----------------------------
-# ④ epg请求
+# ④ EPG抓取
 # ----------------------------
 def fetch_epg(postid):
+    import requests
+
     url = (
         "https://www.bein.com/en/epg-ajax-template/"
         f"?action=epg_fetch&offset=0&category=sports"
         f"&serviceidentity=bein.net&mins=00&postid={postid}"
     )
 
-    import requests
     r = requests.get(url, timeout=20)
 
     if r.status_code != 200:
@@ -112,18 +129,20 @@ def fetch_epg(postid):
 # ----------------------------
 def main():
 
-    print("[INFO] Loading page via Playwright...")
+    all_data = grab_network_data()
 
-    html = get_rendered_html()
+    print(f"\n[INFO] XHR packets: {len(all_data)}")
 
-    print("[INFO] Extracting channels...")
+    channels_raw = extract_channels(all_data)
 
-    raw_channels = extract_channels(html)
+    if not channels_raw:
+        print("[ERROR] No channels found in XHR data")
+        return
 
     channels = []
     seen = set()
 
-    for c in raw_channels:
+    for c in channels_raw:
         nc = normalize(c)
 
         if not nc["name"] or not nc["postid"]:
@@ -136,7 +155,7 @@ def main():
         seen.add(key)
         channels.append(nc)
 
-    print(f"\n[INFO] Channels: {len(channels)}\n")
+    print(f"\n[INFO] Channels found: {len(channels)}\n")
 
     for i, ch in enumerate(channels, 1):
         print(f"{i}. {ch['name']} -> {ch['postid']}")
@@ -147,6 +166,8 @@ def main():
             print("   ✔ EPG OK")
         else:
             print("   ✖ EPG FAIL")
+
+        time.sleep(0.3)
 
 
 if __name__ == "__main__":
