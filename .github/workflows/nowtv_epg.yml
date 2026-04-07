@@ -1,0 +1,41 @@
+name: NOWTV EPG Update
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # 每6小时运行一次
+  workflow_dispatch:        # 手动运行
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1️⃣ 拉代码
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 2️⃣ 安装 Python
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # 3️⃣ 安装依赖
+      - name: Install dependencies
+        run: pip install requests
+
+      # 4️⃣ 运行脚本
+      - name: Run EPG script
+        run: python nowtv_epg.py
+
+      # 5️⃣ 提交结果
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add nowtv.xml nowtv.xml.gz
+          git commit -m "Update NOWTV EPG" || echo "No changes"
+          git push
