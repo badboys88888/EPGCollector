@@ -18,7 +18,7 @@ SOURCES = [
     },
     {
         "url": "https://github.com/jeffrybp/epgtv/raw/refs/heads/main/public/kbscokr.xml.gz",
-        "name": "nowcomhk",
+        "name": "kbscokr",
         "is_gz": True
     },
     {
