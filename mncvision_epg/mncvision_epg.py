@@ -126,7 +126,7 @@ def main():
         f.write(xml)
 
     # gzip
-    with open("/mncvision_epg/mncvision.xml", "rb") as f_in:
+    with open("mncvision_epg/mncvision.xml", "rb") as f_in:
         with gzip.open("mncvision.xml.gz", "wb") as f_out:
             f_out.writelines(f_in)
 
