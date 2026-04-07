@@ -1,55 +1,87 @@
-import re
 import requests
+import json
+import time
 
-def fetch_html(url):
-    headers = {
-        "User-Agent": "Mozilla/5.0"
-    }
-    r = requests.get(url, headers=headers, timeout=20)
+CHANNEL_API = "https://proxies.bein-mena-production.eu-west-2.tuc.red/proxy/listChannels"
+
+HEADERS = {
+    "User-Agent": "Mozilla/5.0",
+    "Accept": "application/json"
+}
+
+
+# -----------------------------
+# ① 获取频道列表（核心）
+# -----------------------------
+def get_channels():
+    r = requests.get(CHANNEL_API, headers=HEADERS, timeout=20)
     r.raise_for_status()
+    data = r.json()
+
+    # 兼容不同结构
+    if isinstance(data, list):
+        return data
+
+    for key in ["channels", "data", "result"]:
+        if key in data and isinstance(data[key], list):
+            return data[key]
+
+    raise Exception("Unknown channel structure")
+
+
+# -----------------------------
+# ② 统一字段解析（防错位关键）
+# -----------------------------
+def normalize_channel(c):
+    return {
+        "name": c.get("name") or c.get("title") or c.get("channel"),
+        "postid": str(c.get("postid") or c.get("epgId") or c.get("id"))
+    }
+
+
+# -----------------------------
+# ③ 拉 EPG
+# -----------------------------
+def fetch_epg(postid):
+    url = (
+        "https://www.bein.com/en/epg-ajax-template/"
+        f"?action=epg_fetch&offset=+0&category=sports"
+        f"&serviceidentity=bein.net&mins=00&postid={postid}"
+    )
+
+    r = requests.get(url, headers=HEADERS, timeout=20)
+    if r.status_code != 200:
+        return None
+
     return r.text
 
 
-def extract_postids(html: str):
-    """
-    多模式提取 postid（beIN 页面非常乱，必须多策略）
-    """
-
-    patterns = [
-        r"postid\s*[:=]\s*['\"]?(\d+)['\"]?",
-        r"postId\s*[:=]\s*['\"]?(\d+)['\"]?",
-        r"\"postid\"\s*:\s*['\"]?(\d+)['\"]?",
-        r"'postid'\s*[:=]\s*['\"]?(\d+)['\"]?",
-    ]
-
-    results = []
-
-    for p in patterns:
-        results.extend(re.findall(p, html, flags=re.IGNORECASE))
-
-    # 去重 + 保持顺序
-    return list(dict.fromkeys(results))
-
-
+# -----------------------------
+# ④ 主流程
+# -----------------------------
 def main():
-    url = "https://www.bein.com/en/tv-guide/?c=us&"
-    html = fetch_html(url)
+    channels_raw = get_channels()
 
-    postids = extract_postids(html)
+    channels = []
+    for c in channels_raw:
+        nc = normalize_channel(c)
+        if nc["name"] and nc["postid"]:
+            channels.append(nc)
 
-    print(f"[INFO] Found postids: {len(postids)}")
-    print(postids)
+    print(f"\n[INFO] Channels loaded: {len(channels)}\n")
 
-    # 如果你后面要抓 epg
-    for pid in postids:
-        epg_url = (
-            "https://www.bein.com/en/epg-ajax-template/"
-            f"?action=epg_fetch&offset=+0&category=sports"
-            f"&serviceidentity=bein.net&mins=00&postid={pid}"
-        )
+    for idx, ch in enumerate(channels, 1):
+        print(f"{idx}. {ch['name']} -> postid={ch['postid']}")
 
-        print(f"[FETCH] {epg_url}")
-        # 这里可以继续 requests.get(epg_url)
+        epg = fetch_epg(ch["postid"])
+
+        if epg:
+            print("   ✔ EPG OK")
+        else:
+            print("   ✖ EPG FAIL")
+
+        time.sleep(0.2)  # 防止请求过快
+
 
 if __name__ == "__main__":
     main()
