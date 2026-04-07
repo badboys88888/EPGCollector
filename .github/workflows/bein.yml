@@ -21,7 +21,7 @@ jobs:
 
       - run: pip install requests
 
-      - name: Run BEIN EPG
+      - name: Run script
         run: python bein/bein_epg.py
 
       - name: Commit
