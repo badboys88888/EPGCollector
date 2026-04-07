@@ -18,7 +18,7 @@ HEADERS = {
 }
 
 # ========================
-# 日志系统
+# 日志
 # ========================
 def log(msg):
     now = datetime.datetime.now().strftime("%H:%M:%S")
@@ -29,26 +29,25 @@ def log(msg):
 # 获取频道
 # ========================
 def fetch_channels():
-    log("🔵 开始获取频道列表...")
+    log("🔵 获取频道列表...")
 
     res = requests.get(BASE_URL, headers=HEADERS, timeout=20)
-    log(f"频道页状态码: {res.status_code}")
-
+    log(f"状态码: {res.status_code}")
     res.raise_for_status()
 
     matches = re.findall(r'<option value="([^"]+)">([^<]+)</option>', res.text)
 
     channels = []
-    for value, name in matches:
-        name = re.sub(r'\s*-\s*\[Channel\s*\d+\]\s*$', '', name.strip())
-        channels.append({"value": value, "name": name})
+    for v, n in matches:
+        n = re.sub(r'\s*-\s*\[Channel\s*\d+\]\s*$', '', n.strip())
+        channels.append({"value": v, "name": n})
 
-    log(f"✅ 频道解析完成: {len(channels)} 个")
+    log(f"✅ 频道数量: {len(channels)}")
     return channels
 
 
 # ========================
-# 获取节目
+# 节目
 # ========================
 def fetch_schedule(channel_value, date):
     data = {
@@ -61,36 +60,30 @@ def fetch_schedule(channel_value, date):
 
     res = requests.post(BASE_URL, headers=HEADERS, data=data, timeout=20)
 
-    log(f"📡 请求频道={channel_value} 状态码={res.status_code}")
-
+    log(f"📡 {channel_value} -> {res.status_code}")
     res.raise_for_status()
 
     times = re.findall(r'<td class="text-center">(.*?)</td>', res.text)
     programs = re.findall(r'title="(.*?)" rel', res.text)
 
-    log(f"📊 解析结果: times={len(times)} programs={len(programs)}")
-
     return times, programs
 
 
 # ========================
-# XML生成
+# XML
 # ========================
 def build_xml(date_prefix, times, programs, channel_name):
     xml = ""
-
     count = min(len(programs), len(times)//2 - 1)
-
-    log(f"    ✳️ 生成节目数: {count}")
 
     for i in range(count):
         start = date_prefix + times[i*2].replace(":", "") + "00 +0700"
         stop = date_prefix + times[(i+1)*2].replace(":", "") + "00 +0700"
 
-        title = programs[i].replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+        title = programs[i].replace("&", "&amp;")
 
         xml += f'<programme start="{start}" stop="{stop}" channel="{channel_name}">\n'
-        xml += f'<title lang="zh">{title}</title>\n'
+        xml += f'<title>{title}</title>\n'
         xml += '</programme>\n'
 
     return xml
@@ -101,9 +94,9 @@ def build_xml(date_prefix, times, programs, channel_name):
 # ========================
 def main():
 
-    log("🚀 ===== MNCVISION EPG START =====")
+    log("🚀 START EPG BUILDER")
 
-    # 🔥 强制创建目录（修复你报错核心）
+    # ======= 强制目录 =======
     os.makedirs("mncvision_epg", exist_ok=True)
 
     today = datetime.date.today()
@@ -120,14 +113,15 @@ def main():
     try:
         channels = fetch_channels()
     except Exception as e:
-        log(f"❌ 获取频道失败: {e}")
+        log("❌ 频道获取失败")
+        log(str(e))
         return
 
     total = len(channels)
 
-    for idx, ch in enumerate(channels, 1):
+    for i, ch in enumerate(channels, 1):
 
-        log(f"\n📺 [{idx}/{total}] 频道: {ch['name']}")
+        log(f"\n📺 [{i}/{total}] {ch['name']}")
 
         try:
             t1, p1 = fetch_schedule(ch["value"], d1)
@@ -136,40 +130,32 @@ def main():
             t2, p2 = fetch_schedule(ch["value"], d2)
             xml += build_xml(d2_xml, t2, p2, ch["name"])
 
-            time.sleep(1)
+            time.sleep(0.8)
 
         except Exception as e:
-            log(f"❌ 频道失败: {ch['name']}")
-            log(str(e))
+            log(f"❌ 失败: {ch['name']}")
             log(traceback.format_exc())
 
     xml += "</tv>"
 
-    # ========================
-    # 写 XML
-    # ========================
-    xml_file = "mncvision_epg/mncvision.xml"
-    gz_file = "mncvision_epg/mncvision.xml.gz"
+    # ======= 输出路径统一 =======
+    out_xml = "mncvision_epg/mncvision.xml"
+    out_gz = "mncvision_epg/mncvision.xml.gz"
 
-    log("💾 写入 XML...")
+    log("💾 写XML...")
 
-    with open(xml_file, "w", encoding="utf-8") as f:
+    with open(out_xml, "w", encoding="utf-8") as f:
         f.write(xml)
 
-    log(f"✅ XML完成: {xml_file} ({len(xml)} bytes)")
+    log(f"✅ XML完成 ({len(xml)} bytes)")
 
-    # ========================
-    # gzip
-    # ========================
-    log("🗜️ 压缩 gzip...")
+    log("🗜️ gzip压缩...")
 
-    with open(xml_file, "rb") as f_in:
-        with gzip.open(gz_file, "wb") as f_out:
+    with open(out_xml, "rb") as f_in:
+        with gzip.open(out_gz, "wb") as f_out:
             f_out.writelines(f_in)
 
-    log(f"✅ gzip完成: {gz_file}")
-
-    log("🎉 ===== 全部完成 =====")
+    log("🎉 完成全部输出")
 
 
 if __name__ == "__main__":
