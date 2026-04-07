@@ -21,6 +21,11 @@ SOURCES = [
         "name": "kbscokr",
         "is_gz": True
     },
+        {
+        "url": "https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz",
+        "name": "www.sky.com",
+        "is_gz": True
+    },
     {
         "url": "https://github.com/jeffrybp/epgtv/raw/refs/heads/main/public/beinsportsconnecthk.xml.gz",
         "name": "beinsportsconnecthk",
