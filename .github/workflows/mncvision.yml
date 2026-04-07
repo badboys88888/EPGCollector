@@ -22,7 +22,7 @@ jobs:
       - run: pip install requests
 
       - name: Run script
-        run: python /mncvision_epg/mncvision_epg.py
+        run: python mncvision_epg/mncvision_epg.py
 
       - name: Commit
         run: |
