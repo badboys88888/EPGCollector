@@ -1,185 +1,187 @@
-#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
 import os
 import json
-import requests
-import xml.etree.ElementTree as ET
 import gzip
-import shutil
 import logging
+import requests
+from datetime import datetime
+from xml.etree.ElementTree import Element, SubElement, tostring
 
-# ===================== 配置 ===================== #
-
-BASE_EPG_URL = "https://nowplayer.now.com/tvguide/epglist"
-CHANNEL_URL = "https://nowplayer.now.com/tvguide/channelList"
-
-BASE_DIR = "nowtv"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+OUT_DIR = os.path.join(BASE_DIR, "output")
 CONFIG_FILE = os.path.join(BASE_DIR, "config.json")
-XML_FILE = os.path.join(BASE_DIR, "nowtv.xml")
-GZ_FILE = XML_FILE + ".gz"
 
-DAYS = 2
+os.makedirs(OUT_DIR, exist_ok=True)
 
-# ===================== 日志 ===================== #
+# ===================== LOG ===================== #
+log_file = os.path.join(OUT_DIR, "nowtv.log")
 
 logging.basicConfig(
     level=logging.INFO,
-    format='[%(asctime)s] %(message)s',
-    datefmt='%H:%M:%S'
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[
+        logging.FileHandler(log_file, encoding="utf-8"),
+        logging.StreamHandler()
+    ]
 )
 
-# ===================== 工具 ===================== #
+log = logging.getLogger("NOWTV")
 
+# ===================== HTTP ===================== #
+def get_json(url):
+    headers = {
+        "User-Agent": "Mozilla/5.0",
+        "Referer": "https://nowplayer.now.com/",
+        "Accept": "application/json"
+    }
+
+    try:
+        r = requests.get(url, headers=headers, timeout=20)
+        log.info(f"GET {url}")
+        log.info(f"STATUS {r.status_code}")
+
+        if r.status_code != 200:
+            log.error(f"HTTP ERROR {r.status_code}")
+            return None
+
+        try:
+            return r.json()
+        except Exception:
+            log.error("❌ 非JSON返回（前300字）：")
+            log.error(r.text[:300])
+            return None
+
+    except Exception as e:
+        log.error(f"REQUEST ERROR: {e}")
+        return None
+
+
+# ===================== CONFIG ===================== #
 def load_config():
     if not os.path.exists(CONFIG_FILE):
-        return {"channels": {}}
-    with open(CONFIG_FILE, "r", encoding="utf-8") as f:
-        return json.load(f)
+        log.warning("无config.json")
+        return {}
 
-def save_config(cfg):
-    with open(CONFIG_FILE, "w", encoding="utf-8") as f:
-        json.dump(cfg, f, ensure_ascii=False, indent=2)
+    try:
+        with open(CONFIG_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception as e:
+        log.error(f"config错误: {e}")
+        return {}
 
-# ===================== 获取全部频道 ===================== #
 
-def get_all_channels():
-    logging.info("获取全频道列表...")
+# ===================== 1. 获取频道（动态） ===================== #
+def fetch_channels():
+    url = "https://nowplayer.now.com/tvguide/epglist?day=0"
 
-    r = requests.get(CHANNEL_URL, timeout=20)
-    data = r.json()
+    data = get_json(url)
+    if not data:
+        return []
 
-    ids = []
-    names = {}
+    channels = data.get("channels", [])
+    log.info(f"频道总数: {len(channels)}")
 
-    for c in data.get("channels", []):
-        cid = str(c.get("channelId") or c.get("channelnum"))
-        name = c.get("title") or cid
+    result = []
 
-        if cid:
-            ids.append(cid)
-            names[cid] = name
+    for c in channels:
+        cid = c.get("channelnum")
+        result.append({
+            "id": cid,
+            "name": c.get("title"),
+            "logo": c.get("icon", "")
+        })
 
-    logging.info(f"获取频道数: {len(ids)}")
-    return ids, names
+    return result
 
-# ===================== 获取EPG ===================== #
 
-def fetch_epg(channel_ids, day):
-    params = [("day", day)]
+# ===================== 2. 获取EPG ===================== #
+def fetch_epg(channel_ids):
+    if not channel_ids:
+        return {}
+
+    base = "https://nowplayer.now.com/tvguide/epglist?day=0"
+
     for cid in channel_ids:
-        params.append(("channelIdList[]", cid))
+        base += f"&channelIdList[]={cid}"
 
-    r = requests.get(BASE_EPG_URL, params=params, timeout=30)
-    return r.json()
+    data = get_json(base)
+    if not data:
+        return {}
 
-# ===================== XML美化 ===================== #
+    epg_map = {}
 
-def indent(elem, level=0):
-    i = "\n" + level * "  "
-    if len(elem):
-        if not elem.text or not elem.text.strip():
-            elem.text = i + "  "
-        for e in elem:
-            indent(e, level + 1)
-        if not e.tail or not e.tail.strip():
-            e.tail = i
-    else:
-        if level and (not elem.tail or not elem.tail.strip()):
-            elem.tail = i
+    for ch in data.get("channels", []):
+        cid = ch.get("channelnum")
+        epg_map[cid] = ch.get("programs", [])
 
-# ===================== 主流程 ===================== #
+    log.info(f"EPG频道数: {len(epg_map)}")
+    return epg_map
 
+
+# ===================== 3. XML输出 ===================== #
+def build_xml(channels, epg_map):
+    tv = Element("tv")
+
+    for ch in channels:
+        cid = ch["id"]
+
+        ch_node = SubElement(tv, "channel", id=str(cid))
+        SubElement(ch_node, "display-name").text = ch["name"]
+
+        if ch["logo"]:
+            SubElement(ch_node, "icon", src=ch["logo"])
+
+        for p in epg_map.get(cid, []):
+            prog = SubElement(tv, "programme", {
+                "start": p.get("startTime", ""),
+                "stop": p.get("endTime", ""),
+                "channel": str(cid)
+            })
+
+            SubElement(prog, "title").text = p.get("title", "")
+
+    xml_bytes = tostring(tv, encoding="utf-8")
+
+    xml_path = os.path.join(OUT_DIR, "nowtv.xml")
+    with open(xml_path, "wb") as f:
+        f.write(xml_bytes)
+
+    log.info(f"XML生成: {xml_path}")
+    return xml_path
+
+
+# ===================== 4. gzip ===================== #
+def gzip_file(path):
+    gz_path = path + ".gz"
+
+    with open(path, "rb") as f_in:
+        with gzip.open(gz_path, "wb") as f_out:
+            f_out.write(f_in.read())
+
+    log.info(f"GZ生成: {gz_path}")
+    return gz_path
+
+
+# ===================== MAIN ===================== #
 def main():
-
-    os.makedirs(BASE_DIR, exist_ok=True)
+    log.info("========== NOWTV EPG START ==========")
 
     cfg = load_config()
-    config_channels = cfg.get("channels", {})
 
-    api_ids, api_names = get_all_channels()
+    channels = fetch_channels()
+    if not channels:
+        log.error("无频道数据")
+        return
 
-    tv = ET.Element("tv")
+    ids = [c["id"] for c in channels]
 
-    total = 0
+    epg = fetch_epg(ids)
 
-    # ===================== EPG ===================== #
-    for day in range(1, DAYS + 1):
+    xml = build_xml(channels, epg)
+    gzip_file(xml)
 
-        logging.info(f"DAY {day}")
+    log.info("========== DONE ==========")
 
-        data = fetch_epg(api_ids, day)
-        channels = data.get("channels", [])
-
-        for ch in channels:
-
-            cid = str(ch.get("channelnum"))
-            programs = ch.get("programs", [])
-
-            logging.info(f"频道 {cid} +{len(programs)}")
-
-            # ===== config优先，其次API ===== #
-            cfg_item = config_channels.get(cid, {})
-
-            name = cfg_item.get("name") or api_names.get(cid) or cid
-            logo = cfg_item.get("logo")
-
-            # ===== channel节点 ===== #
-            if not any(x.attrib.get("id") == cid for x in tv.findall("channel")):
-                ch_node = ET.SubElement(tv, "channel", id=cid)
-
-                ET.SubElement(ch_node, "display-name").text = name
-
-                if logo:
-                    ET.SubElement(ch_node, "icon", src=logo)
-
-            # ===== programme ===== #
-            for p in programs:
-                prog = ET.SubElement(tv, "programme", {
-                    "start": p.get("startTime", ""),
-                    "stop": p.get("endTime", ""),
-                    "channel": cid
-                })
-
-                ET.SubElement(prog, "title").text = p.get("title", "")
-
-                total += 1
-
-    logging.info("生成XML...")
-
-    indent(tv)
-
-    tree = ET.ElementTree(tv)
-    tree.write(XML_FILE, encoding="utf-8", xml_declaration=True)
-
-    logging.info(f"XML完成: {XML_FILE}")
-
-    # ===================== GZ ===================== #
-    logging.info("压缩GZ...")
-
-    with open(XML_FILE, "rb") as f_in:
-        with gzip.open(GZ_FILE, "wb") as f_out:
-            shutil.copyfileobj(f_in, f_out)
-
-    logging.info(f"GZ完成: {GZ_FILE}")
-    logging.info(f"总节目数: {total}")
-
-    # ===================== 自动补config ===================== #
-    changed = False
-
-    for cid in api_ids:
-        if cid not in config_channels:
-            config_channels[cid] = {
-                "name": api_names.get(cid, cid),
-                "logo": ""
-            }
-            changed = True
-
-    if changed:
-        save_config(cfg)
-        logging.info("config.json 已自动更新")
-
-# ===================== 启动 ===================== #
 
 if __name__ == "__main__":
     main()
