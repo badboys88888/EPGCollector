@@ -14,7 +14,7 @@ from datetime import datetime, timezone
 EPG_URL = "https://nowplayer.now.com/tvguide/epglist"
 
 CHANNEL_IDS = [str(i) for i in range(1, 300)]
-DAYS = 2
+DAYS = 7
 BATCH_SIZE = 10
 SLEEP = 0.3
 
