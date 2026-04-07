@@ -2,58 +2,76 @@ name: Generate EPG-PRO JSON
 
 on:
   schedule:
-    - cron: '0 3 * * *'  # Runs every day at 3 AM UTC
+    - cron: '0 3 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
+      # 1. 拉代码
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      # 2. Python
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
+      # 3. 安装依赖
       - name: Install dependencies
         run: pip install requests lxml
 
+      # 4. 运行脚本（⚠️ 修正路径）
       - name: Run EPG script
-        run: python /epg_script/epg_script.py
-        continue-on-error: false
+        run: python epg_script/epg_script.py
 
+      # 5. 检查文件（⚠️ 修正路径）
       - name: Verify JSON update
         run: |
-          if [ -f /epg_script/epg-pro.json ]; then
+          if [ -f epg_script/epg-pro.json ]; then
             echo "JSON file exists"
-            cat /epg_script/epg-pro.json | head -n 20
+            head -n 20 epg_script/epg-pro.json
           else
             echo "JSON file not found"
             exit 1
           fi
 
+      # 6. 提交
       - name: Commit and Push updated JSON
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "action@github.com"
-          git add /epg_script/epg-pro.json
+          git add epg_script/epg-pro.json
           git commit -m "Auto-update EPG-PRO JSON: $(date -u)" || echo "No changes to commit"
-          git push origin main
+          git push
 
+      # 7. 失败通知（🔥 已修复）
       - name: Notify on failure
         if: failure()
         uses: actions/github-script@v6
         with:
           script: |
-            github.rest.issues.createComment({
+            const { data: issues } = await github.rest.issues.listForRepo({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              issue_number: 1,
-              body: 'Failed to generate EPG-PRO JSON. Check workflow logs for details.'
-            })
+              state: "open",
+              per_page: 1
+            });
+
+            if (issues.length > 0) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issues[0].number,
+                body: "❌ EPG-PRO JSON 生成失败，请检查 Actions 日志。"
+              });
+            } else {
+              console.log("No open issues found, skipping comment.");
+            }
