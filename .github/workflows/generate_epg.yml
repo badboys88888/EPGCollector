@@ -1,0 +1,59 @@
+name: Generate EPG-PRO JSON
+
+on:
+  schedule:
+    - cron: '0 3 * * *'  # Runs every day at 3 AM UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install requests lxml
+
+      - name: Run EPG script
+        run: python /epg_script/epg_script.py
+        continue-on-error: false
+
+      - name: Verify JSON update
+        run: |
+          if [ -f /epg_script/epg-pro.json ]; then
+            echo "JSON file exists"
+            cat /epg_script/epg-pro.json | head -n 20
+          else
+            echo "JSON file not found"
+            exit 1
+          fi
+
+      - name: Commit and Push updated JSON
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "action@github.com"
+          git add /epg_script/epg-pro.json
+          git commit -m "Auto-update EPG-PRO JSON: $(date -u)" || echo "No changes to commit"
+          git push origin main
+
+      - name: Notify on failure
+        if: failure()
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: 1,
+              body: 'Failed to generate EPG-PRO JSON. Check workflow logs for details.'
+            })
