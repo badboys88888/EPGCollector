@@ -1,77 +1,145 @@
-import requests
 import json
-import time
-
-CHANNEL_API = "https://proxies.bein-mena-production.eu-west-2.tuc.red/proxy/listChannels"
-
-HEADERS = {
-    "User-Agent": "Mozilla/5.0",
-    "Accept": "application/json"
-}
+import re
+from playwright.sync_api import sync_playwright
 
 
-# -----------------------------
-# ① 获取频道列表（核心）
-# -----------------------------
-def get_channels():
-    r = requests.get(CHANNEL_API, headers=HEADERS, timeout=20)
-    r.raise_for_status()
-    data = r.json()
-
-    # 兼容不同结构
-    if isinstance(data, list):
-        return data
-
-    for key in ["channels", "data", "result"]:
-        if key in data and isinstance(data[key], list):
-            return data[key]
-
-    raise Exception("Unknown channel structure")
+URL = "https://www.bein.com/en/tv-guide/"
 
 
-# -----------------------------
-# ② 统一字段解析（防错位关键）
-# -----------------------------
-def normalize_channel(c):
+# ----------------------------
+# ① 用浏览器打开页面
+# ----------------------------
+def get_rendered_html():
+    with sync_playwright() as p:
+        browser = p.chromium.launch(
+            headless=True,
+            args=["--no-sandbox"]
+        )
+
+        page = browser.new_page()
+        page.goto(URL, timeout=60000)
+
+        # 等 JS 加载完成（关键）
+        page.wait_for_timeout(8000)
+
+        html = page.content()
+        browser.close()
+
+        return html
+
+
+# ----------------------------
+# ② 提取 JS 数据（核心）
+# ----------------------------
+def extract_channels(html):
+    """
+    从 Next.js / window state 中提取频道
+    """
+
+    # 找 __NEXT_DATA__
+    match = re.search(
+        r'__NEXT_DATA__"\s*type="application/json"\s*>(.*?)</script>',
+        html
+    )
+
+    if not match:
+        raise Exception("No JS state found")
+
+    data = json.loads(match.group(1))
+
+    # 递归找 channels
+    def find(obj):
+        if isinstance(obj, dict):
+            for k, v in obj.items():
+                if k.lower() in ["channels", "channel", "items"]:
+                    if isinstance(v, list) and len(v) > 0:
+                        return v
+                res = find(v)
+                if res:
+                    return res
+
+        elif isinstance(obj, list):
+            for i in obj:
+                res = find(i)
+                if res:
+                    return res
+        return None
+
+    channels = find(data)
+
+    if not channels:
+        raise Exception("No channels found")
+
+    return channels
+
+
+# ----------------------------
+# ③ 标准化频道结构
+# ----------------------------
+def normalize(c):
     return {
-        "name": c.get("name") or c.get("title") or c.get("channel"),
-        "postid": str(c.get("postid") or c.get("epgId") or c.get("id"))
+        "name": c.get("name") or c.get("title"),
+        "postid": str(
+            c.get("postid")
+            or c.get("epgId")
+            or c.get("id")
+            or ""
+        )
     }
 
 
-# -----------------------------
-# ③ 拉 EPG
-# -----------------------------
+# ----------------------------
+# ④ epg请求
+# ----------------------------
 def fetch_epg(postid):
     url = (
         "https://www.bein.com/en/epg-ajax-template/"
-        f"?action=epg_fetch&offset=+0&category=sports"
+        f"?action=epg_fetch&offset=0&category=sports"
         f"&serviceidentity=bein.net&mins=00&postid={postid}"
     )
 
-    r = requests.get(url, headers=HEADERS, timeout=20)
+    import requests
+    r = requests.get(url, timeout=20)
+
     if r.status_code != 200:
         return None
 
     return r.text
 
 
-# -----------------------------
-# ④ 主流程
-# -----------------------------
+# ----------------------------
+# ⑤ 主流程
+# ----------------------------
 def main():
-    channels_raw = get_channels()
+
+    print("[INFO] Loading page via Playwright...")
+
+    html = get_rendered_html()
+
+    print("[INFO] Extracting channels...")
+
+    raw_channels = extract_channels(html)
 
     channels = []
-    for c in channels_raw:
-        nc = normalize_channel(c)
-        if nc["name"] and nc["postid"]:
-            channels.append(nc)
+    seen = set()
 
-    print(f"\n[INFO] Channels loaded: {len(channels)}\n")
+    for c in raw_channels:
+        nc = normalize(c)
 
-    for idx, ch in enumerate(channels, 1):
-        print(f"{idx}. {ch['name']} -> postid={ch['postid']}")
+        if not nc["name"] or not nc["postid"]:
+            continue
+
+        key = (nc["name"], nc["postid"])
+        if key in seen:
+            continue
+
+        seen.add(key)
+        channels.append(nc)
+
+    print(f"\n[INFO] Channels: {len(channels)}\n")
+
+    for i, ch in enumerate(channels, 1):
+        print(f"{i}. {ch['name']} -> {ch['postid']}")
 
         epg = fetch_epg(ch["postid"])
 
@@ -79,8 +147,6 @@ def main():
             print("   ✔ EPG OK")
         else:
             print("   ✖ EPG FAIL")
-
-        time.sleep(0.2)  # 防止请求过快
 
 
 if __name__ == "__main__":
