@@ -30,16 +30,16 @@ def log(msg):
     print(f"[{now}] {msg}")
 
 
-# ================= 读取配置 ================= #
+# ================= 读取配置（台标/名称） ================= #
 def load_config():
     try:
         if not os.path.exists(CONFIG_FILE):
-            log("⚠️ 未找到 config.json（将只显示ID）")
+            log("⚠️ 未找到 config.json（仅使用ID）")
             return {}
         with open(CONFIG_FILE, "r", encoding="utf-8") as f:
             return json.load(f)
     except Exception as e:
-        log(f"❌ config.json 解析失败: {e}")
+        log(f"❌ config.json错误: {e}")
         return {}
 
 
@@ -49,6 +49,19 @@ def format_time(ts):
     return dt.strftime("%Y%m%d%H%M%S +0000")
 
 
+# ================= 中文优先标题 ================= #
+def get_title(p):
+    return (
+        p.get("nameZh")
+        or p.get("titleZh")
+        or p.get("localizedTitle")
+        or (p.get("title", {}).get("zh") if isinstance(p.get("title"), dict) else None)
+        or p.get("name")
+        or p.get("title")
+        or ""
+    )
+
+
 # ================= 请求EPG ================= #
 def fetch_epg(batch, day):
     params = []
@@ -56,12 +69,18 @@ def fetch_epg(batch, day):
         params.append(("channelIdList[]", cid))
     params.append(("day", str(day)))
 
-    try:
-        log(f"▶ 请求 DAY {day} | 频道数 {len(batch)}")
-        r = requests.get(EPG_URL, params=params, timeout=10)
-        log(f"   ├─ HTTP {r.status_code}")
+    headers = {
+        "User-Agent": "Mozilla/5.0",
+        "Accept-Language": "zh-HK,zh;q=0.9,en;q=0.8"
+    }
 
+    try:
+        log(f"▶ DAY {day} | 请求 {len(batch)} 个频道")
+        r = requests.get(EPG_URL, params=params, headers=headers, timeout=10)
+
+        log(f"   ├─ HTTP {r.status_code}")
         r.raise_for_status()
+
         return r.json()
 
     except Exception as e:
@@ -83,7 +102,7 @@ def main():
     config = load_config()
     all_data = {}
 
-    # ================= 抓取 ================= #
+    # ========== 抓取 ==========
     for day in range(DAYS):
         log(f"================ DAY {day} ================")
 
@@ -93,7 +112,7 @@ def main():
             data = fetch_epg(batch, day)
 
             if not isinstance(data, list):
-                log("⚠️ 返回异常，跳过")
+                log("⚠️ 数据异常")
                 continue
 
             for idx, programs in enumerate(data):
@@ -110,16 +129,15 @@ def main():
 
                 all_data[cid].extend(programs)
 
-                log(f"   ✓ 频道 {cid} | +{len(programs)} 节目")
+                log(f"   ✓ 频道 {cid} | +{len(programs)}")
 
             time.sleep(SLEEP)
 
-    # ================= XML生成 ================= #
+    # ========== XML生成 ==========
     log("========== XML GENERATE ==========")
+    log(f"📊 频道总数: {len(all_data)}")
 
     tv = ET.Element("tv")
-
-    log(f"📊 总频道数: {len(all_data)}")
 
     for cid, programs in all_data.items():
 
@@ -142,26 +160,26 @@ def main():
                 "stop": format_time(p["end"])
             })
 
-            ET.SubElement(prog, "title").text = p.get("name", "")
+            ET.SubElement(prog, "title").text = get_title(p)
 
-    # ================= 写XML（美化） ================= #
-    log("🧱 正在格式化 XML...")
+    # ========== 写XML（美化） ==========
+    log("🧱 XML格式化中...")
 
     xml_str = prettify_xml(tv)
 
     with open(XML_FILE, "wb") as f:
         f.write(xml_str)
 
-    log(f"✅ XML生成完成: {XML_FILE}")
+    log(f"✅ XML完成: {XML_FILE}")
 
-    # ================= 压缩 ================= #
-    log("🗜️ 压缩 GZ...")
+    # ========== 压缩 ==========
+    log("🗜️ 压缩GZ...")
 
     with open(XML_FILE, "rb") as f_in:
         with gzip.open(GZ_FILE, "wb") as f_out:
             f_out.writelines(f_in)
 
-    log(f"✅ GZ生成完成: {GZ_FILE}")
+    log(f"✅ GZ完成: {GZ_FILE}")
 
     log("========== DONE ==========")
 
