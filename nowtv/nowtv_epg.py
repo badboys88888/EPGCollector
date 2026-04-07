@@ -17,7 +17,7 @@ EPG_URL = "https://nowplayer.now.com/tvguide/epglist"
 
 # 频道ID将从config.json中读取
 CHANNEL_IDS = []
-DAYS = 1  # 先减少到1天，快速测试
+DAYS = 1
 BATCH_SIZE = 5
 SLEEP = 1.0
 TIMEOUT = 30
@@ -254,7 +254,8 @@ def generate_and_save_xml(config, all_epg_data):
         
         # 美化XML
         log("美化XML格式...")
-        dom = xml.dom.minidom.parseString(xml_string)
+        # 修复：使用正确的minidom引用
+        dom = minidom.parseString(xml_string)  # 修复这里的bug
         pretty_xml = dom.toprettyxml(indent="  ", encoding="utf-8")
         
         # 保存XML文件
