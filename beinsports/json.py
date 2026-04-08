@@ -1,0 +1,161 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+工业级 beIN SPORTS 频道聚合器（不丢频道版）
+"""
+
+import requests
+import json
+import time
+from datetime import datetime
+from collections import defaultdict
+
+BASE_API = "https://www.beinsports.com/api/opta"
+
+HEADERS = {
+    "User-Agent": "Mozilla/5.0",
+    "Accept": "application/json",
+    "Referer": "https://www.beinsports.com/"
+}
+
+# 多 region（关键：扩展频道来源）
+REGIONS = [
+    "fr-fr",
+    "en-us",
+    "en-au",
+    "en-nz",
+    "en-my",
+    "en-ph",
+    "es-es",
+    "ar-ae"
+]
+
+
+def log(msg):
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] {msg}")
+
+
+def fetch(region):
+    """抓单 region"""
+    url = f"{BASE_API}/tv-channel"
+    r = requests.get(url, params={"region": region}, headers=HEADERS, timeout=20)
+
+    if r.status_code != 200:
+        log(f"❌ {region} HTTP {r.status_code}")
+        return []
+
+    data = r.json()
+    return data.get("rows", [])
+
+
+def normalize(chan, region):
+    """标准化频道结构（不丢信息）"""
+    d = chan.get("data", {}) or {}
+
+    return {
+        "id": chan.get("id"),
+        "name": chan.get("name"),
+        "display_name": d.get("displayName") or chan.get("name"),
+        "region": region,
+        "logo": d.get("logoHD") or d.get("logoSTD"),
+        "country": (d.get("country") or {}).get("name"),
+        "language": (d.get("language") or {}).get("name"),
+        "external_id": chan.get("externalId"),
+        "provider": (chan.get("provider") or {}).get("name")
+    }
+
+
+def build():
+    """核心构建逻辑"""
+    all_data = []
+
+    # 1. 多 region 抓取
+    for r in REGIONS:
+        log(f"抓取 region: {r}")
+        rows = fetch(r)
+
+        for c in rows:
+            all_data.append(normalize(c, r))
+
+        log(f"  → {len(rows)} 个频道")
+        time.sleep(0.5)
+
+    log(f"\n总原始数据: {len(all_data)}")
+
+    # 2. 按 channel id 聚合（关键）
+    grouped = defaultdict(list)
+
+    for c in all_data:
+        key = c["id"]
+        grouped[key].append(c)
+
+    # 3. 生成最终结构（不丢任何 region）
+    result = []
+
+    for cid, items in grouped.items():
+
+        # 选一个主展示（优先法语 > 英语）
+        priority = ["fr-fr", "en-us", "en-au", "en-nz", "en-my", "en-ph"]
+
+        best = None
+        for p in priority:
+            for it in items:
+                if it["region"] == p:
+                    best = it
+                    break
+            if best:
+                break
+
+        if not best:
+            best = items[0]
+
+        result.append({
+            "id": cid,
+            "name": best["name"],
+            "display_name": best["display_name"],
+            "logo": best["logo"],
+            "country": best["country"],
+            "language": best["language"],
+
+            # ⭐关键：保留全部版本（不会丢）
+            "versions": items
+        })
+
+    # 4. 排序
+    result.sort(key=lambda x: x["name"])
+
+    return result
+
+
+def save(data):
+    out = {
+        "generated_at": datetime.now().isoformat(),
+        "total_channels": len(data),
+        "channels": data
+    }
+
+    filename = f"bein_channels_{datetime.now().strftime('%Y%m%d_%H%M')}.json"
+
+    with open(filename, "w", encoding="utf-8") as f:
+        json.dump(out, f, indent=2, ensure_ascii=False)
+
+    log(f"\n✅ 输出完成: {filename}")
+    log(f"📦 总频道数: {len(data)}")
+
+    return filename
+
+
+def main():
+    log("=" * 60)
+    log("beIN SPORTS 工业级频道聚合器")
+    log("=" * 60)
+
+    data = build()
+    save(data)
+
+    log("\n✔ 完成（不会再丢频道）")
+
+
+if __name__ == "__main__":
+    main()
