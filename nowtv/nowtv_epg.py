@@ -16,7 +16,7 @@ EPG_URL = "https://nowplayer.now.com/tvguide/epglist"
 
 # 频道ID将从config.json中读取
 CHANNEL_IDS = []
-DAYS = 1
+DAYS = 6
 BATCH_SIZE = 8
 SLEEP = 0.8
 TIMEOUT = 30
