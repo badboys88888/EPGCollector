@@ -9,7 +9,7 @@ on:
   # 当脚本或配置文件更新时也触发
   push:
     paths:
-      - 'beinsports_epg.py'
+      - 'beinsports/beinsports_epg.py'
       - 'config.json'
       - '.github/workflows/generate-epg.yml'
 
@@ -39,7 +39,7 @@ jobs:
         
     - name: 运行EPG生成脚本
       run: |
-        python beinsports_epg.py
+        python beinsports/beinsports_epg.py
         
     - name: 检查生成的文件
       run: |
