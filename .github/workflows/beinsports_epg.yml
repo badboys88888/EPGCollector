@@ -13,11 +13,6 @@ on:
       - 'config.json'
       - '.github/workflows/generate-epg.yml'
 
-# 设置环境变量
-env:
-  OUTPUT_XML: "epg.xml"
-  OUTPUT_GZ: "epg.xml.gz"
-
 jobs:
   generate-epg:
     runs-on: ubuntu-latest
@@ -25,10 +20,7 @@ jobs:
     steps:
     - name: 检出代码
       uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
-        token: ${{ secrets.GITHUB_TOKEN }}
-        
+      
     - name: 设置Python环境
       uses: actions/setup-python@v5
       with:
@@ -37,76 +29,66 @@ jobs:
     - name: 安装依赖
       run: |
         python -m pip install --upgrade pip
-        pip install requests xmltodict
-        # 如果需要gzip支持
-        pip install gzip
+        # 只安装必需的包
+        pip install requests
         
-    - name: 列出文件
-      run: ls -la
-      
+    - name: 验证Python环境
+      run: |
+        python --version
+        python -c "import sys; print(f'Python {sys.version}')"
+        
     - name: 运行EPG生成脚本
       run: |
         python beinsports_epg.py
-        echo "EPG生成完成，检查输出文件..."
-        ls -la *.xml *.gz || true
         
-    - name: 检查输出文件
+    - name: 检查生成的文件
       run: |
-        if [ -f "$OUTPUT_XML" ]; then
-          echo "✅ XML文件生成成功"
-          echo "文件大小: $(wc -c < "$OUTPUT_XML") 字节"
-          echo "文件前5行:"
-          head -5 "$OUTPUT_XML"
+        echo "当前目录:"
+        pwd
+        echo "目录内容:"
+        ls -la
+        echo "XML文件信息:"
+        if [ -f "epg.xml" ]; then
+          ls -lh epg.xml
+          echo "XML前3行:"
+          head -3 epg.xml
         else
-          echo "❌ XML文件未生成"
-          exit 1
+          echo "❌ epg.xml 未生成"
+        fi
+        if [ -f "epg.xml.gz" ]; then
+          ls -lh epg.xml.gz
         fi
         
-        if [ -f "$OUTPUT_GZ" ]; then
-          echo "✅ GZ文件生成成功"
-          echo "压缩文件大小: $(wc -c < "$OUTPUT_GZ") 字节"
-        else
-          echo "⚠️ GZ文件未生成"
-        fi
-        
-    - name: 设置Git配置
+    - name: 配置Git
       run: |
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
         
     - name: 检查文件变更
-      id: git-check
+      id: check-changes
       run: |
+        echo "检查文件变更状态..."
         git status
-        git add -N .
-        if git diff --name-only | grep -E "\.(xml|gz)$"; then
-          echo "有文件变更"
-          echo "changes=true" >> $GITHUB_OUTPUT
+        if git diff --name-only | grep -q "epg.xml"; then
+          echo "检测到 epg.xml 变更"
+          echo "has_changes=true" >> $GITHUB_OUTPUT
         else
-          echo "无文件变更"
-          echo "changes=false" >> $GITHUB_OUTPUT
+          echo "没有检测到变更"
+          echo "has_changes=false" >> $GITHUB_OUTPUT
         fi
         
-    - name: 提交更新文件
-      if: steps.git-check.outputs.changes == 'true'
+    - name: 提交变更
+      if: steps.check-changes.outputs.has_changes == 'true'
       run: |
-        # 只添加XML和GZ文件
-        git add "$OUTPUT_XML" "$OUTPUT_GZ" 2>/dev/null || true
-        
-        # 检查是否有需要提交的变更
-        if git diff --cached --quiet; then
-          echo "没有需要提交的变更"
-        else
-          git commit -m "自动更新 EPG 数据 [$(date +'%Y-%m-%d %H:%M UTC')]"
-          git push
-          echo "✅ 文件已提交到仓库"
-        fi
+        git add epg.xml epg.xml.gz
+        git commit -m "自动更新 EPG 数据 [$(date +'%Y-%m-%d %H:%M UTC')]"
+        git push
         
     - name: 上传工作流产物
       uses: actions/upload-artifact@v4
       with:
         name: epg-files
         path: |
-          ${{ env.OUTPUT_XML }}
-          ${{ env.OUTPUT_GZ }}
+          epg.xml
+          epg.xml.gz
         retention-days: 7
