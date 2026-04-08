@@ -10,7 +10,7 @@ on:
   push:
     paths:
       - 'beinsports/beinsports_epg.py'
-      - 'config.json'
+      - 'beinsports/config.json'
       - '.github/workflows/generate-epg.yml'
 
 jobs:
@@ -29,34 +29,32 @@ jobs:
     - name: 安装依赖
       run: |
         python -m pip install --upgrade pip
-        # 只安装必需的包
         pip install requests
         
-    - name: 验证Python环境
-      run: |
-        python --version
-        python -c "import sys; print(f'Python {sys.version}')"
-        
-    - name: 运行EPG生成脚本
-      run: |
-        python beinsports/beinsports_epg.py
-        
-    - name: 检查生成的文件
+    - name: 验证目录结构
       run: |
         echo "当前目录:"
         pwd
         echo "目录内容:"
         ls -la
-        echo "XML文件信息:"
-        if [ -f "epg.xml" ]; then
-          ls -lh epg.xml
-          echo "XML前3行:"
-          head -3 epg.xml
+        echo "beinsports目录内容:"
+        ls -la beinsports/ || echo "beinsports目录不存在"
+        
+    - name: 运行EPG生成脚本
+      run: |
+        # 切换到beinsports目录
+        cd beinsports
+        python beinsports_epg.py
+        
+    - name: 检查生成的文件
+      run: |
+        echo "检查beinsports目录:"
+        ls -la beinsports/
+        if [ -f "beinsports/epg.xml" ]; then
+          echo "✅ epg.xml 生成成功"
+          ls -lh beinsports/epg.xml
         else
           echo "❌ epg.xml 未生成"
-        fi
-        if [ -f "epg.xml.gz" ]; then
-          ls -lh epg.xml.gz
         fi
         
     - name: 配置Git
@@ -69,8 +67,8 @@ jobs:
       run: |
         echo "检查文件变更状态..."
         git status
-        if git diff --name-only | grep -q "epg.xml"; then
-          echo "检测到 epg.xml 变更"
+        if git diff --name-only | grep -q "epg.xml" || git diff --name-only | grep -q "epg.xml.gz"; then
+          echo "检测到EPG文件变更"
           echo "has_changes=true" >> $GITHUB_OUTPUT
         else
           echo "没有检测到变更"
@@ -80,8 +78,8 @@ jobs:
     - name: 提交变更
       if: steps.check-changes.outputs.has_changes == 'true'
       run: |
-        git add epg.xml epg.xml.gz
-        git commit -m "自动更新 EPG 数据 [$(date +'%Y-%m-%d %H:%M UTC')]"
+        git add beinsports/epg.xml beinsports/epg.xml.gz
+        git commit -m "自动更新 beIN SPORTS EPG 数据 [$(date +'%Y-%m-%d %H:%M UTC')]"
         git push
         
     - name: 上传工作流产物
@@ -89,6 +87,6 @@ jobs:
       with:
         name: epg-files
         path: |
-          epg.xml
-          epg.xml.gz
+          beinsports/epg.xml
+          beinsports/epg.xml.gz
         retention-days: 7
