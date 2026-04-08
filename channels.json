@@ -29,11 +29,6 @@
     "icon": null,
     "source": "mytvsupercom"
   },
-  "supergoldies.mytvsupercom": {
-    "name": "SUPER Goldies (Free)",
-    "icon": null,
-    "source": "mytvsupercom"
-  },
   "supersitcom.mytvsupercom": {
     "name": "SUPER Sitcom (Free)",
     "icon": null,
@@ -3740,11 +3735,6 @@
     "source": "beinsportsconnecthk"
   },
   "beinsportsoverflow17.beinsportsconnecthk": {
-    "name": "beIN SPORTS MAX",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
-    "source": "beinsportsconnecthk"
-  },
-  "beinsportsoverflow18.beinsportsconnecthk": {
     "name": "beIN SPORTS MAX",
     "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
     "source": "beinsportsconnecthk"
