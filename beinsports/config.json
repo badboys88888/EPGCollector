@@ -1,0 +1,909 @@
+{
+  "generated_at": "2026-04-08T16:39:54.589650",
+  "total_channels": 43,
+  "channels": [
+    {
+      "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375",
+      "name": "BEINC",
+      "display_name": "BEINC",
+      "logo": null,
+      "country": null,
+      "language": null,
+      "versions": [
+        {
+          "id": "5ED9E1C4-BEF4-4AC2-8F90-28B3DCA26375",
+          "name": "BEINC",
+          "display_name": "BEINC",
+          "region": "en-us",
+          "logo": null,
+          "country": null,
+          "language": null,
+          "external_id": "92061",
+          "provider": "gracenote"
+        }
+      ]
+    },
+    {
+      "id": "520D107A-71D4-4CB7-B141-1C6B089A7FFC",
+      "name": "BEINS8C",
+      "display_name": "BEINS8C",
+      "logo": null,
+      "country": null,
+      "language": null,
+      "versions": [
+        {
+          "id": "520D107A-71D4-4CB7-B141-1C6B089A7FFC",
+          "name": "BEINS8C",
+          "display_name": "BEINS8C",
+          "region": "en-us",
+          "logo": null,
+          "country": null,
+          "language": null,
+          "external_id": "110761",
+          "provider": "gracenote"
+        }
+      ]
+    },
+    {
+      "id": "5824C394-7211-4004-AC46-35BD58B9D1EE",
+      "name": "BEINSSC",
+      "display_name": "BEINSSC",
+      "logo": null,
+      "country": null,
+      "language": null,
+      "versions": [
+        {
+          "id": "5824C394-7211-4004-AC46-35BD58B9D1EE",
+          "name": "BEINSSC",
+          "display_name": "BEINSSC",
+          "region": "en-us",
+          "logo": null,
+          "country": null,
+          "language": null,
+          "external_id": "110764",
+          "provider": "gracenote"
+        }
+      ]
+    },
+    {
+      "id": "C244C48D-3B54-406A-94C9-D63B16318267",
+      "name": "beIN SPORTS",
+      "display_name": "BEINS1",
+      "logo": null,
+      "country": null,
+      "language": null,
+      "versions": [
+        {
+          "id": "C244C48D-3B54-406A-94C9-D63B16318267",
+          "name": "beIN SPORTS",
+          "display_name": "BEINS1",
+          "region": "en-us",
+          "logo": null,
+          "country": null,
+          "language": null,
+          "external_id": "76942",
+          "provider": "gracenote"
+        }
+      ]
+    },
+    {
+      "id": "A31EDF08-2A80-4D1F-9016-43A9C6138255",
+      "name": "beIN SPORTS",
+      "display_name": "beIN SPORTS",
+      "logo": null,
+      "country": null,
+      "language": null,
+      "versions": [
+        {
+          "id": "A31EDF08-2A80-4D1F-9016-43A9C6138255",
+          "name": "beIN SPORTS",
+          "display_name": "beIN SPORTS",
+          "region": "en-nz",
+          "logo": null,
+          "country": null,
+          "language": null,
+          "external_id": "NZ1",
+          "provider": "epg.apac.nz"
+        }
+      ]
+    },
+    {
+      "id": "B76EB90E-0657-4D61-9265-68ADA92E34CD",
+      "name": "beIN SPORTS",
+      "display_name": "beIN SPORTS",
+      "logo": null,
+      "country": null,
+      "language": null,
+      "versions": [
+        {
+          "id": "B76EB90E-0657-4D61-9265-68ADA92E34CD",
+          "name": "beIN SPORTS",
+          "display_name": "beIN SPORTS",
+          "region": "en-nz",
+          "logo": null,
+          "country": null,
+          "language": null,
+          "external_id": "NZS1",
+          "provider": "epg.apac.nz"
+        }
+      ]
+    },
+    {
+      "id": "66265DD1-D2AA-4A89-9412-2455186E90ED",
+      "name": "beIN SPORTS 1",
+      "display_name": "beIN SPORTS 1",
+      "logo": "https://photos.media-press.tv/logo/plurimedia/png_500x500_clair/1290.png",
+      "country": "France",
+      "language": "Français",
+      "versions": [
+        {
+          "id": "66265DD1-D2AA-4A89-9412-2455186E90ED",
+          "name": "beIN SPORTS 1",
+          "display_name": "beIN SPORTS 1",
+          "region": "fr-fr",
+          "logo": "https://photos.media-press.tv/logo/plurimedia/png_500x500_clair/1290.png",
+          "country": "France",
+          "language": "Français",
+          "external_id": "1290",
+          "provider": "plurimedia"
+        }
+      ]
+    },
+    {
+      "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F",
+      "name": "beIN SPORTS 1",
+      "display_name": "beIN SPORTS 1",
+      "logo": null,
+      "country": null,
+      "language": null,
+      "versions": [
+        {
+          "id": "164C0EDA-EBCE-4AA6-9DDA-D603E0948B9F",
+          "name": "beIN SPORTS 1",
+          "display_name": "beIN SPORTS 1",
+          "region": "en-au",
+          "logo": null,
+          "country": null,
+          "language": null,
+          "external_id": "386214",
+          "provider": "epg.apac.aus"
+        }
+      ]
+    },
+    {
+      "id": "0FA3DEF0-234B-4E25-934F-392DF2C3162C",
+      "name": "beIN SPORTS 1",
+      "display_name": "beIN SPORTS 1",
+      "logo": null,
+      "country": null,
+      "language": null,
+      "versions": [
+        {
+          "id": "0FA3DEF0-234B-4E25-934F-392DF2C3162C",
+          "name": "beIN SPORTS 1",
+          "display_name": "beIN SPORTS 1",
+          "region": "en-my",
+          "logo": null,
+          "country": null,
+          "language": null,
+          "external_id": "SG1",
+          "provider": "epg.apac.my"
+        }
+      ]
+    },
+    {
+      "id": "E227320A-8BA4-4ECB-A521-6DA53ADED441",
+      "name": "beIN SPORTS 1",
+      "display_name": "beIN SPORTS 1",
+      "logo": null,
+      "country": null,
+      "language": null,
+      "versions": [
+        {
+          "id": "E227320A-8BA4-4ECB-A521-6DA53ADED441",
+          "name": "beIN SPORTS 1",
+          "display_name": "beIN SPORTS 1",
+          "region": "en-my",
+          "logo": null,
+          "country": null,
+          "language": null,
+          "external_id": "SM1",
+          "provider": "epg.apac.my"
+        }
+      ]
+    },
+    {
+      "id": "A4320E60-381D-4435-8294-B4F3F33BF01C",
+      "name": "beIN SPORTS 1",
+      "display_name": "beIN SPORTS 1",
+      "logo": null,
+      "country": null,
+      "language": null,
+      "versions": [
+        {
+          "id": "A4320E60-381D-4435-8294-B4F3F33BF01C",
+          "name": "beIN SPORTS 1",
+          "display_name": "beIN SPORTS 1",
+          "region": "en-my",
+          "logo": null,
+          "country": null,
+          "language": null,
+          "external_id": "MY1",
+          "provider": "epg.apac.my"
+        }
+      ]
+    },
+    {
+      "id": "02821165-CA6E-4A60-B781-C9C67B587185",
+      "name": "beIN SPORTS 1",
+      "display_name": "beIN SPORTS 1",
+      "logo": null,
+      "country": null,
+      "language": null,
+      "versions": [
+        {
+          "id": "02821165-CA6E-4A60-B781-C9C67B587185",
+          "name": "beIN SPORTS 1",
+          "display_name": "beIN SPORTS 1",
+          "region": "en-my",
+          "logo": null,
+          "country": null,
+          "language": null,
+          "external_id": "SE1",
+          "provider": "epg.apac.my"
+        }
+      ]
+    },
+    {
+      "id": "6B04AAE6-C819-486A-BA59-827E03EA0DB5",
+      "name": "beIN SPORTS 1",
+      "display_name": "beIN SPORTS 1",
+      "logo": null,
+      "country": null,
+      "language": null,
+      "versions": [
+        {
+          "id": "6B04AAE6-C819-486A-BA59-827E03EA0DB5",
+          "name": "beIN SPORTS 1",
+          "display_name": "beIN SPORTS 1",
+          "region": "en-ph",
+          "logo": null,
+          "country": null,
+          "language": null,
+          "external_id": "ID1",
+          "provider": "epg.apac.id"
+        }
+      ]
+    },
+    {
+      "id": "FD38AB3D-2BF5-4855-B031-B83DE8335EF9",
+      "name": "beIN SPORTS 1 Premium",
+      "display_name": "beIN SPORTS 1 Premium",
+      "logo": null,
+      "country": null,
+      "language": null,
+      "versions": [
+        {
+          "id": "FD38AB3D-2BF5-4855-B031-B83DE8335EF9",
+          "name": "beIN SPORTS 1 Premium",
+          "display_name": "beIN SPORTS 1 Premium",
+          "region": "en-ph",
+          "logo": null,
+          "country": null,
+          "language": null,
+          "external_id": "TH1",
+          "provider": "epg.apac.id"
+        }
+      ]
+    },
+    {
+      "id": "1E886E98-3104-4D8E-A97F-734B23108E8A",
+      "name": "beIN SPORTS 2",
+      "display_name": "beIN SPORTS 2",
+      "logo": "https://photos.media-press.tv/logo/plurimedia/png_500x500_clair/1304.png",
+      "country": "France",
+      "language": "Français",
+      "versions": [
+        {
+          "id": "1E886E98-3104-4D8E-A97F-734B23108E8A",
+          "name": "beIN SPORTS 2",
+          "display_name": "beIN SPORTS 2",
+          "region": "fr-fr",
+          "logo": "https://photos.media-press.tv/logo/plurimedia/png_500x500_clair/1304.png",
+          "country": "France",
+          "language": "Français",
+          "external_id": "1304",
+          "provider": "plurimedia"
+        }
+      ]
+    },
+    {
+      "id": "63A30D9C-609D-4A30-8730-2CA391DF287A",
+      "name": "beIN SPORTS 2",
+      "display_name": "beIN SPORTS 2",
+      "logo": null,
+      "country": null,
+      "language": null,
+      "versions": [
+        {
+          "id": "63A30D9C-609D-4A30-8730-2CA391DF287A",
+          "name": "beIN SPORTS 2",
+          "display_name": "beIN SPORTS 2",
+          "region": "en-au",
+          "logo": null,
+          "country": null,
+          "language": null,
+          "external_id": "431601",
+          "provider": "epg.apac.aus"
+        }
+      ]
+    },
+    {
+      "id": "DDFC8C16-6363-4A2C-AE66-2CE357DBC28E",
+      "name": "beIN SPORTS 2",
+      "display_name": "beIN SPORTS 2",
+      "logo": null,
+      "country": null,
+      "language": null,
+      "versions": [
+        {
+          "id": "DDFC8C16-6363-4A2C-AE66-2CE357DBC28E",
+          "name": "beIN SPORTS 2",
+          "display_name": "beIN SPORTS 2",
+          "region": "en-my",
+          "logo": null,
+          "country": null,
+          "language": null,
+          "external_id": "SE2",
+          "provider": "epg.apac.my"
+        }
+      ]
+    },
+    {
+      "id": "5F323488-6662-42DC-BE1C-B954ECDD5CD7",
+      "name": "beIN SPORTS 2",
+      "display_name": "beIN SPORTS 2",
+      "logo": null,
+      "country": null,
+      "language": null,
+      "versions": [
+        {
+          "id": "5F323488-6662-42DC-BE1C-B954ECDD5CD7",
+          "name": "beIN SPORTS 2",
+          "display_name": "beIN SPORTS 2",
+          "region": "en-my",
+          "logo": null,
+          "country": null,
+          "language": null,
+          "external_id": "SG2",
+          "provider": "epg.apac.my"
+        }
+      ]
+    },
+    {
+      "id": "ACE14EF6-9A0C-480D-A15B-80EF27D55E62",
+      "name": "beIN SPORTS 2",
+      "display_name": "beIN SPORTS 2",
+      "logo": null,
+      "country": null,
+      "language": null,
+      "versions": [
+        {
+          "id": "ACE14EF6-9A0C-480D-A15B-80EF27D55E62",
+          "name": "beIN SPORTS 2",
+          "display_name": "beIN SPORTS 2",
+          "region": "en-ph",
+          "logo": null,
+          "country": null,
+          "language": null,
+          "external_id": "SE2",
+          "provider": "epg.apac.id"
+        }
+      ]
+    },
+    {
+      "id": "6DB008B8-66DA-423E-805D-616211D4B174",
+      "name": "beIN SPORTS 3",
+      "display_name": "beIN SPORTS 3",
+      "logo": "https://photos.media-press.tv/logo/plurimedia/png_500x500_clair/1335.png",
+      "country": "France",
+      "language": "Français",
+      "versions": [
+        {
+          "id": "6DB008B8-66DA-423E-805D-616211D4B174",
+          "name": "beIN SPORTS 3",
+          "display_name": "beIN SPORTS 3",
+          "region": "fr-fr",
+          "logo": "https://photos.media-press.tv/logo/plurimedia/png_500x500_clair/1335.png",
+          "country": "France",
+          "language": "Français",
+          "external_id": "1335",
+          "provider": "plurimedia"
+        }
+      ]
+    },
+    {
+      "id": "90E69FC7-AA8C-40F2-B35F-EBD174495F76",
+      "name": "beIN SPORTS 3",
+      "display_name": "BEINSP3",
+      "logo": null,
+      "country": null,
+      "language": null,
+      "versions": [
+        {
+          "id": "90E69FC7-AA8C-40F2-B35F-EBD174495F76",
+          "name": "beIN SPORTS 3",
+          "display_name": "BEINSP3",
+          "region": "en-us",
+          "logo": null,
+          "country": null,
+          "language": null,
+          "external_id": "92442",
+          "provider": "gracenote"
+        }
+      ]
+    },
+    {
+      "id": "2E8A6222-8D90-4291-81E3-AF2F72557746",
+      "name": "beIN SPORTS 3",
+      "display_name": "beIN SPORTS 3",
+      "logo": null,
+      "country": null,
+      "language": null,
+      "versions": [
+        {
+          "id": "2E8A6222-8D90-4291-81E3-AF2F72557746",
+          "name": "beIN SPORTS 3",
+          "display_name": "beIN SPORTS 3",
+          "region": "en-au",
+          "logo": null,
+          "country": null,
+          "language": null,
+          "external_id": "431602",
+          "provider": "epg.apac.aus"
+        }
+      ]
+    },
+    {
+      "id": "07C1C284-D784-4AD2-9F7E-022DCD196D04",
+      "name": "beIN SPORTS 3",
+      "display_name": "beIN SPORTS 3",
+      "logo": null,
+      "country": null,
+      "language": null,
+      "versions": [
+        {
+          "id": "07C1C284-D784-4AD2-9F7E-022DCD196D04",
+          "name": "beIN SPORTS 3",
+          "display_name": "beIN SPORTS 3",
+          "region": "en-my",
+          "logo": null,
+          "country": null,
+          "language": null,
+          "external_id": "SM3",
+          "provider": "epg.apac.my"
+        }
+      ]
+    },
+    {
+      "id": "F3CE2580-D815-4D33-84FC-6B95742BFB00",
+      "name": "beIN SPORTS 3",
+      "display_name": "beIN SPORTS 3",
+      "logo": null,
+      "country": null,
+      "language": null,
+      "versions": [
+        {
+          "id": "F3CE2580-D815-4D33-84FC-6B95742BFB00",
+          "name": "beIN SPORTS 3",
+          "display_name": "beIN SPORTS 3",
+          "region": "en-my",
+          "logo": null,
+          "country": null,
+          "language": null,
+          "external_id": "SG3",
+          "provider": "epg.apac.my"
+        }
+      ]
+    },
+    {
+      "id": "E41B16D3-5172-4D56-B2C7-E2BB41E38CAD",
+      "name": "beIN SPORTS 3",
+      "display_name": "beIN SPORTS 3",
+      "logo": null,
+      "country": null,
+      "language": null,
+      "versions": [
+        {
+          "id": "E41B16D3-5172-4D56-B2C7-E2BB41E38CAD",
+          "name": "beIN SPORTS 3",
+          "display_name": "beIN SPORTS 3",
+          "region": "en-my",
+          "logo": null,
+          "country": null,
+          "language": null,
+          "external_id": "SE3",
+          "provider": "epg.apac.my"
+        }
+      ]
+    },
+    {
+      "id": "7C714598-E7ED-4B0F-8BD1-E8E80D473922",
+      "name": "beIN SPORTS 3",
+      "display_name": "beIN SPORTS 3",
+      "logo": null,
+      "country": null,
+      "language": null,
+      "versions": [
+        {
+          "id": "7C714598-E7ED-4B0F-8BD1-E8E80D473922",
+          "name": "beIN SPORTS 3",
+          "display_name": "beIN SPORTS 3",
+          "region": "en-my",
+          "logo": null,
+          "country": null,
+          "language": null,
+          "external_id": "MY3",
+          "provider": "epg.apac.my"
+        }
+      ]
+    },
+    {
+      "id": "8352518C-86A6-4EED-8F47-EE619E8F0FDF",
+      "name": "beIN SPORTS 3",
+      "display_name": "beIN SPORTS 3",
+      "logo": null,
+      "country": null,
+      "language": null,
+      "versions": [
+        {
+          "id": "8352518C-86A6-4EED-8F47-EE619E8F0FDF",
+          "name": "beIN SPORTS 3",
+          "display_name": "beIN SPORTS 3",
+          "region": "en-ph",
+          "logo": null,
+          "country": null,
+          "language": null,
+          "external_id": "ID3",
+          "provider": "epg.apac.id"
+        }
+      ]
+    },
+    {
+      "id": "D0546ED7-9DB2-4924-9E32-C4F077E7BFC7",
+      "name": "beIN SPORTS 4",
+      "display_name": "BEINSP4",
+      "logo": null,
+      "country": null,
+      "language": null,
+      "versions": [
+        {
+          "id": "D0546ED7-9DB2-4924-9E32-C4F077E7BFC7",
+          "name": "beIN SPORTS 4",
+          "display_name": "BEINSP4",
+          "region": "en-us",
+          "logo": null,
+          "country": null,
+          "language": null,
+          "external_id": "92443",
+          "provider": "gracenote"
+        }
+      ]
+    },
+    {
+      "id": "A5A48DB1-C00B-4DB9-9FC6-5E5F25C18830",
+      "name": "beIN SPORTS 5",
+      "display_name": "BEINSP5",
+      "logo": null,
+      "country": null,
+      "language": null,
+      "versions": [
+        {
+          "id": "A5A48DB1-C00B-4DB9-9FC6-5E5F25C18830",
+          "name": "beIN SPORTS 5",
+          "display_name": "BEINSP5",
+          "region": "en-us",
+          "logo": null,
+          "country": null,
+          "language": null,
+          "external_id": "92439",
+          "provider": "gracenote"
+        }
+      ]
+    },
+    {
+      "id": "E56B0905-F99F-4DB1-931E-E6002B530867",
+      "name": "beIN SPORTS 6",
+      "display_name": "BEINSP6",
+      "logo": null,
+      "country": null,
+      "language": null,
+      "versions": [
+        {
+          "id": "E56B0905-F99F-4DB1-931E-E6002B530867",
+          "name": "beIN SPORTS 6",
+          "display_name": "BEINSP6",
+          "region": "en-us",
+          "logo": null,
+          "country": null,
+          "language": null,
+          "external_id": "92437",
+          "provider": "gracenote"
+        }
+      ]
+    },
+    {
+      "id": "831591C8-DA65-4528-B837-0E5A147887FB",
+      "name": "beIN SPORTS 7",
+      "display_name": "BEINSP7",
+      "logo": null,
+      "country": null,
+      "language": null,
+      "versions": [
+        {
+          "id": "831591C8-DA65-4528-B837-0E5A147887FB",
+          "name": "beIN SPORTS 7",
+          "display_name": "BEINSP7",
+          "region": "en-us",
+          "logo": null,
+          "country": null,
+          "language": null,
+          "external_id": "92438",
+          "provider": "gracenote"
+        }
+      ]
+    },
+    {
+      "id": "9A424246-EC89-43C3-9239-AA3A40540F94",
+      "name": "beIN SPORTS 8",
+      "display_name": "BEINSP8",
+      "logo": null,
+      "country": null,
+      "language": null,
+      "versions": [
+        {
+          "id": "9A424246-EC89-43C3-9239-AA3A40540F94",
+          "name": "beIN SPORTS 8",
+          "display_name": "BEINSP8",
+          "region": "en-us",
+          "logo": null,
+          "country": null,
+          "language": null,
+          "external_id": "92436",
+          "provider": "gracenote"
+        }
+      ]
+    },
+    {
+      "id": "4083661E-F588-4700-943C-8FDF65F1B5EB",
+      "name": "beIN SPORTS Español",
+      "display_name": "BEINSES",
+      "logo": null,
+      "country": null,
+      "language": null,
+      "versions": [
+        {
+          "id": "4083661E-F588-4700-943C-8FDF65F1B5EB",
+          "name": "beIN SPORTS Español",
+          "display_name": "BEINSES",
+          "region": "en-us",
+          "logo": null,
+          "country": null,
+          "language": null,
+          "external_id": "76943",
+          "provider": "gracenote"
+        }
+      ]
+    },
+    {
+      "id": "6F425028-14F0-4E38-B776-71A9DB3F3493",
+      "name": "beIN SPORTS MAX 10",
+      "display_name": "beIN SPORTS MAX 10",
+      "logo": "https://photos.media-press.tv/logo/plurimedia/png_500x500_clair/1342.png",
+      "country": "France",
+      "language": "Français",
+      "versions": [
+        {
+          "id": "6F425028-14F0-4E38-B776-71A9DB3F3493",
+          "name": "beIN SPORTS MAX 10",
+          "display_name": "beIN SPORTS MAX 10",
+          "region": "fr-fr",
+          "logo": "https://photos.media-press.tv/logo/plurimedia/png_500x500_clair/1342.png",
+          "country": "France",
+          "language": "Français",
+          "external_id": "1342",
+          "provider": "plurimedia"
+        }
+      ]
+    },
+    {
+      "id": "EF7E0369-CFD9-4607-9238-EC483E6D58A3",
+      "name": "beIN SPORTS MAX 4",
+      "display_name": "beIN SPORTS MAX 4",
+      "logo": "https://photos.media-press.tv/logo/plurimedia/png_500x500_clair/1336.png",
+      "country": "France",
+      "language": "Français",
+      "versions": [
+        {
+          "id": "EF7E0369-CFD9-4607-9238-EC483E6D58A3",
+          "name": "beIN SPORTS MAX 4",
+          "display_name": "beIN SPORTS MAX 4",
+          "region": "fr-fr",
+          "logo": "https://photos.media-press.tv/logo/plurimedia/png_500x500_clair/1336.png",
+          "country": "France",
+          "language": "Français",
+          "external_id": "1336",
+          "provider": "plurimedia"
+        }
+      ]
+    },
+    {
+      "id": "A4425E44-B004-4137-ACB4-458BA4D710F8",
+      "name": "beIN SPORTS MAX 5",
+      "display_name": "beIN SPORTS MAX 5",
+      "logo": "https://photos.media-press.tv/logo/plurimedia/png_500x500_clair/1337.png",
+      "country": "France",
+      "language": "Français",
+      "versions": [
+        {
+          "id": "A4425E44-B004-4137-ACB4-458BA4D710F8",
+          "name": "beIN SPORTS MAX 5",
+          "display_name": "beIN SPORTS MAX 5",
+          "region": "fr-fr",
+          "logo": "https://photos.media-press.tv/logo/plurimedia/png_500x500_clair/1337.png",
+          "country": "France",
+          "language": "Français",
+          "external_id": "1337",
+          "provider": "plurimedia"
+        }
+      ]
+    },
+    {
+      "id": "BBD26D71-897D-4799-87A1-A87120130D48",
+      "name": "beIN SPORTS MAX 6",
+      "display_name": "beIN SPORTS MAX 6",
+      "logo": "https://photos.media-press.tv/logo/plurimedia/png_500x500_clair/1338.png",
+      "country": "France",
+      "language": "Français",
+      "versions": [
+        {
+          "id": "BBD26D71-897D-4799-87A1-A87120130D48",
+          "name": "beIN SPORTS MAX 6",
+          "display_name": "beIN SPORTS MAX 6",
+          "region": "fr-fr",
+          "logo": "https://photos.media-press.tv/logo/plurimedia/png_500x500_clair/1338.png",
+          "country": "France",
+          "language": "Français",
+          "external_id": "1338",
+          "provider": "plurimedia"
+        }
+      ]
+    },
+    {
+      "id": "9B4708C5-F5F0-452A-8157-4661C30FAE6A",
+      "name": "beIN SPORTS MAX 7",
+      "display_name": "beIN SPORTS MAX 7",
+      "logo": "https://photos.media-press.tv/logo/plurimedia/png_500x500_clair/1339.png",
+      "country": "France",
+      "language": "Français",
+      "versions": [
+        {
+          "id": "9B4708C5-F5F0-452A-8157-4661C30FAE6A",
+          "name": "beIN SPORTS MAX 7",
+          "display_name": "beIN SPORTS MAX 7",
+          "region": "fr-fr",
+          "logo": "https://photos.media-press.tv/logo/plurimedia/png_500x500_clair/1339.png",
+          "country": "France",
+          "language": "Français",
+          "external_id": "1339",
+          "provider": "plurimedia"
+        }
+      ]
+    },
+    {
+      "id": "76D2430C-8BCB-41BD-A1DE-FBA0D58C5E8A",
+      "name": "beIN SPORTS MAX 8",
+      "display_name": "beIN SPORTS MAX 8",
+      "logo": "https://photos.media-press.tv/logo/plurimedia/png_500x500_clair/1340.png",
+      "country": "France",
+      "language": "Français",
+      "versions": [
+        {
+          "id": "76D2430C-8BCB-41BD-A1DE-FBA0D58C5E8A",
+          "name": "beIN SPORTS MAX 8",
+          "display_name": "beIN SPORTS MAX 8",
+          "region": "fr-fr",
+          "logo": "https://photos.media-press.tv/logo/plurimedia/png_500x500_clair/1340.png",
+          "country": "France",
+          "language": "Français",
+          "external_id": "1340",
+          "provider": "plurimedia"
+        }
+      ]
+    },
+    {
+      "id": "FB208953-1C70-4D1E-B918-103AB02AB181",
+      "name": "beIN SPORTS MAX 9",
+      "display_name": "beIN SPORTS MAX 9",
+      "logo": "https://photos.media-press.tv/logo/plurimedia/png_500x500_clair/1341.png",
+      "country": "France",
+      "language": "Français",
+      "versions": [
+        {
+          "id": "FB208953-1C70-4D1E-B918-103AB02AB181",
+          "name": "beIN SPORTS MAX 9",
+          "display_name": "beIN SPORTS MAX 9",
+          "region": "fr-fr",
+          "logo": "https://photos.media-press.tv/logo/plurimedia/png_500x500_clair/1341.png",
+          "country": "France",
+          "language": "Français",
+          "external_id": "1341",
+          "provider": "plurimedia"
+        }
+      ]
+    },
+    {
+      "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D",
+      "name": "beIN SPORTS XTRA",
+      "display_name": "BEINX",
+      "logo": null,
+      "country": null,
+      "language": null,
+      "versions": [
+        {
+          "id": "1ACADCF1-DFAC-480B-872C-53D51FE1B45D",
+          "name": "beIN SPORTS XTRA",
+          "display_name": "BEINX",
+          "region": "en-us",
+          "logo": null,
+          "country": null,
+          "language": null,
+          "external_id": "113143",
+          "provider": "gracenote"
+        }
+      ]
+    },
+    {
+      "id": "C938A2D0-375A-4876-B05D-08EE29D33B07",
+      "name": "beIN SPORTS XTRA",
+      "display_name": "beIN SPORTS XTRA",
+      "logo": null,
+      "country": null,
+      "language": null,
+      "versions": [
+        {
+          "id": "C938A2D0-375A-4876-B05D-08EE29D33B07",
+          "name": "beIN SPORTS XTRA",
+          "display_name": "beIN SPORTS XTRA",
+          "region": "en-au",
+          "logo": null,
+          "country": null,
+          "language": null,
+          "external_id": "55002",
+          "provider": "epg.apac.aus"
+        }
+      ]
+    },
+    {
+      "id": "5223E3D7-FB4E-4155-885A-9165996B22FA",
+      "name": "beIN SPORTS XTRA ñ",
+      "display_name": "BEIXE",
+      "logo": null,
+      "country": null,
+      "language": null,
+      "versions": [
+        {
+          "id": "5223E3D7-FB4E-4155-885A-9165996B22FA",
+          "name": "beIN SPORTS XTRA ñ",
+          "display_name": "BEIXE",
+          "region": "en-us",
+          "logo": null,
+          "country": null,
+          "language": null,
+          "external_id": "119661",
+          "provider": "gracenote"
+        }
+      ]
+    }
+  ]
+}
