@@ -1,17 +1,9 @@
 name: Generate beIN SPORTS EPG
 
 on:
-  # 定时触发：每天运行3次（UTC时间 0:00, 8:00, 16:00）
   schedule:
     - cron: '0 0,8,16 * * *'
-  # 允许手动触发
   workflow_dispatch:
-  # 当脚本或配置文件更新时也触发
-  push:
-    paths:
-      - 'beinsports/beinsports_epg.py'
-      - 'beinsports/config.json'
-      - '.github/workflows/generate-epg.yml'
 
 jobs:
   generate-epg:
@@ -31,62 +23,37 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests
         
-    - name: 验证目录结构
-      run: |
-        echo "当前目录:"
-        pwd
-        echo "目录内容:"
-        ls -la
-        echo "beinsports目录内容:"
-        ls -la beinsports/ || echo "beinsports目录不存在"
-        
     - name: 运行EPG生成脚本
       run: |
-        # 切换到beinsports目录
         cd beinsports
         python beinsports_epg.py
         
     - name: 检查生成的文件
       run: |
-        echo "检查beinsports目录:"
+        echo "检查 beinsports 目录内容:"
         ls -la beinsports/
-        if [ -f "beinsports/epg.xml" ]; then
-          echo "✅ epg.xml 生成成功"
-          ls -lh beinsports/epg.xml
+        
+        if [ -f "beinsports/beinsports_epg.xml" ]; then
+          echo "✅ beinsports_epg.xml 生成成功"
+          echo "文件大小: $(wc -c < beinsports/beinsports_epg.xml) 字节"
         else
-          echo "❌ epg.xml 未生成"
+          echo "❌ beinsports_epg.xml 未生成"
+          exit 1
         fi
         
-    - name: 配置Git
+        if [ -f "beinsports/beinsports_epg.xml.gz" ]; then
+          echo "✅ beinsports_epg.xml.gz 生成成功"
+          echo "压缩文件大小: $(wc -c < beinsports/beinsports_epg.xml.gz) 字节"
+        fi
+        
+    - name: 提交更新
       run: |
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
-        
-    - name: 检查文件变更
-      id: check-changes
-      run: |
-        echo "检查文件变更状态..."
-        git status
-        if git diff --name-only | grep -q "epg.xml" || git diff --name-only | grep -q "epg.xml.gz"; then
-          echo "检测到EPG文件变更"
-          echo "has_changes=true" >> $GITHUB_OUTPUT
+        git add beinsports/beinsports_epg.xml beinsports/beinsports_epg.xml.gz
+        if git diff --cached --quiet; then
+          echo "没有新的EPG数据，无需提交"
         else
-          echo "没有检测到变更"
-          echo "has_changes=false" >> $GITHUB_OUTPUT
+          git commit -m "自动更新 beIN SPORTS EPG [$(date -u '+%Y-%m-%d %H:%M')]"
+          git push
         fi
-        
-    - name: 提交变更
-      if: steps.check-changes.outputs.has_changes == 'true'
-      run: |
-        git add beinsports/epg.xml beinsports/epg.xml.gz
-        git commit -m "自动更新 beIN SPORTS EPG 数据 [$(date +'%Y-%m-%d %H:%M UTC')]"
-        git push
-        
-    - name: 上传工作流产物
-      uses: actions/upload-artifact@v4
-      with:
-        name: epg-files
-        path: |
-          beinsports/epg.xml
-          beinsports/epg.xml.gz
-        retention-days: 7
