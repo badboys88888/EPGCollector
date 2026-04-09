@@ -1,0 +1,63 @@
+name: Update BEIN EPG
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # 每24小时跑一次
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bein-epg
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. 拉代码（必须完整历史）
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # 2. Python环境
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # 3. 安装依赖（按需加）
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      # 4. 执行脚本（关键）
+      - name: Run BEIN EPG
+        run: |
+          cd bein
+          python bein_epg.py
+
+      # 5. Git 配置
+      - name: Git config
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+
+      # 6. 拉远程最新（解决你之前 push 报错）
+      - name: Pull latest
+        run: |
+          git pull --rebase origin main || true
+
+      # 7. 提交（只提交你要的文件）
+      - name: Commit
+        run: |
+          git add bein/bein_epg.xml bein/bein_epg.xml.gz
+          git diff --cached --quiet || git commit -m "Update BEIN EPG $(date)"
+
+      # 8. 推送
+      - name: Push
+        run: |
+          git push origin main
