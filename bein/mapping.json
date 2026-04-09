@@ -1,0 +1,352 @@
+{
+  "sports_slider_1": {
+    "name": "beIN SPORTS 1",
+    "logo": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS1_DIGITAL_Mono.png",
+    "group": "sports"
+  },
+  "sports_slider_2": {
+    "name": "beIN SPORTS 2",
+    "logo": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS2_DIGITAL_Mono.png",
+    "group": "sports"
+  },
+  "sports_slider_3": {
+    "name": "beIN SPORTS 3",
+    "logo": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS3_DIGITAL_Mono.png",
+    "group": "sports"
+  },
+  "sports_slider_4": {
+    "name": "beIN SPORTS 4",
+    "logo": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS4_DIGITAL_Mono.png",
+    "group": "sports"
+  },
+  "sports_slider_5": {
+    "name": "beIN SPORTS 5",
+    "logo": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS5_DIGITAL_Mono.png",
+    "group": "sports"
+  },
+  "sports_slider_6": {
+    "name": "beIN SPORTS 6",
+    "logo": "https://assets.bein.com/mena/sites/3/2021/02/beIN_SPORTS66_DIGITAL_Mono-01.png",
+    "group": "sports"
+  },
+  "sports_slider_7": {
+    "name": "beIN SPORTS 7",
+    "logo": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS7_DIGITAL_Mono.png",
+    "group": "sports"
+  },
+  "sports_slider_8": {
+    "name": "beIN SPORTS 8",
+    "logo": "https://assets.bein.com/mena/sites/3/2023/09/logos-_beINSPORTS8.png",
+    "group": "sports"
+  },
+  "sports_slider_9": {
+    "name": "beIN SPORTS 9",
+    "logo": "https://assets.bein.com/mena/sites/3/2023/09/logos-_beINSPORTS9.png",
+    "group": "sports"
+  },
+  "sports_slider_10": {
+    "name": "beIN SPORT SNEWS",
+    "logo": "https://assets.bein.com/mena/sites/3/2015/06/NEWS_DIGITAL_Mono.png",
+    "group": "sports"
+  },
+  "sports_slider_11": {
+    "name": "bein SPORTS FTA",
+    "logo": "https://assets.bein.com/mena/sites/3/2015/06/bein_SPORTS_FTA_DIGITAL_Mono.png",
+    "group": "sports"
+  },
+  "sports_slider_12": {
+    "name": "beIN SPORTS 1 ENGLISH",
+    "logo": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS1_ENGLISH_Digital_Mono.png",
+    "group": "sports"
+  },
+  "sports_slider_13": {
+    "name": "beIN SPORTS 2 ENGLISH",
+    "logo": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS2_ENGLISH_Digital_Mono.png",
+    "group": "sports"
+  },
+  "sports_slider_14": {
+    "name": "beIN SPORTS 1 FRENCH",
+    "logo": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS1_FRENCH_Digital_Mono.png",
+    "group": "sports"
+  },
+  "sports_slider_15": {
+    "name": "beIN SPORTS 2 FRENCH",
+    "logo": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS2_FRENCH_Digital_Mono.png",
+    "group": "sports"
+  },
+  "sports_slider_16": {
+    "name": "beIN SPORTS 4K",
+    "logo": "https://assets.bein.com/mena/sites/3/2015/06/4k_DIGITAL_Mono.png",
+    "group": "sports"
+  },
+  "sports_slider_17": {
+    "name": "beIN SPORTS XTRA 1",
+    "logo": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS_XTRA1_Digital_Mono.png",
+    "group": "sports"
+  },
+  "sports_slider_18": {
+    "name": "beIN SPORTS XTRA 2",
+    "logo": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS_XTRA2_Digital_Mono.png",
+    "group": "sports"
+  },
+  "sports_slider_19": {
+    "name": "beIN SPORTS XTRA 3",
+    "logo": "https://assets.bein.com/mena/sites/3/2023/09/logos-_beINSPORTSXTRA3.png",
+    "group": "sports"
+  },
+  "sports_slider_20": {
+    "name": "beIN SPORTS XTRA 4",
+    "logo": "https://assets.bein.com/mena/sites/3/2025/01/beIN_SPORTS_XTRA_04_bein.com_.png",
+    "group": "sports"
+  },
+  "sports_slider_21": {
+    "name": "beIN SPORTS XTRA 5",
+    "logo": "https://assets.bein.com/mena/sites/3/2025/01/beIN_SPORTS_XTRA_05_bein.com_.png",
+    "group": "sports"
+  },
+  "sports_slider_22": {
+    "name": "beIN SPORTS XTRA 6",
+    "logo": "https://assets.bein.com/mena/sites/3/2025/01/beIN_SPORTS_XTRA_06_bein.com_.png",
+    "group": "sports"
+  },
+  "sports_slider_23": {
+    "name": "beIN SPORTS XTRA 7",
+    "logo": "https://assets.bein.com/mena/sites/3/2025/01/beIN_SPORTS_XTRA_07_bein.com_.png",
+    "group": "sports"
+  },
+  "sports_slider_24": {
+    "name": "beIN SPORTS XTRA 8",
+    "logo": "https://assets.bein.com/mena/sites/3/2025/01/beIN_SPORTS_XTRA_08_Bein.com_.png",
+    "group": "sports"
+  },
+  "sports_slider_25": {
+    "name": "beIN SPORTS XTRA 9",
+    "logo": "https://assets.bein.com/mena/sites/3/2025/01/beIN_SPORTS_XTRA_Digital_09_Bein.com_.png",
+    "group": "sports"
+  },
+  "sports_slider_26": {
+    "name": "beIN SPORTS MAX 1",
+    "logo": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS_MAX1_DIGITAL_Mono.png",
+    "group": "sports"
+  },
+  "sports_slider_27": {
+    "name": "beIN SPORTS MAX 2",
+    "logo": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS_MAX2_DIGITAL_Mono.png",
+    "group": "sports"
+  },
+  "sports_slider_28": {
+    "name": "beIN SPORTS MAX 3",
+    "logo": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS_MAX3_DIGITAL_Mono.png",
+    "group": "sports"
+  },
+  "sports_slider_29": {
+    "name": "beIN SPORTS MAX 4",
+    "logo": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS_MAX4_DIGITAL_Mono.png",
+    "group": "sports"
+  },
+  "sports_slider_30": {
+    "name": "Alkass 1",
+    "logo": "https://assets.bein.com/mena/sites/3/2020/06/2023_Alkass_1.png",
+    "group": "sports"
+  },
+  "sports_slider_31": {
+    "name": "Alkass 2",
+    "logo": "https://assets.bein.com/mena/sites/3/2020/06/2023_Alkass_2.png",
+    "group": "sports"
+  },
+  "sports_slider_32": {
+    "name": "Alkass 3",
+    "logo": "https://assets.bein.com/mena/sites/3/2020/06/2023_Alkass_3.png",
+    "group": "sports"
+  },
+  "sports_slider_33": {
+    "name": "Alkass 4",
+    "logo": "https://assets.bein.com/mena/sites/3/2020/06/2023_Alkass_4.png",
+    "group": "sports"
+  },
+  "sports_slider_34": {
+    "name": "Alkass 5",
+    "logo": "https://assets.bein.com/mena/sites/3/2020/06/2023_Alkass_5.png",
+    "group": "sports"
+  },
+  "sports_slider_35": {
+    "name": "Alkass 6",
+    "logo": "https://assets.bein.com/mena/sites/3/2020/06/2023_Alkass_6.png",
+    "group": "sports"
+  },
+  "sports_slider_36": {
+    "name": "Alkass 7",
+    "logo": "https://assets.bein.com/mena/sites/3/2020/06/2023_Alkass_7.png",
+    "group": "sports"
+  },
+  "sports_slider_37": {
+    "name": "Alkass 8",
+    "logo": "https://assets.bein.com/mena/sites/3/2020/06/2023_Alkass_8.png",
+    "group": "sports"
+  },
+  "entertainment_slider_1": {
+    "name": "beIN MOVIES 1 PREMIERE",
+    "logo": "https://assets.bein.com/mena/sites/3/2015/06/MOVIES1_PREMIERE_DIGITAL_Mono.png",
+    "group": "entertainment"
+  },
+  "entertainment_slider_2": {
+    "name": "beIN MOVIES 2 ACTION",
+    "logo": "https://assets.bein.com/mena/sites/3/2015/06/MOVIES2_ACTION_DIGITAL_Mono.png",
+    "group": "entertainment"
+  },
+  "entertainment_slider_3": {
+    "name": "beIN MOVIES 3 DRAMA",
+    "logo": "https://assets.bein.com/mena/sites/3/2015/06/MOVIES3_DRAMA_DIGITAL_Mono.png",
+    "group": "entertainment"
+  },
+  "entertainment_slider_4": {
+    "name": "beIN MOVIES 4 FAMILY",
+    "logo": "https://assets.bein.com/mena/sites/3/2015/06/MOVIES4_FAMILY_DIGITAL_Mono.png",
+    "group": "entertainment"
+  },
+  "entertainment_slider_5": {
+    "name": "Box Office 1",
+    "logo": "https://assets.bein.com/mena/sites/3/2015/06/BoxOffice1_DIGITAL_Mono.png",
+    "group": "entertainment"
+  },
+  "entertainment_slider_6": {
+    "name": "Box Office 2",
+    "logo": "https://assets.bein.com/mena/sites/3/2015/06/BoxOffice2_DIGITAL_Mono.png.png",
+    "group": "entertainment"
+  },
+  "entertainment_slider_7": {
+    "name": "Star Action",
+    "logo": "https://assets.bein.com/mena/sites/3/2015/06/Star_Action_2024-200x200-1.png",
+    "group": "entertainment"
+  },
+  "entertainment_slider_8": {
+    "name": "Star Movies",
+    "logo": "https://assets.bein.com/mena/sites/3/2015/06/Star_Movies_2024-200x200-1.png",
+    "group": "entertainment"
+  },
+  "entertainment_slider_9": {
+    "name": "beIN SERIES 1",
+    "logo": "https://assets.bein.com/mena/sites/3/2015/06/SERIES1_DIGITAL_Mono.png",
+    "group": "entertainment"
+  },
+  "entertainment_slider_10": {
+    "name": "beIN SERIES 2",
+    "logo": "https://assets.bein.com/mena/sites/3/2015/06/SERIES2_DIGITAL_Mono.png",
+    "group": "entertainment"
+  },
+  "entertainment_slider_11": {
+    "name": "beIN Drama Stacked",
+    "logo": "https://assets.bein.com/mena/sites/3/2021/02/Drama_Stacked_nov_2024_200x200.png",
+    "group": "entertainment"
+  },
+  "entertainment_slider_12": {
+    "name": "GOURMET",
+    "logo": "https://assets.bein.com/mena/sites/3/2015/06/GOURMET_DIGITAL_Mono.png",
+    "group": "entertainment"
+  },
+  "entertainment_slider_13": {
+    "name": "travel channel",
+    "logo": "https://assets.bein.com/mena/sites/3/2015/06/0003_TCI_colour-Blue_UK2016.png",
+    "group": "entertainment"
+  },
+  "entertainment_slider_14": {
+    "name": "Food Network",
+    "logo": "https://www.bein.com/en/wp-content/uploads/sites/3/2020/06/food-network-logo-2018-1.png",
+    "group": "entertainment"
+  },
+  "entertainment_slider_15": {
+    "name": "HGTV",
+    "logo": "https://www.bein.com/en/wp-content/uploads/sites/3/2020/06/HGTV.png",
+    "group": "entertainment"
+  },
+  "entertainment_slider_16": {
+    "name": "Star World",
+    "logo": "https://assets.bein.com/mena/sites/3/2015/06/Star_World_2024-200x200-1.png",
+    "group": "entertainment"
+  },
+  "entertainment_slider_17": {
+    "name": "FATAFEAT",
+    "logo": "https://www.bein.com/en/wp-content/uploads/sites/3/2020/06/FATAFEAT-1.png",
+    "group": "entertainment"
+  },
+  "entertainment_slider_18": {
+    "name": "Bloomberg",
+    "logo": "https://www.bein.com/en/wp-content/uploads/sites/3/2020/06/Bloomberg-1.png",
+    "group": "entertainment"
+  },
+  "entertainment_slider_19": {
+    "name": "Nat geo",
+    "logo": "https://www.bein.com/en/wp-content/uploads/sites/3/2020/06/Nat_geo_hd.png",
+    "group": "entertainment"
+  },
+  "entertainment_slider_20": {
+    "name": "PDATEz NGW",
+    "logo": "https://assets.bein.com/mena/sites/3/2020/06/UPDATEz-NGW_Full_Logo_20182.png",
+    "group": "entertainment"
+  },
+  "entertainment_slider_21": {
+    "name": "BBCEarth",
+    "logo": "https://assets.bein.com/mena/sites/3/2020/06/BBCEarth-new_200x200.png",
+    "group": "entertainment"
+  },
+  "entertainment_slider_22": {
+    "name": "CNN International",
+    "logo": "https://assets.bein.com/mena/sites/3/2015/06/0004_CNN_International_logo.svg.png",
+    "group": "entertainment"
+  },
+  "entertainment_slider_23": {
+    "name": "Euro News",
+    "logo": "https://www.bein.com/en/wp-content/uploads/sites/3/2020/06/Euro-News.png",
+    "group": "entertainment"
+  },
+  "entertainment_slider_24": {
+    "name": "Discovery",
+    "logo": "https://assets.bein.com/mena/sites/3/2021/03/Discovery-logo-1.png",
+    "group": "entertainment"
+  },
+  "entertainment_slider_25": {
+    "name": "be JUNIOR",
+    "logo": "https://www.bein.com/en/wp-content/uploads/sites/3/2020/06/beJUNIOR-1.png",
+    "group": "entertainment"
+  },
+  "entertainment_slider_26": {
+    "name": "entertainment_slider_26",
+    "logo": "https://assets.bein.com/mena/sites/3/2020/06/Jeem-HD-1-01.png",
+    "group": "entertainment"
+  },
+  "entertainment_slider_27": {
+    "name": "Bara3em",
+    "logo": "https://www.bein.com/en/wp-content/uploads/sites/3/2020/06/Bara3em-1.png",
+    "group": "entertainment"
+  },
+  "entertainment_slider_28": {
+    "name": "AWG CN Brand",
+    "logo": "https://assets.bein.com/mena/sites/3/2015/06/0001_AWG_CN_Brand_Logo_1color_Black_4C.png",
+    "group": "entertainment"
+  },
+  "entertainment_slider_29": {
+    "name": "Cartoon Network Arabic",
+    "logo": "https://www.bein.com/en/wp-content/uploads/sites/3/2020/06/Cartoon-Network-Arabic-1.png",
+    "group": "entertainment"
+  },
+  "entertainment_slider_30": {
+    "name": "Disney Blue",
+    "logo": "https://assets.bein.com/mena/sites/3/2025/02/DC-Blue-new.png",
+    "group": "entertainment"
+  },
+  "entertainment_slider_31": {
+    "name": "Disney jr.",
+    "logo": "https://assets.bein.com/mena/sites/3/2025/02/DJ.png",
+    "group": "entertainment"
+  },
+  "entertainment_slider_32": {
+    "name": "Baby TV",
+    "logo": "https://assets.bein.com/mena/sites/3/2021/11/Baby-TV-2.png",
+    "group": "entertainment"
+  },
+  "entertainment_slider_33": {
+    "name": "cartoonito",
+    "logo": "https://assets.bein.com/mena/sites/3/2020/06/cartoonito.png",
+    "group": "entertainment"
+  }
+}
