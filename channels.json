@@ -79,9 +79,24 @@
     "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
     "source": "mytvsupercom"
   },
+  "pearl.mytvsupercom": {
+    "name": "Pearl (Free)",
+    "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
+    "source": "mytvsupercom"
+  },
   "classic.mytvsupercom": {
     "name": "TVB Classic",
     "icon": "https://assets.mytvsuper.com/channel/1651032673030814_CTVC.png",
+    "source": "mytvsupercom"
+  },
+  "asiandrama.mytvsupercom": {
+    "name": "Asian Drama",
+    "icon": "https://assets.mytvsuper.com/channel/1651032687467218_CTVS.png",
+    "source": "mytvsupercom"
+  },
+  "chinesedrama.mytvsupercom": {
+    "name": "Chinese Drama",
+    "icon": "https://assets.mytvsuper.com/channel/1651032713939760_CDR3.png",
     "source": "mytvsupercom"
   },
   "asianselect.mytvsupercom": {
@@ -3725,6 +3740,11 @@
     "source": "beinsportsconnecthk"
   },
   "beinsportsoverflow17.beinsportsconnecthk": {
+    "name": "beIN SPORTS MAX",
+    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
+    "source": "beinsportsconnecthk"
+  },
+  "beinsportsoverflow18.beinsportsconnecthk": {
     "name": "beIN SPORTS MAX",
     "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
     "source": "beinsportsconnecthk"
