@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 beIN SPORTS 专业EPG生成器 (修复版)
-修复了re导入问题和配置处理问题
+使用接口原始时区，不进行时区转换
 """
 
 import requests
@@ -61,18 +61,44 @@ def iso_format(dt: datetime) -> str:
     return dt.strftime("%Y-%m-%dT%H:%M:%S.000Z")
 
 def xmltv_time(dt: datetime) -> str:
-    """转换为XMLTV时间格式（UTC+8 中国时区）"""
-    dt_cn = dt + timedelta(hours=8)
-    return dt_cn.strftime("%Y%m%d%H%M%S +0800")
+    """转换为XMLTV时间格式（使用原始时区，不进行转换）"""
+    # 如果datetime有时区信息，保留它
+    if dt.tzinfo is not None:
+        # 提取时区偏移
+        offset = dt.utcoffset()
+        if offset is not None:
+            offset_seconds = offset.total_seconds()
+            offset_hours = int(offset_seconds // 3600)
+            offset_minutes = int((offset_seconds % 3600) // 60)
+            offset_str = f"{offset_hours:+03d}{offset_minutes:02d}"
+        else:
+            offset_str = "+0000"
+    else:
+        # 如果没有时区信息，假设是UTC
+        offset_str = "+0000"
+    
+    # 格式化为XMLTV时间格式
+    time_str = dt.strftime("%Y%m%d%H%M%S")
+    return f"{time_str} {offset_str}"
 
 def parse_iso_time(iso_str: str) -> Optional[datetime]:
-    """解析ISO时间字符串"""
+    """解析ISO时间字符串，保留时区信息"""
     try:
+        # 处理ISO格式时间
         if iso_str.endswith('Z'):
-            iso_str = iso_str[:-1] + '+00:00'
-        dt = datetime.fromisoformat(iso_str)
-        if dt.tzinfo is None:
+            # UTC时间
+            dt = datetime.fromisoformat(iso_str[:-1] + '+00:00')
+        elif 'T' in iso_str and '+' in iso_str:
+            # 包含时区偏移的时间
+            dt = datetime.fromisoformat(iso_str)
+        elif 'T' in iso_str and '-' in iso_str[-6:]:
+            # 包含时区偏移的时间
+            dt = datetime.fromisoformat(iso_str)
+        else:
+            # 没有明确时区，假设是UTC
+            dt = datetime.fromisoformat(iso_str)
             dt = dt.replace(tzinfo=timezone.utc)
+        
         return dt
     except Exception as e:
         log(f"时间解析失败: {iso_str} - {e}")
@@ -350,7 +376,8 @@ def create_xml_root() -> ET.Element:
     tv.set("source-info-url", "https://www.beinsports.com")
     tv.set("generator-info-name", "beIN-SPORTS-EPG-Generator-Pro")
     tv.set("generator-info-url", "")
-    tv.set("date", datetime.now().strftime("%Y%m%d%H%M%S +0000"))
+    # 使用UTC时间
+    tv.set("date", datetime.now(timezone.utc).strftime("%Y%m%d%H%M%S +0000"))
     
     return tv
 
@@ -412,6 +439,7 @@ def parse_program_data(program: Dict, id_to_channel: Dict) -> Optional[Dict]:
         if not start_time or not end_time:
             return None
         
+        # 解析时间，保留原始时区
         start_dt = parse_iso_time(start_time)
         end_dt = parse_iso_time(end_time)
         if not start_dt or not end_dt:
@@ -588,6 +616,7 @@ def main():
     """主程序"""
     print("=" * 60)
     print("beIN SPORTS 专业EPG生成器 (修复版)")
+    print("使用接口原始时区，不进行时区转换")
     print("=" * 60)
     
     # 清理错误日志
@@ -612,10 +641,11 @@ def main():
     end_time = now + timedelta(days=DAYS_FORWARD)
     
     print(f"\n📅 EPG时间范围:")
-    print(f"   当前时间: {now.strftime('%Y-%m-%d %H:%M:%S UTC')}")
-    print(f"   开始时间: {start_time.strftime('%Y-%m-%d %H:%M:%S UTC')}")
-    print(f"   结束时间: {end_time.strftime('%Y-%m-%d %H:%M:%S UTC')}")
+    print(f"   当前时间: {now.strftime('%Y-%m-%d %H:%M:%S %Z')}")
+    print(f"   开始时间: {start_time.strftime('%Y-%m-%d %H:%M:%S %Z')}")
+    print(f"   结束时间: {end_time.strftime('%Y-%m-%d %H:%M:%S %Z')}")
     print(f"   覆盖时长: {DAYS_BACK + DAYS_FORWARD} 天")
+    print(f"   ⚠️ 注意: 使用接口原始时区，不进行时区转换")
     
     # 4. 获取EPG数据
     all_programs = []
