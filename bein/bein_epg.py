@@ -26,12 +26,6 @@ HEADERS = {
 OUT_XML = "bein_epg.xml"
 OUT_GZ = "bein_epg.xml.gz"
 
-# 使用datetime处理时区，无需额外依赖
-def get_utc_offset():
-    """获取本地时区与UTC的偏移（小时）"""
-    utc_offset = time.timezone if time.localtime().tm_isdst == 0 else time.altzone
-    return -utc_offset // 3600  # 转换为小时
-
 def log(msg):
     now = datetime.datetime.now().strftime("%H:%M:%S")
     print(f"[{now}] {msg}", flush=True)
@@ -43,7 +37,6 @@ def load_channel_mapping():
             mapping_data = json.load(f)
         
         # 构建映射：临时ID -> 最终频道信息
-        # 临时ID格式: sports_slider_1, entertainment_slider_1
         channel_map = {}
         
         for slider_key, channel_info in mapping_data.items():
@@ -184,9 +177,6 @@ def convert_programs_with_mapping(all_programs, channel_map):
         temp_id = prog["channel_temp_id"]
         
         # 构建在mapping.json中的键
-        # 从 "sports_slider_1" 到 "sports_slider_1"
-        # 但注意原始脚本生成的格式可能是 "sports_slider_1"
-        # 我们需要确保格式匹配
         if temp_id in channel_map:
             channel_info = channel_map[temp_id]
             final_channel_id = channel_info['id']
@@ -233,8 +223,8 @@ def convert_programs_with_mapping(all_programs, channel_map):
     
     return converted_programs, channel_info_map
 
-def generate_xml_with_china_timezone(channel_info_map, all_programs):
-    """生成XML（使用中国时区）"""
+def generate_xml_using_original_times(channel_info_map, all_programs):
+    """生成XML（直接使用抓取的原始时间，不进行时区转换）"""
     xml = ['<?xml version="1.0" encoding="UTF-8"?>', '<tv>']
     
     # 1. 频道定义
@@ -246,9 +236,9 @@ def generate_xml_with_china_timezone(channel_info_map, all_programs):
         xml.append('  </channel>')
     
     # 2. 节目信息
-    # 中国时区偏移（UTC+8）
-    china_offset = 8
-    offset_str = f" +0{china_offset}00" if china_offset >= 0 else f" -0{abs(china_offset)}00"
+    # 使用UTC+0时区（或任何时区，但保持原样）
+    # XMLTV格式需要时区信息，我们使用+0000表示不偏移
+    timezone_offset = "+0000"
     
     for prog in all_programs:
         try:
@@ -256,7 +246,7 @@ def generate_xml_with_china_timezone(channel_info_map, all_programs):
             sh, sm = map(int, prog["start"].split(":"))
             eh, em = map(int, prog["end"].split(":"))
             
-            # 创建中国时区的datetime
+            # 创建时间对象
             start_dt = date_obj.replace(hour=sh, minute=sm, second=0)
             end_dt = date_obj.replace(hour=eh, minute=em, second=0)
             
@@ -264,9 +254,9 @@ def generate_xml_with_china_timezone(channel_info_map, all_programs):
             if end_dt <= start_dt:
                 end_dt += timedelta(days=1)
             
-            # 格式化为XMLTV格式（使用中国时区UTC+8）
-            start_str = start_dt.strftime("%Y%m%d%H%M%S") + offset_str
-            end_str = end_dt.strftime("%Y%m%d%H%M%S") + offset_str
+            # 格式化为XMLTV格式，使用UTC+0时区
+            start_str = start_dt.strftime("%Y%m%d%H%M%S") + timezone_offset
+            end_str = end_dt.strftime("%Y%m%d%H%M%S") + timezone_offset
             
             # 转义XML特殊字符
             title = prog["title"]
@@ -322,7 +312,7 @@ def main():
     
     # 5. 生成XML
     log("\n🔨 生成XML文件...")
-    xml_content = generate_xml_with_china_timezone(channel_info_map, all_programs)
+    xml_content = generate_xml_using_original_times(channel_info_map, all_programs)
     
     with open(OUT_XML, "w", encoding="utf-8") as f:
         f.write(xml_content)
@@ -338,8 +328,9 @@ def main():
     log(f"✅ GZ压缩文件已保存: {OUT_GZ} ({gz_size:,} 字节)")
     
     # 7. 显示时区信息
-    log(f"\n🌍 时区信息: 使用中国时区 (UTC+8)")
+    log(f"\n🌍 时区信息: 使用原始时间 (UTC+0)")
     log(f"📅 处理天数: 3天")
+    log(f"📺 节目时间: 与电视台节目表完全一致，无时区转换")
     
     log("\n🎉 EPG生成完成!")
     return True
