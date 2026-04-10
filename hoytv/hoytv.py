@@ -181,7 +181,7 @@ def build_epg():
 
     print("\n===== 完成 =====")
     print(f"节目总数: {total_programs}")
-    print("输出: epg.xml / epg.xml.gz")
+    print("输出: hoytv/epg.xml / hoytv/epg.xml.gz")
 
 
 # =========================
