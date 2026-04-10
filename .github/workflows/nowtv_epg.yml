@@ -2,7 +2,7 @@ name: NOWTV EPG Update
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # 每6小时运行
+    - cron: "0 2 * * *"   # 每6小时运行
   workflow_dispatch:
 
 permissions:
