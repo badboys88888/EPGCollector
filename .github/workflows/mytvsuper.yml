@@ -2,7 +2,7 @@ name: MyTV SUPER EPG Auto Builder
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # 每6小时自动更新
+    - "0 2 * * *"   # 每天utc凌晨2点自动更新
   workflow_dispatch:        # 手动运行
 
 jobs:
