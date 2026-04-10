@@ -1,0 +1,460 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+myTV SUPER EPG 抓取脚本 (修正版 - 解决节目提取问题)
+已修复：探测器无法正确提取节目数据的问题
+"""
+
+import requests
+import json
+import gzip
+import re
+import os
+import sys
+import time
+from datetime import datetime, timedelta
+from concurrent.futures import ThreadPoolExecutor, as_completed
+import xml.etree.ElementTree as ET
+import xml.dom.minidom as minidom
+
+# ===================== 配置 ===================== #
+CHANNEL_API_URL = "https://content-api.mytvsuper.com/v1/channel/list"
+EPG_API_URL = "https://content-api.mytvsuper.com/v1/epg"
+
+PLATFORM = "web"
+COUNTRY_CODE = "ZP"
+PROFILE_CLASS = "general"
+
+DAYS_RANGE = 7
+MAX_WORKERS = 8
+TIMEOUT = 30
+RETRY_COUNT = 2
+REQUEST_DELAY = 0.5
+
+OUTPUT_JSON = "epg.json"
+OUTPUT_XML = "epg.xml"
+OUTPUT_GZ = "epg.xml.gz"
+
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "Accept": "application/json",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Referer": "https://www.mytvsuper.com/",
+}
+
+# ===================== 辅助工具 ===================== #
+def print_step(text):
+    print(f"\n{'='*60}")
+    print(f"  {text}")
+    print(f"{'='*60}")
+
+def print_info(text):
+    print(f"📌 {text}")
+
+def print_success(text):
+    print(f"✅ {text}")
+
+def print_warning(text):
+    print(f"⚠️  {text}")
+
+def print_error(text):
+    print(f"❌ {text}")
+
+def get_date_range(days=DAYS_RANGE):
+    now = datetime.now()
+    start_date = now.strftime("%Y%m%d")
+    end_date = (now + timedelta(days=days)).strftime("%Y%m%d")
+    return start_date, end_date
+
+def format_xmltv_time(dt_str):
+    if not dt_str:
+        return ""
+    try:
+        for fmt in ["%Y-%m-%d %H:%M:%S", "%Y-%m-%dT%H:%M:%S", "%Y%m%d%H%M%S"]:
+            try:
+                dt = datetime.strptime(dt_str, fmt)
+                return dt.strftime("%Y%m%d%H%M%S") + " +0800"
+            except ValueError:
+                continue
+        return ""
+    except Exception:
+        return ""
+
+# ===================== 频道名称清理 ===================== #
+def clean_channel_name(name):
+    if not name:
+        return name
+    patterns = [
+        r'\s*\(免費\)',
+        r'\s*\(Free\)',
+        r'\s*免費',
+        r'\s*Free',
+    ]
+    cleaned = name
+    for pattern in patterns:
+        cleaned = re.sub(pattern, '', cleaned, flags=re.IGNORECASE)
+    cleaned = cleaned.strip().replace('  ', ' ')
+    cleaned = re.sub(r'\(\s*\)', '', cleaned)
+    return cleaned
+
+# ===================== 核心修复：智能节目探测器 ===================== #
+def find_programmes_in_data(data):
+    """
+    智能节目探测器 - 修复版
+    专门处理 myTV SUPER 的复杂数据结构
+    """
+    programmes = []
+    
+    if not data:
+        return programmes
+    
+    # 情况1: 数据是列表（这是最常见的情况）
+    if isinstance(data, list):
+        for item in data:
+            if isinstance(item, dict):
+                # 尝试直接路径: data -> item -> epg
+                if "item" in item and isinstance(item["item"], list):
+                    for day_item in item["item"]:
+                        if isinstance(day_item, dict) and "epg" in day_item:
+                            epg_list = day_item["epg"]
+                            if isinstance(epg_list, list):
+                                for prog in epg_list:
+                                    if isinstance(prog, dict) and "start_datetime" in prog:
+                                        programmes.append(prog)
+                
+                # 如果没有通过直接路径找到，尝试其他可能的结构
+                else:
+                    # 递归查找
+                    programmes.extend(_deep_find_programmes(item, max_depth=5))
+    
+    # 情况2: 数据是字典
+    elif isinstance(data, dict):
+        # 检查这个字典本身是否是节目
+        if "start_datetime" in data and data["start_datetime"]:
+            programmes.append(data)
+        
+        # 否则递归查找
+        else:
+            programmes.extend(_deep_find_programmes(data, max_depth=5))
+    
+    return programmes
+
+def _deep_find_programmes(data, depth=0, max_depth=5):
+    """
+    深度递归查找节目
+    """
+    found = []
+    
+    if depth >= max_depth or data is None:
+        return found
+    
+    if isinstance(data, dict):
+        # 如果是节目，直接返回
+        if "start_datetime" in data and data["start_datetime"]:
+            found.append(data)
+        else:
+            # 递归检查所有值
+            for value in data.values():
+                found.extend(_deep_find_programmes(value, depth+1, max_depth))
+    
+    elif isinstance(data, list):
+        for item in data:
+            found.extend(_deep_find_programmes(item, depth+1, max_depth))
+    
+    return found
+
+# ===================== 频道信息获取 ===================== #
+def get_channels():
+    print_step("1. 获取频道信息")
+    
+    params = {
+        "platform": PLATFORM,
+        "country_code": COUNTRY_CODE,
+        "profile_class": PROFILE_CLASS
+    }
+    
+    try:
+        response = requests.get(CHANNEL_API_URL, params=params, 
+                               headers=HEADERS, timeout=TIMEOUT)
+        response.raise_for_status()
+        data = response.json()
+    except Exception as e:
+        print_error(f"获取频道列表失败: {e}")
+        return {}
+    
+    channels = data.get("channels", [])
+    channel_info = {}
+    
+    for ch in channels:
+        code = ch.get("network_code")
+        if not code:
+            continue
+        
+        name_tc = clean_channel_name(ch.get("name_tc", ""))
+        name_en = clean_channel_name(ch.get("name_en", ""))
+        icon = ch.get("landscape_poster") or ch.get("portrait_poster") or ""
+        
+        channel_info[code] = {
+            "id": code,
+            "name_tc": name_tc,
+            "name_en": name_en,
+            "icon": icon,
+            "channel_no": ch.get("channel_no", 0)
+        }
+    
+    print_success(f"获取到 {len(channel_info)} 个频道")
+    return channel_info
+
+# ===================== EPG获取 ===================== #
+def fetch_epg_with_retry(network_code, from_date, to_date):
+    params = {
+        "platform": PLATFORM,
+        "country_code": COUNTRY_CODE,
+        "network_code": network_code,
+        "from": from_date,
+        "to": to_date
+    }
+    
+    for attempt in range(RETRY_COUNT + 1):
+        try:
+            time.sleep(REQUEST_DELAY)
+            response = requests.get(EPG_API_URL, params=params, 
+                                   headers=HEADERS, timeout=TIMEOUT)
+            response.raise_for_status()
+            return network_code, response.json()
+        except Exception as e:
+            if attempt < RETRY_COUNT:
+                wait = 2 ** attempt
+                time.sleep(wait)
+            else:
+                print_warning(f"频道 {network_code} 获取失败: {e}")
+                return network_code, None
+    
+    return network_code, None
+
+def fetch_all_epg(channel_codes, from_date, to_date):
+    print_step("2. 获取EPG数据")
+    print_info(f"开始获取 {len(channel_codes)} 个频道的节目表...")
+    
+    epg_data = {}
+    successful = 0
+    
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        futures = {executor.submit(fetch_epg_with_retry, code, from_date, to_date): code 
+                  for code in channel_codes}
+        
+        for i, future in enumerate(as_completed(futures), 1):
+            code, data = future.result()
+            epg_data[code] = data
+            
+            if data is not None:
+                successful += 1
+            
+            if i % 20 == 0 or i == len(channel_codes):
+                print(f"  [{i:3d}/{len(channel_codes)}] 已获取 {i} 个频道")
+    
+    print_success(f"EPG获取完成: 成功 {successful}/{len(channel_codes)}")
+    return epg_data
+
+# ===================== XML构建 (使用改进的探测器) ===================== #
+def add_programme_to_xml(tv_element, channel_code, programme, channel_name=""):
+    """添加单个节目到XML树"""
+    start_time = programme.get("start_datetime")
+    if not start_time:
+        return None
+    
+    xml_start = format_xmltv_time(start_time)
+    if not xml_start:
+        print_warning(f"  频道 {channel_code} 时间格式解析失败: {start_time}")
+        return None
+    
+    prog_elem = ET.SubElement(tv_element, "programme", {
+        "channel": channel_code,
+        "start": xml_start
+    })
+    
+    # 标题
+    title_tc = programme.get("programme_title_tc") or ""
+    title_en = programme.get("programme_title_en") or title_tc
+    
+    if title_tc:
+        title_zh = ET.SubElement(prog_elem, "title")
+        title_zh.set("lang", "zh")
+        title_zh.text = title_tc[:200]
+    
+    if title_en and title_en != title_tc:
+        title_en_elem = ET.SubElement(prog_elem, "title")
+        title_en_elem.set("lang", "en")
+        title_en_elem.text = title_en[:200]
+    
+    # 描述
+    desc = programme.get("episode_synopsis_tc") or ""
+    if desc:
+        desc_elem = ET.SubElement(prog_elem, "desc")
+        desc_elem.set("lang", "zh")
+        desc_elem.text = desc[:300]
+    
+    return prog_elem
+
+def build_xml_with_debug(channel_info, epg_data):
+    """构建XMLTV文档，带调试信息"""
+    print_step("3. 构建XMLTV数据")
+    
+    tv = ET.Element("tv")
+    tv.set("source-info-url", "https://www.mytvsuper.com")
+    tv.set("source-info-name", "myTV SUPER")
+    tv.set("generator-info-name", "myTV SUPER EPG Grabber (修正版)")
+    tv.set("generator-info-url", "")
+    
+    # 1. 添加频道信息
+    print_info("添加频道信息...")
+    for code, info in channel_info.items():
+        ch = ET.SubElement(tv, "channel", id=code)
+        
+        if info["name_tc"]:
+            dn_zh = ET.SubElement(ch, "display-name")
+            dn_zh.set("lang", "zh")
+            dn_zh.text = info["name_tc"]
+        
+        if info["name_en"]:
+            dn_en = ET.SubElement(ch, "display-name")
+            dn_en.set("lang", "en")
+            dn_en.text = info["name_en"]
+        
+        if info["icon"]:
+            ET.SubElement(ch, "icon", src=info["icon"])
+    
+    # 2. 添加节目信息
+    print_info("提取并添加节目信息...")
+    total_programmes = 0
+    channels_with_data = 0
+    
+    for code, data in epg_data.items():
+        if not data or code not in channel_info:
+            continue
+        
+        channel_name = channel_info[code]["name_tc"][:15] if channel_info[code]["name_tc"] else code
+        
+        # 使用改进的探测器
+        programmes = find_programmes_in_data(data)
+        
+        if not programmes:
+            # 调试：为什么没找到？
+            if isinstance(data, list) and len(data) > 0:
+                first_item = data[0]
+                if isinstance(first_item, dict):
+                    print_warning(f"  频道 {channel_name}: 数据结构: {list(first_item.keys())}")
+            continue
+        
+        channels_with_data += 1
+        
+        # 按开始时间排序
+        programmes.sort(key=lambda x: x.get("start_datetime", ""))
+        
+        channel_prog_count = 0
+        for prog in programmes:
+            if add_programme_to_xml(tv, code, prog, channel_name):
+                total_programmes += 1
+                channel_prog_count += 1
+        
+        if channel_prog_count > 0:
+            print(f"  📺 频道 {channel_name:<15} 添加了 {channel_prog_count:3d} 个节目")
+    
+    print_success(f"节目添加完成: {channels_with_data} 个频道有数据，共 {total_programmes} 个节目")
+    
+    if total_programmes == 0:
+        print_error("警告：没有找到任何节目数据！")
+        print_error("建议检查探测器逻辑或API返回的数据结构")
+    
+    return tv
+
+# ===================== 文件保存 ===================== #
+def save_json(data, filename=OUTPUT_JSON):
+    with open(filename, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    size = os.path.getsize(filename) / 1024
+    print_success(f"JSON 已保存: {filename} ({size:.1f} KB)")
+
+def save_xml_pretty(tree, filename=OUTPUT_XML):
+    xml_str = ET.tostring(tree, encoding="utf-8")
+    parsed = minidom.parseString(xml_str)
+    pretty_xml = parsed.toprettyxml(indent="  ", encoding="utf-8")
+    
+    with open(filename, "wb") as f:
+        f.write(pretty_xml)
+    
+    size = os.path.getsize(filename) / 1024
+    print_success(f"XML  已保存: {filename} ({size:.1f} KB)")
+
+def save_gzip_file(xml_file=OUTPUT_XML, gz_file=OUTPUT_GZ):
+    with open(xml_file, "rb") as f_in:
+        with gzip.open(gz_file, "wb") as f_out:
+            f_out.write(f_in.read())
+    
+    size = os.path.getsize(gz_file) / 1024
+    print_success(f"GZ   已保存: {gz_file} ({size:.1f} KB)")
+
+# ===================== 主程序 ===================== #
+def main():
+    print_step("myTV SUPER EPG 抓取工具 (修正版)")
+    start_time = datetime.now()
+    print_info(f"开始时间: {start_time.strftime('%Y-%m-%d %H:%M:%S')}")
+    
+    try:
+        # 1. 获取日期范围
+        from_date, to_date = get_date_range(DAYS_RANGE)
+        print_info(f"节目日期: {from_date} 至 {to_date} ({DAYS_RANGE}天)")
+        
+        # 2. 获取频道信息
+        channel_info = get_channels()
+        if not channel_info:
+            print_error("无频道信息，退出")
+            return
+        
+        channel_codes = list(channel_info.keys())
+        
+        # 3. 获取EPG数据
+        epg_data = fetch_all_epg(channel_codes, from_date, to_date)
+        
+        if not epg_data:
+            print_error("无EPG数据，退出")
+            return
+        
+        # 4. 保存原始JSON
+        save_json(epg_data)
+        
+        # 5. 构建并保存XML
+        xml_tree = build_xml_with_debug(channel_info, epg_data)
+        save_xml_pretty(xml_tree)
+        
+        # 6. 压缩为GZ
+        save_gzip_file()
+        
+        # 7. 统计信息
+        print_step("任务完成")
+        end_time = datetime.now()
+        duration = (end_time - start_time).total_seconds()
+        
+        successful = sum(1 for d in epg_data.values() if d is not None)
+        channels_with_icon = sum(1 for info in channel_info.values() if info['icon'])
+        
+        print_info("统计摘要:")
+        print(f"  • 执行耗时: {duration:.1f} 秒")
+        print(f"  • 频道总数: {len(channel_info)}")
+        print(f"  • EPG成功率: {successful}/{len(channel_codes)}")
+        print(f"  • 有图标的频道: {channels_with_icon}")
+        print(f"  • 输出文件:")
+        print(f"      - {OUTPUT_JSON}")
+        print(f"      - {OUTPUT_XML}")
+        print(f"      - {OUTPUT_GZ}")
+        
+    except KeyboardInterrupt:
+        print("\n\n⏹️  用户中断")
+    except Exception as e:
+        print_error(f"程序异常: {e}")
+        import traceback
+        traceback.print_exc()
+
+# ===================== 入口 ===================== #
+if __name__ == "__main__":
+    main()
