@@ -9,6 +9,7 @@ from datetime import datetime, timedelta
 import xml.etree.ElementTree as ET
 import xml.dom.minidom as minidom
 import os
+import re
 
 # ===================== 配置常量 ===================== #
 
@@ -63,6 +64,40 @@ def print_error(text: str) -> None:
     """打印错误信息"""
     print(f"❌ {text}")
 
+# ===================== 名称清理函数 ===================== #
+
+def clean_channel_name(name: str) -> str:
+    """
+    清理频道名称，移除不需要的标识
+    
+    Args:
+        name: 原始频道名称
+        
+    Returns:
+        清理后的频道名称
+    """
+    if not name:
+        return name
+    
+    # 需要移除的字符串列表
+    patterns_to_remove = [
+        r'\s*\(免費\)',      # 中文免费标识
+        r'\s*\(Free\)',     # 英文免费标识
+        r'\s*免費',         # 无括号的免费标识
+        r'\s*Free',        # 无括号的Free标识
+    ]
+    
+    cleaned_name = name
+    for pattern in patterns_to_remove:
+        cleaned_name = re.sub(pattern, '', cleaned_name, flags=re.IGNORECASE)
+    
+    # 清理多余空格和括号
+    cleaned_name = cleaned_name.strip()
+    cleaned_name = cleaned_name.replace('  ', ' ')  # 移除多余空格
+    cleaned_name = re.sub(r'\(\s*\)', '', cleaned_name)  # 移除空括号
+    
+    return cleaned_name
+
 # ===================== 日期处理函数 ===================== #
 
 def get_date_range(days: int = DAYS_RANGE) -> tuple:
@@ -115,9 +150,13 @@ def get_channels() -> dict:
         if not network_code:
             continue
         
-        # 获取频道名称
-        name_tc = channel.get("name_tc", "")
-        name_en = channel.get("name_en", "")
+        # 获取并清理频道名称
+        name_tc_raw = channel.get("name_tc", "")
+        name_en_raw = channel.get("name_en", "")
+        
+        # 清理频道名称
+        name_tc_cleaned = clean_channel_name(name_tc_raw)
+        name_en_cleaned = clean_channel_name(name_en_raw)
         
         # 获取图标URL - 优先使用横版海报，其次竖版海报
         icon_url = ""
@@ -128,19 +167,31 @@ def get_channels() -> dict:
         
         # 存储频道信息
         channel_info[network_code] = {
-            "name_tc": name_tc,
-            "name_en": name_en,
+            "name_tc_raw": name_tc_raw,  # 保留原始名称用于调试
+            "name_en_raw": name_en_raw,  # 保留原始名称用于调试
+            "name_tc": name_tc_cleaned,  # 使用清理后的名称
+            "name_en": name_en_cleaned,  # 使用清理后的名称
             "icon": icon_url,
             "channel_no": channel.get("channel_no", 0)
         }
     
     print_success(f"成功获取 {len(channel_info)} 个频道的详细信息")
     
-    # 显示前几个频道的示例
-    print_info("频道示例 (前5个):")
+    # 显示前几个频道的示例（清理前后对比）
+    print_info("频道名称清理示例 (前5个):")
     for i, (code, info) in enumerate(list(channel_info.items())[:5], 1):
         has_icon = "✅" if info["icon"] else "❌"
-        print(f"  {i}. {info['name_tc'][:20]:20s} (ID: {code}) 图标: {has_icon}")
+        print(f"  {i}. {code}")
+        if info["name_tc_raw"] != info["name_tc"]:
+            print(f"     中文: '{info['name_tc_raw'][:30]}' → '{info['name_tc'][:30]}'")
+        else:
+            print(f"     中文: '{info['name_tc'][:30]}'")
+        
+        if info["name_en_raw"] != info["name_en"]:
+            print(f"     英文: '{info['name_en_raw'][:30]}' → '{info['name_en'][:30]}'")
+        else:
+            print(f"     英文: '{info['name_en'][:30]}'")
+        print(f"     图标: {has_icon}")
     
     if len(channel_info) > 5:
         print(f"  ... 等 {len(channel_info) - 5} 个频道")
@@ -229,13 +280,13 @@ def build_xml(channel_info: dict, epg_data: dict) -> ET.Element:
     for channel_code, info in channel_info.items():
         ch = ET.SubElement(tv, "channel", id=channel_code)
         
-        # 添加中文显示名称
+        # 添加中文显示名称（使用清理后的名称）
         if info["name_tc"]:
             dn_tc = ET.SubElement(ch, "display-name")
             dn_tc.set("lang", "zh")
             dn_tc.text = info["name_tc"]
         
-        # 添加英文显示名称
+        # 添加英文显示名称（使用清理后的名称）
         if info["name_en"]:
             dn_en = ET.SubElement(ch, "display-name")
             dn_en.set("lang", "en")
@@ -412,9 +463,17 @@ def main():
         # 计算统计信息
         channels_with_icon = sum(1 for info in channel_info.values() if info.get("icon"))
         
+        # 显示清理效果统计
+        cleaned_names = 0
+        for info in channel_info.values():
+            if (info["name_tc_raw"] != info["name_tc"] or 
+                info["name_en_raw"] != info["name_en"]):
+                cleaned_names += 1
+        
         print_info("统计信息:")
         print(f"  • 频道总数: {len(channel_info)}")
         print(f"  • 有图标的频道: {channels_with_icon}")
+        print(f"  • 清理名称的频道: {cleaned_names}")
         print(f"  • EPG获取成功率: {successful}/{len(channel_codes)}")
         print(f"  • 输出文件:")
         print(f"      - {OUTPUT_JSON}")
