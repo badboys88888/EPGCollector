@@ -2,7 +2,7 @@ name: HOYTV EPG Update
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # 每天一次（UTC 00:00）
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 permissions:
@@ -13,32 +13,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ 拉代码
       - name: Checkout
         uses: actions/checkout@v4
 
-      # 2️⃣ Python
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      # 3️⃣ 依赖
       - name: Install dependencies
         run: pip install requests
 
-      # 4️⃣ 运行脚本
       - name: Run script
         run: python hoytv/hoytv.py
 
-      # 5️⃣ 提交（防炸版）
-      - name: Commit & Push
+      - name: Commit and Push
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
 
-          git add hoytv/*.xml hoytv/*.gz || true
+          git add hoytv/hoytv.xml hoytv/hoytv.xml.gz || true
 
-          git commit -m "Update HOYTV EPG" || echo "No changes"
+          git commit -m "Update HOYTV EPG $(date)" || true
 
           git push
