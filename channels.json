@@ -1259,1529 +1259,9 @@
     "icon": "https://padmin.static.kbs.co.kr/live/2025/3/11/1741700004556_443857.png",
     "source": "kbscokr"
   },
-  "BBC.One.EastHD.uk": {
-    "name": "BBC One EastHD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3006.png",
-    "source": "www.sky.com"
-  },
-  "BBC.NEWS.HD.uk": {
-    "name": "BBC NEWS HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2085.png",
-    "source": "www.sky.com"
-  },
-  "Pitaara..uk": {
-    "name": "Pitaara ",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1260.png",
-    "source": "www.sky.com"
-  },
-  "POP.Max+1.uk": {
-    "name": "POP Max+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4263.png",
-    "source": "www.sky.com"
-  },
-  "Really.uk": {
-    "name": "Really",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2325.png",
-    "source": "www.sky.com"
-  },
-  "SkyMegaHitsHD.uk": {
-    "name": "SkyMegaHitsHD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4033.png",
-    "source": "www.sky.com"
-  },
-  "TJC.uk": {
-    "name": "TJC",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1033.png",
-    "source": "www.sky.com"
-  },
-  "TRT.World.uk": {
-    "name": "TRT World",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5071.png",
-    "source": "www.sky.com"
-  },
-  "Dunya.News.uk": {
-    "name": "Dunya News",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1038.png",
-    "source": "www.sky.com"
-  },
-  "Takbeer.TV.uk": {
-    "name": "Takbeer TV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4408.png",
-    "source": "www.sky.com"
-  },
-  "Nat.Geo.HD.uk": {
-    "name": "Nat Geo HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4031.png",
-    "source": "www.sky.com"
-  },
-  "NatGeoWild.HD.uk": {
-    "name": "NatGeoWild HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4025.png",
-    "source": "www.sky.com"
-  },
-  "Channels.24.uk": {
-    "name": "Channels 24",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5520.png",
-    "source": "www.sky.com"
-  },
-  "Sky.Nature.HD.uk": {
-    "name": "Sky Nature HD",
-    "icon": "https://cdn.tv-guide.future.sensi.link/images/channel/b5f505e2-5bd9-5fc0-b307-35dfd4611836/logo.png",
-    "source": "www.sky.com"
-  },
-  "TNT.Sports.Ultimate.uk": {
-    "name": "TNT Sports Ultimate",
-    "icon": null,
-    "source": "www.sky.com"
-  },
-  "Sky.Sci-Fi.HD.uk": {
-    "name": "Sky Sci-Fi HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4074.png",
-    "source": "www.sky.com"
-  },
-  "Sky.Family.HD.uk": {
-    "name": "Sky Family HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4018.png",
-    "source": "www.sky.com"
-  },
-  "CNN.uk": {
-    "name": "CNN",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5602.png",
-    "source": "www.sky.com"
-  },
-  "Absolute.80s.uk": {
-    "name": "Absolute 80s",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4373.png",
-    "source": "www.sky.com"
-  },
-  "STV.North.+1.uk": {
-    "name": "STV North +1",
-    "icon": "https://tv.assets.pressassociation.io/593fc3d8-c0fb-5d6e-ae24-a298bd6c2e42.png",
-    "source": "www.sky.com"
-  },
-  "EasterEpicsHD.uk": {
-    "name": "EasterEpicsHD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4020.png",
-    "source": "www.sky.com"
-  },
-  "HGTV+1.uk": {
-    "name": "HGTV+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2309.png",
-    "source": "www.sky.com"
-  },
-  "NOW.90s00s.uk": {
-    "name": "NOW 90s00s",
-    "icon": "https://cdn.tv-guide.future.sensi.link/images/channel/2139e332-aa9f-5d46-8e51-913bfbf6693d/logo.png",
-    "source": "www.sky.com"
-  },
-  "Arirang.TV.HD.uk": {
-    "name": "Arirang TV HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1066.png",
-    "source": "www.sky.com"
-  },
-  "S4C.HD.uk": {
-    "name": "S4C HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2296.png",
-    "source": "www.sky.com"
-  },
-  "LFCTV.HD.uk": {
-    "name": "LFCTV HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3845.png",
-    "source": "www.sky.com"
-  },
-  "Zee.Cinema.uk": {
-    "name": "Zee Cinema",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2608.png",
-    "source": "www.sky.com"
-  },
-  "MUTV.HD.uk": {
-    "name": "MUTV HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1003.png",
-    "source": "www.sky.com"
-  },
-  "Thats.TV.2.uk": {
-    "name": "Thats TV 2",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1311.png",
-    "source": "www.sky.com"
-  },
-  "Radio.X.uk": {
-    "name": "Radio X",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2904.png",
-    "source": "www.sky.com"
-  },
-  "Nick.Jr..Too.uk": {
-    "name": "Nick Jr. Too",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4340.png",
-    "source": "www.sky.com"
-  },
-  "Utsav.Bharat.uk": {
-    "name": "Utsav Bharat",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3608.png",
-    "source": "www.sky.com"
-  },
-  "BBC.R4.LW.uk": {
-    "name": "BBC R4 LW",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2115.png",
-    "source": "www.sky.com"
-  },
-  "Sky.Replay.uk": {
-    "name": "Sky Replay",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1833.png",
-    "source": "www.sky.com"
-  },
-  "GINXeSportsTV.uk": {
-    "name": "GINXeSportsTV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1830.png",
-    "source": "www.sky.com"
-  },
-  "GOD.Channel.uk": {
-    "name": "GOD Channel",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3105.png",
-    "source": "www.sky.com"
-  },
-  "Kanshi.TV.uk": {
-    "name": "Kanshi TV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3753.png",
-    "source": "www.sky.com"
-  },
-  "Sky.Documentaries.HD.uk": {
-    "name": "Sky Documentaries HD",
-    "icon": "https://cdn.tv-guide.future.sensi.link/images/channel/c8128fb5-aebe-5600-aeca-f1c1ae5f89d4/logo.png",
-    "source": "www.sky.com"
-  },
-  "E4+1.uk": {
-    "name": "E4+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3300.png",
-    "source": "www.sky.com"
-  },
-  "Sky.Witness.HD.uk": {
-    "name": "Sky Witness HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4066.png",
-    "source": "www.sky.com"
-  },
-  "A1TV.uk": {
-    "name": "A1TV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1104.png",
-    "source": "www.sky.com"
-  },
-  "QVC.Style.HD.uk": {
-    "name": "QVC Style HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1118.png",
-    "source": "www.sky.com"
-  },
-  "Movies24+.uk": {
-    "name": "Movies24+",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4421.png",
-    "source": "www.sky.com"
-  },
-  "Quest.Red.uk": {
-    "name": "Quest Red",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2411.png",
-    "source": "www.sky.com"
-  },
-  "ITV3.HD.uk": {
-    "name": "ITV3 HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb6533.png",
-    "source": "www.sky.com"
-  },
-  "BBC.R.Cymru.uk": {
-    "name": "BBC R Cymru",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2123.png",
-    "source": "www.sky.com"
-  },
-  "Utsav.GOLD.uk": {
-    "name": "Utsav GOLD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3613.png",
-    "source": "www.sky.com"
-  },
-  "ITV1.HD.uk": {
-    "name": "ITV1 HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb6504.png",
-    "source": "www.sky.com"
-  },
-  "U.and.Dave.HD.uk": {
-    "name": "U and Dave HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3809.png",
-    "source": "www.sky.com"
-  },
-  "talkSPORT.uk": {
-    "name": "talkSPORT",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2902.png",
-    "source": "www.sky.com"
-  },
-  "Eman.Channel.uk": {
-    "name": "Eman Channel",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3111.png",
-    "source": "www.sky.com"
-  },
-  "Islam.Channel.uk": {
-    "name": "Islam Channel",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3214.png",
-    "source": "www.sky.com"
-  },
-  "Khushkhabri.uk": {
-    "name": "Khushkhabri",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3383.png",
-    "source": "www.sky.com"
-  },
-  "Noor.TV.uk": {
-    "name": "Noor TV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3715.png",
-    "source": "www.sky.com"
-  },
-  "BBC.One.Wal.HD.uk": {
-    "name": "BBC One Wal HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2083.png",
-    "source": "www.sky.com"
-  },
-  "5STAR.uk": {
-    "name": "5STAR",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3023.png",
-    "source": "www.sky.com"
-  },
-  "PTC.PUNJABI.uk": {
-    "name": "PTC PUNJABI",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5715.png",
-    "source": "www.sky.com"
-  },
-  "BBC.R4.Ex.uk": {
-    "name": "BBC R4 Ex",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2128.png",
-    "source": "www.sky.com"
-  },
-  "Food.Netwrk+1.uk": {
-    "name": "Food Netwrk+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3592.png",
-    "source": "www.sky.com"
-  },
-  "HUM.Masala.uk": {
-    "name": "HUM Masala",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1069.png",
-    "source": "www.sky.com"
-  },
-  "Greatest.Hits.Radio.(West.Sussex).uk": {
-    "name": "Greatest Hits Radio (West Sussex)",
-    "icon": null,
-    "source": "www.sky.com"
-  },
-  "U.and.Dave.ja.vu.uk": {
-    "name": "U and Dave ja vu",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2320.png",
-    "source": "www.sky.com"
-  },
-  "ITV4.HD.uk": {
-    "name": "ITV4 HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb6534.png",
-    "source": "www.sky.com"
-  },
-  "GB.News.HD.uk": {
-    "name": "GB News HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1196.png",
-    "source": "www.sky.com"
-  },
-  "Nick.Jr+1.uk": {
-    "name": "Nick Jr+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5089.png",
-    "source": "www.sky.com"
-  },
-  "SkySp.Racing.HD.uk": {
-    "name": "SkySp Racing HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4032.png",
-    "source": "www.sky.com"
-  },
-  "Sky.HistoryHD.uk": {
-    "name": "Sky HistoryHD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4086.png",
-    "source": "www.sky.com"
-  },
-  "POP+1.uk": {
-    "name": "POP+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4216.png",
-    "source": "www.sky.com"
-  },
-  "BBC.R.Ulster.uk": {
-    "name": "BBC R Ulster",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2119.png",
-    "source": "www.sky.com"
-  },
-  "BBC.Four.HD.uk": {
-    "name": "BBC Four HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2086.png",
-    "source": "www.sky.com"
-  },
-  "STV.North.uk": {
-    "name": "STV North",
-    "icon": null,
-    "source": "www.sky.com"
-  },
-  "RTÉ.R.na.G.uk": {
-    "name": "RTÉ R na G",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1263.png",
-    "source": "www.sky.com"
-  },
-  "SkySp+.uk": {
-    "name": "SkySp+",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3839.png",
-    "source": "www.sky.com"
-  },
-  "More4+1.uk": {
-    "name": "More4+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3310.png",
-    "source": "www.sky.com"
-  },
-  "WION.HD.uk": {
-    "name": "WION HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1084.png",
-    "source": "www.sky.com"
-  },
-  "BBC.One.ScotHD.uk": {
-    "name": "BBC One ScotHD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2082.png",
-    "source": "www.sky.com"
-  },
-  "TNT.Sports.3.HD.uk": {
-    "name": "TNT Sports 3 HD",
-    "icon": "https://tv.assets.pressassociation.io/75c9df5d-d2d8-5d04-92ac-d9973c082c72.png",
-    "source": "www.sky.com"
-  },
-  "Disc.History+1.uk": {
-    "name": "Disc.History+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3760.png",
-    "source": "www.sky.com"
-  },
-  "Boomerang.HD.uk": {
-    "name": "Boomerang HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4030.png",
-    "source": "www.sky.com"
-  },
-  "Venus.TV.uk": {
-    "name": "Venus TV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3720.png",
-    "source": "www.sky.com"
-  },
-  "Create.and.CraftHD.uk": {
-    "name": "Create and CraftHD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1245.png",
-    "source": "www.sky.com"
-  },
-  "ATN.uk": {
-    "name": "ATN",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb6753.png",
-    "source": "www.sky.com"
-  },
-  "Islam.Ch.Urdu.uk": {
-    "name": "Islam Ch Urdu",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5211.png",
-    "source": "www.sky.com"
-  },
-  "BBC.Asian.uk": {
-    "name": "BBC Asian",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2120.png",
-    "source": "www.sky.com"
-  },
-  "BBC.R1X.uk": {
-    "name": "BBC R1X",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2126.png",
-    "source": "www.sky.com"
-  },
-  "Channel.5.uk": {
-    "name": "Channel 5",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1800.png",
-    "source": "www.sky.com"
-  },
-  "CHSTV.uk": {
-    "name": "CHSTV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3815.png",
-    "source": "www.sky.com"
-  },
-  "GREAT!action+1.uk": {
-    "name": "GREAT!action+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3721.png",
-    "source": "www.sky.com"
-  },
-  "Deen.TV.uk": {
-    "name": "Deen TV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1235.png",
-    "source": "www.sky.com"
-  },
-  "U.and.Eden.uk": {
-    "name": "U and Eden",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2302.png",
-    "source": "www.sky.com"
-  },
-  "MTV.80s.uk": {
-    "name": "MTV 80s",
-    "icon": "https://cdn.tv-guide.future.sensi.link/images/channel/a9fc24a1-94dd-5682-9351-ecafb67b2cf9/logo.png",
-    "source": "www.sky.com"
-  },
-  "Capital.XTRA.uk": {
-    "name": "Capital XTRA",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2971.png",
-    "source": "www.sky.com"
-  },
-  "Sky.Action.uk": {
-    "name": "Sky Action",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1001.png",
-    "source": "www.sky.com"
-  },
-  "BBC.R3.uk": {
-    "name": "BBC R3",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2113.png",
-    "source": "www.sky.com"
-  },
-  "Food.Network.uk": {
-    "name": "Food Network",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3590.png",
-    "source": "www.sky.com"
-  },
-  "BBC.ALBA.HD.uk": {
-    "name": "BBC ALBA HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3021.png",
-    "source": "www.sky.com"
-  },
-  "SONY.MAX.HD.uk": {
-    "name": "SONY MAX HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4046.png",
-    "source": "www.sky.com"
-  },
-  "TNT.Sports.6.HD.uk": {
-    "name": "TNT Sports 6 HD",
-    "icon": "https://tv.assets.pressassociation.io/82f1ab41-1eb6-5cd6-a8a1-e7a7c694555d.png",
-    "source": "www.sky.com"
-  },
-  "RTÉ.2FM.uk": {
-    "name": "RTÉ 2FM",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1262.png",
-    "source": "www.sky.com"
-  },
-  "Film4+1.uk": {
-    "name": "Film4+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1629.png",
-    "source": "www.sky.com"
-  },
-  "Legend.uk": {
-    "name": "Legend",
-    "icon": null,
-    "source": "www.sky.com"
-  },
-  "Spider-Man.HD.uk": {
-    "name": "Spider-Man HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4033.png",
-    "source": "www.sky.com"
-  },
-  "Sky.Crime.HD.uk": {
-    "name": "Sky Crime HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1212.png",
-    "source": "www.sky.com"
-  },
-  "Television.X.uk": {
-    "name": "Television X",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4192.png",
-    "source": "www.sky.com"
-  },
-  "GEO.News.uk": {
-    "name": "GEO News",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4407.png",
-    "source": "www.sky.com"
-  },
-  "LoveWorld.HD.uk": {
-    "name": "LoveWorld HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1228.png",
-    "source": "www.sky.com"
-  },
-  "Brit.Asia.TV.uk": {
-    "name": "Brit Asia TV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3653.png",
-    "source": "www.sky.com"
-  },
-  "ITV2+1.uk": {
-    "name": "ITV2+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb6241.png",
-    "source": "www.sky.com"
-  },
-  "GREAT!.tv+1.uk": {
-    "name": "GREAT! tv+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5338.png",
-    "source": "www.sky.com"
-  },
-  "QUEST+1.uk": {
-    "name": "QUEST+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3621.png",
-    "source": "www.sky.com"
-  },
-  "QVC.Beauty.uk": {
-    "name": "QVC Beauty",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4105.png",
-    "source": "www.sky.com"
-  },
-  "SkyPremiere+1.uk": {
-    "name": "SkyPremiere+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1823.png",
-    "source": "www.sky.com"
-  },
-  "mta-muslim.tv.uk": {
-    "name": "mta-muslim tv",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3201.png",
-    "source": "www.sky.com"
-  },
-  "SONY.MAX.2.uk": {
-    "name": "SONY MAX 2",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5431.png",
-    "source": "www.sky.com"
-  },
-  "Tiny.Pop.uk": {
-    "name": "Tiny Pop",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3780.png",
-    "source": "www.sky.com"
-  },
-  "Inspiration.TV.uk": {
-    "name": "Inspiration TV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3219.png",
-    "source": "www.sky.com"
-  },
-  "Sky.Greats.uk": {
-    "name": "Sky Greats",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1815.png",
-    "source": "www.sky.com"
-  },
-  "Sky.Mix.HD.uk": {
-    "name": "Sky Mix HD",
-    "icon": "https://cdn.tv-guide.future.sensi.link/images/channel/1a83cd94-9972-5ecf-9243-853212ca1fe1/logo.png",
-    "source": "www.sky.com"
-  },
-  "Heart.Sussex.uk": {
-    "name": "Heart Sussex",
-    "icon": null,
-    "source": "www.sky.com"
-  },
-  "U.and.alibi.HD.uk": {
-    "name": "U and alibi HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3825.png",
-    "source": "www.sky.com"
-  },
-  "Bloomberg.HD.uk": {
-    "name": "Bloomberg HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1074.png",
-    "source": "www.sky.com"
-  },
-  "ROK.uk": {
-    "name": "ROK",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3542.png",
-    "source": "www.sky.com"
-  },
-  "Together.uk": {
-    "name": "Together",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1872.png",
-    "source": "www.sky.com"
-  },
-  "TNT.Sports.9.HD.uk": {
-    "name": "TNT Sports 9 HD",
-    "icon": "https://tv.assets.pressassociation.io/34a9289d-1e34-50f8-8e43-a651223345c8.png",
-    "source": "www.sky.com"
-  },
-  "High.Street.TV.3.uk": {
-    "name": "High Street TV 3",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3404.png",
-    "source": "www.sky.com"
-  },
-  "Virgin.Radio.uk": {
-    "name": "Virgin Radio",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1148.png",
-    "source": "www.sky.com"
-  },
-  "BBC.R.Foyle.uk": {
-    "name": "BBC R Foyle",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2124.png",
-    "source": "www.sky.com"
-  },
-  "MATV.National.uk": {
-    "name": "MATV National",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3401.png",
-    "source": "www.sky.com"
-  },
-  "92.News.uk": {
-    "name": "92 News",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3822.png",
-    "source": "www.sky.com"
-  },
-  "BBC.R4.FM.uk": {
-    "name": "BBC R4 FM",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2114.png",
-    "source": "www.sky.com"
-  },
-  "5.USA.uk": {
-    "name": "5 USA",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3022.png",
-    "source": "www.sky.com"
-  },
-  "JewelleryMaker.uk": {
-    "name": "JewelleryMaker",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3354.png",
-    "source": "www.sky.com"
-  },
-  "SkySpCricket.HD.uk": {
-    "name": "SkySpCricket HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4081.png",
-    "source": "www.sky.com"
-  },
-  "EarthxTV.HD.uk": {
-    "name": "EarthxTV HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1086.png",
-    "source": "www.sky.com"
-  },
-  "Heart.90s.uk": {
-    "name": "Heart 90s",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1083.png",
-    "source": "www.sky.com"
-  },
-  "5SELECT.uk": {
-    "name": "5SELECT",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3028.png",
-    "source": "www.sky.com"
-  },
-  "Al.Jazeera.HD.uk": {
-    "name": "Al Jazeera HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1023.png",
-    "source": "www.sky.com"
-  },
-  "Get.Lucky.TV.uk": {
-    "name": "Get Lucky TV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4538.png",
-    "source": "www.sky.com"
-  },
-  "CBS.Justice.uk": {
-    "name": "CBS Justice",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4610.png",
-    "source": "www.sky.com"
-  },
-  "Absolute.uk": {
-    "name": "Absolute",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2901.png",
-    "source": "www.sky.com"
-  },
-  "BBC.Two.NI.HD.uk": {
-    "name": "BBC Two NI HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3019.png",
-    "source": "www.sky.com"
-  },
-  "Nat.Geo+1.uk": {
-    "name": "Nat Geo+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1822.png",
-    "source": "www.sky.com"
-  },
-  "Quest.Red+1.uk": {
-    "name": "Quest Red+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4547.png",
-    "source": "www.sky.com"
-  },
-  "CITV.uk": {
-    "name": "CITV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb6273.png",
-    "source": "www.sky.com"
-  },
-  "ID.uk": {
-    "name": "ID",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2413.png",
-    "source": "www.sky.com"
-  },
-  "High.Street.TV.1.uk": {
-    "name": "High Street TV 1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3580.png",
-    "source": "www.sky.com"
-  },
-  "STV.Central.uk": {
-    "name": "STV Central",
-    "icon": "https://tv.assets.pressassociation.io/59da93c5-a1ea-5432-be42-47a0b362f234.png",
-    "source": "www.sky.com"
-  },
-  "The.Box.uk": {
-    "name": "The Box",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1802.png",
-    "source": "www.sky.com"
-  },
-  "HGTV.uk": {
-    "name": "HGTV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2301.png",
-    "source": "www.sky.com"
-  },
-  "PCNE.Chinese.uk": {
-    "name": "PCNE Chinese",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3258.png",
-    "source": "www.sky.com"
-  },
-  "Panjab.Radio.uk": {
-    "name": "Panjab Radio",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3363.png",
-    "source": "www.sky.com"
-  },
-  "TJC.Beauty.uk": {
-    "name": "TJC Beauty",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5212.png",
-    "source": "www.sky.com"
-  },
-  "CNBC.uk": {
-    "name": "CNBC",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3611.png",
-    "source": "www.sky.com"
-  },
-  "Sky.Adventure.uk": {
-    "name": "Sky Adventure",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1808.png",
-    "source": "www.sky.com"
-  },
-  "True.Crime.uk": {
-    "name": "True Crime",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3352.png",
-    "source": "www.sky.com"
-  },
-  "Racing.TV.HD.uk": {
-    "name": "Racing TV HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5272.png",
-    "source": "www.sky.com"
-  },
-  "Sky.One.HD.uk": {
-    "name": "Sky One HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4061.png",
-    "source": "www.sky.com"
-  },
-  "High.Street.TV.4.uk": {
-    "name": "High Street TV 4",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1130.png",
-    "source": "www.sky.com"
-  },
-  "Disc.Science.uk": {
-    "name": "Disc.Science",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2406.png",
-    "source": "www.sky.com"
-  },
-  "BBC.R.Cymru.2.uk": {
-    "name": "BBC R Cymru 2",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2021.png",
-    "source": "www.sky.com"
-  },
-  "4seven.uk": {
-    "name": "4seven",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3150.png",
-    "source": "www.sky.com"
-  },
-  "TNT.Sport.BoxOffice.HD.uk": {
-    "name": "TNT Sport BoxOffice HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1210.png",
-    "source": "www.sky.com"
-  },
-  "Discovery.HD.uk": {
-    "name": "Discovery HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4003.png",
-    "source": "www.sky.com"
-  },
-  "Craft.Extra.uk": {
-    "name": "Craft Extra",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3357.png",
-    "source": "www.sky.com"
-  },
-  "Sky.Cinema.Comedy.uk": {
-    "name": "Sky Cinema Comedy",
-    "icon": "https://d16ia5iwuvax6y.cloudfront.net/uk-images/02e866d89112bb1b1a576f520d636de5.png?k=VeeNdUjml3bSHdlZ0OXbGLy%2BmsLdYPwTV6iAxGkzq4cxLxoRPe%2Be6QkpTmeP95IGvhHBXchnfTjwvsMaRU1caihM8fF%2FQDNm03mD0qz8w4RqV4T3T6ThRp1Uc%2BpBrwJ%2F%2BFYX8F9MYhdYsGFB%2BqzEeQ%3D%3D",
-    "source": "www.sky.com"
-  },
-  "ComedyCentral.uk": {
-    "name": "ComedyCentral",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2510.png",
-    "source": "www.sky.com"
-  },
-  "Sky.Comedy.HD.uk": {
-    "name": "Sky Comedy HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1143.png",
-    "source": "www.sky.com"
-  },
-  "Word.Network.uk": {
-    "name": "Word Network",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3205.png",
-    "source": "www.sky.com"
-  },
-  "Disc.Turbo+1.uk": {
-    "name": "Disc.Turbo+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5245.png",
-    "source": "www.sky.com"
-  },
-  "Sky.Sports.Ultra.HD.1.uk": {
-    "name": "Sky Sports Ultra HD 1",
-    "icon": "https://staticqbr-prod-gb.gnp.cloud.virgintvgo.virginmedia.com/image-service/ImagesEPG/EventImages/sky-sports-uhd.png",
-    "source": "www.sky.com"
-  },
-  "Thats.TV.3.uk": {
-    "name": "Thats TV 3",
-    "icon": "https://cdn.tv-guide.future.sensi.link/images/channel/d05733e3-63ec-58b7-9945-d51080c7bce5/logo.png",
-    "source": "www.sky.com"
-  },
-  "Madani.Chnl.uk": {
-    "name": "Madani Chnl",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4460.png",
-    "source": "www.sky.com"
-  },
-  "BBC.R.Scot..uk": {
-    "name": "BBC R Scot.",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2117.png",
-    "source": "www.sky.com"
-  },
-  "Foodxp.uk": {
-    "name": "Foodxp",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1227.png",
-    "source": "www.sky.com"
-  },
-  "E4.Extra.uk": {
-    "name": "E4 Extra",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1758.png",
-    "source": "www.sky.com"
-  },
-  "PBS.America.uk": {
-    "name": "PBS America",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5500.png",
-    "source": "www.sky.com"
-  },
-  "LBC.News.uk": {
-    "name": "LBC News",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1205.png",
-    "source": "www.sky.com"
-  },
-  "Crime+Inv.HD.uk": {
-    "name": "Crime+Inv HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4088.png",
-    "source": "www.sky.com"
-  },
-  "Sky.Cinema.Hits.HD.uk": {
-    "name": "Sky Cinema Hits HD",
-    "icon": "https://cdn.tv-guide.future.sensi.link/images/channel/1be50627-1688-54a7-a314-dc256342c67a/logo.png",
-    "source": "www.sky.com"
-  },
-  "Ideal.Extra.uk": {
-    "name": "Ideal Extra",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5740.png",
-    "source": "www.sky.com"
-  },
-  "SkySp.Cricket.uk": {
-    "name": "SkySp Cricket",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1302.png",
-    "source": "www.sky.com"
-  },
-  "Arise.News.uk": {
-    "name": "Arise News",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5040.png",
-    "source": "www.sky.com"
-  },
-  "Tiny.Pop+1.uk": {
-    "name": "Tiny Pop+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4261.png",
-    "source": "www.sky.com"
-  },
-  "NOW.80s.uk": {
-    "name": "NOW 80s",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4541.png",
-    "source": "www.sky.com"
-  },
-  "ComedyXtra.uk": {
-    "name": "ComedyXtra",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1813.png",
-    "source": "www.sky.com"
-  },
-  "Utsav.Gold.HD.uk": {
-    "name": "Utsav Gold HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4047.png",
-    "source": "www.sky.com"
-  },
-  "SkyValentineHD.uk": {
-    "name": "SkyValentineHD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4020.png",
-    "source": "www.sky.com"
-  },
-  "SkyAnimationHD.uk": {
-    "name": "SkyAnimationHD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1199.png",
-    "source": "www.sky.com"
-  },
-  "SkySp.F1.HD.uk": {
-    "name": "SkySp F1 HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3835.png",
-    "source": "www.sky.com"
-  },
-  "Nickelodeon+1.uk": {
-    "name": "Nickelodeon+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1845.png",
-    "source": "www.sky.com"
-  },
-  "QVC.Extra.uk": {
-    "name": "QVC Extra",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3359.png",
-    "source": "www.sky.com"
-  },
-  "BBC.Parliament.HD.uk": {
-    "name": "BBC Parliament HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3020.png",
-    "source": "www.sky.com"
-  },
-  "Legend.Xtra+1.uk": {
-    "name": "Legend Xtra+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4502.png",
-    "source": "www.sky.com"
-  },
-  "BBC.One.S.East.HD.uk": {
-    "name": "BBC One S East HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3008.png",
-    "source": "www.sky.com"
-  },
-  "XXX.Girl.Girl.uk": {
-    "name": "XXX Girl Girl",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1029.png",
-    "source": "www.sky.com"
-  },
-  "BBC.One.N.West.HD.uk": {
-    "name": "BBC One N West HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3007.png",
-    "source": "www.sky.com"
-  },
-  "SkySp.Golf.HD.uk": {
-    "name": "SkySp Golf HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4026.png",
-    "source": "www.sky.com"
-  },
-  "GREAT!.tv.uk": {
-    "name": "GREAT! tv",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4266.png",
-    "source": "www.sky.com"
-  },
-  "BBC.R.Wales.uk": {
-    "name": "BBC R Wales",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2118.png",
-    "source": "www.sky.com"
-  },
-  "SkySp+HD.uk": {
-    "name": "SkySp+HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3940.png",
-    "source": "www.sky.com"
-  },
-  "GREAT!.action.uk": {
-    "name": "GREAT! action",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3708.png",
-    "source": "www.sky.com"
-  },
-  "Greatest.Hits.uk": {
-    "name": "Greatest Hits",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1101.png",
-    "source": "www.sky.com"
-  },
-  "SkySpMainEvHD.uk": {
-    "name": "SkySpMainEvHD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4002.png",
-    "source": "www.sky.com"
-  },
-  "Movies24.uk": {
-    "name": "Movies24",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4420.png",
-    "source": "www.sky.com"
-  },
-  "Ahlulbayt.TV.uk": {
-    "name": "Ahlulbayt TV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3701.png",
-    "source": "www.sky.com"
-  },
-  "ComedyCentHD.uk": {
-    "name": "ComedyCentHD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4056.png",
-    "source": "www.sky.com"
-  },
-  "Channel.4.HD.uk": {
-    "name": "Channel 4 HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4075.png",
-    "source": "www.sky.com"
-  },
-  "Kerrang!.uk": {
-    "name": "Kerrang!",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1853.png",
-    "source": "www.sky.com"
-  },
-  "Sky.News.HD.uk": {
-    "name": "Sky News HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4050.png",
-    "source": "www.sky.com"
-  },
-  "U.and.Drama.uk": {
-    "name": "U and Drama",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2612.png",
-    "source": "www.sky.com"
-  },
-  "Sky.Cinema.Select.uk": {
-    "name": "Sky Cinema Select",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4020.png",
-    "source": "www.sky.com"
-  },
-  "Thats.TV.uk": {
-    "name": "Thats TV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1017.png",
-    "source": "www.sky.com"
-  },
-  "True.Crime.+1.uk": {
-    "name": "True Crime +1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3602.png",
-    "source": "www.sky.com"
-  },
-  "SkySp.F1.uk": {
-    "name": "SkySp F1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1306.png",
-    "source": "www.sky.com"
-  },
-  "Premier.Sports.1.HD.uk": {
-    "name": "Premier Sports 1 HD",
-    "icon": "https://cdn.tv-guide.future.sensi.link/images/channel/02fe4bd6-cea9-5696-8025-d81cdb571639/logo.png",
-    "source": "www.sky.com"
-  },
-  "BBCScotlandHD.uk": {
-    "name": "BBCScotlandHD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1138.png",
-    "source": "www.sky.com"
-  },
-  "Box.Hits.uk": {
-    "name": "Box Hits",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1350.png",
-    "source": "www.sky.com"
-  },
-  "XXX.College.uk": {
-    "name": "XXX College",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1028.png",
-    "source": "www.sky.com"
-  },
-  "Faith.World.TV.uk": {
-    "name": "Faith World TV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4404.png",
-    "source": "www.sky.com"
-  },
-  "Channel.5+1.uk": {
-    "name": "Channel 5+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1839.png",
-    "source": "www.sky.com"
-  },
-  "NHK.World.HD.uk": {
-    "name": "NHK World HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3147.png",
-    "source": "www.sky.com"
-  },
-  "alibi+1.uk": {
-    "name": "alibi+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2630.png",
-    "source": "www.sky.com"
-  },
-  "Ideal.World.HD.uk": {
-    "name": "Ideal World HD",
-    "icon": "https://fdp-sv15-image-v1-0.gcprod1.freetime-platform.net/cache/ms/img/chan/chan/chan-Web-10704.png",
-    "source": "www.sky.com"
-  },
-  "Sky.Greats.HD.uk": {
-    "name": "Sky Greats HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4015.png",
-    "source": "www.sky.com"
-  },
-  "ITV4+1.uk": {
-    "name": "ITV4+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb6274.png",
-    "source": "www.sky.com"
-  },
-  "NBCNewsNowHD.uk": {
-    "name": "NBCNewsNowHD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1039.png",
-    "source": "www.sky.com"
-  },
-  "XXXpublicpikups.uk": {
-    "name": "XXXpublicpikups",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1030.png",
-    "source": "www.sky.com"
-  },
-  "ComedyCent+1.uk": {
-    "name": "ComedyCent+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3802.png",
-    "source": "www.sky.com"
-  },
-  "Adult.Channel.uk": {
-    "name": "Adult Channel",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4195.png",
-    "source": "www.sky.com"
-  },
-  "Racing.TV.uk": {
-    "name": "Racing TV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3636.png",
-    "source": "www.sky.com"
-  },
-  "Clubland.TV.uk": {
-    "name": "Clubland TV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4505.png",
-    "source": "www.sky.com"
-  },
-  "BBC.R5SX.uk": {
-    "name": "BBC R5SX",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2034.png",
-    "source": "www.sky.com"
-  },
-  "Cartoonito.uk": {
-    "name": "Cartoonito",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1371.png",
-    "source": "www.sky.com"
-  },
-  "Babenation.uk": {
-    "name": "Babenation",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3400.png",
-    "source": "www.sky.com"
-  },
-  "TNTSBoxOff2HD.uk": {
-    "name": "TNTSBoxOff2HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1218.png",
-    "source": "www.sky.com"
-  },
-  "NTV.uk": {
-    "name": "NTV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4540.png",
-    "source": "www.sky.com"
-  },
-  "BBC.One.Lon.HD.uk": {
-    "name": "BBC One Lon HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3000.png",
-    "source": "www.sky.com"
-  },
-  "QUEST.HD.uk": {
-    "name": "QUEST HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1128.png",
-    "source": "www.sky.com"
-  },
-  "TV.One.uk": {
-    "name": "TV One",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5426.png",
-    "source": "www.sky.com"
-  },
-  "GREAT!.movies.uk": {
-    "name": "GREAT! movies",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3709.png",
-    "source": "www.sky.com"
-  },
-  "Classic.Rock.uk": {
-    "name": "Classic Rock",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4371.png",
-    "source": "www.sky.com"
-  },
-  "ColorsRishtey.uk": {
-    "name": "ColorsRishtey",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3916.png",
-    "source": "www.sky.com"
-  },
-  "Heart.80s.uk": {
-    "name": "Heart 80s",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2928.png",
-    "source": "www.sky.com"
-  },
-  "Hits.Radio.uk": {
-    "name": "Hits Radio",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5562.png",
-    "source": "www.sky.com"
-  },
-  "Absolute.90s.uk": {
-    "name": "Absolute 90s",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4372.png",
-    "source": "www.sky.com"
-  },
-  "Sky.Valentine.uk": {
-    "name": "Sky Valentine",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1811.png",
-    "source": "www.sky.com"
-  },
-  "B4U.Music.uk": {
-    "name": "B4U Music",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5708.png",
-    "source": "www.sky.com"
-  },
-  "SkyHistory2HD.uk": {
-    "name": "SkyHistory2HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1195.png",
-    "source": "www.sky.com"
-  },
-  "Sukh.Sagar.uk": {
-    "name": "Sukh Sagar",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3368.png",
-    "source": "www.sky.com"
-  },
-  "BBC.Two.Wal.HD.uk": {
-    "name": "BBC Two Wal HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3015.png",
-    "source": "www.sky.com"
-  },
-  "ITV.Quiz.uk": {
-    "name": "ITV Quiz",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3026.png",
-    "source": "www.sky.com"
-  },
-  "BBC.One.WM.HD.uk": {
-    "name": "BBC One WM HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3003.png",
-    "source": "www.sky.com"
-  },
-  "Akaal.Channel.uk": {
-    "name": "Akaal Channel",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5087.png",
-    "source": "www.sky.com"
-  },
-  "Sangat.uk": {
-    "name": "Sangat",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3355.png",
-    "source": "www.sky.com"
-  },
-  "NickelodeonHD.uk": {
-    "name": "NickelodeonHD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4069.png",
-    "source": "www.sky.com"
-  },
-  "True.Crime.Xtra.uk": {
-    "name": "True Crime Xtra",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3617.png",
-    "source": "www.sky.com"
-  },
-  "BabyTV.uk": {
-    "name": "BabyTV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3645.png",
-    "source": "www.sky.com"
-  },
-  "Trace.Vault.uk": {
-    "name": "Trace Vault",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3935.png",
-    "source": "www.sky.com"
-  },
-  "DAYSTAR.HD.uk": {
-    "name": "DAYSTAR HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5541.png",
-    "source": "www.sky.com"
-  },
-  "BBC.One.West.HD.uk": {
-    "name": "BBC One West HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3001.png",
-    "source": "www.sky.com"
-  },
-  "Heart.Dance.uk": {
-    "name": "Heart Dance",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2920.png",
-    "source": "www.sky.com"
-  },
-  "RTÉ.Lyric.fm.uk": {
-    "name": "RTÉ Lyric fm",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1264.png",
-    "source": "www.sky.com"
-  },
-  "U.and.W+1.uk": {
-    "name": "U and W+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2616.png",
-    "source": "www.sky.com"
-  },
-  "Sky.Kids.HD.uk": {
-    "name": "Sky Kids HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1147.png",
-    "source": "www.sky.com"
-  },
-  "TNT.Sports.Ultimate.HD.uk": {
-    "name": "TNT Sports Ultimate HD",
-    "icon": "https://tv.assets.pressassociation.io/4cf0b94b-7f49-5dea-8e05-bced66f8bbd7.png",
-    "source": "www.sky.com"
-  },
-  "BBC.One.Yorks.HD.uk": {
-    "name": "BBC One Yorks HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3017.png",
-    "source": "www.sky.com"
-  },
-  "ITV2.HD.uk": {
-    "name": "ITV2 HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb6532.png",
-    "source": "www.sky.com"
-  },
-  "British.Muslim.uk": {
-    "name": "British Muslim",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5417.png",
-    "source": "www.sky.com"
-  },
-  "BBC.RLondon.uk": {
-    "name": "BBC RLondon",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2130.png",
-    "source": "www.sky.com"
-  },
-  "SkyAdventureHD.uk": {
-    "name": "SkyAdventureHD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4018.png",
-    "source": "www.sky.com"
-  },
-  "QUEST.uk": {
-    "name": "QUEST",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb6761.png",
-    "source": "www.sky.com"
-  },
-  "BBC.Radio.Sussex.uk": {
-    "name": "BBC Radio Sussex",
-    "icon": null,
-    "source": "www.sky.com"
-  },
-  "SkySpBoxOff.uk": {
-    "name": "SkySpBoxOff",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1034.png",
-    "source": "www.sky.com"
-  },
-  "BBC.One.Sth.HD.uk": {
-    "name": "BBC One Sth HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3011.png",
-    "source": "www.sky.com"
-  },
-  "TLC+1.uk": {
-    "name": "TLC+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5451.png",
-    "source": "www.sky.com"
-  },
-  "Sanskar.uk": {
-    "name": "Sanskar",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1100.png",
-    "source": "www.sky.com"
-  },
-  "TNT.Sports.1.HD.uk": {
-    "name": "TNT Sports 1 HD",
-    "icon": "https://tv.assets.pressassociation.io/f55b110f-8046-5273-a249-badfe915e918.png",
-    "source": "www.sky.com"
-  },
-  "CNBC.HD.uk": {
-    "name": "CNBC HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1088.png",
-    "source": "www.sky.com"
-  },
-  "WRN.Europe.uk": {
-    "name": "WRN Europe",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4158.png",
-    "source": "www.sky.com"
-  },
-  "SkyPremiereHD.uk": {
-    "name": "SkyPremiereHD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4021.png",
-    "source": "www.sky.com"
-  },
-  "Capital.uk": {
-    "name": "Capital",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2908.png",
-    "source": "www.sky.com"
-  },
-  "FRANCE.24.HD.uk": {
-    "name": "FRANCE 24 HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1121.png",
-    "source": "www.sky.com"
-  },
-  "BBC.Two.HD.uk": {
-    "name": "BBC Two HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2075.png",
-    "source": "www.sky.com"
-  },
-  "GREAT!.romance.uk": {
-    "name": "GREAT! romance",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3643.png",
-    "source": "www.sky.com"
-  },
-  "POLITICSPUNJAB.uk": {
-    "name": "POLITICSPUNJAB",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3421.png",
-    "source": "www.sky.com"
-  },
-  "Sky.Drama.HD.uk": {
-    "name": "Sky Drama HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4016.png",
-    "source": "www.sky.com"
-  },
-  "Nicktoons.uk": {
-    "name": "Nicktoons",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1849.png",
-    "source": "www.sky.com"
-  },
-  "TalkTV.HD.uk": {
-    "name": "TalkTV HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1078.png",
-    "source": "www.sky.com"
-  },
-  "Sky.Sports.Ultra.HD.2.uk": {
-    "name": "Sky Sports Ultra HD 2",
-    "icon": "https://staticqbr-prod-gb.gnp.cloud.virgintvgo.virginmedia.com/image-service/ImagesEPG/EventImages/sky-sports-uhd.png",
-    "source": "www.sky.com"
-  },
-  "BBC.Radio.Bristol.94.9FM.uk": {
-    "name": "BBC Radio Bristol 94.9FM",
-    "icon": null,
-    "source": "www.sky.com"
-  },
-  "babes.and.brazzers.uk": {
-    "name": "babes and brazzers",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4197.png",
-    "source": "www.sky.com"
-  },
-  "EWTN.Catholic.uk": {
-    "name": "EWTN Catholic",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4163.png",
-    "source": "www.sky.com"
-  },
-  "UTV.uk": {
-    "name": "UTV",
-    "icon": null,
-    "source": "www.sky.com"
-  },
-  "SONY.SAB.uk": {
-    "name": "SONY SAB",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3631.png",
-    "source": "www.sky.com"
-  },
-  "Hidayat.TV.uk": {
-    "name": "Hidayat TV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4549.png",
-    "source": "www.sky.com"
-  },
-  "TNT.Sports.8.HD.uk": {
-    "name": "TNT Sports 8 HD",
-    "icon": "https://tv.assets.pressassociation.io/e3cb5ec6-42ce-5031-bc76-83e46cbe3652.png",
-    "source": "www.sky.com"
-  },
-  "CBeebies.HD.uk": {
-    "name": "CBeebies HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2088.png",
-    "source": "www.sky.com"
-  },
-  "WildEarth.uk": {
-    "name": "WildEarth",
-    "icon": null,
-    "source": "www.sky.com"
-  },
-  "Sky.Crime+1.uk": {
-    "name": "Sky Crime+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4330.png",
-    "source": "www.sky.com"
-  },
-  "TWR.uk": {
-    "name": "TWR",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4155.png",
-    "source": "www.sky.com"
-  },
-  "BBC.R5L.uk": {
-    "name": "BBC R5L",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2026.png",
-    "source": "www.sky.com"
-  },
-  "Cruise1st.tv.uk": {
-    "name": "Cruise1st.tv",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1018.png",
-    "source": "www.sky.com"
-  },
-  "Aastha.uk": {
-    "name": "Aastha",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3594.png",
-    "source": "www.sky.com"
-  },
-  "Sky.Atlantic.HD.uk": {
-    "name": "Sky Atlantic HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4053.png",
-    "source": "www.sky.com"
-  },
-  "Euronews.uk": {
-    "name": "Euronews",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4604.png",
+  "IQRA.TV.uk": {
+    "name": "IQRA TV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb6754.png",
     "source": "www.sky.com"
   },
   "Channel.44.uk": {
@@ -2789,459 +1269,14 @@
     "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5359.png",
     "source": "www.sky.com"
   },
-  "Forces.TV.uk": {
-    "name": "Forces TV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5415.png",
+  "ComedyXtra.uk": {
+    "name": "ComedyXtra",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1813.png",
     "source": "www.sky.com"
   },
-  "Sky.Sports.NFL.uk": {
-    "name": "Sky Sports NFL",
-    "icon": "https://cdn.tv-guide.future.sensi.link/images/channel/0888f93b-9341-5344-a790-3938799f3b08/logo.png",
-    "source": "www.sky.com"
-  },
-  "TalkingPictures.uk": {
-    "name": "TalkingPictures",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5252.png",
-    "source": "www.sky.com"
-  },
-  "BBC.R.n.Gael.uk": {
-    "name": "BBC R n Gael",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2129.png",
-    "source": "www.sky.com"
-  },
-  "BFBS.Radio.uk": {
-    "name": "BFBS Radio",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3371.png",
-    "source": "www.sky.com"
-  },
-  "GEO.TV.uk": {
-    "name": "GEO TV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4110.png",
-    "source": "www.sky.com"
-  },
-  "5USA+1.uk": {
-    "name": "5USA+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3027.png",
-    "source": "www.sky.com"
-  },
-  "TNT.Sports.10.HD.uk": {
-    "name": "TNT Sports 10 HD",
-    "icon": "https://tv.assets.pressassociation.io/8cf3d59b-125d-53e7-af17-3ca837d02c9d.png",
-    "source": "www.sky.com"
-  },
-  "BBC.Three.HD.uk": {
-    "name": "BBC Three HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2080.png",
-    "source": "www.sky.com"
-  },
-  "BBC.WS.uk": {
-    "name": "BBC WS",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2122.png",
-    "source": "www.sky.com"
-  },
-  "Legend.Xtra.uk": {
-    "name": "Legend Xtra",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3605.png",
-    "source": "www.sky.com"
-  },
-  "PTV.Global.uk": {
-    "name": "PTV Global",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3646.png",
-    "source": "www.sky.com"
-  },
-  "SonLife.uk": {
-    "name": "SonLife",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3392.png",
-    "source": "www.sky.com"
-  },
-  "BBC.One.S.West.HD.uk": {
-    "name": "BBC One S West HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3014.png",
-    "source": "www.sky.com"
-  },
-  "PCNE.Chinese.HD.uk": {
-    "name": "PCNE Chinese HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1140.png",
-    "source": "www.sky.com"
-  },
-  "TLC.HD.uk": {
-    "name": "TLC HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3812.png",
-    "source": "www.sky.com"
-  },
-  "DMAX+1.uk": {
-    "name": "DMAX+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1865.png",
-    "source": "www.sky.com"
-  },
-  "Travelxp.uk": {
-    "name": "Travelxp",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1226.png",
-    "source": "www.sky.com"
-  },
-  "BBC.R2.uk": {
-    "name": "BBC R2",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2112.png",
-    "source": "www.sky.com"
-  },
-  "Animal.Planet.uk": {
-    "name": "Animal Planet",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2402.png",
-    "source": "www.sky.com"
-  },
-  "SkySp.Golf.uk": {
-    "name": "SkySp Golf",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1322.png",
-    "source": "www.sky.com"
-  },
-  "Disc.History.uk": {
-    "name": "Disc.History",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2407.png",
-    "source": "www.sky.com"
-  },
-  "TBN.UK.uk": {
-    "name": "TBN UK",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3109.png",
-    "source": "www.sky.com"
-  },
-  "RTÉ.Radio.1.uk": {
-    "name": "RTÉ Radio 1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1261.png",
-    "source": "www.sky.com"
-  },
-  "ColorsGujarati.uk": {
-    "name": "ColorsGujarati",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1090.png",
-    "source": "www.sky.com"
-  },
-  "U.and.Eden+1.uk": {
-    "name": "U and Eden+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2307.png",
-    "source": "www.sky.com"
-  },
-  "Boomerang+1.uk": {
-    "name": "Boomerang+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5603.png",
-    "source": "www.sky.com"
-  },
-  "Xpanded.TV.uk": {
-    "name": "Xpanded TV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4191.png",
-    "source": "www.sky.com"
-  },
-  "Good.News.TV.uk": {
-    "name": "Good News TV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1188.png",
-    "source": "www.sky.com"
-  },
-  "Animal.Plnt+1.uk": {
-    "name": "Animal Plnt+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1352.png",
-    "source": "www.sky.com"
-  },
-  "SkySp.ActionHD.uk": {
-    "name": "SkySp ActionHD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4022.png",
-    "source": "www.sky.com"
-  },
-  "U.and.Drama+1.uk": {
-    "name": "U and Drama+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1081.png",
-    "source": "www.sky.com"
-  },
-  "HUM.EUROPE.uk": {
-    "name": "HUM EUROPE",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5205.png",
-    "source": "www.sky.com"
-  },
-  "BBC.One.NE.and.C.HD.uk": {
-    "name": "BBC One NE and C HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3009.png",
-    "source": "www.sky.com"
-  },
-  "Disc.Sci+1.uk": {
-    "name": "Disc.Sci+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1351.png",
-    "source": "www.sky.com"
-  },
-  "ITV1+1.uk": {
-    "name": "ITV1+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb6155.png",
-    "source": "www.sky.com"
-  },
-  "SkySp.Action.uk": {
-    "name": "SkySp Action",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1333.png",
-    "source": "www.sky.com"
-  },
-  "Dunamis.TV.uk": {
-    "name": "Dunamis TV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1191.png",
-    "source": "www.sky.com"
-  },
-  "Sky.Arts.HD.uk": {
-    "name": "Sky Arts HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4063.png",
-    "source": "www.sky.com"
-  },
-  "LBC.uk": {
-    "name": "LBC",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2926.png",
-    "source": "www.sky.com"
-  },
-  "U.and.GOLD.HD.uk": {
-    "name": "U and GOLD HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb6513.png",
-    "source": "www.sky.com"
-  },
-  "MTV.HD.uk": {
-    "name": "MTV HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3831.png",
-    "source": "www.sky.com"
-  },
-  "ITV3+1.uk": {
-    "name": "ITV3+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb6261.png",
-    "source": "www.sky.com"
-  },
-  "Now.Rock.uk": {
-    "name": "Now Rock",
-    "icon": "https://assets.tv24.co/channels/now-90-s-uk-l.webp",
-    "source": "www.sky.com"
-  },
-  "Thats.Melody.uk": {
-    "name": "Thats Melody",
-    "icon": "https://assets.tv24.co/channels/that-s-80s-l.webp",
-    "source": "www.sky.com"
-  },
-  "E4.HD.uk": {
-    "name": "E4 HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4076.png",
-    "source": "www.sky.com"
-  },
-  "U.and.W.HD.uk": {
-    "name": "U and W HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3810.png",
-    "source": "www.sky.com"
-  },
-  "U.and.YESTERDAY.uk": {
-    "name": "U and YESTERDAY",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2305.png",
-    "source": "www.sky.com"
-  },
-  "NEO.News.uk": {
-    "name": "NEO News",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3722.png",
-    "source": "www.sky.com"
-  },
-  "Smooth.uk": {
-    "name": "Smooth",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2917.png",
-    "source": "www.sky.com"
-  },
-  "Premier.Sports.2.HD.uk": {
-    "name": "Premier Sports 2 HD",
-    "icon": "https://cdn.tv-guide.future.sensi.link/images/channel/3ea27dc2-561b-5932-8aad-cc26b53ae3f8/logo.png",
-    "source": "www.sky.com"
-  },
-  "Sky.Thriller.HD.uk": {
-    "name": "Sky Thriller HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4062.png",
-    "source": "www.sky.com"
-  },
-  "Utsav.Plus.HD.uk": {
-    "name": "Utsav Plus HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5300.png",
-    "source": "www.sky.com"
-  },
-  "NTD.uk": {
-    "name": "NTD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3731.png",
-    "source": "www.sky.com"
-  },
-  "ARY.Digital.uk": {
-    "name": "ARY Digital",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4265.png",
-    "source": "www.sky.com"
-  },
-  "STV.HD.uk": {
-    "name": "STV HD",
-    "icon": "https://tv.assets.pressassociation.io/89eedcf9-78ac-568a-9a48-5d5c2c6dbd23.png",
-    "source": "www.sky.com"
-  },
-  "KICC.TV.uk": {
-    "name": "KICC TV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3776.png",
-    "source": "www.sky.com"
-  },
-  "London.Live.uk": {
-    "name": "London Live",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5090.png",
-    "source": "www.sky.com"
-  },
-  "Vox.Africa.uk": {
-    "name": "Vox Africa",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3108.png",
-    "source": "www.sky.com"
-  },
-  "G!.romance+1.uk": {
-    "name": "G! romance+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3751.png",
-    "source": "www.sky.com"
-  },
-  "Gems.TV.uk": {
-    "name": "Gems TV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3010.png",
-    "source": "www.sky.com"
-  },
-  "Islam.TV.uk": {
-    "name": "Islam TV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4403.png",
-    "source": "www.sky.com"
-  },
-  "TNT.Sports.7.HD.uk": {
-    "name": "TNT Sports 7 HD",
-    "icon": "https://tv.assets.pressassociation.io/f0a3e89f-2f7e-5176-a574-33dc6ec6efaf.png",
-    "source": "www.sky.com"
-  },
-  "B4U.Movies.uk": {
-    "name": "B4U Movies",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5703.png",
-    "source": "www.sky.com"
-  },
-  "SkyNewsArabia.uk": {
-    "name": "SkyNewsArabia",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4645.png",
-    "source": "www.sky.com"
-  },
-  "Best.Direct.uk": {
-    "name": "Best Direct",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4100.png",
-    "source": "www.sky.com"
-  },
-  "Discovery+1.uk": {
-    "name": "Discovery+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2404.png",
-    "source": "www.sky.com"
-  },
-  "COLORS.HD.uk": {
-    "name": "COLORS HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1372.png",
-    "source": "www.sky.com"
-  },
-  "Ahlebait.TV.uk": {
-    "name": "Ahlebait TV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb6765.png",
-    "source": "www.sky.com"
-  },
-  "QVC.HD.uk": {
-    "name": "QVC HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1076.png",
-    "source": "www.sky.com"
-  },
-  "Court.TV.uk": {
-    "name": "Court TV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1207.png",
-    "source": "www.sky.com"
-  },
-  "Planet.Rock.uk": {
-    "name": "Planet Rock",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3475.png",
-    "source": "www.sky.com"
-  },
-  "Heart.uk": {
-    "name": "Heart",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2909.png",
-    "source": "www.sky.com"
-  },
-  "SkySp.Racing.uk": {
-    "name": "SkySp Racing",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1354.png",
-    "source": "www.sky.com"
-  },
-  "NOW.90s.uk": {
-    "name": "NOW 90s",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3682.png",
-    "source": "www.sky.com"
-  },
-  "Sky.History+1.uk": {
-    "name": "Sky History+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1891.png",
-    "source": "www.sky.com"
-  },
-  "NDTV.24x7.uk": {
-    "name": "NDTV 24x7",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1821.png",
-    "source": "www.sky.com"
-  },
-  "SportyStuff.HD.uk": {
-    "name": "SportyStuff HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1223.png",
-    "source": "www.sky.com"
-  },
-  "U.and.Drama.+1.uk": {
-    "name": "U and Drama +1",
-    "icon": "https://cdn.tv-guide.future.sensi.link/images/channel/c590aea6-ccd1-58fd-9352-ca2e07c96ef7/logo.png",
-    "source": "www.sky.com"
-  },
-  "U.and.Gold.uk": {
-    "name": "Gold",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2903.png",
-    "source": "www.sky.com"
-  },
-  "Gemporia.Craft.uk": {
-    "name": "Gemporia Craft",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1129.png",
-    "source": "www.sky.com"
-  },
-  "IQRA.BANGLA.uk": {
-    "name": "IQRA BANGLA",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3914.png",
-    "source": "www.sky.com"
-  },
-  "POP.uk": {
-    "name": "POP",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3750.png",
-    "source": "www.sky.com"
-  },
-  "Jazz.FM.uk": {
-    "name": "Jazz FM",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4376.png",
-    "source": "www.sky.com"
-  },
-  "TJC.HD.uk": {
-    "name": "TJC HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1113.png",
-    "source": "www.sky.com"
-  },
-  "XXX.Mums.uk": {
-    "name": "XXX Mums",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1754.png",
-    "source": "www.sky.com"
-  },
-  "NOW.70s.uk": {
-    "name": "NOW 70s",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3403.png",
-    "source": "www.sky.com"
-  },
-  "Cartoon.Netwrk.uk": {
-    "name": "Cartoon Netwrk",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5601.png",
-    "source": "www.sky.com"
-  },
-  "Thats.Dance.uk": {
-    "name": "Thats Dance",
-    "icon": "https://cdn.tv-guide.future.sensi.link/images/channel/57b61c39-40da-508f-9efa-b901736dfc7d/logo.png",
-    "source": "www.sky.com"
-  },
-  "Faith.UK.uk": {
-    "name": "Faith UK",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5354.png",
-    "source": "www.sky.com"
-  },
-  "CNN.HD.uk": {
-    "name": "CNN HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1019.png",
+  "Absolute.80s.uk": {
+    "name": "Absolute 80s",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4373.png",
     "source": "www.sky.com"
   },
   "Sky.Atlantic+1.uk": {
@@ -3249,19 +1284,114 @@
     "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1413.png",
     "source": "www.sky.com"
   },
-  "HobbyMaker.uk": {
-    "name": "HobbyMaker",
-    "icon": "https://fdp-sv15-image-v1-0.gcprod1.freetime-platform.net/cache/ms/img/chan/chan/chan-Web-9009.png",
+  "SONY.MAX.2.uk": {
+    "name": "SONY MAX 2",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5431.png",
     "source": "www.sky.com"
   },
-  "Iran.Intl.HD.uk": {
-    "name": "Iran Intl HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1114.png",
+  "ITV2.HD.uk": {
+    "name": "ITV2 HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb6532.png",
     "source": "www.sky.com"
   },
-  "Direct.Store.TV.uk": {
-    "name": "Direct Store TV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3415.png",
+  "Gems.TV.uk": {
+    "name": "Gems TV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3010.png",
+    "source": "www.sky.com"
+  },
+  "U.and.Drama.+1.uk": {
+    "name": "U and Drama +1",
+    "icon": "https://cdn.tv-guide.future.sensi.link/images/channel/c590aea6-ccd1-58fd-9352-ca2e07c96ef7/logo.png",
+    "source": "www.sky.com"
+  },
+  "CNN.uk": {
+    "name": "CNN",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5602.png",
+    "source": "www.sky.com"
+  },
+  "Islam.Channel.uk": {
+    "name": "Islam Channel",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3214.png",
+    "source": "www.sky.com"
+  },
+  "ITV.Quiz.uk": {
+    "name": "ITV Quiz",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3026.png",
+    "source": "www.sky.com"
+  },
+  "Sky.Sports.NFL.uk": {
+    "name": "Sky Sports NFL",
+    "icon": "https://cdn.tv-guide.future.sensi.link/images/channel/0888f93b-9341-5344-a790-3938799f3b08/logo.png",
+    "source": "www.sky.com"
+  },
+  "NTD.uk": {
+    "name": "NTD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3731.png",
+    "source": "www.sky.com"
+  },
+  "TNT.Sports.Box.Office.uk": {
+    "name": "TNT Sports Box Office",
+    "icon": "https://tv.assets.pressassociation.io/0e736662-ebac-5fa5-9a38-f79e5f91e0a2.png",
+    "source": "www.sky.com"
+  },
+  "Arirang.TV.HD.uk": {
+    "name": "Arirang TV HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1066.png",
+    "source": "www.sky.com"
+  },
+  "ATN.uk": {
+    "name": "ATN",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb6753.png",
+    "source": "www.sky.com"
+  },
+  "NHK.World.HD.uk": {
+    "name": "NHK World HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3147.png",
+    "source": "www.sky.com"
+  },
+  "GEO.TV.uk": {
+    "name": "GEO TV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4110.png",
+    "source": "www.sky.com"
+  },
+  "FRANCE.24.HD.uk": {
+    "name": "FRANCE 24 HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1121.png",
+    "source": "www.sky.com"
+  },
+  "BBC.One.NE.and.C.HD.uk": {
+    "name": "BBC One NE and C HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3009.png",
+    "source": "www.sky.com"
+  },
+  "RTÉ.Radio.1.uk": {
+    "name": "RTÉ Radio 1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1261.png",
+    "source": "www.sky.com"
+  },
+  "Sky.Action.uk": {
+    "name": "Sky Action",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1001.png",
+    "source": "www.sky.com"
+  },
+  "Channel.5+1.uk": {
+    "name": "Channel 5+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1839.png",
+    "source": "www.sky.com"
+  },
+  "POP.Max+1.uk": {
+    "name": "POP Max+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4263.png",
+    "source": "www.sky.com"
+  },
+  "Sky.Witness+1.uk": {
+    "name": "Sky Witness+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2205.png",
+    "source": "www.sky.com"
+  },
+  "SkySp.Golf.HD.uk": {
+    "name": "SkySp Golf HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4026.png",
     "source": "www.sky.com"
   },
   "TRT.World.HD.uk": {
@@ -3269,44 +1399,134 @@
     "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5237.png",
     "source": "www.sky.com"
   },
-  "TNT.Sports.2.HD.uk": {
-    "name": "TNT Sports 2 HD",
-    "icon": "https://tv.assets.pressassociation.io/77f422fa-d4a2-5687-953c-34f4da7d8b91.png",
+  "Madani.Chnl.uk": {
+    "name": "Madani Chnl",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4460.png",
     "source": "www.sky.com"
   },
-  "Sikh.Channel.uk": {
-    "name": "Sikh Channel",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3650.png",
+  "E4.Extra.uk": {
+    "name": "E4 Extra",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1758.png",
     "source": "www.sky.com"
   },
-  "SkySp.Fball.uk": {
-    "name": "SkySp Fball",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3838.png",
+  "Box.Hits.uk": {
+    "name": "Box Hits",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1350.png",
     "source": "www.sky.com"
   },
-  "S4C.uk": {
-    "name": "S4C",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5701.png",
+  "Heart.Sussex.uk": {
+    "name": "Heart Sussex",
+    "icon": null,
     "source": "www.sky.com"
   },
-  "BBC.One.NI.HD.uk": {
-    "name": "BBC One NI HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2081.png",
+  "Sky.Mix.HD.uk": {
+    "name": "Sky Mix HD",
+    "icon": "https://cdn.tv-guide.future.sensi.link/images/channel/1a83cd94-9972-5ecf-9243-853212ca1fe1/logo.png",
     "source": "www.sky.com"
   },
-  "Trace.Hits.uk": {
-    "name": "Trace Hits",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3505.png",
+  "Channel.4.HD.uk": {
+    "name": "Channel 4 HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4075.png",
     "source": "www.sky.com"
   },
-  "POP.Max.uk": {
-    "name": "POP Max",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4262.png",
+  "DMAX.uk": {
+    "name": "DMAX",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3618.png",
     "source": "www.sky.com"
   },
-  "CN+1.uk": {
-    "name": "CN+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5610.png",
+  "POP.uk": {
+    "name": "POP",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3750.png",
+    "source": "www.sky.com"
+  },
+  "BBC.R.Scot..uk": {
+    "name": "BBC R Scot.",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2117.png",
+    "source": "www.sky.com"
+  },
+  "SONY.MAX.HD.uk": {
+    "name": "SONY MAX HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4046.png",
+    "source": "www.sky.com"
+  },
+  "BBC.One.E.Mid.HD.uk": {
+    "name": "BBC One E Mid HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3005.png",
+    "source": "www.sky.com"
+  },
+  "Jazz.FM.uk": {
+    "name": "Jazz FM",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4376.png",
+    "source": "www.sky.com"
+  },
+  "LBC.uk": {
+    "name": "LBC",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2926.png",
+    "source": "www.sky.com"
+  },
+  "STV.HD.uk": {
+    "name": "STV HD",
+    "icon": "https://tv.assets.pressassociation.io/89eedcf9-78ac-568a-9a48-5d5c2c6dbd23.png",
+    "source": "www.sky.com"
+  },
+  "Sanskar.uk": {
+    "name": "Sanskar",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1100.png",
+    "source": "www.sky.com"
+  },
+  "B4U.Music.uk": {
+    "name": "B4U Music",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5708.png",
+    "source": "www.sky.com"
+  },
+  "Zee.TV.HD.uk": {
+    "name": "Zee TV HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1016.png",
+    "source": "www.sky.com"
+  },
+  "ColorsRishtey.uk": {
+    "name": "ColorsRishtey",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3916.png",
+    "source": "www.sky.com"
+  },
+  "Sukh.Sagar.uk": {
+    "name": "Sukh Sagar",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3368.png",
+    "source": "www.sky.com"
+  },
+  "SkySp.Racing.uk": {
+    "name": "SkySp Racing",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1354.png",
+    "source": "www.sky.com"
+  },
+  "Sky.Crime.HD.uk": {
+    "name": "Sky Crime HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1212.png",
+    "source": "www.sky.com"
+  },
+  "Faith.UK.uk": {
+    "name": "Faith UK",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5354.png",
+    "source": "www.sky.com"
+  },
+  "Heart.90s.uk": {
+    "name": "Heart 90s",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1083.png",
+    "source": "www.sky.com"
+  },
+  "HobbyMaker.uk": {
+    "name": "HobbyMaker",
+    "icon": "https://fdp-sv15-image-v1-0.gcprod1.freetime-platform.net/cache/ms/img/chan/chan/chan-Web-9009.png",
+    "source": "www.sky.com"
+  },
+  "Animal.Planet.uk": {
+    "name": "Animal Planet",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2402.png",
+    "source": "www.sky.com"
+  },
+  "GREAT!action+1.uk": {
+    "name": "GREAT!action+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3721.png",
     "source": "www.sky.com"
   },
   "Sky.Sports.Football.HD.uk": {
@@ -3314,19 +1534,534 @@
     "icon": "https://tv.assets.pressassociation.io/9ba334ca-b048-5119-9dfb-716b2b67ae8d.png",
     "source": "www.sky.com"
   },
-  "BBC.Radio.Bristol.104.6FM.uk": {
-    "name": "BBC Radio Bristol 104.6FM",
+  "Sky.Sci-Fi.HD.uk": {
+    "name": "Sky Sci-Fi HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4074.png",
+    "source": "www.sky.com"
+  },
+  "ColorsGujarati.uk": {
+    "name": "ColorsGujarati",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1090.png",
+    "source": "www.sky.com"
+  },
+  "Best.Direct.uk": {
+    "name": "Best Direct",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4100.png",
+    "source": "www.sky.com"
+  },
+  "Venus.TV.uk": {
+    "name": "Venus TV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3720.png",
+    "source": "www.sky.com"
+  },
+  "Sky.Greats.HD.uk": {
+    "name": "Sky Greats HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4015.png",
+    "source": "www.sky.com"
+  },
+  "TNT.Sports.1.HD.uk": {
+    "name": "TNT Sports 1 HD",
+    "icon": "https://tv.assets.pressassociation.io/f55b110f-8046-5273-a249-badfe915e918.png",
+    "source": "www.sky.com"
+  },
+  "STV.North.uk": {
+    "name": "STV North",
     "icon": null,
     "source": "www.sky.com"
   },
-  "BBC.One.Y.and.L.HD.uk": {
-    "name": "BBC One Y and L HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3004.png",
+  "TV.Warehouse.uk": {
+    "name": "TV Warehouse",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3632.png",
     "source": "www.sky.com"
   },
-  "Disc.Turbo.uk": {
-    "name": "Disc.Turbo",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2409.png",
+  "U.and.Eden+1.uk": {
+    "name": "U and Eden+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2307.png",
+    "source": "www.sky.com"
+  },
+  "Thats.TV.2.uk": {
+    "name": "Thats TV 2",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1311.png",
+    "source": "www.sky.com"
+  },
+  "Animal.Plnt+1.uk": {
+    "name": "Animal Plnt+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1352.png",
+    "source": "www.sky.com"
+  },
+  "Sky.Cinema.Comedy.uk": {
+    "name": "Sky Cinema Comedy",
+    "icon": "https://d16ia5iwuvax6y.cloudfront.net/uk-images/02e866d89112bb1b1a576f520d636de5.png?k=VeeNdUjml3bSHdlZ0OXbGLy%2BmsLdYPwTV6iAxGkzq4cxLxoRPe%2Be6QkpTmeP95IGvhHBXchnfTjwvsMaRU1caihM8fF%2FQDNm03mD0qz8w4RqV4T3T6ThRp1Uc%2BpBrwJ%2F%2BFYX8F9MYhdYsGFB%2BqzEeQ%3D%3D",
+    "source": "www.sky.com"
+  },
+  "PTC.PUNJABI.uk": {
+    "name": "PTC PUNJABI",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5715.png",
+    "source": "www.sky.com"
+  },
+  "Sky.Comedy.HD.uk": {
+    "name": "Sky Comedy HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1143.png",
+    "source": "www.sky.com"
+  },
+  "U.and.YESTERDAY.uk": {
+    "name": "U and YESTERDAY",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2305.png",
+    "source": "www.sky.com"
+  },
+  "QVC.HD.uk": {
+    "name": "QVC HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1076.png",
+    "source": "www.sky.com"
+  },
+  "Classic.FM.uk": {
+    "name": "Classic FM",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3470.png",
+    "source": "www.sky.com"
+  },
+  "BBC.One.S.East.HD.uk": {
+    "name": "BBC One S East HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3008.png",
+    "source": "www.sky.com"
+  },
+  "SkySp.ActionHD.uk": {
+    "name": "SkySp ActionHD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4022.png",
+    "source": "www.sky.com"
+  },
+  "ID.uk": {
+    "name": "ID",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2413.png",
+    "source": "www.sky.com"
+  },
+  "CBBC.HD.uk": {
+    "name": "CBBC HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2078.png",
+    "source": "www.sky.com"
+  },
+  "Sky.Documentaries.HD.uk": {
+    "name": "Sky Documentaries HD",
+    "icon": "https://cdn.tv-guide.future.sensi.link/images/channel/c8128fb5-aebe-5600-aeca-f1c1ae5f89d4/logo.png",
+    "source": "www.sky.com"
+  },
+  "SkySp.F1.uk": {
+    "name": "SkySp F1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1306.png",
+    "source": "www.sky.com"
+  },
+  "BBC.Radio.Bristol.94.9FM.uk": {
+    "name": "BBC Radio Bristol 94.9FM",
+    "icon": null,
+    "source": "www.sky.com"
+  },
+  "Takbeer.TV.uk": {
+    "name": "Takbeer TV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4408.png",
+    "source": "www.sky.com"
+  },
+  "HGTV+1.uk": {
+    "name": "HGTV+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2309.png",
+    "source": "www.sky.com"
+  },
+  "SONY.TV.HD.uk": {
+    "name": "SONY TV HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4045.png",
+    "source": "www.sky.com"
+  },
+  "Thats.Melody.uk": {
+    "name": "Thats Melody",
+    "icon": "https://assets.tv24.co/channels/that-s-80s-l.webp",
+    "source": "www.sky.com"
+  },
+  "GINXeSportsTV.uk": {
+    "name": "GINXeSportsTV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1830.png",
+    "source": "www.sky.com"
+  },
+  "Ideal.World.HD.uk": {
+    "name": "Ideal World HD",
+    "icon": "https://fdp-sv15-image-v1-0.gcprod1.freetime-platform.net/cache/ms/img/chan/chan/chan-Web-10704.png",
+    "source": "www.sky.com"
+  },
+  "Sky.Family.HD.uk": {
+    "name": "Sky Family HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4018.png",
+    "source": "www.sky.com"
+  },
+  "BBC.Two.HD.uk": {
+    "name": "BBC Two HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2075.png",
+    "source": "www.sky.com"
+  },
+  "NOW.80s.uk": {
+    "name": "NOW 80s",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4541.png",
+    "source": "www.sky.com"
+  },
+  "TNTSBoxOff2HD.uk": {
+    "name": "TNTSBoxOff2HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1218.png",
+    "source": "www.sky.com"
+  },
+  "Utsav.Bharat.uk": {
+    "name": "Utsav Bharat",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3608.png",
+    "source": "www.sky.com"
+  },
+  "BBC.One.Wal.HD.uk": {
+    "name": "BBC One Wal HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2083.png",
+    "source": "www.sky.com"
+  },
+  "Utsav.Plus.HD.uk": {
+    "name": "Utsav Plus HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5300.png",
+    "source": "www.sky.com"
+  },
+  "BBC.Two.NI.HD.uk": {
+    "name": "BBC Two NI HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3019.png",
+    "source": "www.sky.com"
+  },
+  "CNN.HD.uk": {
+    "name": "CNN HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1019.png",
+    "source": "www.sky.com"
+  },
+  "U.and.YESTERDAY+1.uk": {
+    "name": "U and YESTERDAY+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2615.png",
+    "source": "www.sky.com"
+  },
+  "Euronews.uk": {
+    "name": "Euronews",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4604.png",
+    "source": "www.sky.com"
+  },
+  "Discovery.HD.uk": {
+    "name": "Discovery HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4003.png",
+    "source": "www.sky.com"
+  },
+  "Ahlebait.TV.uk": {
+    "name": "Ahlebait TV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb6765.png",
+    "source": "www.sky.com"
+  },
+  "Live.360.uk": {
+    "name": "Live 360",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1133.png",
+    "source": "www.sky.com"
+  },
+  "Heart.80s.uk": {
+    "name": "Heart 80s",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2928.png",
+    "source": "www.sky.com"
+  },
+  "BabyTV.uk": {
+    "name": "BabyTV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3645.png",
+    "source": "www.sky.com"
+  },
+  "SkySp+HD.uk": {
+    "name": "SkySp+HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3940.png",
+    "source": "www.sky.com"
+  },
+  "Cartoonito.uk": {
+    "name": "Cartoonito",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1371.png",
+    "source": "www.sky.com"
+  },
+  "NEO.News.uk": {
+    "name": "NEO News",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3722.png",
+    "source": "www.sky.com"
+  },
+  "GREAT!.action.uk": {
+    "name": "GREAT! action",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3708.png",
+    "source": "www.sky.com"
+  },
+  "revelation.uk": {
+    "name": "revelation",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3116.png",
+    "source": "www.sky.com"
+  },
+  "Nick.Jr..Too.uk": {
+    "name": "Nick Jr. Too",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4340.png",
+    "source": "www.sky.com"
+  },
+  "Smooth.uk": {
+    "name": "Smooth",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2917.png",
+    "source": "www.sky.com"
+  },
+  "BBC.WS.uk": {
+    "name": "BBC WS",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2122.png",
+    "source": "www.sky.com"
+  },
+  "Sangat.uk": {
+    "name": "Sangat",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3355.png",
+    "source": "www.sky.com"
+  },
+  "GREAT!.romance.uk": {
+    "name": "GREAT! romance",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3643.png",
+    "source": "www.sky.com"
+  },
+  "TV.One.uk": {
+    "name": "TV One",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5426.png",
+    "source": "www.sky.com"
+  },
+  "Utsav.GOLD.uk": {
+    "name": "Utsav GOLD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3613.png",
+    "source": "www.sky.com"
+  },
+  "babes.and.brazzers.uk": {
+    "name": "babes and brazzers",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4197.png",
+    "source": "www.sky.com"
+  },
+  "U.and.W+1.uk": {
+    "name": "U and W+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2616.png",
+    "source": "www.sky.com"
+  },
+  "Planet.Rock.uk": {
+    "name": "Planet Rock",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3475.png",
+    "source": "www.sky.com"
+  },
+  "BBC.R.Foyle.uk": {
+    "name": "BBC R Foyle",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2124.png",
+    "source": "www.sky.com"
+  },
+  "PBS.America.uk": {
+    "name": "PBS America",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5500.png",
+    "source": "www.sky.com"
+  },
+  "Sky.Drama.HD.uk": {
+    "name": "Sky Drama HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4016.png",
+    "source": "www.sky.com"
+  },
+  "Spider-Man.HD.uk": {
+    "name": "Spider-Man HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4033.png",
+    "source": "www.sky.com"
+  },
+  "Noor.TV.uk": {
+    "name": "Noor TV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3715.png",
+    "source": "www.sky.com"
+  },
+  "Sky.One.HD.uk": {
+    "name": "Sky One HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4061.png",
+    "source": "www.sky.com"
+  },
+  "Cartoon.Net.HD.uk": {
+    "name": "Cartoon Net HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4077.png",
+    "source": "www.sky.com"
+  },
+  "TLC+1.uk": {
+    "name": "TLC+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5451.png",
+    "source": "www.sky.com"
+  },
+  "WION.HD.uk": {
+    "name": "WION HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1084.png",
+    "source": "www.sky.com"
+  },
+  "TalkTV.HD.uk": {
+    "name": "TalkTV HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1078.png",
+    "source": "www.sky.com"
+  },
+  "BBC.One.ScotHD.uk": {
+    "name": "BBC One ScotHD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2082.png",
+    "source": "www.sky.com"
+  },
+  "Sky.Thriller.HD.uk": {
+    "name": "Sky Thriller HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4062.png",
+    "source": "www.sky.com"
+  },
+  "QUEST+1.uk": {
+    "name": "QUEST+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3621.png",
+    "source": "www.sky.com"
+  },
+  "NDTV.24x7.uk": {
+    "name": "NDTV 24x7",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1821.png",
+    "source": "www.sky.com"
+  },
+  "Sky.Cinema.Select.uk": {
+    "name": "Sky Cinema Select",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4020.png",
+    "source": "www.sky.com"
+  },
+  "True.Crime.Xtra.uk": {
+    "name": "True Crime Xtra",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3617.png",
+    "source": "www.sky.com"
+  },
+  "High.Street.TV.3.uk": {
+    "name": "High Street TV 3",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3404.png",
+    "source": "www.sky.com"
+  },
+  "Channel.7.uk": {
+    "name": "Channel 7",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3687.png",
+    "source": "www.sky.com"
+  },
+  "GEO.News.uk": {
+    "name": "GEO News",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4407.png",
+    "source": "www.sky.com"
+  },
+  "Premier.Sports.1.HD.uk": {
+    "name": "Premier Sports 1 HD",
+    "icon": "https://cdn.tv-guide.future.sensi.link/images/channel/02fe4bd6-cea9-5696-8025-d81cdb571639/logo.png",
+    "source": "www.sky.com"
+  },
+  "Sky.Sports.Ultra.HD.2.uk": {
+    "name": "Sky Sports Ultra HD 2",
+    "icon": "https://staticqbr-prod-gb.gnp.cloud.virgintvgo.virginmedia.com/image-service/ImagesEPG/EventImages/sky-sports-uhd.png",
+    "source": "www.sky.com"
+  },
+  "TCM.Movies+1.uk": {
+    "name": "TCM Movies+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5275.png",
+    "source": "www.sky.com"
+  },
+  "COLORS.HD.uk": {
+    "name": "COLORS HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1372.png",
+    "source": "www.sky.com"
+  },
+  "ITV2+1.uk": {
+    "name": "ITV2+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb6241.png",
+    "source": "www.sky.com"
+  },
+  "STV.Central.uk": {
+    "name": "STV Central",
+    "icon": "https://tv.assets.pressassociation.io/59da93c5-a1ea-5432-be42-47a0b362f234.png",
+    "source": "www.sky.com"
+  },
+  "TalkingPictures.uk": {
+    "name": "TalkingPictures",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5252.png",
+    "source": "www.sky.com"
+  },
+  "TVC.News.uk": {
+    "name": "TVC News",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5882.png",
+    "source": "www.sky.com"
+  },
+  "GREAT!.tv+1.uk": {
+    "name": "GREAT! tv+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5338.png",
+    "source": "www.sky.com"
+  },
+  "XXXpublicpikups.uk": {
+    "name": "XXXpublicpikups",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1030.png",
+    "source": "www.sky.com"
+  },
+  "POP+1.uk": {
+    "name": "POP+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4216.png",
+    "source": "www.sky.com"
+  },
+  "TRT.World.uk": {
+    "name": "TRT World",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5071.png",
+    "source": "www.sky.com"
+  },
+  "Nat.Geo+1.uk": {
+    "name": "Nat Geo+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1822.png",
+    "source": "www.sky.com"
+  },
+  "U.and.Dave.ja.vu.uk": {
+    "name": "U and Dave ja vu",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2320.png",
+    "source": "www.sky.com"
+  },
+  "CNBC.HD.uk": {
+    "name": "CNBC HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1088.png",
+    "source": "www.sky.com"
+  },
+  "Thats.Dance.uk": {
+    "name": "Thats Dance",
+    "icon": "https://cdn.tv-guide.future.sensi.link/images/channel/57b61c39-40da-508f-9efa-b901736dfc7d/logo.png",
+    "source": "www.sky.com"
+  },
+  "TJC.HD.uk": {
+    "name": "TJC HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1113.png",
+    "source": "www.sky.com"
+  },
+  "Sky.Nature.HD.uk": {
+    "name": "Sky Nature HD",
+    "icon": "https://cdn.tv-guide.future.sensi.link/images/channel/b5f505e2-5bd9-5fc0-b307-35dfd4611836/logo.png",
+    "source": "www.sky.com"
+  },
+  "Sikh.Channel.uk": {
+    "name": "Sikh Channel",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3650.png",
+    "source": "www.sky.com"
+  },
+  "SkyNewsArabia.uk": {
+    "name": "SkyNewsArabia",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4645.png",
+    "source": "www.sky.com"
+  },
+  "Khushkhabri.uk": {
+    "name": "Khushkhabri",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3383.png",
+    "source": "www.sky.com"
+  },
+  "SkySp.F1.HD.uk": {
+    "name": "SkySp F1 HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3835.png",
+    "source": "www.sky.com"
+  },
+  "TNT.Sports.2.HD.uk": {
+    "name": "TNT Sports 2 HD",
+    "icon": "https://tv.assets.pressassociation.io/77f422fa-d4a2-5687-953c-34f4da7d8b91.png",
+    "source": "www.sky.com"
+  },
+  "5ACTION.uk": {
+    "name": "5ACTION",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1036.png",
+    "source": "www.sky.com"
+  },
+  "TLC.HD.uk": {
+    "name": "TLC HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3812.png",
+    "source": "www.sky.com"
+  },
+  "Legend.uk": {
+    "name": "Legend",
+    "icon": null,
     "source": "www.sky.com"
   },
   "iON.TV.uk": {
@@ -3334,9 +2069,749 @@
     "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4461.png",
     "source": "www.sky.com"
   },
-  "Channel.4+1.uk": {
-    "name": "Channel 4+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1670.png",
+  "Trace.Hits.uk": {
+    "name": "Trace Hits",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3505.png",
+    "source": "www.sky.com"
+  },
+  "ComedyCentHD.uk": {
+    "name": "ComedyCentHD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4056.png",
+    "source": "www.sky.com"
+  },
+  "Akaal.Channel.uk": {
+    "name": "Akaal Channel",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5087.png",
+    "source": "www.sky.com"
+  },
+  "Radio.X.uk": {
+    "name": "Radio X",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2904.png",
+    "source": "www.sky.com"
+  },
+  "ComedyCent+1.uk": {
+    "name": "ComedyCent+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3802.png",
+    "source": "www.sky.com"
+  },
+  "Crime+Inv.HD.uk": {
+    "name": "Crime+Inv HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4088.png",
+    "source": "www.sky.com"
+  },
+  "Eman.Channel.uk": {
+    "name": "Eman Channel",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3111.png",
+    "source": "www.sky.com"
+  },
+  "NTV.uk": {
+    "name": "NTV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4540.png",
+    "source": "www.sky.com"
+  },
+  "Film4.HD.uk": {
+    "name": "Film4 HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4044.png",
+    "source": "www.sky.com"
+  },
+  "Sky.Sports.Ultra.HD.1.uk": {
+    "name": "Sky Sports Ultra HD 1",
+    "icon": "https://staticqbr-prod-gb.gnp.cloud.virgintvgo.virginmedia.com/image-service/ImagesEPG/EventImages/sky-sports-uhd.png",
+    "source": "www.sky.com"
+  },
+  "Disc.History+1.uk": {
+    "name": "Disc.History+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3760.png",
+    "source": "www.sky.com"
+  },
+  "Forces.TV.uk": {
+    "name": "Forces TV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5415.png",
+    "source": "www.sky.com"
+  },
+  "Thats.TV.uk": {
+    "name": "Thats TV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1017.png",
+    "source": "www.sky.com"
+  },
+  "BBC.One.WM.HD.uk": {
+    "name": "BBC One WM HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3003.png",
+    "source": "www.sky.com"
+  },
+  "BBCScotlandHD.uk": {
+    "name": "BBCScotlandHD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1138.png",
+    "source": "www.sky.com"
+  },
+  "SkyMegaHitsHD.uk": {
+    "name": "SkyMegaHitsHD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4033.png",
+    "source": "www.sky.com"
+  },
+  "RTÉ.2FM.uk": {
+    "name": "RTÉ 2FM",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1262.png",
+    "source": "www.sky.com"
+  },
+  "EasterEpicsHD.uk": {
+    "name": "EasterEpicsHD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4020.png",
+    "source": "www.sky.com"
+  },
+  "New.Vision.TV.uk": {
+    "name": "New Vision TV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1026.png",
+    "source": "www.sky.com"
+  },
+  "NOW.70s.uk": {
+    "name": "NOW 70s",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3403.png",
+    "source": "www.sky.com"
+  },
+  "Classic.Rock.uk": {
+    "name": "Classic Rock",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4371.png",
+    "source": "www.sky.com"
+  },
+  "TNT.Sports.3.HD.uk": {
+    "name": "TNT Sports 3 HD",
+    "icon": "https://tv.assets.pressassociation.io/75c9df5d-d2d8-5d04-92ac-d9973c082c72.png",
+    "source": "www.sky.com"
+  },
+  "5STAR.uk": {
+    "name": "5STAR",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3023.png",
+    "source": "www.sky.com"
+  },
+  "More.Radio.Mid.Sussex.uk": {
+    "name": "More Radio Mid Sussex",
+    "icon": null,
+    "source": "www.sky.com"
+  },
+  "BBC.Parliament.HD.uk": {
+    "name": "BBC Parliament HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3020.png",
+    "source": "www.sky.com"
+  },
+  "Quest.Red.uk": {
+    "name": "Quest Red",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2411.png",
+    "source": "www.sky.com"
+  },
+  "CBS.Justice.uk": {
+    "name": "CBS Justice",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4610.png",
+    "source": "www.sky.com"
+  },
+  "Panjab.Radio.uk": {
+    "name": "Panjab Radio",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3363.png",
+    "source": "www.sky.com"
+  },
+  "STV.North.+1.uk": {
+    "name": "STV North +1",
+    "icon": "https://tv.assets.pressassociation.io/593fc3d8-c0fb-5d6e-ae24-a298bd6c2e42.png",
+    "source": "www.sky.com"
+  },
+  "TNT.Sports.10.HD.uk": {
+    "name": "TNT Sports 10 HD",
+    "icon": "https://tv.assets.pressassociation.io/8cf3d59b-125d-53e7-af17-3ca837d02c9d.png",
+    "source": "www.sky.com"
+  },
+  "Greatest.Hits.uk": {
+    "name": "Greatest Hits",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1101.png",
+    "source": "www.sky.com"
+  },
+  "G!.romance+1.uk": {
+    "name": "G! romance+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3751.png",
+    "source": "www.sky.com"
+  },
+  "TNT.Sports.7.HD.uk": {
+    "name": "TNT Sports 7 HD",
+    "icon": "https://tv.assets.pressassociation.io/f0a3e89f-2f7e-5176-a574-33dc6ec6efaf.png",
+    "source": "www.sky.com"
+  },
+  "U.and.Gold.uk": {
+    "name": "Gold",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2903.png",
+    "source": "www.sky.com"
+  },
+  "TNT.Sports.6.HD.uk": {
+    "name": "TNT Sports 6 HD",
+    "icon": "https://tv.assets.pressassociation.io/82f1ab41-1eb6-5cd6-a8a1-e7a7c694555d.png",
+    "source": "www.sky.com"
+  },
+  "Boomerang.HD.uk": {
+    "name": "Boomerang HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4030.png",
+    "source": "www.sky.com"
+  },
+  "5SELECT.uk": {
+    "name": "5SELECT",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3028.png",
+    "source": "www.sky.com"
+  },
+  "Heart.Dance.uk": {
+    "name": "Heart Dance",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2920.png",
+    "source": "www.sky.com"
+  },
+  "Tiny.Pop+1.uk": {
+    "name": "Tiny Pop+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4261.png",
+    "source": "www.sky.com"
+  },
+  "Get.Lucky.TV.uk": {
+    "name": "Get Lucky TV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4538.png",
+    "source": "www.sky.com"
+  },
+  "Disc.Turbo+1.uk": {
+    "name": "Disc.Turbo+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5245.png",
+    "source": "www.sky.com"
+  },
+  "Dunamis.TV.uk": {
+    "name": "Dunamis TV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1191.png",
+    "source": "www.sky.com"
+  },
+  "High.Street.TV.2.uk": {
+    "name": "High Street TV 2",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5706.png",
+    "source": "www.sky.com"
+  },
+  "True.Crime.uk": {
+    "name": "True Crime",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3352.png",
+    "source": "www.sky.com"
+  },
+  "POLITICSPUNJAB.uk": {
+    "name": "POLITICSPUNJAB",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3421.png",
+    "source": "www.sky.com"
+  },
+  "XXX.Mums.uk": {
+    "name": "XXX Mums",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1754.png",
+    "source": "www.sky.com"
+  },
+  "GB.News.HD.uk": {
+    "name": "GB News HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1196.png",
+    "source": "www.sky.com"
+  },
+  "Sky.Arts.HD.uk": {
+    "name": "Sky Arts HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4063.png",
+    "source": "www.sky.com"
+  },
+  "ROK.uk": {
+    "name": "ROK",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3542.png",
+    "source": "www.sky.com"
+  },
+  "KICC.TV.uk": {
+    "name": "KICC TV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3776.png",
+    "source": "www.sky.com"
+  },
+  "WRN.Europe.uk": {
+    "name": "WRN Europe",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4158.png",
+    "source": "www.sky.com"
+  },
+  "U.and.Dave.HD.uk": {
+    "name": "U and Dave HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3809.png",
+    "source": "www.sky.com"
+  },
+  "EWTN.Catholic.uk": {
+    "name": "EWTN Catholic",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4163.png",
+    "source": "www.sky.com"
+  },
+  "SportyStuff.HD.uk": {
+    "name": "SportyStuff HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1223.png",
+    "source": "www.sky.com"
+  },
+  "TWR.uk": {
+    "name": "TWR",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4155.png",
+    "source": "www.sky.com"
+  },
+  "BBC.R1X.uk": {
+    "name": "BBC R1X",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2126.png",
+    "source": "www.sky.com"
+  },
+  "BBC.R4.LW.uk": {
+    "name": "BBC R4 LW",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2115.png",
+    "source": "www.sky.com"
+  },
+  "JewelleryMaker.uk": {
+    "name": "JewelleryMaker",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3354.png",
+    "source": "www.sky.com"
+  },
+  "More4+1.uk": {
+    "name": "More4+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3310.png",
+    "source": "www.sky.com"
+  },
+  "Sky.Premiere.uk": {
+    "name": "Sky Premiere",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1409.png",
+    "source": "www.sky.com"
+  },
+  "Nicktoons.uk": {
+    "name": "Nicktoons",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1849.png",
+    "source": "www.sky.com"
+  },
+  "NOW.90s00s.uk": {
+    "name": "NOW 90s00s",
+    "icon": "https://cdn.tv-guide.future.sensi.link/images/channel/2139e332-aa9f-5d46-8e51-913bfbf6693d/logo.png",
+    "source": "www.sky.com"
+  },
+  "TJC.uk": {
+    "name": "TJC",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1033.png",
+    "source": "www.sky.com"
+  },
+  "XXX.Girl.Girl.uk": {
+    "name": "XXX Girl Girl",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1029.png",
+    "source": "www.sky.com"
+  },
+  "CN+1.uk": {
+    "name": "CN+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5610.png",
+    "source": "www.sky.com"
+  },
+  "PTV.Global.uk": {
+    "name": "PTV Global",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3646.png",
+    "source": "www.sky.com"
+  },
+  "B4U.Movies.uk": {
+    "name": "B4U Movies",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5703.png",
+    "source": "www.sky.com"
+  },
+  "BBC.R.n.Gael.uk": {
+    "name": "BBC R n Gael",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2129.png",
+    "source": "www.sky.com"
+  },
+  "BBC.One.Yorks.HD.uk": {
+    "name": "BBC One Yorks HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3017.png",
+    "source": "www.sky.com"
+  },
+  "SkySp.Racing.HD.uk": {
+    "name": "SkySp Racing HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4032.png",
+    "source": "www.sky.com"
+  },
+  "TNT.Sports.Ultimate.HD.uk": {
+    "name": "TNT Sports Ultimate HD",
+    "icon": "https://tv.assets.pressassociation.io/4cf0b94b-7f49-5dea-8e05-bced66f8bbd7.png",
+    "source": "www.sky.com"
+  },
+  "Faith.World.TV.uk": {
+    "name": "Faith World TV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4404.png",
+    "source": "www.sky.com"
+  },
+  "London.Live.uk": {
+    "name": "London Live",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5090.png",
+    "source": "www.sky.com"
+  },
+  "E4.HD.uk": {
+    "name": "E4 HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4076.png",
+    "source": "www.sky.com"
+  },
+  "SkySp.Fball.uk": {
+    "name": "SkySp Fball",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3838.png",
+    "source": "www.sky.com"
+  },
+  "Foodxp.uk": {
+    "name": "Foodxp",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1227.png",
+    "source": "www.sky.com"
+  },
+  "BBC.6.Music.uk": {
+    "name": "BBC 6 Music",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2127.png",
+    "source": "www.sky.com"
+  },
+  "SkyValentineHD.uk": {
+    "name": "SkyValentineHD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4020.png",
+    "source": "www.sky.com"
+  },
+  "DAYSTAR.HD.uk": {
+    "name": "DAYSTAR HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5541.png",
+    "source": "www.sky.com"
+  },
+  "Capital.uk": {
+    "name": "Capital",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2908.png",
+    "source": "www.sky.com"
+  },
+  "IQRA.BANGLA.uk": {
+    "name": "IQRA BANGLA",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3914.png",
+    "source": "www.sky.com"
+  },
+  "Racing.TV.uk": {
+    "name": "Racing TV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3636.png",
+    "source": "www.sky.com"
+  },
+  "BFBS.Radio.uk": {
+    "name": "BFBS Radio",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3371.png",
+    "source": "www.sky.com"
+  },
+  "NOW.90s.uk": {
+    "name": "NOW 90s",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3682.png",
+    "source": "www.sky.com"
+  },
+  "NBCNewsNowHD.uk": {
+    "name": "NBCNewsNowHD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1039.png",
+    "source": "www.sky.com"
+  },
+  "Pitaara..uk": {
+    "name": "Pitaara ",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1260.png",
+    "source": "www.sky.com"
+  },
+  "Islam.TV.uk": {
+    "name": "Islam TV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4403.png",
+    "source": "www.sky.com"
+  },
+  "Thats.TV.3.uk": {
+    "name": "Thats TV 3",
+    "icon": "https://cdn.tv-guide.future.sensi.link/images/channel/d05733e3-63ec-58b7-9945-d51080c7bce5/logo.png",
+    "source": "www.sky.com"
+  },
+  "TNT.Sports.8.HD.uk": {
+    "name": "TNT Sports 8 HD",
+    "icon": "https://tv.assets.pressassociation.io/e3cb5ec6-42ce-5031-bc76-83e46cbe3652.png",
+    "source": "www.sky.com"
+  },
+  "Nick.Jr+1.uk": {
+    "name": "Nick Jr+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5089.png",
+    "source": "www.sky.com"
+  },
+  "ITV4+1.uk": {
+    "name": "ITV4+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb6274.png",
+    "source": "www.sky.com"
+  },
+  "E4+1.uk": {
+    "name": "E4+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3300.png",
+    "source": "www.sky.com"
+  },
+  "Really.uk": {
+    "name": "Really",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2325.png",
+    "source": "www.sky.com"
+  },
+  "ColorsCineplex.uk": {
+    "name": "ColorsCineplex",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1105.png",
+    "source": "www.sky.com"
+  },
+  "Studio.66.3.uk": {
+    "name": "Studio 66 3",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3530.png",
+    "source": "www.sky.com"
+  },
+  "BBC.NEWS.HD.uk": {
+    "name": "BBC NEWS HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2085.png",
+    "source": "www.sky.com"
+  },
+  "Film4+1.uk": {
+    "name": "Film4+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1629.png",
+    "source": "www.sky.com"
+  },
+  "Absolute.uk": {
+    "name": "Absolute",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2901.png",
+    "source": "www.sky.com"
+  },
+  "Food.Network.uk": {
+    "name": "Food Network",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3590.png",
+    "source": "www.sky.com"
+  },
+  "BBC.Asian.uk": {
+    "name": "BBC Asian",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2120.png",
+    "source": "www.sky.com"
+  },
+  "BBC.R.Cymru.2.uk": {
+    "name": "BBC R Cymru 2",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2021.png",
+    "source": "www.sky.com"
+  },
+  "Arise.News.uk": {
+    "name": "Arise News",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5040.png",
+    "source": "www.sky.com"
+  },
+  "BBC.RB.1.uk": {
+    "name": "BBC RB 1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2051.png",
+    "source": "www.sky.com"
+  },
+  "QVC.Extra.uk": {
+    "name": "QVC Extra",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3359.png",
+    "source": "www.sky.com"
+  },
+  "LFCTV.HD.uk": {
+    "name": "LFCTV HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3845.png",
+    "source": "www.sky.com"
+  },
+  "Craft.Extra.uk": {
+    "name": "Craft Extra",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3357.png",
+    "source": "www.sky.com"
+  },
+  "Babenation.uk": {
+    "name": "Babenation",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3400.png",
+    "source": "www.sky.com"
+  },
+  "Good.News.TV.uk": {
+    "name": "Good News TV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1188.png",
+    "source": "www.sky.com"
+  },
+  "SkySp.Fball.HD.uk": {
+    "name": "SkySp Fball HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3939.png",
+    "source": "www.sky.com"
+  },
+  "Legend.Xtra.uk": {
+    "name": "Legend Xtra",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3605.png",
+    "source": "www.sky.com"
+  },
+  "QVC.Style.HD.uk": {
+    "name": "QVC Style HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1118.png",
+    "source": "www.sky.com"
+  },
+  "BBC.R.Wales.uk": {
+    "name": "BBC R Wales",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2118.png",
+    "source": "www.sky.com"
+  },
+  "TJC.Beauty.uk": {
+    "name": "TJC Beauty",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5212.png",
+    "source": "www.sky.com"
+  },
+  "BBC.Three.HD.uk": {
+    "name": "BBC Three HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2080.png",
+    "source": "www.sky.com"
+  },
+  "SkySp.News.HD.uk": {
+    "name": "SkySp News HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4049.png",
+    "source": "www.sky.com"
+  },
+  "SkyAnimationHD.uk": {
+    "name": "SkyAnimationHD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1199.png",
+    "source": "www.sky.com"
+  },
+  "S4C.uk": {
+    "name": "S4C",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5701.png",
+    "source": "www.sky.com"
+  },
+  "BBC.R5SX.uk": {
+    "name": "BBC R5SX",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2034.png",
+    "source": "www.sky.com"
+  },
+  "Inspiration.TV.uk": {
+    "name": "Inspiration TV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3219.png",
+    "source": "www.sky.com"
+  },
+  "SkySp.Action.uk": {
+    "name": "SkySp Action",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1333.png",
+    "source": "www.sky.com"
+  },
+  "Gemporia.Craft.uk": {
+    "name": "Gemporia Craft",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1129.png",
+    "source": "www.sky.com"
+  },
+  "SkyPremiere+1.uk": {
+    "name": "SkyPremiere+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1823.png",
+    "source": "www.sky.com"
+  },
+  "Virgin.Radio.uk": {
+    "name": "Virgin Radio",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1148.png",
+    "source": "www.sky.com"
+  },
+  "BBC.One.S.West.HD.uk": {
+    "name": "BBC One S West HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3014.png",
+    "source": "www.sky.com"
+  },
+  "BBC.One.NI.HD.uk": {
+    "name": "BBC One NI HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2081.png",
+    "source": "www.sky.com"
+  },
+  "BBC.R3.uk": {
+    "name": "BBC R3",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2113.png",
+    "source": "www.sky.com"
+  },
+  "U.and.alibi.HD.uk": {
+    "name": "U and alibi HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3825.png",
+    "source": "www.sky.com"
+  },
+  "Sky.Kids.HD.uk": {
+    "name": "Sky Kids HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1147.png",
+    "source": "www.sky.com"
+  },
+  "BBC.Two.Wal.HD.uk": {
+    "name": "BBC Two Wal HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3015.png",
+    "source": "www.sky.com"
+  },
+  "STV.Central.+1.uk": {
+    "name": "STV Central +1",
+    "icon": "https://tv.assets.pressassociation.io/965b0191-16bb-52ea-99db-9f83d279dfc8.png",
+    "source": "www.sky.com"
+  },
+  "Nat.Geo.HD.uk": {
+    "name": "Nat Geo HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4031.png",
+    "source": "www.sky.com"
+  },
+  "ITV3.HD.uk": {
+    "name": "ITV3 HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb6533.png",
+    "source": "www.sky.com"
+  },
+  "The.Box.uk": {
+    "name": "The Box",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1802.png",
+    "source": "www.sky.com"
+  },
+  "4seven.uk": {
+    "name": "4seven",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3150.png",
+    "source": "www.sky.com"
+  },
+  "Premier.Sports.2.HD.uk": {
+    "name": "Premier Sports 2 HD",
+    "icon": "https://cdn.tv-guide.future.sensi.link/images/channel/3ea27dc2-561b-5932-8aad-cc26b53ae3f8/logo.png",
+    "source": "www.sky.com"
+  },
+  "Boomerang+1.uk": {
+    "name": "Boomerang+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5603.png",
+    "source": "www.sky.com"
+  },
+  "Channels.24.uk": {
+    "name": "Channels 24",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5520.png",
+    "source": "www.sky.com"
+  },
+  "Sky.Replay.uk": {
+    "name": "Sky Replay",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1833.png",
+    "source": "www.sky.com"
+  },
+  "Sky.HistoryHD.uk": {
+    "name": "Sky HistoryHD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4086.png",
+    "source": "www.sky.com"
+  },
+  "Hits.Radio.uk": {
+    "name": "Hits Radio",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5562.png",
+    "source": "www.sky.com"
+  },
+  "Cartoon.Netwrk.uk": {
+    "name": "Cartoon Netwrk",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5601.png",
+    "source": "www.sky.com"
+  },
+  "ID+1.uk": {
+    "name": "ID+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5452.png",
+    "source": "www.sky.com"
+  },
+  "BBC.R4.Ex.uk": {
+    "name": "BBC R4 Ex",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2128.png",
+    "source": "www.sky.com"
+  },
+  "BBC.One.EastHD.uk": {
+    "name": "BBC One EastHD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3006.png",
+    "source": "www.sky.com"
+  },
+  "ComedyCentral.uk": {
+    "name": "ComedyCentral",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2510.png",
+    "source": "www.sky.com"
+  },
+  "TNT.Sport.BoxOffice.HD.uk": {
+    "name": "TNT Sport BoxOffice HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1210.png",
+    "source": "www.sky.com"
+  },
+  "Legend.Xtra+1.uk": {
+    "name": "Legend Xtra+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4502.png",
+    "source": "www.sky.com"
+  },
+  "SkySpCricket.HD.uk": {
+    "name": "SkySpCricket HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4081.png",
+    "source": "www.sky.com"
+  },
+  "Word.Network.uk": {
+    "name": "Word Network",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3205.png",
     "source": "www.sky.com"
   },
   "More4.HD.uk": {
@@ -3349,229 +2824,54 @@
     "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3771.png",
     "source": "www.sky.com"
   },
-  "STV.Central.+1.uk": {
-    "name": "STV Central +1",
-    "icon": "https://tv.assets.pressassociation.io/965b0191-16bb-52ea-99db-9f83d279dfc8.png",
-    "source": "www.sky.com"
-  },
-  "Cartoon.Net.HD.uk": {
-    "name": "Cartoon Net HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4077.png",
-    "source": "www.sky.com"
-  },
-  "U.and.YESTERDAY+1.uk": {
-    "name": "U and YESTERDAY+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2615.png",
-    "source": "www.sky.com"
-  },
-  "IQRA.TV.uk": {
-    "name": "IQRA TV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb6754.png",
-    "source": "www.sky.com"
-  },
-  "revelation.uk": {
-    "name": "revelation",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3116.png",
-    "source": "www.sky.com"
-  },
-  "Sky.History2.uk": {
-    "name": "Sky History2",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1879.png",
-    "source": "www.sky.com"
-  },
-  "TNT.Sports.Box.Office.2.uk": {
-    "name": "TNT Sports Box Office 2",
-    "icon": "https://tv.assets.pressassociation.io/a5a4c54e-969e-5fd2-96bc-bae1e24edc90.png",
-    "source": "www.sky.com"
-  },
-  "TVC.News.uk": {
-    "name": "TVC News",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5882.png",
-    "source": "www.sky.com"
-  },
-  "TVX.40+.uk": {
-    "name": "TVX 40+",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1031.png",
-    "source": "www.sky.com"
-  },
-  "BBC.One.E.Mid.HD.uk": {
-    "name": "BBC One E Mid HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3005.png",
-    "source": "www.sky.com"
-  },
-  "Channel.5.HD.uk": {
-    "name": "Channel 5 HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4058.png",
-    "source": "www.sky.com"
-  },
-  "High.Street.TV.2.uk": {
-    "name": "High Street TV 2",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5706.png",
-    "source": "www.sky.com"
-  },
-  "Classic.FM.uk": {
-    "name": "Classic FM",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3470.png",
-    "source": "www.sky.com"
-  },
-  "DMAX.uk": {
-    "name": "DMAX",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3618.png",
-    "source": "www.sky.com"
-  },
-  "Nat.Geo.Wild.uk": {
-    "name": "Nat Geo Wild",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1847.png",
-    "source": "www.sky.com"
-  },
-  "BBC.One.CI.HD.uk": {
-    "name": "BBC One CI HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3018.png",
-    "source": "www.sky.com"
-  },
-  "Browse.Shop.uk": {
-    "name": "Browse Shop",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb8025.png",
-    "source": "www.sky.com"
-  },
-  "The.Craft.Store.uk": {
-    "name": "The Craft Store",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3357.png",
-    "source": "www.sky.com"
-  },
-  "TNT.Sports.5.HD.uk": {
-    "name": "TNT Sports 5 HD",
-    "icon": "https://tv.assets.pressassociation.io/dbf92dca-857c-5522-bbc6-2bda4e23ff31.png",
-    "source": "www.sky.com"
-  },
-  "Sky.Premiere.uk": {
-    "name": "Sky Premiere",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1409.png",
-    "source": "www.sky.com"
-  },
-  "Challenge.uk": {
-    "name": "Challenge",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2202.png",
-    "source": "www.sky.com"
-  },
-  "Sky.Action.HD.uk": {
-    "name": "Sky Action HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4014.png",
-    "source": "www.sky.com"
-  },
-  "New.Vision.TV.uk": {
-    "name": "New Vision TV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1026.png",
-    "source": "www.sky.com"
-  },
-  "Channel.7.uk": {
-    "name": "Channel 7",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3687.png",
-    "source": "www.sky.com"
-  },
-  "More.Radio.Mid.Sussex.uk": {
-    "name": "More Radio Mid Sussex",
+  "BBC.Radio.Bristol.104.6FM.uk": {
+    "name": "BBC Radio Bristol 104.6FM",
     "icon": null,
     "source": "www.sky.com"
   },
-  "SkySp.Fball.HD.uk": {
-    "name": "SkySp Fball HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3939.png",
+  "Television.X.uk": {
+    "name": "Television X",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4192.png",
     "source": "www.sky.com"
   },
-  "BBC.RB.1.uk": {
-    "name": "BBC RB 1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2051.png",
+  "Disc.Turbo.uk": {
+    "name": "Disc.Turbo",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2409.png",
     "source": "www.sky.com"
   },
-  "BBC.Radio.Bristol.DAB.uk": {
-    "name": "BBC Radio Bristol DAB",
-    "icon": null,
+  "BBC.R.Cymru.uk": {
+    "name": "BBC R Cymru",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2123.png",
     "source": "www.sky.com"
   },
-  "TNT.Sports.4.HD.uk": {
-    "name": "TNT Sports 4 HD",
-    "icon": "https://tv.assets.pressassociation.io/056d00c0-1629-5388-857c-f1a9ebdec5b8.png",
+  "S4C.HD.uk": {
+    "name": "S4C HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2296.png",
     "source": "www.sky.com"
   },
-  "Film4.HD.uk": {
-    "name": "Film4 HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4044.png",
+  "Hidayat.TV.uk": {
+    "name": "Hidayat TV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4549.png",
     "source": "www.sky.com"
   },
-  "SkySp.PL.HD.uk": {
-    "name": "SkySp PL HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4010.png",
+  "BBC.One.Lon.HD.uk": {
+    "name": "BBC One Lon HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3000.png",
     "source": "www.sky.com"
   },
-  "5ACTION.uk": {
-    "name": "5ACTION",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1036.png",
+  "SkyHistory2HD.uk": {
+    "name": "SkyHistory2HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1195.png",
     "source": "www.sky.com"
   },
-  "ColorsCineplex.uk": {
-    "name": "ColorsCineplex",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1105.png",
+  "Ahlulbayt.TV.uk": {
+    "name": "Ahlulbayt TV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3701.png",
     "source": "www.sky.com"
   },
-  "Live.360.uk": {
-    "name": "Live 360",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1133.png",
-    "source": "www.sky.com"
-  },
-  "AAJ.TAK.uk": {
-    "name": "AAJ TAK",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3255.png",
-    "source": "www.sky.com"
-  },
-  "TNT.Sports.Box.Office.uk": {
-    "name": "TNT Sports Box Office",
-    "icon": "https://tv.assets.pressassociation.io/0e736662-ebac-5fa5-9a38-f79e5f91e0a2.png",
-    "source": "www.sky.com"
-  },
-  "Sky.ScFi/HorHD.uk": {
-    "name": "Sky ScFi/HorHD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4017.png",
-    "source": "www.sky.com"
-  },
-  "KTV.uk": {
-    "name": "KTV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1056.png",
-    "source": "www.sky.com"
-  },
-  "SkySp.Tennis.HD.uk": {
-    "name": "SkySp Tennis HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1284.png",
-    "source": "www.sky.com"
-  },
-  "Zee.TV.HD.uk": {
-    "name": "Zee TV HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1016.png",
-    "source": "www.sky.com"
-  },
-  "Studio.66.3.uk": {
-    "name": "Studio 66 3",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3530.png",
-    "source": "www.sky.com"
-  },
-  "Spotlight.TV.uk": {
-    "name": "Spotlight TV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4933.png",
-    "source": "www.sky.com"
-  },
-  "U.and.GOLD+1.uk": {
-    "name": "U and GOLD+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2703.png",
-    "source": "www.sky.com"
-  },
-  "BBC.6.Music.uk": {
-    "name": "BBC 6 Music",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2127.png",
-    "source": "www.sky.com"
-  },
-  "SkySp.Mix.HD.uk": {
-    "name": "SkySp Mix HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4090.png",
+  "ARY.Digital.uk": {
+    "name": "ARY Digital",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4265.png",
     "source": "www.sky.com"
   },
   "Nick.Jr..HD.uk": {
@@ -3579,34 +2879,24 @@
     "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4039.png",
     "source": "www.sky.com"
   },
-  "TCM.Movies+1.uk": {
-    "name": "TCM Movies+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5275.png",
+  "Disc.Sci+1.uk": {
+    "name": "Disc.Sci+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1351.png",
     "source": "www.sky.com"
   },
-  "BBC.RB.1.HD.uk": {
-    "name": "BBC RB 1 HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2053.png",
+  "BBC.Four.HD.uk": {
+    "name": "BBC Four HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2086.png",
     "source": "www.sky.com"
   },
-  "Ayozat.TV.uk": {
-    "name": "Ayozat TV",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3206.png",
+  "Disc.Science.uk": {
+    "name": "Disc.Science",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2406.png",
     "source": "www.sky.com"
   },
-  "5STAR+1.uk": {
-    "name": "5STAR+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3024.png",
-    "source": "www.sky.com"
-  },
-  "BBC.R1.uk": {
-    "name": "BBC R1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2111.png",
-    "source": "www.sky.com"
-  },
-  "Sky.Witness+1.uk": {
-    "name": "Sky Witness+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2205.png",
+  "SkySpBoxOff.uk": {
+    "name": "SkySpBoxOff",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1034.png",
     "source": "www.sky.com"
   },
   "Crime+Inv+1.uk": {
@@ -3614,14 +2904,614 @@
     "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3620.png",
     "source": "www.sky.com"
   },
-  "ID+1.uk": {
-    "name": "ID+1",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5452.png",
+  "BBC.R5L.uk": {
+    "name": "BBC R5L",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2026.png",
     "source": "www.sky.com"
   },
-  "CBBC.HD.uk": {
-    "name": "CBBC HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2078.png",
+  "Utsav.Gold.HD.uk": {
+    "name": "Utsav Gold HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4047.png",
+    "source": "www.sky.com"
+  },
+  "5STAR+1.uk": {
+    "name": "5STAR+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3024.png",
+    "source": "www.sky.com"
+  },
+  "Channel.5.uk": {
+    "name": "Channel 5",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1800.png",
+    "source": "www.sky.com"
+  },
+  "ITV1+1.uk": {
+    "name": "ITV1+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb6155.png",
+    "source": "www.sky.com"
+  },
+  "TNT.Sports.Box.Office.2.uk": {
+    "name": "TNT Sports Box Office 2",
+    "icon": "https://tv.assets.pressassociation.io/a5a4c54e-969e-5fd2-96bc-bae1e24edc90.png",
+    "source": "www.sky.com"
+  },
+  "High.Street.TV.1.uk": {
+    "name": "High Street TV 1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3580.png",
+    "source": "www.sky.com"
+  },
+  "WildEarth.uk": {
+    "name": "WildEarth",
+    "icon": null,
+    "source": "www.sky.com"
+  },
+  "Nat.Geo.Wild.uk": {
+    "name": "Nat Geo Wild",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1847.png",
+    "source": "www.sky.com"
+  },
+  "Movies24.uk": {
+    "name": "Movies24",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4420.png",
+    "source": "www.sky.com"
+  },
+  "PCNE.Chinese.uk": {
+    "name": "PCNE Chinese",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3258.png",
+    "source": "www.sky.com"
+  },
+  "Iran.Intl.HD.uk": {
+    "name": "Iran Intl HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1114.png",
+    "source": "www.sky.com"
+  },
+  "Sky.Valentine.uk": {
+    "name": "Sky Valentine",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1811.png",
+    "source": "www.sky.com"
+  },
+  "Sky.History+1.uk": {
+    "name": "Sky History+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1891.png",
+    "source": "www.sky.com"
+  },
+  "SonLife.uk": {
+    "name": "SonLife",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3392.png",
+    "source": "www.sky.com"
+  },
+  "Sky.Cinema.Hits.HD.uk": {
+    "name": "Sky Cinema Hits HD",
+    "icon": "https://cdn.tv-guide.future.sensi.link/images/channel/1be50627-1688-54a7-a314-dc256342c67a/logo.png",
+    "source": "www.sky.com"
+  },
+  "LoveWorld.HD.uk": {
+    "name": "LoveWorld HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1228.png",
+    "source": "www.sky.com"
+  },
+  "BBC.One.Y.and.L.HD.uk": {
+    "name": "BBC One Y and L HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3004.png",
+    "source": "www.sky.com"
+  },
+  "TNT.Sports.4.HD.uk": {
+    "name": "TNT Sports 4 HD",
+    "icon": "https://tv.assets.pressassociation.io/056d00c0-1629-5388-857c-f1a9ebdec5b8.png",
+    "source": "www.sky.com"
+  },
+  "Sky.History2.uk": {
+    "name": "Sky History2",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1879.png",
+    "source": "www.sky.com"
+  },
+  "Now.Rock.uk": {
+    "name": "Now Rock",
+    "icon": "https://assets.tv24.co/channels/now-90-s-uk-l.webp",
+    "source": "www.sky.com"
+  },
+  "Brit.Asia.TV.uk": {
+    "name": "Brit Asia TV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3653.png",
+    "source": "www.sky.com"
+  },
+  "True.Crime.+1.uk": {
+    "name": "True Crime +1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3602.png",
+    "source": "www.sky.com"
+  },
+  "BBC.ALBA.HD.uk": {
+    "name": "BBC ALBA HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3021.png",
+    "source": "www.sky.com"
+  },
+  "SkyPremiereHD.uk": {
+    "name": "SkyPremiereHD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4021.png",
+    "source": "www.sky.com"
+  },
+  "BBC.Radio.Bristol.DAB.uk": {
+    "name": "BBC Radio Bristol DAB",
+    "icon": null,
+    "source": "www.sky.com"
+  },
+  "Vox.Africa.uk": {
+    "name": "Vox Africa",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3108.png",
+    "source": "www.sky.com"
+  },
+  "BBC.RLondon.uk": {
+    "name": "BBC RLondon",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2130.png",
+    "source": "www.sky.com"
+  },
+  "UTV.uk": {
+    "name": "UTV",
+    "icon": null,
+    "source": "www.sky.com"
+  },
+  "Xpanded.TV.uk": {
+    "name": "Xpanded TV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4191.png",
+    "source": "www.sky.com"
+  },
+  "Absolute.90s.uk": {
+    "name": "Absolute 90s",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4372.png",
+    "source": "www.sky.com"
+  },
+  "CBeebies.HD.uk": {
+    "name": "CBeebies HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2088.png",
+    "source": "www.sky.com"
+  },
+  "SkyAdventureHD.uk": {
+    "name": "SkyAdventureHD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4018.png",
+    "source": "www.sky.com"
+  },
+  "KTV.uk": {
+    "name": "KTV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1056.png",
+    "source": "www.sky.com"
+  },
+  "Racing.TV.HD.uk": {
+    "name": "Racing TV HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5272.png",
+    "source": "www.sky.com"
+  },
+  "Cruise1st.tv.uk": {
+    "name": "Cruise1st.tv",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1018.png",
+    "source": "www.sky.com"
+  },
+  "TVX.40+.uk": {
+    "name": "TVX 40+",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1031.png",
+    "source": "www.sky.com"
+  },
+  "Discovery+1.uk": {
+    "name": "Discovery+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2404.png",
+    "source": "www.sky.com"
+  },
+  "HUM.EUROPE.uk": {
+    "name": "HUM EUROPE",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5205.png",
+    "source": "www.sky.com"
+  },
+  "Zee.Cinema.uk": {
+    "name": "Zee Cinema",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2608.png",
+    "source": "www.sky.com"
+  },
+  "HUM.Masala.uk": {
+    "name": "HUM Masala",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1069.png",
+    "source": "www.sky.com"
+  },
+  "BBC.One.Sth.HD.uk": {
+    "name": "BBC One Sth HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3011.png",
+    "source": "www.sky.com"
+  },
+  "British.Muslim.uk": {
+    "name": "British Muslim",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5417.png",
+    "source": "www.sky.com"
+  },
+  "Kerrang!.uk": {
+    "name": "Kerrang!",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1853.png",
+    "source": "www.sky.com"
+  },
+  "The.Craft.Store.uk": {
+    "name": "The Craft Store",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3357.png",
+    "source": "www.sky.com"
+  },
+  "SkySp+.uk": {
+    "name": "SkySp+",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3839.png",
+    "source": "www.sky.com"
+  },
+  "92.News.uk": {
+    "name": "92 News",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3822.png",
+    "source": "www.sky.com"
+  },
+  "ITV4.HD.uk": {
+    "name": "ITV4 HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb6534.png",
+    "source": "www.sky.com"
+  },
+  "TNT.Sports.5.HD.uk": {
+    "name": "TNT Sports 5 HD",
+    "icon": "https://tv.assets.pressassociation.io/dbf92dca-857c-5522-bbc6-2bda4e23ff31.png",
+    "source": "www.sky.com"
+  },
+  "Together.uk": {
+    "name": "Together",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1872.png",
+    "source": "www.sky.com"
+  },
+  "QUEST.uk": {
+    "name": "QUEST",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb6761.png",
+    "source": "www.sky.com"
+  },
+  "Nickelodeon+1.uk": {
+    "name": "Nickelodeon+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1845.png",
+    "source": "www.sky.com"
+  },
+  "MATV.National.uk": {
+    "name": "MATV National",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3401.png",
+    "source": "www.sky.com"
+  },
+  "High.Street.TV.4.uk": {
+    "name": "High Street TV 4",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1130.png",
+    "source": "www.sky.com"
+  },
+  "BBC.R1.uk": {
+    "name": "BBC R1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2111.png",
+    "source": "www.sky.com"
+  },
+  "Sky.Witness.HD.uk": {
+    "name": "Sky Witness HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4066.png",
+    "source": "www.sky.com"
+  },
+  "A1TV.uk": {
+    "name": "A1TV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1104.png",
+    "source": "www.sky.com"
+  },
+  "SkySpMainEvHD.uk": {
+    "name": "SkySpMainEvHD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4002.png",
+    "source": "www.sky.com"
+  },
+  "CITV.uk": {
+    "name": "CITV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb6273.png",
+    "source": "www.sky.com"
+  },
+  "Kanshi.TV.uk": {
+    "name": "Kanshi TV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3753.png",
+    "source": "www.sky.com"
+  },
+  "XXX.College.uk": {
+    "name": "XXX College",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1028.png",
+    "source": "www.sky.com"
+  },
+  "BBC.One.N.West.HD.uk": {
+    "name": "BBC One N West HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3007.png",
+    "source": "www.sky.com"
+  },
+  "Bloomberg.HD.uk": {
+    "name": "Bloomberg HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1074.png",
+    "source": "www.sky.com"
+  },
+  "BBC.One.West.HD.uk": {
+    "name": "BBC One West HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3001.png",
+    "source": "www.sky.com"
+  },
+  "GREAT!.movies.uk": {
+    "name": "GREAT! movies",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3709.png",
+    "source": "www.sky.com"
+  },
+  "Disc.History.uk": {
+    "name": "Disc.History",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2407.png",
+    "source": "www.sky.com"
+  },
+  "U.and.GOLD+1.uk": {
+    "name": "U and GOLD+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2703.png",
+    "source": "www.sky.com"
+  },
+  "Adult.Channel.uk": {
+    "name": "Adult Channel",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4195.png",
+    "source": "www.sky.com"
+  },
+  "U.and.Drama.uk": {
+    "name": "U and Drama",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2612.png",
+    "source": "www.sky.com"
+  },
+  "Ideal.Extra.uk": {
+    "name": "Ideal Extra",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5740.png",
+    "source": "www.sky.com"
+  },
+  "Sky.ScFi/HorHD.uk": {
+    "name": "Sky ScFi/HorHD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4017.png",
+    "source": "www.sky.com"
+  },
+  "NatGeoWild.HD.uk": {
+    "name": "NatGeoWild HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4025.png",
+    "source": "www.sky.com"
+  },
+  "HGTV.uk": {
+    "name": "HGTV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2301.png",
+    "source": "www.sky.com"
+  },
+  "ITV3+1.uk": {
+    "name": "ITV3+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb6261.png",
+    "source": "www.sky.com"
+  },
+  "Quest.Red+1.uk": {
+    "name": "Quest Red+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4547.png",
+    "source": "www.sky.com"
+  },
+  "POP.Max.uk": {
+    "name": "POP Max",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4262.png",
+    "source": "www.sky.com"
+  },
+  "RTÉ.R.na.G.uk": {
+    "name": "RTÉ R na G",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1263.png",
+    "source": "www.sky.com"
+  },
+  "PCNE.Chinese.HD.uk": {
+    "name": "PCNE Chinese HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1140.png",
+    "source": "www.sky.com"
+  },
+  "BBC.R2.uk": {
+    "name": "BBC R2",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2112.png",
+    "source": "www.sky.com"
+  },
+  "Spotlight.TV.uk": {
+    "name": "Spotlight TV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4933.png",
+    "source": "www.sky.com"
+  },
+  "5.USA.uk": {
+    "name": "5 USA",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3022.png",
+    "source": "www.sky.com"
+  },
+  "BBC.RB.1.HD.uk": {
+    "name": "BBC RB 1 HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2053.png",
+    "source": "www.sky.com"
+  },
+  "GOD.Channel.uk": {
+    "name": "GOD Channel",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3105.png",
+    "source": "www.sky.com"
+  },
+  "talkSPORT.uk": {
+    "name": "talkSPORT",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2902.png",
+    "source": "www.sky.com"
+  },
+  "Dunya.News.uk": {
+    "name": "Dunya News",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1038.png",
+    "source": "www.sky.com"
+  },
+  "MTV.80s.uk": {
+    "name": "MTV 80s",
+    "icon": "https://cdn.tv-guide.future.sensi.link/images/channel/a9fc24a1-94dd-5682-9351-ecafb67b2cf9/logo.png",
+    "source": "www.sky.com"
+  },
+  "Create.and.CraftHD.uk": {
+    "name": "Create and CraftHD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1245.png",
+    "source": "www.sky.com"
+  },
+  "Sky.Greats.uk": {
+    "name": "Sky Greats",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1815.png",
+    "source": "www.sky.com"
+  },
+  "BBC.One.CI.HD.uk": {
+    "name": "BBC One CI HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3018.png",
+    "source": "www.sky.com"
+  },
+  "AAJ.TAK.uk": {
+    "name": "AAJ TAK",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3255.png",
+    "source": "www.sky.com"
+  },
+  "MUTV.HD.uk": {
+    "name": "MUTV HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1003.png",
+    "source": "www.sky.com"
+  },
+  "LBC.News.uk": {
+    "name": "LBC News",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1205.png",
+    "source": "www.sky.com"
+  },
+  "RTÉ.Lyric.fm.uk": {
+    "name": "RTÉ Lyric fm",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1264.png",
+    "source": "www.sky.com"
+  },
+  "U.and.Drama+1.uk": {
+    "name": "U and Drama+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1081.png",
+    "source": "www.sky.com"
+  },
+  "Sky.Atlantic.HD.uk": {
+    "name": "Sky Atlantic HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4053.png",
+    "source": "www.sky.com"
+  },
+  "Clubland.TV.uk": {
+    "name": "Clubland TV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4505.png",
+    "source": "www.sky.com"
+  },
+  "Channel.4+1.uk": {
+    "name": "Channel 4+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1670.png",
+    "source": "www.sky.com"
+  },
+  "DMAX+1.uk": {
+    "name": "DMAX+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1865.png",
+    "source": "www.sky.com"
+  },
+  "SkySp.Tennis.HD.uk": {
+    "name": "SkySp Tennis HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1284.png",
+    "source": "www.sky.com"
+  },
+  "Travelxp.uk": {
+    "name": "Travelxp",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1226.png",
+    "source": "www.sky.com"
+  },
+  "Heart.uk": {
+    "name": "Heart",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2909.png",
+    "source": "www.sky.com"
+  },
+  "Greatest.Hits.Radio.(West.Sussex).uk": {
+    "name": "Greatest Hits Radio (West Sussex)",
+    "icon": null,
+    "source": "www.sky.com"
+  },
+  "U.and.W.HD.uk": {
+    "name": "U and W HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3810.png",
+    "source": "www.sky.com"
+  },
+  "Aastha.uk": {
+    "name": "Aastha",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3594.png",
+    "source": "www.sky.com"
+  },
+  "Sky.News.HD.uk": {
+    "name": "Sky News HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4050.png",
+    "source": "www.sky.com"
+  },
+  "U.and.GOLD.HD.uk": {
+    "name": "U and GOLD HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb6513.png",
+    "source": "www.sky.com"
+  },
+  "U.and.Eden.uk": {
+    "name": "U and Eden",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2302.png",
+    "source": "www.sky.com"
+  },
+  "Sky.Crime+1.uk": {
+    "name": "Sky Crime+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4330.png",
+    "source": "www.sky.com"
+  },
+  "Al.Jazeera.HD.uk": {
+    "name": "Al Jazeera HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1023.png",
+    "source": "www.sky.com"
+  },
+  "QUEST.HD.uk": {
+    "name": "QUEST HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1128.png",
+    "source": "www.sky.com"
+  },
+  "Food.Netwrk+1.uk": {
+    "name": "Food Netwrk+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3592.png",
+    "source": "www.sky.com"
+  },
+  "Trace.Vault.uk": {
+    "name": "Trace Vault",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3935.png",
+    "source": "www.sky.com"
+  },
+  "Challenge.uk": {
+    "name": "Challenge",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2202.png",
+    "source": "www.sky.com"
+  },
+  "mta-muslim.tv.uk": {
+    "name": "mta-muslim tv",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3201.png",
+    "source": "www.sky.com"
+  },
+  "SONY.SAB.uk": {
+    "name": "SONY SAB",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3631.png",
+    "source": "www.sky.com"
+  },
+  "alibi+1.uk": {
+    "name": "alibi+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2630.png",
+    "source": "www.sky.com"
+  },
+  "Direct.Store.TV.uk": {
+    "name": "Direct Store TV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3415.png",
+    "source": "www.sky.com"
+  },
+  "Sky.Adventure.uk": {
+    "name": "Sky Adventure",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1808.png",
+    "source": "www.sky.com"
+  },
+  "BBC.R4.FM.uk": {
+    "name": "BBC R4 FM",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2114.png",
+    "source": "www.sky.com"
+  },
+  "Capital.XTRA.uk": {
+    "name": "Capital XTRA",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2971.png",
+    "source": "www.sky.com"
+  },
+  "MTV.HD.uk": {
+    "name": "MTV HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3831.png",
+    "source": "www.sky.com"
+  },
+  "TNT.Sports.9.HD.uk": {
+    "name": "TNT Sports 9 HD",
+    "icon": "https://tv.assets.pressassociation.io/34a9289d-1e34-50f8-8e43-a651223345c8.png",
     "source": "www.sky.com"
   },
   "BLAZE.uk": {
@@ -3629,19 +3519,129 @@
     "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1065.png",
     "source": "www.sky.com"
   },
-  "TV.Warehouse.uk": {
-    "name": "TV Warehouse",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3632.png",
+  "Sky.Action.HD.uk": {
+    "name": "Sky Action HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4014.png",
     "source": "www.sky.com"
   },
-  "SkySp.News.HD.uk": {
-    "name": "SkySp News HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4049.png",
+  "Court.TV.uk": {
+    "name": "Court TV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1207.png",
     "source": "www.sky.com"
   },
-  "SONY.TV.HD.uk": {
-    "name": "SONY TV HD",
-    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4045.png",
+  "Channel.5.HD.uk": {
+    "name": "Channel 5 HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4058.png",
+    "source": "www.sky.com"
+  },
+  "CHSTV.uk": {
+    "name": "CHSTV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3815.png",
+    "source": "www.sky.com"
+  },
+  "ITV1.HD.uk": {
+    "name": "ITV1 HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb6504.png",
+    "source": "www.sky.com"
+  },
+  "Ayozat.TV.uk": {
+    "name": "Ayozat TV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3206.png",
+    "source": "www.sky.com"
+  },
+  "Deen.TV.uk": {
+    "name": "Deen TV",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1235.png",
+    "source": "www.sky.com"
+  },
+  "CNBC.uk": {
+    "name": "CNBC",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3611.png",
+    "source": "www.sky.com"
+  },
+  "SkySp.Golf.uk": {
+    "name": "SkySp Golf",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1322.png",
+    "source": "www.sky.com"
+  },
+  "Browse.Shop.uk": {
+    "name": "Browse Shop",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb8025.png",
+    "source": "www.sky.com"
+  },
+  "GREAT!.tv.uk": {
+    "name": "GREAT! tv",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4266.png",
+    "source": "www.sky.com"
+  },
+  "BBC.Radio.Sussex.uk": {
+    "name": "BBC Radio Sussex",
+    "icon": null,
+    "source": "www.sky.com"
+  },
+  "NickelodeonHD.uk": {
+    "name": "NickelodeonHD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4069.png",
+    "source": "www.sky.com"
+  },
+  "5USA+1.uk": {
+    "name": "5USA+1",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3027.png",
+    "source": "www.sky.com"
+  },
+  "EarthxTV.HD.uk": {
+    "name": "EarthxTV HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1086.png",
+    "source": "www.sky.com"
+  },
+  "Islam.Ch.Urdu.uk": {
+    "name": "Islam Ch Urdu",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5211.png",
+    "source": "www.sky.com"
+  },
+  "QVC.Beauty.uk": {
+    "name": "QVC Beauty",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4105.png",
+    "source": "www.sky.com"
+  },
+  "SkySp.Mix.HD.uk": {
+    "name": "SkySp Mix HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4090.png",
+    "source": "www.sky.com"
+  },
+  "SkySp.PL.HD.uk": {
+    "name": "SkySp PL HD",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4010.png",
+    "source": "www.sky.com"
+  },
+  "BBC.R.Ulster.uk": {
+    "name": "BBC R Ulster",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb2119.png",
+    "source": "www.sky.com"
+  },
+  "Tiny.Pop.uk": {
+    "name": "Tiny Pop",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3780.png",
+    "source": "www.sky.com"
+  },
+  "Movies24+.uk": {
+    "name": "Movies24+",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4421.png",
+    "source": "www.sky.com"
+  },
+  "TBN.UK.uk": {
+    "name": "TBN UK",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3109.png",
+    "source": "www.sky.com"
+  },
+  "TNT.Sports.Ultimate.uk": {
+    "name": "TNT Sports Ultimate",
+    "icon": null,
+    "source": "www.sky.com"
+  },
+  "SkySp.Cricket.uk": {
+    "name": "SkySp Cricket",
+    "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1302.png",
     "source": "www.sky.com"
   },
   "beinsports1.beinsportsconnecthk": {
