@@ -1,53 +1,43 @@
-name: Hami EPG Builder
+name: Hami EPG Auto Update
 
 on:
   schedule:
-    - cron: "0 2 * * *"   # 每天 UTC 2点运行
-  workflow_dispatch:      # 手动按钮运行
+    - cron: '10 18 * * *'   # 比 StarHub 晚10分钟，避免同时push
+  workflow_dispatch:
+  push:
+    paths:
+      - 'hami/**'
 
 jobs:
-  build:
+  update-hami:
     runs-on: ubuntu-latest
 
     steps:
-      # ======================
-      # 1. 拉取代码
-      # ======================
-      - name: Checkout repo
-        uses: actions/checkout@v4
+    - uses: actions/checkout@v4
 
-      # ======================
-      # 2. 安装 Python
-      # ======================
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.10"
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
 
-      # ======================
-      # 3. 安装依赖
-      # ======================
-      - name: Install dependencies
-        run: |
-          pip install requests
+    - name: Install deps
+      run: pip install requests
 
-      # ======================
-      # 4. 运行EPG脚本
-      # ======================
-      - name: Run Hami EPG
-        run: |
-          cd hami
-          python3 hami_epg.py
+    - name: Run Hami EPG
+      run: |
+        echo "🚀 Running Hami EPG..."
+        cd hami
+        python hami_epg.py
 
-      # ======================
-      # 5. 提交生成文件
-      # ======================
-      - name: Commit files
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
+    - name: Commit Hami result
+      run: |
+        git config user.name "github-actions"
+        git config user.email "bot@github.com"
 
-          git add hami_epg.xml hami_epg.xml.gz || true
+        git add hami/
 
-          git commit -m "auto: update hami epg" || echo "no changes"
-          git push || echo "push skipped"
+        if git diff --cached --quiet; then
+          echo "⚠️ No changes"
+        else
+          git commit -m "📺 Hami EPG update $(date -u '+%Y-%m-%d %H:%M:%S')"
+          git push
+        fi
