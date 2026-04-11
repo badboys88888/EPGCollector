@@ -1,0 +1,694 @@
+{
+  "channels": [
+    {
+      "id": "OTT_LIVE_0000002089",
+      "name": "Hami體育1台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@21@2089_20241226093429.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001745",
+      "name": "愛爾達體育3台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@61@1745.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001743",
+      "name": "愛爾達體育2台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@61@1743.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001879",
+      "name": "2026屏東三大日音樂節",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@21@1879_20260323085339.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001510",
+      "name": "BBC Earth",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@145@1510.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001970",
+      "name": "Lifetime",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@156@1970_20211222120324.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001859",
+      "name": "History",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@156@1859_20220621233610.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001884",
+      "name": "tvN",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@144@1884_20201021112150.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001546",
+      "name": "amc電影台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@33@1546_20240103152142.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001836",
+      "name": "DreamWorks",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@144@1836.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001518",
+      "name": "愛爾達娛樂台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@61@1518.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001816",
+      "name": "Hami體育1台(免費)",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@21@2089_20241226093429.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001845",
+      "name": "博斯運動一台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=OTT_LIVE_0000001845.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001856",
+      "name": "愛爾達體育MAX4台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=OTT_LIVE_0000001856.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001744",
+      "name": "愛爾達體育1台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=OTT_LIVE_0000001744.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001853",
+      "name": "愛爾達體育MAX1台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=OTT_LIVE_0000001853.png"
+    },
+    {
+      "id": "OTT_LIVE_0000002055",
+      "name": "愛爾達體育4台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=OTT_LIVE_0000002055.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001854",
+      "name": "愛爾達體育MAX2台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=OTT_LIVE_0000001854.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001855",
+      "name": "愛爾達體育MAX3台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=OTT_LIVE_0000001855.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001903",
+      "name": "博斯網球台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=OTT_LIVE_0000001903.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001972",
+      "name": "博斯魅力網",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=OTT_LIVE_0000001972.png"
+    },
+    {
+      "id": "OTT_LIVE_0000002117",
+      "name": "OTT_LIVE_0000002117",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@27@1987_20251126062839.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000002062",
+      "name": "OTT_LIVE_0000002062",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@27@2062_20251112070842.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000002063",
+      "name": "OTT_LIVE_0000002063",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@27@2063_20251112070927.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001974",
+      "name": "OTT_LIVE_0000001974",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@screen@ch0306.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001736",
+      "name": "OTT_LIVE_0000001736",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@screen@ch0230.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001735",
+      "name": "OTT_LIVE_0000001735",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@screen@ch0231.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001508",
+      "name": "OTT_LIVE_0000001508",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@7@1508.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001611",
+      "name": "OTT_LIVE_0000001611",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@screen@ch8.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001868",
+      "name": "OTT_LIVE_0000001868",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@screen@ch10.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001877",
+      "name": "OTT_LIVE_0000001877",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@screen@ch0275.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000002109",
+      "name": "OTT_LIVE_0000002109",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@screen@ch0305.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000002039",
+      "name": "Asian Food Network亞洲美食頻道",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@210@2039_20230727152217.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001513",
+      "name": "BBC Lifestyle",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@145@1513.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001527",
+      "name": "BBC NEWS",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@145@1527_20230410115755.png"
+    },
+    {
+      "id": "OTT_LIVE_0000002015",
+      "name": "Bloomberg TV",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@272@2015_20230323160151.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001889",
+      "name": "CARTOONITO",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@144@1889_20230728074928.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001710",
+      "name": "CATCHPLAY電影台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@60@1710.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001711",
+      "name": "CBeebies",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@145@1711.png"
+    },
+    {
+      "id": "OTT_LIVE_0000002097",
+      "name": "CinemaWorld頻道",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@156@2097_20250327091250.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001752",
+      "name": "CNEX紀實頻道",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@7@1752.png"
+    },
+    {
+      "id": "OTT_LIVE_0000002003",
+      "name": "CNN國際新聞台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@231@2003_20221221090721.png"
+    },
+    {
+      "id": "OTT_LIVE_0000002004",
+      "name": "CNN頭條新聞台(HLN)",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@231@2004_20221221091031.png"
+    },
+    {
+      "id": "OTT_LIVE_0000002002",
+      "name": "CN卡通頻道",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@231@2002_20221221085824.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001924",
+      "name": "Discovery Asia",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@210@1924_20210427134516.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001514",
+      "name": "Discovery DMAX",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@33@1514.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001511",
+      "name": "Discovery EVE",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@33@1511.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001512",
+      "name": "Discovery科學台(Science)",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@210@1512_20210901102149.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001771",
+      "name": "EUROSPORT",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@210@1771_20220221140518.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001850",
+      "name": "Ginx TV電競頻道",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@61@1850.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001971",
+      "name": "Global Trekker",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@156@1971_20211222120307.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001908",
+      "name": "Hami WBC1台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@21@1908_20260113024702.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001909",
+      "name": "Hami WBC2台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@21@1909_20260113024708.png"
+    },
+    {
+      "id": "OTT_LIVE_0000002091",
+      "name": "Hami體育2台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@21@2090_20241224152040.png"
+    },
+    {
+      "id": "OTT_LIVE_0000002090",
+      "name": "Hami體育3台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@27@1987_20251126062901.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001981",
+      "name": "HBLTV1台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@61@1981_20241114155316.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001982",
+      "name": "HBLTV2台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@61@1982_20241114155332.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001901",
+      "name": "HGTV居家樂活頻道",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@144@1901_20210129153058.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000002056",
+      "name": "INULTRA",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@61@2056_20230920161522.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001914",
+      "name": "LiveABC互動英語頻道",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@51@1914_20210323084621.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001867",
+      "name": "LOVE NATURE",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@156@1867_20250205140137.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001757",
+      "name": "Mezzo Live",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@61@1757_20241204101929.png"
+    },
+    {
+      "id": "OTT_LIVE_0000002094",
+      "name": "momo綜合台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@343@2094_20250327091237.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001865",
+      "name": "momo親子台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@88@1865.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001939",
+      "name": "Nick Jr.",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@156@1939_20240920115541.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001876",
+      "name": "PET CLUB TV",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@61@1876_20200716144014.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000002005",
+      "name": "ROCK Action",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@156@2005_20230117102027.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001860",
+      "name": "ROCK Entertainment",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@156@1860_20210901084710.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001861",
+      "name": "ROCK X Stream",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@156@1861_20260206035914.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001759",
+      "name": "TRACE Sport Stars",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@61@1759.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001758",
+      "name": "Trace Urban",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@61@1758.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001756",
+      "name": "Travel Channel",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@210@1756_20210901102231.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001561",
+      "name": "TVBS",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@88@1561_20230303074155.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001560",
+      "name": "TVBS新聞台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@88@1560_20230303074207.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001559",
+      "name": "TVBS歡樂台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@88@1559_20230303074225.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001789",
+      "name": "TVBS精采台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@88@1789_20201230161437.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001888",
+      "name": "Warner TV",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@144@1888_20201110165836.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001690",
+      "name": "三立iNEWS",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@32@1690.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001516",
+      "name": "三立新聞台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@32@1516.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001562",
+      "name": "中天新聞台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@30@1562.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001568",
+      "name": "中視主頻",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@30@1568.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001567",
+      "name": "中視新聞台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@30@1567.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001566",
+      "name": "中視經典台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@27@1566.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001541",
+      "name": "中視菁采台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@30@1541_20230223080032.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000002070",
+      "name": "亞洲旅遊台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@149@1969_20211223113449.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001793",
+      "name": "人間衛視",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@88@1793.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001528",
+      "name": "八大精彩台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@88@1528_20230223082342.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001549",
+      "name": "八大綜藝台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@33@1549.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001555",
+      "name": "公視戲劇",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@33@1555.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001973",
+      "name": "博斯無限二台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@149@1973_20211223113550.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001882",
+      "name": "博斯無限台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@149@1882_20200918092245.png"
+    },
+    {
+      "id": "OTT_LIVE_0000002110",
+      "name": "博斯運動二台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@149@2110_20251029042743.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001846",
+      "name": "博斯高球一台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@149@1846.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001539",
+      "name": "古典音樂台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@33@1539.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001519",
+      "name": "台視主頻",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@140@1519.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001565",
+      "name": "台視新聞台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@140@1565.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001790",
+      "name": "台視綜合台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@140@1790.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001791",
+      "name": "台視財經台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@140@1791.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001538",
+      "name": "大愛電視",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@33@1538.png"
+    },
+    {
+      "id": "OTT_LIVE_0000002069",
+      "name": "寰宇新聞",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@149@1841.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001851",
+      "name": "尼克兒童頻道",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@156@1851_20240920115519.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000002113",
+      "name": "影迷數位紀實台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@21@2113_20251124091211.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001689",
+      "name": "影迷數位電影台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@88@1689.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001517",
+      "name": "愛爾達影劇台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@61@1517.png"
+    },
+    {
+      "id": "OTT_LIVE_0000002079",
+      "name": "愛爾達日韓台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@61@2079_20240314140751.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001573",
+      "name": "愛爾達綜合台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@61@1573.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001564",
+      "name": "東森新聞台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@88@1564_20230303074926.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001563",
+      "name": "東森財經台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@88@1563_20230303074948.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001579",
+      "name": "民視台灣台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@33@1579.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001551",
+      "name": "民視影劇台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@33@1551.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001533",
+      "name": "民視新聞台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@33@1533_20230303074753.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001534",
+      "name": "民視無線台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@33@1534_20230303091510.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001535",
+      "name": "民視第一台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@33@1535.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001550",
+      "name": "民視綜藝台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@33@1550_20230303074828.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001553",
+      "name": "空中英語教室",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@33@1553.png"
+    },
+    {
+      "id": "OTT_LIVE_0000002019",
+      "name": "罪案偵緝頻道",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@156@2019_20230524101157.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001825",
+      "name": "華藝中文台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@88@1825_20241126082218.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001526",
+      "name": "華視主頻",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@27@1526.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001569",
+      "name": "華視新聞資訊台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@27@1569.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001548",
+      "name": "豬哥亮歌廳秀",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@33@1548_20230303074905.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001547",
+      "name": "達文西頻道",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@33@1547.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001635",
+      "name": "采昌影劇台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@33@1635.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001915",
+      "name": "金光布袋戲",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@88@1915_20210323145706.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000002006",
+      "name": "鏡電視新聞台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@239@2006_20230119100452.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001938",
+      "name": "電影原聲台CMusic",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@88@1938_20210624083457.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000002114",
+      "name": "靖天中文台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@21@2113_20251124091157.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001652",
+      "name": "靖天日本台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@80@1652.png"
+    },
+    {
+      "id": "OTT_LIVE_0000002095",
+      "name": "靖天育樂台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@80@2095_20250327091224.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000002096",
+      "name": "靖洋戲劇台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@80@2096_20250327091213.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001649",
+      "name": "非凡商業台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@32@1649.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001650",
+      "name": "非凡新聞台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@32@1650.png"
+    },
+    {
+      "id": "OTT_LIVE_0000002115",
+      "name": "麥卡貝綜藝",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@32@2115_20251124091219.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000002093",
+      "name": "麥哲倫頻道",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@342@2093_20250327091203.jpg"
+    },
+    {
+      "id": "OTT_LIVE_0000001904",
+      "name": "龍華偶像",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@149@1904_20210127105232.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001542",
+      "name": "龍華影劇",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@149@1542_20230223081229.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001839",
+      "name": "龍華戲劇",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@149@1839.png"
+    },
+    {
+      "id": "OTT_LIVE_0000002098",
+      "name": "龍華洋片台",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@149@2098_20250327091147.png"
+    },
+    {
+      "id": "OTT_LIVE_0000001840",
+      "name": "龍華電影",
+      "icon": "https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@149@1840.png"
+    }
+  ]
+}
