@@ -1,0 +1,357 @@
+#EXTM3U
+#EXTM3U url-tvg="./starhub_epg.xml"
+
+#EXTINF:-1 tvg-id="GLOBAL_27" tvg-logo="https://poster.starhubgo.com/Linear_channels2/801_1920x1080_HTV.png?w=272" group-title="StarHub",CCTV-4
+https://ucdn.starhubgo.com/bpk-tv/CCTV4/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_137" tvg-logo="https://poster.starhubgo.com/Linear_channels2/137_1920x1080_HTV.png?w=272" group-title="StarHub",Zee Thirai
+https://ucdn.starhubgo.com/bpk-tv/ZeeThirai/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_141" tvg-logo="https://poster.starhubgo.com/Linear_channels2/125_1920x1080_HTV.png?w=272" group-title="StarHub",Zee TV
+https://ucdn.starhubgo.com/bpk-tv/ZeeTV/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_437" tvg-logo="https://poster.starhubgo.com/Linear_channels2/437_1920x1080_HTV.png?w=272" group-title="StarHub",HGTV
+https://ucdn.starhubgo.com/bpk-tv/HGTV/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_443" tvg-logo="https://poster.starhubgo.com/Linear_channels2/443_1920x1080_HTV.png?w=272" group-title="StarHub",FashionTV HD
+https://ucdn.starhubgo.com/bpk-tv/FashionTV/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_283" tvg-logo="https://poster.starhubgo.com/Linear_channels2/817_1920x1080_HTV.png?w=272" group-title="StarHub",Arirang TV
+https://ucdn.starhubgo.com/bpk-tv/ArirangTV/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_241" tvg-logo="https://poster.starhubgo.com/Linear_channels2/702_1920x1080_HTV.png?w=272" group-title="StarHub",Fox News Channel
+https://ucdn.starhubgo.com/bpk-tv/FNCHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_926" tvg-logo="https://poster.starhubgo.com/Linear_channels2/805_1920x1080_HTV.png?w=272" group-title="StarHub",Phoenix Chinese Channel HD
+https://ucdn.starhubgo.com/bpk-tv/PCCHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_143" tvg-logo="https://poster.starhubgo.com/Linear_channels2/722_1920x1080_HTV.png?w=272" group-title="StarHub",CGTN
+https://ucdn.starhubgo.com/bpk-tv/CGTN/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_242" tvg-logo="https://poster.starhubgo.com/Linear_channels2/241_1920x1080_HTV.png?w=272" group-title="StarHub",FIGHT SPORTS HD
+https://ucdn.starhubgo.com/bpk-tv/FightSportsHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_820" tvg-logo="https://poster.starhubgo.com/Linear_channels2/820_1920x1080_HTV.png?w=272" group-title="StarHub",ETTV ASIA HD
+https://ucdn.starhubgo.com/bpk-tv/ETTVHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_276" tvg-logo="https://poster.starhubgo.com/Linear_channels2/401_1920x1080_HTV.png?w=272" group-title="StarHub",HISTORY HD
+https://ucdn.starhubgo.com/bpk-tv/HistoryHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_322" tvg-logo="https://poster.starhubgo.com/Linear_channels2/432_1920x1080_HTV.png?w=272" group-title="StarHub",BBC Lifestyle
+https://ucdn.starhubgo.com/bpk-tv/BBCLifestyleHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_648" tvg-logo="https://poster.starhubgo.com/Linear_channels2/514_1920x1080_HTV.png?w=272" group-title="StarHub",Lifetime HD
+https://ucdn.starhubgo.com/bpk-tv/LifetimeHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_984" tvg-logo="https://poster.starhubgo.com/Linear_channels2/132_1920x1080_HTV.png?w=272" group-title="StarHub",COLORS Tamil HD
+https://ucdn.starhubgo.com/bpk-tv/COLORSTamilHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_14" tvg-logo="https://poster.starhubgo.com/Linear_channels2/828_1920x1080_HTV.png?w=272" group-title="StarHub",TVBS Asia
+https://ucdn.starhubgo.com/bpk-tv/TVBSAsia/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_327" tvg-logo="https://poster.starhubgo.com/Linear_channels2/303_1920x1080_HTV.png?w=272" group-title="StarHub",Cbeebies HD
+https://ucdn.starhubgo.com/bpk-tv/CbeebiesHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_214" tvg-logo="https://poster.starhubgo.com/Linear_channels2/214_1920x1080_HTV.png?w=272" group-title="StarHub",beIN Sports 3
+https://ucdn.starhubgo.com/bpk-tv/beINSports3NEW/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_610" tvg-logo="https://poster.starhubgo.com/Linear_channels2/134_1920x1080_HTV.png?w=272" group-title="StarHub",Sun Music
+https://ucdn.starhubgo.com/bpk-tv/SunMusic/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_622" tvg-logo="https://poster.starhubgo.com/Linear_channels2/711_1920x1080_HTV.png?w=272" group-title="StarHub",CNN HD
+https://ucdn.starhubgo.com/bpk-tv/CNNHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_159" tvg-logo="https://poster.starhubgo.com/Linear_channels2/159_1920x1080_HTV.png?w=272" group-title="StarHub",KTV HD
+https://ucdn.starhubgo.com/bpk-tv/KTVHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_211" tvg-logo="https://poster.starhubgo.com/Linear_channels2/211_1920x1080_HTV.png?w=272" group-title="StarHub",beIN Sports 2 HD
+https://ucdn.starhubgo.com/bpk-tv/beINSportsHD2/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_288" tvg-logo="https://poster.starhubgo.com/Linear_channels2/859_1920x1080_HTV.png?w=272" group-title="StarHub",TVB Xing He
+https://ucdn.starhubgo.com/bpk-tv/TVBXingHeChannel/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_308" tvg-logo="https://poster.starhubgo.com/Linear_channels2/136_1920x1080_HTV.png?w=272" group-title="StarHub",Vannathirai
+https://ucdn.starhubgo.com/bpk-tv/Vannathirai/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_617" tvg-logo="https://poster.starhubgo.com/Linear_channels2/145_1920x1080_HTV.png?w=272" group-title="StarHub",Cinema One Global
+https://ucdn.starhubgo.com/bpk-tv/CinemaOne/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_23" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/202_1920x1080_HTV.png?w=272" group-title="StarHub",Hub Sports 2 HD
+https://ucdn.starhubgo.com/bpk-tv/HubSports2HD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_282" tvg-logo="https://poster.starhubgo.com/Linear_channels2/144_1920x1080_HTV.png?w=272" group-title="StarHub",The Filipino Channel
+https://ucdn.starhubgo.com/bpk-tv/TheFilipinoChannel/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_1222" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/222_1920x1080_HTV.png?w=272" group-title="StarHub",Hub Premier 2 (HD)
+https://ucdn.starhubgo.com/bpk-tv/HubPremier12/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_205" tvg-logo="https://poster.starhubgo.com/Linear_channels2/205_1920x1080_HTV.png?w=272" group-title="StarHub",Hub Sports 5 HD
+https://ucdn.starhubgo.com/bpk-tv/HubSports5HD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_355" tvg-logo="https://poster.starhubgo.com/Linear_channels2/511_1920x1080_HTV.png?w=272" group-title="StarHub",AXN HD
+https://ucdn.starhubgo.com/bpk-tv/AXNHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_380" tvg-logo="https://poster.starhubgo.com/Linear_channels2/823_1920x1080_HTV.png?w=272" group-title="StarHub",ONE HD
+https://ucdn.starhubgo.com/bpk-tv/ONEHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_25" tvg-logo="https://poster.starhubgo.com/Linear_channels2/133_1920x1080_HTV.png?w=272" group-title="StarHub",Sun TV
+https://ucdn.starhubgo.com/bpk-tv/SunTV/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_656" tvg-logo="https://poster.starhubgo.com/Linear_channels2/138_1920x1080_HTV.png?w=272" group-title="StarHub",Zee Tamil
+https://ucdn.starhubgo.com/bpk-tv/ZeeTamil/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_616" tvg-logo="https://poster.starhubgo.com/Linear_channels2/143_1920x1080_HTV.png?w=272" group-title="StarHub",ANC
+https://ucdn.starhubgo.com/bpk-tv/ANC/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_114" tvg-logo="https://poster.starhubgo.com/Linear_channels2/116_1920x1080_HTV.png?w=272" group-title="StarHub",Karisma
+https://ucdn.starhubgo.com/bpk-tv/Karisma/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_709" tvg-logo="https://poster.starhubgo.com/Linear_channels2/709_1920x1080_HTV.png?w=272" group-title="StarHub",Bloomberg Quicktake
+https://ucdn.starhubgo.com/bpk-tv/Quicktake/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_54" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/204_1920x1080_HTV.png?w=272" group-title="StarHub",Hub Sports 4 HD
+https://ucdn.starhubgo.com/bpk-tv/HubSports4HDnew/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_36" tvg-logo="https://poster.starhubgo.com/Linear_channels2/153_1920x1080_HTV.png?w=272" group-title="StarHub",DW (Deutsch)
+https://ucdn.starhubgo.com/bpk-tv/DW/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_58" tvg-logo="https://poster.starhubgo.com/Linear_channels2/101_1920x1080_HTV.png?w=272" group-title="StarHub",Preview Channel
+https://ucdn.starhubgo.com/bpk-tv/Preview/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_927" tvg-logo="https://poster.starhubgo.com/Linear_channels2/806_1920x1080_HTV.png?w=272" group-title="StarHub",Phoenix InfoNews Channel HD
+https://ucdn.starhubgo.com/bpk-tv/PINCHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_190" tvg-logo="https://poster.starhubgo.com/Linear_channels2/141_1920x1080_HTV.png?w=272" group-title="StarHub",Kalaignar TV
+https://ucdn.starhubgo.com/bpk-tv/KalaignarTV/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_512" tvg-logo="https://poster.starhubgo.com/Linear_channels2/512_1920x1080_HTV.png?w=272" group-title="StarHub",HITS MOVIES HD
+https://ucdn.starhubgo.com/bpk-tv/HitsMoviesHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_924" tvg-logo="https://poster.starhubgo.com/Linear_channels2/611_1920x1080_HTV.png?w=272" group-title="StarHub",Cinemax HD
+https://ucdn.starhubgo.com/bpk-tv/CinemaxHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_11" tvg-logo="https://poster.starhubgo.com/Linear_channels2/316_1920x1080_HTV.png?w=272" group-title="StarHub",Cartoon Network
+https://ucdn.starhubgo.com/bpk-tv/CartoonNetwork/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_39" tvg-logo="https://poster.starhubgo.com/Linear_channels2/811_1920x1080_HTV.png?w=272" group-title="StarHub",NHK World Premium HD
+https://ucdn.starhubgo.com/bpk-tv/NHKWPHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_333" tvg-logo="https://poster.starhubgo.com/Linear_channels2/601_1920x1080_HTV.png?w=272" group-title="StarHub",HBO HD
+https://ucdn.starhubgo.com/bpk-tv/HBOHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_943" tvg-logo="https://poster.starhubgo.com/Linear_channels2/314_1920x1080_HTV.png?w=272" group-title="StarHub",Nickelodeon Asia HD
+https://ucdn.starhubgo.com/bpk-tv/NickelodeonHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_203" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/203_1920x1080_HTV.png?w=272" group-title="StarHub",Hub Sports 3 HD
+https://ucdn.starhubgo.com/bpk-tv/HubSports3HDNEW/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_724" tvg-logo="https://poster.starhubgo.com/Linear_channels2/724_1920x1080_HTV.png?w=272" group-title="StarHub",France24
+https://ucdn.starhubgo.com/bpk-tv/France24/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_47" tvg-logo="https://poster.starhubgo.com/Linear_channels2/708_1920x1080_HTV.png?w=272" group-title="StarHub",Bloomberg Television HD
+https://ucdn.starhubgo.com/bpk-tv/BloombergTelevisionHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_325" tvg-logo="https://poster.starhubgo.com/Linear_channels2/130_1920x1080_HTV.png?w=272" group-title="StarHub",Zee Cinema
+https://ucdn.starhubgo.com/bpk-tv/ZeeCinema/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_115" tvg-logo="https://poster.starhubgo.com/Linear_channels2/115_1920x1080_HTV.png?w=272" group-title="StarHub",Citra Entertainment
+https://ucdn.starhubgo.com/bpk-tv/CitraEntertainment/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_259" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/135_1920x1080_HTV.png?w=272" group-title="StarHub",Vijay TV
+https://ucdn.starhubgo.com/bpk-tv/VijayTV/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_140" tvg-logo="https://poster.starhubgo.com/Linear_channels2/139_1920x1080_HTV.png?w=272" group-title="StarHub",Asianet
+https://ucdn.starhubgo.com/bpk-tv/Asianet/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_228" tvg-logo="https://poster.starhubgo.com/Linear_channels2/532_1920x1080_HTV.png?w=272" group-title="StarHub",Animax HD
+https://ucdn.starhubgo.com/bpk-tv/AnimaxHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_270" tvg-logo="https://poster.starhubgo.com/Linear_channels2/123_1920x1080_HTV.png?w=272" group-title="StarHub",Hub Sensasi
+https://ucdn.starhubgo.com/bpk-tv/HubSensasiHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_298" tvg-logo="https://poster.starhubgo.com/Linear_channels2/209_1920x1080_HTV.png?w=272" group-title="StarHub",SPOTV
+https://ucdn.starhubgo.com/bpk-tv/SPOTVNEW/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_624" tvg-logo="https://poster.starhubgo.com/Linear_channels2/815_1920x1080_HTV.png?w=272" group-title="StarHub",KBS World HD
+https://ucdn.starhubgo.com/bpk-tv/KBSWorldHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_1321" tvg-logo="https://poster.starhubgo.com/Linear_channnes/falseNE?w=272" group-title="StarHub",TestChannel 996
+https://ucdn.starhubgo.com/bpk-tv/TestChannel996/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_704" tvg-logo="https://poster.starhubgo.com/Linear_channels2/704_1920x1080_HTV.png?w=272" group-title="StarHub",Euronews HD
+https://ucdn.starhubgo.com/bpk-tv/Euronews/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_387" tvg-logo="https://poster.starhubgo.com/Linear_channels2/605_1920x1080_HTV.png?w=272" group-title="StarHub",HBO Hits HD
+https://ucdn.starhubgo.com/bpk-tv/HBOHitsHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_17" tvg-logo="https://poster.starhubgo.com/Linear_channels2/827_1920x1080_HTV.png?w=272" group-title="StarHub",CTI TV HD
+https://ucdn.starhubgo.com/bpk-tv/CTITVHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_318" tvg-logo="https://poster.starhubgo.com/Linear_channels2/869_1920x1080_HTV.png?w=272" group-title="StarHub",CCM
+https://ucdn.starhubgo.com/bpk-tv/CCM/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_38" tvg-logo="https://poster.starhubgo.com/Linear_channels2/855_1920x1080_HTV.png?w=272" group-title="StarHub",Hub VVDrama
+https://ucdn.starhubgo.com/bpk-tv/HubVVDramaHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_509" tvg-logo="https://poster.starhubgo.com/Linear_channels2/509_1920x1080_HTV.png?w=272" group-title="StarHub",ROCK Entertainment
+https://ucdn.starhubgo.com/bpk-tv/BlueAntEntertainmentHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_326" tvg-logo="https://poster.starhubgo.com/Linear_channels2/407_1920x1080_HTV.png?w=272" group-title="StarHub",BBC Earth HD
+https://ucdn.starhubgo.com/bpk-tv/BBCEarthHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_296" tvg-logo="https://poster.starhubgo.com/Linear_channels2/206_1920x1080_HTV.png?w=272" group-title="StarHub",Hub Sports 6
+https://ucdn.starhubgo.com/bpk-tv/HubSports6/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_290" tvg-logo="https://poster.starhubgo.com/Linear_channels2/808_1920x1080_HTV.png?w=272" group-title="StarHub",TVBS-NEWS
+https://ucdn.starhubgo.com/bpk-tv/TVBSNews/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_307" tvg-logo="https://poster.starhubgo.com/Linear_channels2/606_1920x1080_HTV.png?w=272" group-title="StarHub",DreamWorks Channel HD
+https://ucdn.starhubgo.com/bpk-tv/DreamworksHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_633" tvg-logo="https://poster.starhubgo.com/Linear_channels2/603_1920x1080_HTV.png?w=272" group-title="StarHub",HBO Signature HD
+https://ucdn.starhubgo.com/bpk-tv/HBOSignatureHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_2" tvg-logo="https://poster.starhubgo.com/Linear_channels2/707_1920x1080_HTV.png?w=272" group-title="StarHub",CNBC HD
+https://ucdn.starhubgo.com/bpk-tv/CNBCHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_35" tvg-logo="https://poster.starhubgo.com/Linear_channels2/152_1920x1080_HTV.png?w=272" group-title="StarHub",TV5MONDE HD
+https://ucdn.starhubgo.com/bpk-tv/TV5MONDEAsieHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_348" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/201_1920x1080_HTV.png?w=272" group-title="StarHub",Hub Sports 1  HD
+https://ucdn.starhubgo.com/bpk-tv/HubSports1HDnew1/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_618" tvg-logo="https://poster.starhubgo.com/Linear_channels2/131_1920x1080_HTV.png?w=272" group-title="StarHub",SONY MAX
+https://ucdn.starhubgo.com/bpk-tv/SonyMAX/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_602" tvg-logo="https://poster.starhubgo.com/Linear_channels2/703_1920x1080_HTV.png?w=272" group-title="StarHub",Sky News HD
+https://ucdn.starhubgo.com/bpk-tv/SkyNewsHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_213" tvg-logo="https://poster.starhubgo.com/Linear_channels2/213_1920x1080_HTV.png?w=272" group-title="StarHub",beIN Sports HD
+https://ucdn.starhubgo.com/bpk-tv/BeINSportsHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_1322" group-title="StarHub",TestChannel2
+https://ucdn.starhubgo.com/bpk-tv/TestChannel997/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_374" tvg-logo="https://poster.starhubgo.com/Linear_channels2/812_1920x1080_HTV.png?w=272" group-title="StarHub",NHK WORLD - JAPAN
+https://ucdn.starhubgo.com/bpk-tv/NHKWORLDJAPAN/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_379" tvg-logo="https://poster.starhubgo.com/Linear_channels2/124_1920x1080_HTV.png?w=272" group-title="StarHub",ONE (Malay)
+https://ucdn.starhubgo.com/bpk-tv/ONEMalay/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_376" tvg-logo="https://poster.starhubgo.com/Linear_channels2/128_1920x1080_HTV.png?w=272" group-title="StarHub",COLORS
+https://ucdn.starhubgo.com/bpk-tv/COLORS/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_621" tvg-logo="https://poster.starhubgo.com/Linear_channels2/701_1920x1080_HTV.png?w=272" group-title="StarHub",BBC World News HD
+https://ucdn.starhubgo.com/bpk-tv/BBCWorldNewsHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_247" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/247_1920x1080_HTV.png?w=272" group-title="StarHub",Premier Sports
+https://ucdn.starhubgo.com/bpk-tv/PremierSP/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_1221" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/221_1920x1080_HTV.png?w=272" group-title="StarHub",Hub Premier 1
+https://ucdn.starhubgo.com/bpk-tv/HubPremier1/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_922" tvg-logo="https://poster.starhubgo.com/Linear_channels2/519_1920x1080_HTV.png?w=272" group-title="StarHub",Hits HD
+https://ucdn.starhubgo.com/bpk-tv/HITSHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_225" tvg-logo="https://poster.starhubgo.com/Linear_channels2/127_1920x1080_HTV.png?w=272" group-title="StarHub",Sony Entertainment Television
+https://ucdn.starhubgo.com/bpk-tv/SonyEntertainmentTelevision/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_286" tvg-logo="https://poster.starhubgo.com/Linear_channels2/447_1920x1080_HTV.png?w=272" group-title="StarHub",ABC Australia
+https://ucdn.starhubgo.com/bpk-tv/ABCAustralia/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_349" tvg-logo="https://poster.starhubgo.com/Linear_channels2/140_1920x1080_HTV.png?w=272" group-title="StarHub",Asianet Movies
+https://ucdn.starhubgo.com/bpk-tv/AsianetMov/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_118" tvg-logo="https://poster.starhubgo.com/Linear_channels2/118_1920x1080_HTV.png?w=272" group-title="StarHub",Astro Warna
+https://ucdn.starhubgo.com/bpk-tv/Astro_warna_new/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_299" tvg-logo="https://poster.starhubgo.com/Linear_channels2/210_1920x1080_HTV.png?w=272" group-title="StarHub",SPOTV2
+https://ucdn.starhubgo.com/bpk-tv/SPOTV2NEW/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_832" tvg-logo="https://poster.starhubgo.com/Linear_channels2/832_1920x1080_HTV.png?w=272" group-title="StarHub",Dragon TV
+https://ucdn.starhubgo.com/bpk-tv/DragonTV/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_427" tvg-logo="https://poster.starhubgo.com/Linear_channels2/427_1920x1080_HTV.png?w=272" group-title="StarHub",Travelxp HD
+https://ucdn.starhubgo.com/bpk-tv/TravelxpHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_158" tvg-logo="https://poster.starhubgo.com/Linear_channels2/158_1920x1080_HTV.png?w=272" group-title="StarHub",ADITHYA TV
+https://ucdn.starhubgo.com/bpk-tv/ADITHYATV/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_34" tvg-logo="https://poster.starhubgo.com/Linear_channels2/825_1920x1080_HTV.png?w=272" group-title="StarHub",Hub E City HD
+https://ucdn.starhubgo.com/bpk-tv/HubECityHD825/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_56" tvg-logo="https://poster.starhubgo.com/Linear_channels2/868_1920x1080_HTV.png?w=272" group-title="StarHub",Celestial Movies HD
+https://ucdn.starhubgo.com/bpk-tv/CelestialMoviesHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_651" tvg-logo="https://poster.starhubgo.com/Linear_channels2/403_1920x1080_HTV.png?w=272" group-title="StarHub",Crime + Investigation HD
+https://ucdn.starhubgo.com/bpk-tv/CrimeplusInvestigationHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_634" tvg-logo="https://poster.starhubgo.com/Linear_channels2/604_1920x1080_HTV.png?w=272" group-title="StarHub",HBO Family HD
+https://ucdn.starhubgo.com/bpk-tv/HBOFamilyHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_29" tvg-logo="https://poster.starhubgo.com/Linear_channels2/838_1920x1080_HTV.png?w=272" group-title="StarHub",TVB Jade HD
+https://ucdn.starhubgo.com/bpk-tv/TVBJadeHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_384" tvg-logo="https://poster.starhubgo.com/Linear_channels2/304_1920x1080_HTV.png?w=272" group-title="StarHub",Nick Jr
+https://ucdn.starhubgo.com/bpk-tv/NickJr/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_423" tvg-logo="https://poster.starhubgo.com/Linear_channels2/422_1920x1080_HTV.png?w=272" group-title="StarHub",Discovery HD
+https://ucdn.starhubgo.com/bpk-tv/DiscoveryCh/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_910" tvg-logo="https://poster.starhubgo.com/Linear_channels2/111_1920x1080_HTV.png?w=272" group-title="StarHub",Hub E City HD
+https://ucdn.starhubgo.com/bpk-tv/HubECityHD/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_1323" group-title="StarHub",TestChannel 993..
+https://ucdn.starhubgo.com/bpk-tv/TestChannel993/output/index.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_218" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/218_1920x1080_HTV.png?w=272" group-title="StarHub",Cricbuzz 2
+https://ucdn.starhubgo.com/bpk-tv/Cbuzz2/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_217" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/217_1920x1080_HTV.png?w=272" group-title="StarHub",Cricbuzz
+https://ucdn.starhubgo.com/bpk-tv/Cbuzz/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_852" tvg-logo="https://poster.starhubgo.com/Linear_channels2/852_1920x1080_HTV.png?w=272" group-title="StarHub",Hub Ruyi
+https://ucdn.starhubgo.com/bpk-tv/HubRuyi/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_2224" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/224_1920x1080_HTV.png?w=272" group-title="StarHub",Hub Premier 4
+https://ucdn.starhubgo.com/bpk-tv/HubPremier4/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_1223" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/223_1920x1080_HTV.png?w=272" group-title="StarHub",Hub Premier 3
+https://ucdn.starhubgo.com/bpk-tv/HubPremier3/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_1228" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/228_1920x1080_HTV.png?w=272" group-title="StarHub",Hub Premier 8
+https://ucdn.starhubgo.com/bpk-tv/HubPremier8/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_1225" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/225_1920x1080_HTV.png?w=272" group-title="StarHub",Hub Premier 5
+https://ucdn.starhubgo.com/bpk-tv/HubPremier5/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_1226" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/226_1920x1080_HTV.png?w=272" group-title="StarHub",Hub Premier 6
+https://ucdn.starhubgo.com/bpk-tv/HubPremier6/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_208" tvg-logo="https://poster.starhubgo.com/Linear_channels2/208_1920x1080_HTV.png?w=272" group-title="StarHub",Hub Sports 8
+https://ucdn.starhubgo.com/bpk-tv/HubSports8/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_207" tvg-logo="https://poster.starhubgo.com/Linear_channels2/207_1920x1080_HTV.png?w=272" group-title="StarHub",Hub Sports 7
+https://ucdn.starhubgo.com/bpk-tv/HubSports7/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_215" tvg-logo="https://poster.starhubgo.com/Linear_channels2/215_1920x1080_HTV.png?w=272" group-title="StarHub",beIN SPORTS MAX 2 HD
+https://ucdn.starhubgo.com/bpk-tv/beINSports4/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_216" tvg-logo="https://poster.starhubgo.com/Linear_channels2/216_1920x1080_HTV.png?w=272" group-title="StarHub",beIN SPORTS MAX 3 HD
+https://ucdn.starhubgo.com/bpk-tv/beINSports5/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_438" tvg-logo="https://poster.starhubgo.com/Linear_channels2/435_1920x1080_HTV.png?w=272" group-title="StarHub",AFN
+https://ucdn.starhubgo.com/bpk-tv/AFN/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_4001" tvg-logo="https://poster.starhubgo.com/Linear_channnes/falseNE?w=272" group-title="StarHub",Test 998
+https://stg-ucdn.starhubgo.com/bpk-tv/Mediacorp_CH5_DASH/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_1227" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/227_1920x1080_HTV.png?w=272" group-title="StarHub",Hub Premier 7
+https://ucdn.starhubgo.com/bpk-tv/HubPremier7/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_513" tvg-logo="https://poster.starhubgo.com/Linear_channels2/513_1920x1080_HTV.png?w=272" group-title="StarHub",HITSNOW
+https://ucdn.starhubgo.com/bpk-tv/HITSNOW/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_251" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/251_1920x1080_HTV.png?w=272" group-title="StarHub",Channel 251
+https://ucdn.starhubgo.com/bpk-tv/FIFAWCCh1/output/manifest.mpd
+
