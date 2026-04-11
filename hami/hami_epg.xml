@@ -2860,7 +2860,7 @@
     <title lang="zh">LIVE 中華職棒 富邦 VS 台鋼 例行賽 4/11(普)</title>
   </programme>
   <programme channel="愛爾達體育1台" start="20260411113000 +0800" stop="20260411132000 +0800">
-    <title lang="zh">MLB 遊騎兵 VS 道奇 例行賽 4/11(普)</title>
+    <title lang="zh">MLB 遊騎兵 VS 道奇 例行賽 4/11(精華版)(普)</title>
   </programme>
   <programme channel="愛爾達體育1台" start="20260411132000 +0800" stop="20260411153500 +0800">
     <title lang="zh">LIVE 德甲 多特蒙德 VS 勒沃庫森 第29輪(原音)(普)</title>
@@ -9799,19 +9799,16 @@
     <title lang="zh">Anderson Cooper 360: Friday, April 10, 2026 8PM</title>
   </programme>
   <programme channel="CNN國際新聞台" start="20260411010000 +0800" stop="20260411020000 +0800">
-    <title lang="zh">The Source with Kaitlan Collins: Friday, April 10, 2026 9PM</title>
+    <title lang="zh">Anderson Cooper 360: Friday, April 10, 2026 9PM</title>
   </programme>
   <programme channel="CNN國際新聞台" start="20260411020000 +0800" stop="20260411030000 +0800">
-    <title lang="zh">CNN NewsNight: Friday, April 10, 2026 10PM</title>
+    <title lang="zh">Anderson Cooper 360: Friday, April 10, 2026 10PM</title>
   </programme>
   <programme channel="CNN國際新聞台" start="20260411030000 +0800" stop="20260411040000 +0800">
     <title lang="zh">Laura Coates Live: Friday, April 10, 2026 11PM</title>
   </programme>
-  <programme channel="CNN國際新聞台" start="20260411040000 +0800" stop="20260411050000 +0800">
+  <programme channel="CNN國際新聞台" start="20260411040000 +0800" stop="20260411060000 +0800">
     <title lang="zh">The Story Is With Elex Michaelson: Saturday, April 11, 2026 12am ET</title>
-  </programme>
-  <programme channel="CNN國際新聞台" start="20260411050000 +0800" stop="20260411060000 +0800">
-    <title lang="zh">The Story Is With Elex Michaelson: Saturday, April 11, 2026 1am ET</title>
   </programme>
   <programme channel="CNN國際新聞台" start="20260411060000 +0800" stop="20260411070000 +0800">
     <title lang="zh">CNN Newsroom (CNNI) (30m): Saturday, April 11, 2026 2am ET</title>
@@ -9822,11 +9819,8 @@
   <programme channel="CNN國際新聞台" start="20260411080000 +0800" stop="20260411090000 +0800">
     <title lang="zh">CNN Newsroom (CNNI) (30m): Saturday, April 11, 2026 4am ET</title>
   </programme>
-  <programme channel="CNN國際新聞台" start="20260411090000 +0800" stop="20260411103000 +0800">
+  <programme channel="CNN國際新聞台" start="20260411090000 +0800" stop="20260411110000 +0800">
     <title lang="zh">CNN Newsroom (CNNI) (60m): Saturday, April 11, 2026 5am ET</title>
-  </programme>
-  <programme channel="CNN國際新聞台" start="20260411103000 +0800" stop="20260411110000 +0800">
-    <title lang="zh">Next Big Trip: Mongolia</title>
   </programme>
   <programme channel="CNN國際新聞台" start="20260411110000 +0800" stop="20260411120000 +0800">
     <title lang="zh">CNN This Morning Weekend: Saturday, April 11, 2026 7AM</title>
@@ -9840,14 +9834,11 @@
   <programme channel="CNN國際新聞台" start="20260411150000 +0800" stop="20260411155959 +0800">
     <title lang="zh">The Amanpour Hour: Saturday, April 11, 2026 11AM</title>
   </programme>
-  <programme channel="CNN國際新聞台" start="20260411160000 +0800" stop="20260411163000 +0800">
+  <programme channel="CNN國際新聞台" start="20260411160000 +0800" stop="20260411170000 +0800">
     <title lang="zh">World Sport (30m): Saturday, April 11, 2026 12pm ET</title>
   </programme>
-  <programme channel="CNN國際新聞台" start="20260411163000 +0800" stop="20260411170000 +0800">
-    <title lang="zh">Next Big Trip: Mongolia</title>
-  </programme>
   <programme channel="CNN國際新聞台" start="20260411170000 +0800" stop="20260411180000 +0800">
-    <title lang="zh">CNN Newsroom Saturday: Saturday, April 11, 2026 1PM</title>
+    <title lang="zh">Smerconish: Saturday, April 11, 2026 9AM</title>
   </programme>
   <programme channel="CNN國際新聞台" start="20260411180000 +0800" stop="20260411190000 +0800">
     <title lang="zh">CNN Newsroom Saturday: Saturday, April 11, 2026 2PM</title>
@@ -9856,7 +9847,7 @@
     <title lang="zh">CNN Newsroom Saturday: Saturday, April 11, 2026 3PM</title>
   </programme>
   <programme channel="CNN國際新聞台" start="20260411200000 +0800" stop="20260411210000 +0800">
-    <title lang="zh">CNN Newsroom Saturday: Saturday, April 11, 2026 4PM</title>
+    <title lang="zh">The Whole Story with Anderson Cooper: 50 Years of Apple</title>
   </programme>
   <programme channel="CNN國際新聞台" start="20260411210000 +0800" stop="20260411220000 +0800">
     <title lang="zh">World Sport (30m): Saturday, April 11, 2026 5pm ET</title>
@@ -9867,20 +9858,11 @@
   <programme channel="CNN國際新聞台" start="20260411230000 +0800" stop="20260412000000 +0800">
     <title lang="zh">CNN Newsroom Saturday: Saturday, April 11, 2026 7PM</title>
   </programme>
-  <programme channel="CNN國際新聞台" start="20260412000000 +0800" stop="20260412010000 +0800">
+  <programme channel="CNN國際新聞台" start="20260412000000 +0800" stop="20260412040000 +0800">
     <title lang="zh">Smerconish: Saturday, April 11, 2026 9AM</title>
   </programme>
-  <programme channel="CNN國際新聞台" start="20260412010000 +0800" stop="20260412030000 +0800">
-    <title lang="zh">World Sport (30m): Saturday, April 11, 2026 5pm ET</title>
-  </programme>
-  <programme channel="CNN國際新聞台" start="20260412030000 +0800" stop="20260412040000 +0800">
-    <title lang="zh">Next Big Trip: Mongolia</title>
-  </programme>
-  <programme channel="CNN國際新聞台" start="20260412040000 +0800" stop="20260412043000 +0800">
+  <programme channel="CNN國際新聞台" start="20260412040000 +0800" stop="20260412050000 +0800">
     <title lang="zh">CNN Newsroom (CNNI) (30m): Sunday, April 12, 2026 12am ET</title>
-  </programme>
-  <programme channel="CNN國際新聞台" start="20260412043000 +0800" stop="20260412050000 +0800">
-    <title lang="zh">World Sport (30m): Saturday, April 11, 2026 5pm ET</title>
   </programme>
   <programme channel="CNN國際新聞台" start="20260412050000 +0800" stop="20260412060000 +0800">
     <title lang="zh">CNN Newsroom (CNNI) (30m): Sunday, April 12, 2026 1am ET</title>
@@ -9889,7 +9871,7 @@
     <title lang="zh">CNN Newsroom (CNNI) (30m): Sunday, April 12, 2026 2am ET</title>
   </programme>
   <programme channel="CNN國際新聞台" start="20260412070000 +0800" stop="20260412080000 +0800">
-    <title lang="zh">CNN Newsroom (CNNI) (60m): Sunday, April 12, 2026 3am ET</title>
+    <title lang="zh">CNN Newsroom (CNNI) (30m): Sunday, April 12, 2026 3am ET</title>
   </programme>
   <programme channel="CNN國際新聞台" start="20260412080000 +0800" stop="20260412090000 +0800">
     <title lang="zh">CNN Newsroom (CNNI) (60m): Sunday, April 12, 2026 4am ET</title>
@@ -9924,11 +9906,8 @@
   <programme channel="CNN國際新聞台" start="20260412200000 +0800" stop="20260412210000 +0800">
     <title lang="zh">Apr 13 CNN Newsroom Sunday: Sunday, April 12, 2026 4PM</title>
   </programme>
-  <programme channel="CNN國際新聞台" start="20260412210000 +0800" stop="20260412213000 +0800">
+  <programme channel="CNN國際新聞台" start="20260412210000 +0800" stop="20260412220000 +0800">
     <title lang="zh">Apr 13 World Sport (30m): Sunday, April 12, 2026 5pm ET</title>
-  </programme>
-  <programme channel="CNN國際新聞台" start="20260412213000 +0800" stop="20260412220000 +0800">
-    <title lang="zh">Apr 13 Next Big Trip: Mongolia</title>
   </programme>
   <programme channel="CNN國際新聞台" start="20260412220000 +0800" stop="20260412230000 +0800">
     <title lang="zh">Apr 13 CNN Newsroom Sunday: Sunday, April 12, 2026 6PM</title>
@@ -9937,7 +9916,7 @@
     <title lang="zh">Apr 13 CNN Newsroom Sunday: Sunday, April 12, 2026 7PM</title>
   </programme>
   <programme channel="CNN國際新聞台" start="20260413000000 +0800" stop="20260413010000 +0800">
-    <title lang="zh">Apr 13 The Whole Story with Anderson Cooper: Episode 15</title>
+    <title lang="zh">Apr 13 CNN Newsroom Sunday: Sunday, April 12, 2026 8PM</title>
   </programme>
   <programme channel="CNN國際新聞台" start="20260413010000 +0800" stop="20260413040000 +0800">
     <title lang="zh">Apr 13 Fareed Zakaria GPS: Sunday, April 12, 2026 10AM</title>
@@ -12102,10 +12081,10 @@
   <programme channel="EUROSPORT" start="20260411110000 +0800" stop="20260411120000 +0800">
     <title lang="zh">Lillehammer | Women's Giant Slalom(普)</title>
   </programme>
-  <programme channel="EUROSPORT" start="20260411120000 +0800" stop="20260411133000 +0800">
+  <programme channel="EUROSPORT" start="20260411120000 +0800" stop="20260411130000 +0800">
     <title lang="zh">Itzulia Basque Country | Stage 5(普)</title>
   </programme>
-  <programme channel="EUROSPORT" start="20260411133000 +0800" stop="20260411154500 +0800">
+  <programme channel="EUROSPORT" start="20260411130000 +0800" stop="20260411154500 +0800">
     <title lang="zh">Itzulia Basque Country | Stage 6(普)</title>
   </programme>
   <programme channel="EUROSPORT" start="20260411154500 +0800" stop="20260411174500 +0800">
@@ -12144,13 +12123,19 @@
   <programme channel="EUROSPORT" start="20260412013000 +0800" stop="20260412033000 +0800">
     <title lang="zh">In Flanders Fields - From Middelkerke to Wevelgem(普)</title>
   </programme>
-  <programme channel="EUROSPORT" start="20260412033000 +0800" stop="20260412050000 +0800">
+  <programme channel="EUROSPORT" start="20260412033000 +0800" stop="20260412043000 +0800">
+    <title lang="zh">Gran Premio Miguel Indurain(普)</title>
+  </programme>
+  <programme channel="EUROSPORT" start="20260412043000 +0800" stop="20260412053500 +0800">
     <title lang="zh">Itzulia Basque Country | Stage 6(普)</title>
   </programme>
-  <programme channel="EUROSPORT" start="20260412050000 +0800" stop="20260412060000 +0800">
+  <programme channel="EUROSPORT" start="20260412053500 +0800" stop="20260412055000 +0800">
+    <title lang="zh">AlUla Trail Race | Review(普)</title>
+  </programme>
+  <programme channel="EUROSPORT" start="20260412055000 +0800" stop="20260412063000 +0800">
     <title lang="zh">Tour of Flanders(普)</title>
   </programme>
-  <programme channel="EUROSPORT" start="20260412060000 +0800" stop="20260412080000 +0800">
+  <programme channel="EUROSPORT" start="20260412063000 +0800" stop="20260412080000 +0800">
     <title lang="zh">Tour of Flanders(普)</title>
   </programme>
   <programme channel="EUROSPORT" start="20260412080000 +0800" stop="20260412090000 +0800">
@@ -12168,8 +12153,11 @@
   <programme channel="EUROSPORT" start="20260412120000 +0800" stop="20260412130000 +0800">
     <title lang="zh">Sardinia | MXGP | Race 1(普)</title>
   </programme>
-  <programme channel="EUROSPORT" start="20260412130000 +0800" stop="20260412140000 +0800">
+  <programme channel="EUROSPORT" start="20260412130000 +0800" stop="20260412133000 +0800">
     <title lang="zh">Gallivare | Ski Cross(普)</title>
+  </programme>
+  <programme channel="EUROSPORT" start="20260412133000 +0800" stop="20260412140000 +0800">
+    <title lang="zh">Silvaplana | Half Pipe(普)</title>
   </programme>
   <programme channel="EUROSPORT" start="20260412140000 +0800" stop="20260412150000 +0800">
     <title lang="zh">Sardinia | MX2 | Race 2(普)</title>
@@ -12187,7 +12175,7 @@
     <title lang="zh">Mont-Sainte-Anne | Snowboard Cross(普)</title>
   </programme>
   <programme channel="EUROSPORT" start="20260412180000 +0800" stop="20260412190000 +0800">
-    <title lang="zh">Curling(普)</title>
+    <title lang="zh">Scotland - Canada(普)</title>
   </programme>
   <programme channel="EUROSPORT" start="20260412190000 +0800" stop="20260412193000 +0800">
     <title lang="zh">Sardinia | MX2 | Race 1(普)</title>
@@ -12195,13 +12183,13 @@
   <programme channel="EUROSPORT" start="20260412193000 +0800" stop="20260412200000 +0800">
     <title lang="zh">Sardinia | MXGP | Race 1(普)</title>
   </programme>
-  <programme channel="EUROSPORT" start="20260412200000 +0800" stop="20260412203000 +0800">
+  <programme channel="EUROSPORT" start="20260412200000 +0800" stop="20260412204500 +0800">
     <title lang="zh">Sardinia | MX2 | Race 2(普)</title>
   </programme>
-  <programme channel="EUROSPORT" start="20260412203000 +0800" stop="20260412210000 +0800">
+  <programme channel="EUROSPORT" start="20260412204500 +0800" stop="20260412213000 +0800">
     <title lang="zh">Sardinia | MXGP | Race 2(普)</title>
   </programme>
-  <programme channel="EUROSPORT" start="20260412210000 +0800" stop="20260412220000 +0800">
+  <programme channel="EUROSPORT" start="20260412213000 +0800" stop="20260412220000 +0800">
     <title lang="zh">Gallivare | Ski Cross(普)</title>
   </programme>
   <programme channel="EUROSPORT" start="20260412220000 +0800" stop="20260412223000 +0800">
@@ -12256,7 +12244,7 @@
     <title lang="zh">Sardinia | MXGP | Race 2(普)</title>
   </programme>
   <programme channel="EUROSPORT" start="20260413110000 +0800" stop="20260413130000 +0800">
-    <title lang="zh">Curling(普)</title>
+    <title lang="zh">Sweden - Canada | Highlights(普)</title>
   </programme>
   <programme channel="EUROSPORT" start="20260413130000 +0800" stop="20260413143000 +0800">
     <title lang="zh">Sjusjoen | Men Individual(普)</title>
