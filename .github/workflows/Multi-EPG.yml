@@ -11,13 +11,13 @@ jobs:
 
     steps:
     # ========================
-    # 1. 拉取仓库
+    # 1. 拉仓库
     # ========================
     - name: Checkout
       uses: actions/checkout@v4
 
     # ========================
-    # 2. Python环境
+    # 2. Python
     # ========================
     - name: Setup Python
       uses: actions/setup-python@v5
@@ -30,10 +30,10 @@ jobs:
     - name: Install dependencies
       run: |
         pip install requests
-        echo "依赖安装完成"
+        echo "✅ 依赖安装完成"
 
     # ========================
-    # 4. 运行 Hami（允许失败）
+    # 4. Hami（允许失败）
     # ========================
     - name: Run Hami EPG
       continue-on-error: true
@@ -44,7 +44,7 @@ jobs:
         cd ..
 
     # ========================
-    # 5. 运行 StarHub（允许失败）
+    # 5. StarHub（允许失败）
     # ========================
     - name: Run StarHub EPG
       continue-on-error: true
@@ -55,29 +55,50 @@ jobs:
         cd ..
 
     # ========================
-    # 6. 提交并推送（唯一push点）
+    # 6. Commit + Push（终极稳定版）
     # ========================
-    - name: Commit & Push
+    - name: Commit & Push (Final Stable)
       run: |
+        echo "📦 开始提交EPG结果"
+
         git config user.name "github-actions"
         git config user.email "bot@github.com"
 
+        # ========================
+        # 1. add
+        # ========================
         git add .
 
-        # ⭐关键：避免冲突
-        git pull --rebase origin main
-
+        # ========================
+        # 2. 是否有变更
+        # ========================
         if git diff --cached --quiet; then
-          echo "⚠️ 没有文件变化"
-        else
-          git commit -m "📺 Multi-EPG update $(date -u '+%Y-%m-%d %H:%M:%S')"
-          git push
-          echo "✅ 已推送"
+          echo "⚠️ 没有任何更新，跳过提交"
+          exit 0
         fi
 
+        # ========================
+        # 3. commit
+        # ========================
+        git commit -m "📺 Multi-EPG update $(date -u '+%Y-%m-%d %H:%M:%S')"
+
+        # ========================
+        # 4. 拉远程（避免冲突）
+        # ========================
+        echo "🔄 同步远程仓库"
+        git pull --rebase origin main || true
+
+        # ========================
+        # 5. push
+        # ========================
+        echo "🚀 推送到GitHub"
+        git push
+
+        echo "✅ 推送完成"
+
     # ========================
-    # 7. 输出日志
+    # 7. 完成提示
     # ========================
     - name: Done
       run: |
-        echo "🎉 EPG任务完成 $(date)"
+        echo "🎉 全部任务完成 $(date)"
