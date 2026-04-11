@@ -1,45 +1,83 @@
-name: StarHub EPG Auto Update
+name: Multi-EPG (Hami + StarHub)
 
 on:
   schedule:
-    - cron: '0 18 * * *'   # 比 Hami 早10分钟
+    - cron: '0 18 * * *'   # 每天自动运行
   workflow_dispatch:
-  push:
-    paths:
-      - 'starhub/**'
 
 jobs:
-  update-starhub:
+  run-all:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
+    # ========================
+    # 1. 拉取仓库
+    # ========================
+    - name: Checkout
+      uses: actions/checkout@v4
 
-    - uses: actions/setup-python@v5
+    # ========================
+    # 2. Python环境
+    # ========================
+    - name: Setup Python
+      uses: actions/setup-python@v5
       with:
         python-version: '3.10'
 
-    - name: Install deps
+    # ========================
+    # 3. 安装依赖
+    # ========================
+    - name: Install dependencies
       run: |
         pip install requests
-        pip install xmltodict
+        echo "依赖安装完成"
 
-    - name: Run StarHub EPG
+    # ========================
+    # 4. 运行 Hami（允许失败）
+    # ========================
+    - name: Run Hami EPG
+      continue-on-error: true
       run: |
-        echo "🚀 Running StarHub EPG..."
-        cd starhub
-        python starhub_epg.py
+        echo "🚀 Hami START"
+        cd hami
+        python hami_epg.py || echo "❌ Hami failed"
+        cd ..
 
-    - name: Commit StarHub result
+    # ========================
+    # 5. 运行 StarHub（允许失败）
+    # ========================
+    - name: Run StarHub EPG
+      continue-on-error: true
+      run: |
+        echo "🚀 StarHub START"
+        cd starhub
+        python starhub_epg.py || echo "❌ StarHub failed"
+        cd ..
+
+    # ========================
+    # 6. 提交并推送（唯一push点）
+    # ========================
+    - name: Commit & Push
       run: |
         git config user.name "github-actions"
         git config user.email "bot@github.com"
 
-        git add starhub/
+        git add .
+
+        # ⭐关键：避免冲突
+        git pull --rebase origin main
 
         if git diff --cached --quiet; then
-          echo "⚠️ No changes"
+          echo "⚠️ 没有文件变化"
         else
-          git commit -m "📺 StarHub EPG update $(date -u '+%Y-%m-%d %H:%M:%S')"
+          git commit -m "📺 Multi-EPG update $(date -u '+%Y-%m-%d %H:%M:%S')"
           git push
+          echo "✅ 已推送"
         fi
+
+    # ========================
+    # 7. 输出日志
+    # ========================
+    - name: Done
+      run: |
+        echo "🎉 EPG任务完成 $(date)"
