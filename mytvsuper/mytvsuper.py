@@ -6,10 +6,10 @@ import json
 import gzip
 import re
 import time
+import html
 from datetime import datetime, timedelta
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import xml.etree.ElementTree as ET
-import xml.dom.minidom as minidom
 
 # ===================== 配置 ===================== #
 CHANNEL_API_URL = "https://content-api.mytvsuper.com/v1/channel/list"
@@ -25,9 +25,9 @@ TIMEOUT = 30
 RETRY_COUNT = 2
 REQUEST_DELAY = 0.3
 
-OUTPUT_JSON = "epg.json"
 OUTPUT_XML = "epg.xml"
 OUTPUT_GZ = "epg.xml.gz"
+OUTPUT_JSON = "epg.json"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0",
@@ -35,287 +35,245 @@ HEADERS = {
     "Referer": "https://www.mytvsuper.com/"
 }
 
-# ===================== 工具函数 ===================== #
-def clean_name(name):
-    """清理频道名称"""
-    if not name:
+# ===================== 工具 ===================== #
+
+def clean(text):
+    """防止XML炸裂（关键）"""
+    if not text:
         return ""
-    patterns = [
-        r'\s*\(免費\)', r'\s*\(Free\)',
-        r'\s*免費', r'\s*Free',
-    ]
-    cleaned = name
-    for p in patterns:
-        cleaned = re.sub(p, '', cleaned, flags=re.IGNORECASE)
-    cleaned = cleaned.strip()
-    return cleaned
+    return html.escape(str(text).strip())
+
 
 def to_xml_time(dt_str):
-    """时间格式转换"""
+    """时间转换（稳定版）"""
     if not dt_str:
         return ""
-    try:
-        for fmt in ["%Y-%m-%d %H:%M:%S", "%Y-%m-%dT%H:%M:%S", "%Y%m%d%H%M%S"]:
-            try:
-                dt = datetime.strptime(dt_str, fmt)
-                return dt.strftime("%Y%m%d%H%M%S") + " +0800"
-            except:
-                continue
-        return ""
-    except:
-        return ""
+    for fmt in ["%Y-%m-%d %H:%M:%S", "%Y-%m-%dT%H:%M:%S", "%Y%m%d%H%M%S"]:
+        try:
+            dt = datetime.strptime(dt_str, fmt)
+            return dt.strftime("%Y%m%d%H%M%S") + " +0800"
+        except:
+            continue
+    return ""
 
-# ===================== 频道获取 ===================== #
+
+def indent(elem, level=0):
+    """
+    XML 美化（替代 minidom，稳定不崩）
+    """
+    i = "\n" + level * "  "
+    if len(elem):
+        if not elem.text or not elem.text.strip():
+            elem.text = i + "  "
+        for e in elem:
+            indent(e, level + 1)
+        if not e.tail or not e.tail.strip():
+            e.tail = i
+    if level and (not elem.tail or not elem.tail.strip()):
+        elem.tail = i
+
+
+# ===================== 频道 ===================== #
+
+def clean_name(name):
+    if not name:
+        return ""
+    return re.sub(r'\s*\(Free\)|\s*\(免費\)|\s*Free|\s*免費', '', name, flags=re.I).strip()
+
+
 def get_channels():
-    """获取频道信息，包含名称清理"""
     params = {
         "platform": PLATFORM,
         "country_code": COUNTRY_CODE,
         "profile_class": PROFILE_CLASS
     }
-    
+
     r = requests.get(CHANNEL_API_URL, params=params, headers=HEADERS, timeout=TIMEOUT)
     data = r.json()
-    channels = data.get("channels", [])
-    
+
     result = {}
-    for c in channels:
+
+    for c in data.get("channels", []):
         code = c.get("network_code")
         if not code:
             continue
-        
-        # 清理名称
+
         name_tc = clean_name(c.get("name_tc", ""))
         name_en = clean_name(c.get("name_en", ""))
-        
+
         result[code] = {
             "name_tc": name_tc or code,
             "name_en": name_en or name_tc or code,
-            "icon": c.get("landscape_poster") or c.get("portrait_poster") or ""
+            "icon": c.get("landscape_poster") or ""
         }
-    
-    print(f"[INFO] 获取到 {len(result)} 个频道")
+
+    print(f"[OK] 频道数量: {len(result)}")
     return result
 
-# ===================== 智能节目探测器 ===================== #
-def extract_programmes(data, max_depth=5):
-    """
-    从任意结构中提取节目
-    不依赖固定字段路径
-    """
-    if not data:
-        return []
-    
-    # 如果本身就是列表，递归处理每个元素
-    if isinstance(data, list):
-        programmes = []
-        for item in data:
-            programmes.extend(extract_programmes(item, max_depth-1))
-        return programmes
-    
-    # 如果是字典
-    if isinstance(data, dict):
-        # 检查是否已经是节目（包含start_datetime）
-        if "start_datetime" in data and data["start_datetime"]:
-            return [data]
-        
-        # 检查常见节目列表字段
-        for key in ["epg", "programmes", "items", "list"]:
-            if key in data and isinstance(data[key], list):
-                programmes = []
-                for item in data[key]:
-                    programmes.extend(extract_programmes(item, max_depth-1))
-                return programmes
-        
-        # 递归查找
-        if max_depth > 0:
-            programmes = []
-            for value in data.values():
-                programmes.extend(extract_programmes(value, max_depth-1))
-            return programmes
-    
-    return []
 
-# ===================== EPG获取 ===================== #
-def fetch_epg_with_retry(code, start_date, end_date):
-    """带重试的EPG获取"""
-    for attempt in range(RETRY_COUNT + 1):
-        try:
-            time.sleep(REQUEST_DELAY)
-            params = {
-                "platform": PLATFORM,
-                "country_code": COUNTRY_CODE,
-                "network_code": code,
-                "from": start_date,
-                "to": end_date
-            }
-            r = requests.get(EPG_API_URL, params=params, headers=HEADERS, timeout=TIMEOUT)
-            r.raise_for_status()
-            return code, r.json()
-        except Exception as e:
-            if attempt < RETRY_COUNT:
-                time.sleep(1)  # 等待1秒后重试
-            else:
-                print(f"[WARN] 频道 {code} 获取失败: {e}")
-                return code, None
-    return code, None
+# ===================== EPG ===================== #
 
-def fetch_all_epg(channels, start_date, end_date):
-    """并发获取所有频道的EPG"""
-    epg_data = {}
-    
-    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-        futures = {executor.submit(fetch_epg_with_retry, code, start_date, end_date): code 
-                  for code in channels}
-        
-        for i, future in enumerate(as_completed(futures), 1):
-            code, data = future.result()
-            epg_data[code] = data
-            
-            if i % 20 == 0 or i == len(channels):
-                print(f"[INFO] 进度: {i}/{len(channels)}")
-    
-    success = sum(1 for d in epg_data.values() if d is not None)
-    print(f"[OK] EPG获取完成: {success}/{len(channels)} 成功")
-    return epg_data
+def fetch_epg(code, s, e):
+    try:
+        time.sleep(REQUEST_DELAY)
 
-# ===================== XML构建 ===================== #
+        params = {
+            "platform": PLATFORM,
+            "country_code": COUNTRY_CODE,
+            "network_code": code,
+            "from": s,
+            "to": e
+        }
+
+        r = requests.get(EPG_API_URL, params=params, headers=HEADERS, timeout=TIMEOUT)
+        return code, r.json()
+
+    except Exception as e:
+        print(f"[WARN] {code} 失败: {e}")
+        return code, None
+
+
+def fetch_all(channels, s, e):
+    epg = {}
+
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
+        futures = [ex.submit(fetch_epg, c, s, e) for c in channels]
+
+        for i, f in enumerate(as_completed(futures), 1):
+            code, data = f.result()
+            epg[code] = data
+
+            if i % 20 == 0:
+                print(f"[INFO] {i}/{len(channels)}")
+
+    return epg
+
+
+# ===================== XML ===================== #
+
 def build_xml(channels, epg_data):
-    """构建完整的XMLTV"""
     tv = ET.Element("tv")
     tv.set("generator-info-name", "myTV SUPER EPG")
-    
-    # 1. 添加频道
-    for code, info in channels.items():
+
+    # channels
+    for code, c in channels.items():
         ch = ET.SubElement(tv, "channel", id=code)
-        
-        # 中文名称
-        if info["name_tc"]:
-            dn_zh = ET.SubElement(ch, "display-name")
-            dn_zh.set("lang", "zh")
-            dn_zh.text = info["name_tc"]
-        
-        # 英文名称
-        if info["name_en"]:
-            dn_en = ET.SubElement(ch, "display-name")
-            dn_en.set("lang", "en")
-            dn_en.text = info["name_en"]
-        
-        # 图标
-        if info["icon"]:
-            ET.SubElement(ch, "icon", src=info["icon"])
-    
-    # 2. 添加节目
-    total_programmes = 0
-    
+
+        ET.SubElement(ch, "display-name", lang="zh").text = clean(c["name_tc"])
+        ET.SubElement(ch, "display-name", lang="en").text = clean(c["name_en"])
+
+        if c["icon"]:
+            ET.SubElement(ch, "icon", src=c["icon"])
+
+    total = 0
+
+    # programmes
     for code, data in epg_data.items():
-        if not data or code not in channels:
+        if not data:
             continue
-        
-        # 使用智能探测器提取节目
-        programmes = extract_programmes(data)
-        
-        if not programmes:
-            continue
-        
-        # 按时间排序
-        programmes.sort(key=lambda x: x.get("start_datetime", ""))
-        
-        for prog in programmes:
-            start_time = prog.get("start_datetime")
-            if not start_time:
+
+        items = extract(data)
+
+        for p in items:
+            start = to_xml_time(p.get("start_datetime"))
+            if not start:
                 continue
-            
-            xml_time = to_xml_time(start_time)
-            if not xml_time:
-                continue
-            
-            # 创建节目元素
-            prog_elem = ET.SubElement(tv, "programme", {
+
+            prog = ET.SubElement(tv, "programme", {
                 "channel": code,
-                "start": xml_time
+                "start": start
             })
-            
-            # 中文标题
-            title_tc = prog.get("programme_title_tc", "")
-            if title_tc:
-                title_zh = ET.SubElement(prog_elem, "title")
-                title_zh.set("lang", "zh")
-                title_zh.text = title_tc[:200]
-            
-            # 英文标题
-            title_en = prog.get("programme_title_en", "")
-            if title_en and title_en != title_tc:
-                title_en_elem = ET.SubElement(prog_elem, "title")
-                title_en_elem.set("lang", "en")
-                title_en_elem.text = title_en[:200]
-            
-            # 描述
-            desc = prog.get("episode_synopsis_tc", "")
+
+            # title
+            tc = p.get("programme_title_tc", "")
+            en = p.get("programme_title_en", "")
+
+            if tc:
+                ET.SubElement(prog, "title", lang="zh").text = clean(tc[:200])
+            if en:
+                ET.SubElement(prog, "title", lang="en").text = clean(en[:200])
+
+            # desc
+            desc = p.get("episode_synopsis_tc", "")
             if desc:
-                desc_elem = ET.SubElement(prog_elem, "desc")
-                desc_elem.set("lang", "zh")
-                desc_elem.text = desc[:300]
-            
-            total_programmes += 1
-    
-    print(f"[OK] 总节目数: {total_programmes}")
+                ET.SubElement(prog, "desc", lang="zh").text = clean(desc[:300])
+
+            total += 1
+
+    print(f"[OK] 节目数: {total}")
+
+    indent(tv)  # 👈 美化（安全版）
+
     return tv
 
-# ===================== 输出 ===================== #
-def save_files(xml_tree):
-    """保存XML和GZ文件"""
-    # 美化XML
-    xml_str = ET.tostring(xml_tree, encoding="utf-8")
-    pretty_xml = minidom.parseString(xml_str).toprettyxml(encoding="utf-8")
-    
-    # 保存XML
+
+# ===================== JSON提取 ===================== #
+
+def extract(data):
+    """安全提取节目"""
+    if isinstance(data, list):
+        out = []
+        for i in data:
+            out.extend(extract(i))
+        return out
+
+    if isinstance(data, dict):
+        if "start_datetime" in data:
+            return [data]
+
+        for k in ["epg", "programmes", "items", "list"]:
+            if k in data and isinstance(data[k], list):
+                out = []
+                for i in data[k]:
+                    out.extend(extract(i))
+                return out
+
+        out = []
+        for v in data.values():
+            out.extend(extract(v))
+        return out
+
+    return []
+
+
+# ===================== 保存 ===================== #
+
+def save(xml):
+    xml_bytes = ET.tostring(xml, encoding="utf-8", xml_declaration=True)
+
     with open(OUTPUT_XML, "wb") as f:
-        f.write(pretty_xml)
-    print(f"[OK] XML保存: {OUTPUT_XML}")
-    
-    # 保存GZ
+        f.write(xml_bytes)
+
     with gzip.open(OUTPUT_GZ, "wb") as f:
-        f.write(pretty_xml)
-    print(f"[OK] GZ保存: {OUTPUT_GZ}")
+        f.write(xml_bytes)
+
+    print("[OK] 文件已生成")
+
 
 def save_json(data):
-    """保存JSON文件"""
     with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-    print(f"[OK] JSON保存: {OUTPUT_JSON}")
 
-# ===================== 主程序 ===================== #
+
+# ===================== MAIN ===================== #
+
 def main():
-    print("[INFO] 开始获取 myTV SUPER EPG...")
-    start_time = datetime.now()
-    
-    # 获取日期范围
+    print("[INFO] 开始抓EPG...")
+
     s = datetime.now().strftime("%Y%m%d")
     e = (datetime.now() + timedelta(days=DAYS_RANGE)).strftime("%Y%m%d")
-    print(f"[INFO] 日期: {s} 到 {e}")
-    
-    # 1. 获取频道
+
     channels = get_channels()
-    if not channels:
-        print("[ERROR] 无频道信息")
-        return
-    
-    # 2. 获取EPG
-    epg_data = fetch_all_epg(channels.keys(), s, e)
-    
-    # 3. 保存JSON
-    save_json(epg_data)
-    
-    # 4. 构建XML
-    xml_tree = build_xml(channels, epg_data)
-    
-    # 5. 保存文件
-    save_files(xml_tree)
-    
-    # 6. 统计
-    duration = (datetime.now() - start_time).total_seconds()
-    print(f"[OK] 完成! 耗时: {duration:.1f}秒")
+    epg = fetch_all(channels.keys(), s, e)
+
+    save_json(epg)
+
+    xml = build_xml(channels, epg)
+
+    save(xml)
+
+    print("[DONE] 完成")
+
 
 if __name__ == "__main__":
     main()
