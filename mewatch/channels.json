@@ -1,0 +1,1456 @@
+{
+  "metadata": {
+    "source": "meWatch Singapore",
+    "generated_at": "2026-04-12T17:57:57.982357",
+    "total_channels": 121
+  },
+  "channels": [
+    {
+      "id": "97098",
+      "name": "Channel 5",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5721245'&EntityType='Item'&EntityId='97098'&Width=1920&Height=1080",
+      "description": "Singapore's number one English mass entertainment and lifestyle channel for the entire family, known for its high quality, innovative local productions, award-winning programmes and blockbuster movies.",
+      "number": null,
+      "genres": [],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "97104",
+      "name": "Channel 8",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5721229'&EntityType='Item'&EntityId='97104'&Width=1920&Height=1080",
+      "description": "A market leading 24-hour Chinese channel. It is the most watched homegrown Chinese channel in Singapore, enthralling its audience with high quality locally-produced and acquired programmes.    ",
+      "number": null,
+      "genres": [],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "97129",
+      "name": "Channel U",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5721818'&EntityType='Item'&EntityId='97129'&Width=1920&Height=1080",
+      "description": "A young and vibrant entertainment channel with bold, enriching and inspiring content from Singapore and around Asia that embrace the aspirations of the young Singaporean.",
+      "number": null,
+      "genres": [
+        "family"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "97084",
+      "name": "Suria",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5721801'&EntityType='Item'&EntityId='97084'&Width=1920&Height=1080",
+      "description": "Committed to being the heartbeat of the Malay community, Suria is the choice of Malay viewers in Singapore, offering wholesome family entertainment that is both enjoyable and educational.",
+      "number": null,
+      "genres": [],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "97096",
+      "name": "Vasantham",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5721814'&EntityType='Item'&EntityId='97096'&Width=1920&Height=1080",
+      "description": "The channel of choice for the growing Indian community in Singapore, possessing a unique blend of innovative, informational and entertaining programming across genres.",
+      "number": null,
+      "genres": [],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "97072",
+      "name": "CNA",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9457674'&EntityType='Item'&EntityId='97072'&Width=1920&Height=1080",
+      "description": "CNA is an English language TV News channel. It reports on global developments with Asian perspectives, bringing viewers the latest news and the stories behind the headlines. Based in Singapore, it is viewed in over 20 territories in Asia.",
+      "number": null,
+      "genres": [
+        "news & documentaries"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "98200",
+      "name": "SPL CH01",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5847893'&EntityType='Item'&EntityId='98200'&Width=1920&Height=1080",
+      "description": "Singapore Premier League 2025/2026\nThe Singapore Premier League 2025-2026 is the 8th season of the Singapore Premier League. A total of eight teams are taking part in a triple round-robin format. Will Lion City Sailors continue to defend their champion title, having won the 2024 edition or will another club be crowned as the new champion?",
+      "number": null,
+      "genres": [
+        "sports"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "97073",
+      "name": "LIVE 1",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5721803'&EntityType='Item'&EntityId='97073'&Width=1920&Height=1080",
+      "description": "LIVE 1 will feature LIVE televised local events of national significance and other entertaiment genres.",
+      "number": null,
+      "genres": [
+        "toggle"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "97078",
+      "name": "LIVE 2",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5721800'&EntityType='Item'&EntityId='97078'&Width=1920&Height=1080",
+      "description": "LIVE 2 - An additional channel for coverage of live events.",
+      "number": null,
+      "genres": [
+        "toggle"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "98202",
+      "name": "LIVE 5",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='6215768'&EntityType='Item'&EntityId='98202'&Width=1920&Height=1080",
+      "description": "LIVE 5  - An additional channel for coverage of live events.",
+      "number": null,
+      "genres": [
+        "toggle"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "558278",
+      "name": "MasterChef",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='12452401'&EntityType='Item'&EntityId='558278'&Width=1920&Height=1080",
+      "description": "MasterChef sets out to find the nation’s best amateur cook. A cook whose talent and passion could transform their life.",
+      "number": null,
+      "genres": [
+        "variety"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "570813",
+      "name": "Deal or No Deal",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='10105767'&EntityType='Item'&EntityId='570813'&Width=1920&Height=1080",
+      "description": "Deal Or No Deal is an exhilarating hit game show where contestants play and deal for a top cash prize in a high energy contest of nerves, luck and raw intuition.",
+      "number": null,
+      "genres": [
+        "variety"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "558258",
+      "name": "Fear Factor",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='10105771'&EntityType='Item'&EntityId='558258'&Width=1920&Height=1080",
+      "description": "Fear Factor is a high-guts reality game show that sees contestants put their most primal fears aside for a chance to win a large sum of cash.",
+      "number": null,
+      "genres": [
+        "variety"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "558241",
+      "name": "River Monsters",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='10105779'&EntityType='Item'&EntityId='558241'&Width=1920&Height=1080",
+      "description": "River Monsters follows fishing detective Jeremy Wade as he travels the world to investigate extraordinary mysteries of the deep.",
+      "number": null,
+      "genres": [
+        "documentary"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "558273",
+      "name": "FoodON",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='10105763'&EntityType='Item'&EntityId='558273'&Width=1920&Height=1080",
+      "description": "A channel where you can enjoy an array of programs focused on Korean food.",
+      "number": null,
+      "genres": [
+        "variety"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "773721",
+      "name": "That's 80s",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='13362999'&EntityType='Item'&EntityId='773721'&Width=1920&Height=1080",
+      "description": "The home of 80s classic Pop, New Wave, Glam Metal, and the explosive rise of Pop superstars. Includes classics from Michael Jackson, Madonna, Prince, Whitney Houston, George Michael, Tina Turner, Phil Collins and many more.",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "773723",
+      "name": "That's 70s",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='13362995'&EntityType='Item'&EntityId='773723'&Width=1920&Height=1080",
+      "description": "That's 70s is a music channel which focuses on music from the 1970’s, playing all the big hits of the decade.",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "773722",
+      "name": "That's Rock",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='13363003'&EntityType='Item'&EntityId='773722'&Width=1920&Height=1080",
+      "description": "The definitive destination for rock enthusiasts spanning 6 decades - from Blues & Grunge to Soft Rock & Heavy Metal. Includes classics from Bon Jovi, Led Zeppelin, Pink Floyd, Aerosmith, AC/DC, Nirvana and many more.",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "556894",
+      "name": "Action Hollywood Movies",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9268117'&EntityType='Item'&EntityId='556894'&Width=1920&Height=1080",
+      "description": "Action Hollywood Movies is non-stop, high adrenaline, and action-packed. The channel is curated from over 250 classic groundbreaking movies of the 70's, 80's and 90's. Action Hollywood Movies features movies which focus on action, with many stars in their first leading roles.",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "558279",
+      "name": "Vijay Takkar",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='13198721'&EntityType='Item'&EntityId='558279'&Width=1920&Height=1080",
+      "description": "Pending",
+      "number": null,
+      "genres": [
+        "variety"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "557763",
+      "name": "FIFA+",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9268121'&EntityType='Item'&EntityId='557763'&Width=1920&Height=1080",
+      "description": "FIFA+ is a global football channel that brings fans into the heart of football with the iconic World Cup Archive, Live football from around the globe and documentaries bring the stories behind the beautiful game. Go behind the scenes with spotlights on global stars, fans and influencers and relive iconic football moments with full match replays from past FIFA World Cup™ and FIFA Women's World Cup™ tournaments.",
+      "number": null,
+      "genres": [
+        "sports"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "558112",
+      "name": "W-Sport",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9268135'&EntityType='Item'&EntityId='558112'&Width=1920&Height=1080",
+      "description": "W-Sport is a broadcast channel dedicated to showcasing the very best women's sport from around the globe. We are a 24/7 channel with over 2000 hours of live events and short delayed original content including 300 football matches per year from the biggest leagues.",
+      "number": null,
+      "genres": [
+        "sports"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "556888",
+      "name": "TRACE Sport Stars",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9268092'&EntityType='Item'&EntityId='556888'&Width=1920&Height=1080",
+      "description": "TRACE Sport Stars is the first channel exclusively dedicated to the lives of sports celebrities. With unique behind-the-scenes access to athletes, TRACE Sport Stars HD offers an intimate and in-depth understanding of your favourite champions, their passions, their commitments, and the secrets to their motivation and success. On TRACE Sport Stars, discover champions as you have never seen them before!",
+      "number": null,
+      "genres": [
+        "sports"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "556893",
+      "name": "Kartoon Channel!",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9268094'&EntityType='Item'&EntityId='556893'&Width=1920&Height=1080",
+      "description": "Kartoon Channel! is the home of the very best in kids and family entertainment. Kartoon Channel! entertains and enriches kids and preschoolers with programs that inspire them to think and explore.",
+      "number": null,
+      "genres": [
+        "children and family",
+        "pre-school (2-6)",
+        "older kids (7-12)"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "556877",
+      "name": "TG Junior",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9272366'&EntityType='Item'&EntityId='556877'&Width=1920&Height=1080",
+      "description": "TG Jr. has hundreds of fun and educational shows from categories including Sing-Along Songs, Arts and Crafts, and Amazing Animals, all for your little ones to safely enjoy.",
+      "number": null,
+      "genres": [
+        "children and family",
+        "preschool (2-6)"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "382872",
+      "name": "CinemaWorld",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='6388584'&EntityType='Item'&EntityId='382872'&Width=1920&Height=1080",
+      "description": "CinemaWorld is the first & only international film service that showcases award-winning foreign movies with compelling & entertaining content to Asian audience.",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572361",
+      "name": "ADITHYA TV",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624541'&EntityType='Item'&EntityId='572361'&Width=1920&Height=1080",
+      "description": "ADITHYA TV",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "569530",
+      "name": "ANC",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624513'&EntityType='Item'&EntityId='569530'&Width=1920&Height=1080",
+      "description": "ANC",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "571922",
+      "name": "Animax HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9618126'&EntityType='Item'&EntityId='571922'&Width=1920&Height=1080",
+      "description": "Animax HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572358",
+      "name": "Asianet",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624218'&EntityType='Item'&EntityId='572358'&Width=1920&Height=1080",
+      "description": "Asianet",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572359",
+      "name": "Asianet Movies",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624227'&EntityType='Item'&EntityId='572359'&Width=1920&Height=1080",
+      "description": "Asianet Movies",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "569790",
+      "name": "Astro Sensasi HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9535091'&EntityType='Item'&EntityId='569790'&Width=1920&Height=1080",
+      "description": "Astro Sensasi HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "569789",
+      "name": "Astro Warna HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9535076'&EntityType='Item'&EntityId='569789'&Width=1920&Height=1080",
+      "description": "Astro Warna HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "571915",
+      "name": "AXN HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9615609'&EntityType='Item'&EntityId='571915'&Width=1920&Height=1080",
+      "description": "AXN HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "566407",
+      "name": "BBC Earth HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9477755'&EntityType='Item'&EntityId='566407'&Width=1920&Height=1080",
+      "description": "BBC Earth HD\n",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "570217",
+      "name": "BBC Lifestyle HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9556791'&EntityType='Item'&EntityId='570217'&Width=1920&Height=1080",
+      "description": "BBC Lifestyle HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "569794",
+      "name": "BBC News HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9535399'&EntityType='Item'&EntityId='569794'&Width=1920&Height=1080",
+      "description": "BBC News HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572410",
+      "name": "beIN SPORTS HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624520'&EntityType='Item'&EntityId='572410'&Width=1920&Height=1080",
+      "description": "beIN SPORTS HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572412",
+      "name": "beIN SPORTS 2 HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624554'&EntityType='Item'&EntityId='572412'&Width=1920&Height=1080",
+      "description": "beIN SPORTS 2 HD.",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572418",
+      "name": "beIN SPORTS 3 HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624604'&EntityType='Item'&EntityId='572418'&Width=1920&Height=1080",
+      "description": "beIN SPORTS 3 HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572425",
+      "name": "beIN SPORTS 4 HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624673'&EntityType='Item'&EntityId='572425'&Width=1920&Height=1080",
+      "description": "beIN SPORTS 4 HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572409",
+      "name": "beIN SPORTS 5 HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624527'&EntityType='Item'&EntityId='572409'&Width=1920&Height=1080",
+      "description": "beIN SPORTS 5 HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "570192",
+      "name": "Cartoon Network",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9556511'&EntityType='Item'&EntityId='570192'&Width=1920&Height=1080",
+      "description": "Cartoon Network",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "569516",
+      "name": "CBeebies HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9524778'&EntityType='Item'&EntityId='569516'&Width=1920&Height=1080",
+      "description": "CBeebies HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572051",
+      "name": "CCM",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9619411'&EntityType='Item'&EntityId='572051'&Width=1920&Height=1080",
+      "description": "CCM",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "569797",
+      "name": "CCTV-4",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9535422'&EntityType='Item'&EntityId='569797'&Width=1920&Height=1080",
+      "description": "CCTV-4",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572048",
+      "name": "Celestial Movies HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9619402'&EntityType='Item'&EntityId='572048'&Width=1920&Height=1080",
+      "description": "Celestial Movies HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "566560",
+      "name": "CGTN",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9478820'&EntityType='Item'&EntityId='566560'&Width=1920&Height=1080",
+      "description": "CGTN\n",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "569534",
+      "name": "Cinema One Global",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9525034'&EntityType='Item'&EntityId='569534'&Width=1920&Height=1080",
+      "description": "Cinema One Global\n",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "569781",
+      "name": "Citra Entertainment",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9535028'&EntityType='Item'&EntityId='569781'&Width=1920&Height=1080",
+      "description": "Citra Entertainment",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "571958",
+      "name": "CNBC HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9618758'&EntityType='Item'&EntityId='571958'&Width=1920&Height=1080",
+      "description": "CNBC HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "571959",
+      "name": "CNN HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9618767'&EntityType='Item'&EntityId='571959'&Width=1920&Height=1080",
+      "description": "CNN HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572356",
+      "name": "COLORS",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624200'&EntityType='Item'&EntityId='572356'&Width=1920&Height=1080",
+      "description": "COLORS",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572357",
+      "name": "COLORS Tamil HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624209'&EntityType='Item'&EntityId='572357'&Width=1920&Height=1080",
+      "description": "COLORS Tamil HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572367",
+      "name": "Cricbuzz",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624274'&EntityType='Item'&EntityId='572367'&Width=1920&Height=1080",
+      "description": "Cricbuzz",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572369",
+      "name": "Cricbuzz 2",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624288'&EntityType='Item'&EntityId='572369'&Width=1920&Height=1080",
+      "description": "Cricbuzz 2",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "570193",
+      "name": "Crime + Investigation HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9556520'&EntityType='Item'&EntityId='570193'&Width=1920&Height=1080",
+      "description": "Crime + Investigation HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "571963",
+      "name": "CTI Asia HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9618809'&EntityType='Item'&EntityId='571963'&Width=1920&Height=1080",
+      "description": "CTI Asia HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "570194",
+      "name": "Discovery HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9556529'&EntityType='Item'&EntityId='570194'&Width=1920&Height=1080",
+      "description": "Discovery HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "571966",
+      "name": "Dragon TV",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9618808'&EntityType='Item'&EntityId='571966'&Width=1920&Height=1080",
+      "description": "Dragon TV",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "569526",
+      "name": "DreamWorks HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9524850'&EntityType='Item'&EntityId='569526'&Width=1920&Height=1080",
+      "description": "DreamWorks HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "569803",
+      "name": "ETTV Asia HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9535468'&EntityType='Item'&EntityId='569803'&Width=1920&Height=1080",
+      "description": "ETTV Asia HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "571939",
+      "name": "Euronews HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9618344'&EntityType='Item'&EntityId='571939'&Width=1920&Height=1080",
+      "description": "Euronews HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "567122",
+      "name": "FIGHT SPORTS HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9488745'&EntityType='Item'&EntityId='567122'&Width=1920&Height=1080",
+      "description": "FIGHT SPORTS HD\n",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "571923",
+      "name": "Fox News Channel HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9618135'&EntityType='Item'&EntityId='571923'&Width=1920&Height=1080",
+      "description": "Fox News Channel HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "570218",
+      "name": "HGTV HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9556800'&EntityType='Item'&EntityId='570218'&Width=1920&Height=1080",
+      "description": "HGTV HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "569527",
+      "name": "HISTORY HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9524859'&EntityType='Item'&EntityId='569527'&Width=1920&Height=1080",
+      "description": "HISTORY HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "567120",
+      "name": "HITS HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9488727'&EntityType='Item'&EntityId='567120'&Width=1920&Height=1080",
+      "description": "HITS HD\n",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "569535",
+      "name": "HITS MOVIES HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9525151'&EntityType='Item'&EntityId='569535'&Width=1920&Height=1080",
+      "description": "HITS MOVIES HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "569498",
+      "name": "Hub E City HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9524364'&EntityType='Item'&EntityId='569498'&Width=1920&Height=1080",
+      "description": "Hub E City HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "567123",
+      "name": "Hub Premier 1",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9488754'&EntityType='Item'&EntityId='567123'&Width=1920&Height=1080",
+      "description": "Hub Premier 1\n",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572415",
+      "name": "Hub Premier 2",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624578'&EntityType='Item'&EntityId='572415'&Width=1920&Height=1080",
+      "description": "Hub Premier 2",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572419",
+      "name": "Hub Premier 3",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624617'&EntityType='Item'&EntityId='572419'&Width=1920&Height=1080",
+      "description": "Hub Premier 3",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572423",
+      "name": "Hub Premier 4",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624656'&EntityType='Item'&EntityId='572423'&Width=1920&Height=1080",
+      "description": "Hub Premier 4",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572420",
+      "name": "Hub Premier 5",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624630'&EntityType='Item'&EntityId='572420'&Width=1920&Height=1080",
+      "description": "Hub Premier 5",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572421",
+      "name": "Hub Premier 6",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624633'&EntityType='Item'&EntityId='572421'&Width=1920&Height=1080",
+      "description": "Hub Premier 6",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572417",
+      "name": "Hub Premier 7",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624605'&EntityType='Item'&EntityId='572417'&Width=1920&Height=1080",
+      "description": "Hub Premier 7",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572414",
+      "name": "Hub Premier 8",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624577'&EntityType='Item'&EntityId='572414'&Width=1920&Height=1080",
+      "description": "Hub Premier 8",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572411",
+      "name": "Hub Premier 9",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624548'&EntityType='Item'&EntityId='572411'&Width=1920&Height=1080",
+      "description": "Hub Premier 9",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572427",
+      "name": "Hub Premier 10",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624692'&EntityType='Item'&EntityId='572427'&Width=1920&Height=1080",
+      "description": "Hub Premier 10",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572408",
+      "name": "Hub Premier 11",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624519'&EntityType='Item'&EntityId='572408'&Width=1920&Height=1080",
+      "description": "Hub Premier 11",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "571971",
+      "name": "Hub Ruyi",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9618841'&EntityType='Item'&EntityId='571971'&Width=1920&Height=1080",
+      "description": "Hub Ruyi",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "569506",
+      "name": "Hub Sports 1 HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9524484'&EntityType='Item'&EntityId='569506'&Width=1920&Height=1080",
+      "description": "Hub Sports 1 HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "569510",
+      "name": "Hub Sports 2 HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9524508'&EntityType='Item'&EntityId='569510'&Width=1920&Height=1080",
+      "description": "Hub Sports 2 HD\n",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "566562",
+      "name": "Hub Sports 3 HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9478838'&EntityType='Item'&EntityId='566562'&Width=1920&Height=1080",
+      "description": "Hub Sports 3 HD\n",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572422",
+      "name": "Hub Sports 4 HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624647'&EntityType='Item'&EntityId='572422'&Width=1920&Height=1080",
+      "description": "Hub Sports 4 HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572416",
+      "name": "Hub Sports 5 HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624590'&EntityType='Item'&EntityId='572416'&Width=1920&Height=1080",
+      "description": "Hub Sports 5 HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572413",
+      "name": "Hub Sports 6 HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624561'&EntityType='Item'&EntityId='572413'&Width=1920&Height=1080",
+      "description": "Hub Sports 6 HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572426",
+      "name": "Hub Sports 7 HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624683'&EntityType='Item'&EntityId='572426'&Width=1920&Height=1080",
+      "description": "Hub Sports 7 HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572424",
+      "name": "Hub Sports 8 HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624665'&EntityType='Item'&EntityId='572424'&Width=1920&Height=1080",
+      "description": "Hub Sports 8 HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "564507",
+      "name": "Hub VV Drama HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9465456'&EntityType='Item'&EntityId='564507'&Width=1920&Height=1080",
+      "description": "Hub VV Drama HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572360",
+      "name": "Kalaignar TV",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624236'&EntityType='Item'&EntityId='572360'&Width=1920&Height=1080",
+      "description": "Kalaignar TV",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "569788",
+      "name": "Karisma",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9535067'&EntityType='Item'&EntityId='569788'&Width=1920&Height=1080",
+      "description": "Karisma\n",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "569491",
+      "name": "KBS World HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9524373'&EntityType='Item'&EntityId='569491'&Width=1920&Height=1080",
+      "description": "KBS World HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "567111",
+      "name": "KTV HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9488660'&EntityType='Item'&EntityId='567111'&Width=1920&Height=1080",
+      "description": "KTV HD\n",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "571921",
+      "name": "Lifetime HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9616352'&EntityType='Item'&EntityId='571921'&Width=1920&Height=1080",
+      "description": "Lifetime HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "569519",
+      "name": "Nick Jr. HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9524801'&EntityType='Item'&EntityId='569519'&Width=1920&Height=1080",
+      "description": "Nick Jr. HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "569522",
+      "name": "Nickelodeon Asia HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9524822'&EntityType='Item'&EntityId='569522'&Width=1920&Height=1080",
+      "description": "Nickelodeon Asia HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "569791",
+      "name": "ONE (Malay)",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9535380'&EntityType='Item'&EntityId='569791'&Width=1920&Height=1080",
+      "description": "ONE (Malay)",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "566561",
+      "name": "ONE HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9478829'&EntityType='Item'&EntityId='566561'&Width=1920&Height=1080",
+      "description": "ONE HD\n",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "569800",
+      "name": "Phoenix Chinese Channel HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9535441'&EntityType='Item'&EntityId='569800'&Width=1920&Height=1080",
+      "description": "Phoenix Chinese Channel HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "569801",
+      "name": "Phoenix InfoNews Channel HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9535450'&EntityType='Item'&EntityId='569801'&Width=1920&Height=1080",
+      "description": "Phoenix InfoNews Channel HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "570229",
+      "name": "ROCK Entertainment HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9557573'&EntityType='Item'&EntityId='570229'&Width=1920&Height=1080",
+      "description": "ROCK Entertainment HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "571936",
+      "name": "Sky News HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9618325'&EntityType='Item'&EntityId='571936'&Width=1920&Height=1080",
+      "description": "Sky News HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572340",
+      "name": "Sony Entertainment Television",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624108'&EntityType='Item'&EntityId='572340'&Width=1920&Height=1080",
+      "description": "Sony Entertainment Television",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572343",
+      "name": "SONY MAX",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624127'&EntityType='Item'&EntityId='572343'&Width=1920&Height=1080",
+      "description": "SONY MAX",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572374",
+      "name": "SPOTV",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624317'&EntityType='Item'&EntityId='572374'&Width=1920&Height=1080",
+      "description": "SPOTV",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572375",
+      "name": "SPOTV2",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624326'&EntityType='Item'&EntityId='572375'&Width=1920&Height=1080",
+      "description": "SPOTV2",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572338",
+      "name": "Sun Music",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624094'&EntityType='Item'&EntityId='572338'&Width=1920&Height=1080",
+      "description": "Sun Music",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572335",
+      "name": "Sun TV",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9623923'&EntityType='Item'&EntityId='572335'&Width=1920&Height=1080",
+      "description": "Sun TV",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "569532",
+      "name": "The Filipino Channel HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9524961'&EntityType='Item'&EntityId='569532'&Width=1920&Height=1080",
+      "description": "The Filipino Channel HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "570207",
+      "name": "Travelxp HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9556726'&EntityType='Item'&EntityId='570207'&Width=1920&Height=1080",
+      "description": "Travelxp HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572047",
+      "name": "TVB Xing He HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9619373'&EntityType='Item'&EntityId='572047'&Width=1920&Height=1080",
+      "description": "TVB Xing He HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "569503",
+      "name": "TVBS Asia",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9524401'&EntityType='Item'&EntityId='569503'&Width=1920&Height=1080",
+      "description": "TVBS Asia",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "569802",
+      "name": "TVBS-NEWS",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9535459'&EntityType='Item'&EntityId='569802'&Width=1920&Height=1080",
+      "description": "TVBS-NEWS",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572317",
+      "name": "Vannathirai",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9623717'&EntityType='Item'&EntityId='572317'&Width=1920&Height=1080",
+      "description": "Vannathirai",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572316",
+      "name": "Vijay TV HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9623708'&EntityType='Item'&EntityId='572316'&Width=1920&Height=1080",
+      "description": "Vijay TV HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572312",
+      "name": "Zee Cinema HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9623684'&EntityType='Item'&EntityId='572312'&Width=1920&Height=1080",
+      "description": "Zee Cinema HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572309",
+      "name": "Zee Tamil HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9623665'&EntityType='Item'&EntityId='572309'&Width=1920&Height=1080",
+      "description": "Zee Tamil HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572192",
+      "name": "Zee TV HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9622662'&EntityType='Item'&EntityId='572192'&Width=1920&Height=1080",
+      "description": "Zee TV HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "572222",
+      "name": "Zee Thirai",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9622825'&EntityType='Item'&EntityId='572222'&Width=1920&Height=1080",
+      "description": "Zee Thirai",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    }
+  ]
+}
