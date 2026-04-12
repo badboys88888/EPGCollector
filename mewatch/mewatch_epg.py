@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-meWatch EPG 抓取工具 - 完整版
+meWatch EPG 抓取工具 - GitHub Actions 兼容版
 功能：获取新加坡meWatch平台全部频道的7天EPG数据
-输出：channels.json, mewatch.xml, mewatch.xml.gz
+输出：保存到 mewatch/ 目录
 """
 
 import requests
 import json
 import gzip
 import time
+import os
 from datetime import datetime, timedelta
 from typing import List, Dict, Any
 import sys
@@ -23,11 +24,14 @@ PAGE_SIZE = 24
 CHANNEL_LIST_ID = "239614"
 TOTAL_CHANNELS = 121  # 根据API返回，总共有121个频道
 
-# 输出文件
-OUTPUT_JSON = "channels.json"
-OUTPUT_XML = "mewatch.xml"
-OUTPUT_GZ = "mewatch.xml.gz"
-OUTPUT_EPG_JSON = "mewatch_epg.json"
+# 输出目录和文件
+OUTPUT_DIR = "mewatch"  # GitHub Actions 期望的目录
+os.makedirs(OUTPUT_DIR, exist_ok=True)  # 确保目录存在
+
+OUTPUT_JSON = os.path.join(OUTPUT_DIR, "channels.json")
+OUTPUT_XML = os.path.join(OUTPUT_DIR, "mewatch.xml")
+OUTPUT_GZ = os.path.join(OUTPUT_DIR, "mewatch.xml.gz")
+OUTPUT_EPG_JSON = os.path.join(OUTPUT_DIR, "mewatch_epg.json")
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
@@ -332,8 +336,9 @@ def generate_xmltv(channels: Dict[str, Dict], programmes: List[Dict]) -> str:
 # =========================
 def main():
     print("=" * 60)
-    print("meWatch EPG 完整数据抓取工具")
+    print("meWatch EPG 完整数据抓取工具 (GitHub Actions 兼容版)")
     print(f"开始时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"输出目录: {OUTPUT_DIR}/")
     print("=" * 60)
     
     try:
@@ -376,12 +381,12 @@ def main():
         print(f"频道数: {len(channels)}")
         print(f"节目数: {len(programmes)}")
         print(f"数据天数: {DAYS_TO_FETCH}")
-        print("\n生成的文件:")
-        print(f"  1. {OUTPUT_JSON} - 频道信息 (id, name, icon等)")
-        print(f"  2. {OUTPUT_XML} - XMLTV格式EPG")
-        print(f"  3. {OUTPUT_GZ} - 压缩的XMLTV")
+        print("\n生成的文件 (在目录 mewatch/ 中):")
+        print(f"  1. channels.json - 频道信息 (id, name, icon等)")
+        print(f"  2. mewatch.xml - XMLTV格式EPG")
+        print(f"  3. mewatch.xml.gz - 压缩的XMLTV")
         if programmes:
-            print(f"  4. {OUTPUT_EPG_JSON} - 完整EPG数据")
+            print(f"  4. mewatch_epg.json - 完整EPG数据")
         print("=" * 60)
         
     except KeyboardInterrupt:
