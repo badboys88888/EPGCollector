@@ -13,23 +13,52 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # =========================
+      # 1. 拉代码
+      # =========================
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # ✅ 必须：避免 rebase / pull 出问题
 
+      # =========================
+      # 2. Python 环境
+      # =========================
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
       - run: pip install requests
 
+      # =========================
+      # 3. 运行脚本
+      # =========================
       - name: Run
         run: python mncvision_epg/mncvision_epg.py
 
-      - name: Commit
+      # =========================
+      # 4. Commit + Push（稳定版核心）
+      # =========================
+      - name: Commit & Push
         run: |
           git config user.name "bot"
           git config user.email "bot@users.noreply.github.com"
 
           git add mncvision_epg/
 
-          git commit -m "update epg" || echo "no change"
-          git push
+          # 没变化直接退出（避免空 commit）
+          git diff --cached --quiet && echo "no change" && exit 0
+
+          git commit -m "update epg"
+
+          # =========================
+          # 关键：永远同步远端再推
+          # =========================
+          git pull --rebase origin main
+
+          # 如果 rebase 冲突，自动中止避免卡死 CI
+          if [ $? -ne 0 ]; then
+            echo "rebase failed, aborting..."
+            git rebase --abort || true
+          fi
+
+          git push origin main
