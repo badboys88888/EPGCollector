@@ -41,7 +41,7 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
 
-          git add mewatch/channels.json mewatch/mewatch.xml mewatch/mewatch.xml.gz mewatch/mewatch_epg.json
+          git add mewatch/mewatch_epg.json mewatch/mewatch.xml mewatch/mewatch.xml.gz mewatch/mewatch_epg.json
 
           git commit -m "update mewatch epg" || echo "no changes"
 
