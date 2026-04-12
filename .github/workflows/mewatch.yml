@@ -34,7 +34,7 @@ jobs:
       run: pip install requests
         
     - name: Run EPG script
-      run: python mewatch_epg_github.py
+      run: python mewatch/mewatch_epg.py
       
     - name: Check for changes
       id: check_changes
