@@ -2,41 +2,60 @@ name: Update meWatch EPG
 
 on:
   schedule:
-    - cron: '30 2 * * *'  # 每6小时运行一次
+    # 新加坡时间上午 10:30 运行（UTC 2:30）
+    - cron: '30 2 * * *'
+    
+    # 可以添加多个时间点，如：
+    # - cron: '0 10 * * *'  # 新加坡时间 18:00
+    # - cron: '0 18 * * *'  # 新加坡时间 02:00（第二天）
+    
   workflow_dispatch:  # 允许手动触发
-
-permissions:
-  contents: write  # 允许工作流写入仓库
+  push:
+    branches: [ main, master ]
+    paths:
+      - 'mewatch_epg_github.py'
+      - '.github/workflows/update-epg.yml'
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     
     steps:
-    - uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
-        
-    - uses: actions/setup-python@v5
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v5
       with:
         python-version: '3.11'
         
     - name: Install dependencies
       run: pip install requests
-      
+        
     - name: Run EPG script
       run: python mewatch_epg_github.py
       
-    - name: Commit and push
+    - name: Check for changes
+      id: check_changes
+      run: |
+        git add mewatch/
+        if git diff --cached --quiet; then
+          echo "has_changes=false" >> $GITHUB_OUTPUT
+          echo "没有检测到文件变更"
+        else
+          echo "has_changes=true" >> $GITHUB_OUTPUT
+          echo "检测到文件变更"
+        fi
+        
+    - name: Configure Git
+      if: steps.check_changes.outputs.has_changes == 'true'
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
         
-        git add mewatch/
-        
-        if git diff --cached --quiet; then
-          echo "没有变更"
-        else
-          git commit -m "自动更新 meWatch EPG 数据"
-          git push
-        fi
+    - name: Commit and push
+      if: steps.check_changes.outputs.has_changes == 'true'
+      run: |
+        git commit -m "自动更新 meWatch EPG 数据 (新加坡时间 $(TZ='Asia/Singapore' date '+%Y-%m-%d %H:%M'))"
+        git push
