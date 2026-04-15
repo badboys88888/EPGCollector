@@ -34,11 +34,6 @@
     "icon": null,
     "source": "mytvsupercom"
   },
-  "supersitcom.mytvsupercom": {
-    "name": "SUPER Sitcom (Free)",
-    "icon": null,
-    "source": "mytvsupercom"
-  },
   "supertvmovies.mytvsupercom": {
     "name": "SUPER TV Movies (Free)",
     "icon": null,
@@ -114,11 +109,6 @@
     "icon": "https://assets.mytvsuper.com/channel/1651033348934776_CCOC.png",
     "source": "mytvsupercom"
   },
-  "kids.mytvsupercom": {
-    "name": "SUPER Kids Channel",
-    "icon": "https://assets.mytvsuper.com/channel/1651033359059853_KID.png",
-    "source": "mytvsupercom"
-  },
   "zoomoo.mytvsupercom": {
     "name": "ZooMoo",
     "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
@@ -177,11 +167,6 @@
   "rcm.mytvsupercom": {
     "name": "Rialto Classic Movies (RCM) (Free)",
     "icon": "https://assets.mytvsuper.com/channel/1745931759705569_RCM.png",
-    "source": "mytvsupercom"
-  },
-  "kik.mytvsupercom": {
-    "name": "KIX",
-    "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
     "source": "mytvsupercom"
   },
   "tracesportstars.mytvsupercom": {
@@ -269,11 +254,6 @@
     "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
     "source": "mytvsupercom"
   },
-  "cctv1.mytvsupercom": {
-    "name": "CCTV-1 (Free)",
-    "icon": null,
-    "source": "mytvsupercom"
-  },
   "cgtndocumentary.mytvsupercom": {
     "name": "CGTN Documentary (Free)",
     "icon": null,
@@ -292,11 +272,6 @@
   "phoenixchinesechannel.mytvsupercom": {
     "name": "Phoenix Chinese Channel (Free)",
     "icon": "https://assets.mytvsuper.com/channel/1687317650120517_PCC.png",
-    "source": "mytvsupercom"
-  },
-  "phoenixinfonewschannel.mytvsupercom": {
-    "name": "Phoenix InfoNews Channel (Free)",
-    "icon": "https://assets.mytvsuper.com/channel/1687317778284878_PIN.png",
     "source": "mytvsupercom"
   },
   "phoenixhongkongchannel.mytvsupercom": {
@@ -3765,6 +3740,11 @@
     "source": "beinsportsconnecthk"
   },
   "beinsportsxtra22.beinsportsconnecthk": {
+    "name": "beIN SPORTS MAX",
+    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
+    "source": "beinsportsconnecthk"
+  },
+  "beinsportsxtra23.beinsportsconnecthk": {
     "name": "beIN SPORTS MAX",
     "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
     "source": "beinsportsconnecthk"
