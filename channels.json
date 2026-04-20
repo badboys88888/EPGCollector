@@ -1,7 +1,22 @@
 {
+  "superfree.mytvsupercom": {
+    "name": "SUPER FREE (Free)",
+    "icon": "https://assets.mytvsuper.com/channel/1679473718355177_CWIN.png",
+    "source": "mytvsupercom"
+  },
   "supertrio.mytvsupercom": {
     "name": "SUPER Trio (Free)",
     "icon": "https://assets.mytvsuper.com/channel/1745985345748344_SVAR.png",
+    "source": "mytvsupercom"
+  },
+  "supereyt.mytvsupercom": {
+    "name": "Drama Marathon (Free)",
+    "icon": null,
+    "source": "mytvsupercom"
+  },
+  "superfood.mytvsupercom": {
+    "name": "SUPER Food (Free)",
+    "icon": "https://assets.mytvsuper.com/channel/1745985725790287_SFOO.png",
     "source": "mytvsupercom"
   },
   "supertravel.mytvsupercom": {
@@ -39,9 +54,19 @@
     "icon": null,
     "source": "mytvsupercom"
   },
+  "chmytvsuper18.mytvsupercom": {
+    "name": "myTV SUPER 18",
+    "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
+    "source": "mytvsupercom"
+  },
   "goldenjade.mytvsupercom": {
     "name": "Golden Jade (Free)",
     "icon": "https://assets.mytvsuper.com/channel/1651032648621471_TVG.png",
+    "source": "mytvsupercom"
+  },
+  "jade.mytvsupercom": {
+    "name": "Jade (Free)",
+    "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
     "source": "mytvsupercom"
   },
   "tvbplus.mytvsupercom": {
@@ -51,6 +76,11 @@
   },
   "inews.mytvsupercom": {
     "name": "TVB News Channel (Free)",
+    "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
+    "source": "mytvsupercom"
+  },
+  "pearl.mytvsupercom": {
+    "name": "Pearl (Free)",
     "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
     "source": "mytvsupercom"
   },
@@ -87,6 +117,11 @@
   "kids.mytvsupercom": {
     "name": "SUPER Kids Channel",
     "icon": "https://assets.mytvsuper.com/channel/1651033359059853_KID.png",
+    "source": "mytvsupercom"
+  },
+  "zoomoo.mytvsupercom": {
+    "name": "ZooMoo",
+    "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
     "source": "mytvsupercom"
   },
   "nickelodeon.mytvsupercom": {
@@ -129,6 +164,11 @@
     "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
     "source": "mytvsupercom"
   },
+  "popc.mytvsupercom": {
+    "name": "PopC",
+    "icon": null,
+    "source": "mytvsupercom"
+  },
   "actionhollywodmovies.mytvsupercom": {
     "name": "Action Hollywood Movies (Free)",
     "icon": "https://assets.mytvsuper.com/channel/1745931648041810_ACTM.png",
@@ -137,6 +177,11 @@
   "rcm.mytvsupercom": {
     "name": "Rialto Classic Movies (RCM) (Free)",
     "icon": "https://assets.mytvsuper.com/channel/1745931759705569_RCM.png",
+    "source": "mytvsupercom"
+  },
+  "kik.mytvsupercom": {
+    "name": "KIX",
+    "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
     "source": "mytvsupercom"
   },
   "tracesportstars.mytvsupercom": {
@@ -164,6 +209,16 @@
     "icon": "https://assets.mytvsuper.com/channel/1745932012475990_PETC.png",
     "source": "mytvsupercom"
   },
+  "globetrotter.mytvsupercom": {
+    "name": "Globetrotter (Free)",
+    "icon": "https://assets.mytvsuper.com/channel/1745932063837509_GLBT.png",
+    "source": "mytvsupercom"
+  },
+  "docsvillefree.mytvsupercom": {
+    "name": "Docsville (Free)",
+    "icon": null,
+    "source": "mytvsupercom"
+  },
   "docsville.mytvsupercom": {
     "name": "Wild Stuff (Free)",
     "icon": "https://assets.mytvsuper.com/channel/1745932190537668_DOCV.png",
@@ -171,6 +226,11 @@
   },
   "rtlentertain.mytvsupercom": {
     "name": "ROCK Entertainment",
+    "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
+    "source": "mytvsupercom"
+  },
+  "axn.mytvsupercom": {
+    "name": "AXN",
     "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
     "source": "mytvsupercom"
   },
@@ -207,6 +267,11 @@
   "mezzolivehd.mytvsupercom": {
     "name": "Mezzo Live HD",
     "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
+    "source": "mytvsupercom"
+  },
+  "cctv1.mytvsupercom": {
+    "name": "CCTV-1 (Free)",
+    "icon": null,
     "source": "mytvsupercom"
   },
   "cgtndocumentary.mytvsupercom": {
