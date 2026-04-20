@@ -20,7 +20,7 @@
     "source": "mytvsupercom"
   },
   "supertravel.mytvsupercom": {
-    "name": "SUPER Travel (Free)",
+    "name": "SUPER Travel (Free)(06:00 May 4 rename as SUPER Fun (Free))",
     "icon": null,
     "source": "mytvsupercom"
   },
@@ -30,7 +30,7 @@
     "source": "mytvsupercom"
   },
   "supergoldies.mytvsupercom": {
-    "name": "SUPER Goldies (Free)",
+    "name": "SUPER Goldies (Free) (06:00 May 4 rename as SUPER Horror (Free))",
     "icon": null,
     "source": "mytvsupercom"
   },
@@ -40,7 +40,7 @@
     "source": "mytvsupercom"
   },
   "supertvmovies.mytvsupercom": {
-    "name": "SUPER TV Movies (Free)",
+    "name": "SUPER TV Movies (Free) (06:00 May 4 rename as SUPER ATV Drama (Free))",
     "icon": null,
     "source": "mytvsupercom"
   },
@@ -462,11 +462,6 @@
   "evt7.mytvsupercom": {
     "name": "myTV SUPER Live Soccer 7",
     "icon": "https://assets.mytvsuper.com/channel/1684393675758879_EVT7.png",
-    "source": "mytvsupercom"
-  },
-  "evt8.mytvsupercom": {
-    "name": "2026 UCI Track World Cup, Hong Kong, China",
-    "icon": "https://assets.mytvsuper.com/channel/1704263317082629_EVT8.png",
     "source": "mytvsupercom"
   },
   "test.mytvsupercom": {
