@@ -9,11 +9,6 @@
     "icon": "https://assets.mytvsuper.com/channel/1745985345748344_SVAR.png",
     "source": "mytvsupercom"
   },
-  "supereyt.mytvsupercom": {
-    "name": "Drama Marathon (Free)",
-    "icon": null,
-    "source": "mytvsupercom"
-  },
   "superfood.mytvsupercom": {
     "name": "SUPER Food (Free)",
     "icon": "https://assets.mytvsuper.com/channel/1745985725790287_SFOO.png",
@@ -119,11 +114,6 @@
     "icon": "https://assets.mytvsuper.com/channel/1651033359059853_KID.png",
     "source": "mytvsupercom"
   },
-  "zoomoo.mytvsupercom": {
-    "name": "ZooMoo",
-    "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
-    "source": "mytvsupercom"
-  },
   "nickelodeon.mytvsupercom": {
     "name": "Nickelodeon",
     "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
@@ -134,29 +124,9 @@
     "icon": "https://assets.mytvsuper.com/channel/1651033388527501_CNIJR.png",
     "source": "mytvsupercom"
   },
-  "classicmovies.mytvsupercom": {
-    "name": "Classic Movies",
-    "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
-    "source": "mytvsupercom"
-  },
-  "meiahmovie.mytvsupercom": {
-    "name": "Mei Ah Movie Channel",
-    "icon": "https://assets.mytvsuper.com/channel/1651033399435307_CMAM.png",
-    "source": "mytvsupercom"
-  },
   "thrill.mytvsupercom": {
     "name": "Thrill",
     "icon": "https://assets.mytvsuper.com/channel/1651033409415375_CTHR.png",
-    "source": "mytvsupercom"
-  },
-  "celestialclassic.mytvsupercom": {
-    "name": "CCM",
-    "icon": "https://assets.mytvsuper.com/channel/1651033418318599_CCCM.png",
-    "source": "mytvsupercom"
-  },
-  "cmc.mytvsupercom": {
-    "name": "China Movie Channel",
-    "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
     "source": "mytvsupercom"
   },
   "rtlextreme.mytvsupercom": {
@@ -174,18 +144,8 @@
     "icon": "https://assets.mytvsuper.com/channel/1745931648041810_ACTM.png",
     "source": "mytvsupercom"
   },
-  "rcm.mytvsupercom": {
-    "name": "Rialto Classic Movies (RCM) (Free)",
-    "icon": "https://assets.mytvsuper.com/channel/1745931759705569_RCM.png",
-    "source": "mytvsupercom"
-  },
   "kik.mytvsupercom": {
     "name": "KIX",
-    "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
-    "source": "mytvsupercom"
-  },
-  "tracesportstars.mytvsupercom": {
-    "name": "TRACE Sport Stars (Free)",
     "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
     "source": "mytvsupercom"
   },
@@ -204,11 +164,6 @@
     "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
     "source": "mytvsupercom"
   },
-  "petclubtv.mytvsupercom": {
-    "name": "Pet Club TV (Free)",
-    "icon": "https://assets.mytvsuper.com/channel/1745932012475990_PETC.png",
-    "source": "mytvsupercom"
-  },
   "globetrotter.mytvsupercom": {
     "name": "Globetrotter (Free)",
     "icon": "https://assets.mytvsuper.com/channel/1745932063837509_GLBT.png",
@@ -224,23 +179,8 @@
     "icon": "https://assets.mytvsuper.com/channel/1745932190537668_DOCV.png",
     "source": "mytvsupercom"
   },
-  "rtlentertain.mytvsupercom": {
-    "name": "ROCK Entertainment",
-    "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
-    "source": "mytvsupercom"
-  },
-  "axn.mytvsupercom": {
-    "name": "AXN",
-    "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
-    "source": "mytvsupercom"
-  },
   "rockextreme.mytvsupercom": {
     "name": "ROCK X Stream",
-    "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
-    "source": "mytvsupercom"
-  },
-  "animax.mytvsupercom": {
-    "name": "Animax",
     "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
     "source": "mytvsupercom"
   },
@@ -259,19 +199,9 @@
     "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
     "source": "mytvsupercom"
   },
-  "fashionbox.mytvsupercom": {
-    "name": "FashionBox",
-    "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
-    "source": "mytvsupercom"
-  },
   "mezzolivehd.mytvsupercom": {
     "name": "Mezzo Live HD",
     "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
-    "source": "mytvsupercom"
-  },
-  "cctv1.mytvsupercom": {
-    "name": "CCTV-1 (Free)",
-    "icon": null,
     "source": "mytvsupercom"
   },
   "cgtndocumentary.mytvsupercom": {
@@ -282,11 +212,6 @@
   "cgtnenglish.mytvsupercom": {
     "name": "CGTN English (Free)",
     "icon": null,
-    "source": "mytvsupercom"
-  },
-  "dragontv.mytvsupercom": {
-    "name": "Dragon TV (Free)",
-    "icon": "https://assets.mytvsuper.com/channel/1681274162227607_DTV.png",
     "source": "mytvsupercom"
   },
   "phoenixchinesechannel.mytvsupercom": {
@@ -307,11 +232,6 @@
   "cctv4.mytvsupercom": {
     "name": "CCTV-4 (Free)",
     "icon": "https://assets.mytvsuper.com/channel/1744698032334475_CC4.png",
-    "source": "mytvsupercom"
-  },
-  "cctventertainment.mytvsupercom": {
-    "name": "CCTV Entertainment (Free)",
-    "icon": "https://assets.mytvsuper.com/channel/1744698047756405_CCE.png",
     "source": "mytvsupercom"
   },
   "cctvchineseopera.mytvsupercom": {
@@ -369,11 +289,6 @@
     "icon": "https://assets.mytvsuper.com/channel/1745932338100361_NOW7.png",
     "source": "mytvsupercom"
   },
-  "now80s.mytvsupercom": {
-    "name": "that's 80s (Free)",
-    "icon": "https://assets.mytvsuper.com/channel/1745932390285250_NOW8.png",
-    "source": "mytvsupercom"
-  },
   "nowrock.mytvsupercom": {
     "name": "that's Rock (Free)",
     "icon": "https://assets.mytvsuper.com/channel/1745932445714549_NOWR.png",
@@ -386,11 +301,6 @@
   },
   "concerto.mytvsupercom": {
     "name": "Concerto (Free)",
-    "icon": null,
-    "source": "mytvsupercom"
-  },
-  "traceurban.mytvsupercom": {
-    "name": "TRACE Urban (Free)",
     "icon": null,
     "source": "mytvsupercom"
   },
@@ -3662,16 +3572,6 @@
   "lfctv.beinsportsconnecthk": {
     "name": "LFCTV",
     "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/lfctv_primary-logo_100x56_70X40.png",
-    "source": "beinsportsconnecthk"
-  },
-  "beinsportsoverflow3.beinsportsconnecthk": {
-    "name": "beIN SPORTS MAX",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
-    "source": "beinsportsconnecthk"
-  },
-  "beinsportsoverflow4.beinsportsconnecthk": {
-    "name": "beIN SPORTS MAX",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
     "source": "beinsportsconnecthk"
   },
   "beinsportsoverflow5.beinsportsconnecthk": {
