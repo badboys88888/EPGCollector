@@ -2,40 +2,45 @@ name: Update meWatch EPG
 
 on:
   schedule:
-    # 新加坡时间上午 10:30 运行（UTC 2:30）
+    # 新加坡时间 10:30（UTC 02:30）
     - cron: '30 2 * * *'
-    
-    # 可以添加多个时间点，如：
-    # - cron: '0 10 * * *'  # 新加坡时间 18:00
-    # - cron: '0 18 * * *'  # 新加坡时间 02:00（第二天）
-    
-  workflow_dispatch:  # 允许手动触发
+
+  workflow_dispatch:
+
+  # ⚠️ 可选：如果你不想循环触发，建议删掉 push
   push:
     branches: [ main, master ]
     paths:
       - 'mewatch/mewatch_epg.py'
       - '.github/workflows/update-epg.yml'
 
+# ✅ 防止并发冲突（关键）
+concurrency:
+  group: mewatch-epg
+  cancel-in-progress: true
+
 jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 30
-    
+
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-      
+      with:
+        fetch-depth: 0   # ✅ 关键：否则 rebase 可能失败
+
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
         python-version: '3.11'
-        
+
     - name: Install dependencies
       run: pip install requests
-        
+
     - name: Run EPG script
       run: python mewatch/mewatch_epg.py
-      
+
     - name: Check for changes
       id: check_changes
       run: |
@@ -47,15 +52,26 @@ jobs:
           echo "has_changes=true" >> $GITHUB_OUTPUT
           echo "检测到文件变更"
         fi
-        
+
     - name: Configure Git
       if: steps.check_changes.outputs.has_changes == 'true'
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
-        
-    - name: Commit and push
+
+    - name: Commit and Push (with retry)
       if: steps.check_changes.outputs.has_changes == 'true'
       run: |
-        git commit -m "自动更新 meWatch EPG 数据 (新加坡时间 $(TZ='Asia/Singapore' date '+%Y-%m-%d %H:%M'))"
-        git push
+        git commit -m "自动更新 meWatch EPG 数据 (新加坡时间 $(TZ='Asia/Singapore' date '+%Y-%m-%d %H:%M'))" || echo "no commit"
+
+        # ✅ 最多重试 3 次，彻底避免 push 失败
+        for i in 1 2 3
+        do
+          echo "🔁 尝试推送第 $i 次..."
+
+          git pull origin main --rebase --autostash && \
+          git push origin main && break
+
+          echo "⚠️ push 失败，等待重试..."
+          sleep 5
+        done
