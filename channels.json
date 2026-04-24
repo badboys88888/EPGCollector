@@ -14,11 +14,6 @@
     "icon": null,
     "source": "mytvsupercom"
   },
-  "superfood.mytvsupercom": {
-    "name": "SUPER Food (Free)",
-    "icon": "https://assets.mytvsuper.com/channel/1745985725790287_SFOO.png",
-    "source": "mytvsupercom"
-  },
   "supertravel.mytvsupercom": {
     "name": "SUPER Travel (Free)(06:00 May 4 rename as SUPER Fun (Free))",
     "icon": null,
@@ -49,11 +44,6 @@
     "icon": null,
     "source": "mytvsupercom"
   },
-  "supersports.mytvsupercom": {
-    "name": "SUPER Sports (Free)",
-    "icon": null,
-    "source": "mytvsupercom"
-  },
   "chmytvsuper18.mytvsupercom": {
     "name": "myTV SUPER 18",
     "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
@@ -67,11 +57,6 @@
   "goldenjade.mytvsupercom": {
     "name": "Golden Jade (Free)",
     "icon": "https://assets.mytvsuper.com/channel/1651032648621471_TVG.png",
-    "source": "mytvsupercom"
-  },
-  "jade.mytvsupercom": {
-    "name": "Jade (Free)",
-    "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
     "source": "mytvsupercom"
   },
   "tvbplus.mytvsupercom": {
