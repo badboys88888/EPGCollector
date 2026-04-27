@@ -59,6 +59,11 @@
     "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
     "source": "mytvsupercom"
   },
+  "goldenjade.mytvsupercom": {
+    "name": "Golden Jade (Free)",
+    "icon": "https://assets.mytvsuper.com/channel/1651032648621471_TVG.png",
+    "source": "mytvsupercom"
+  },
   "jade.mytvsupercom": {
     "name": "Jade (Free)",
     "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
@@ -92,6 +97,11 @@
   "chinesedrama.mytvsupercom": {
     "name": "Chinese Drama",
     "icon": "https://assets.mytvsuper.com/channel/1651032713939760_CDR3.png",
+    "source": "mytvsupercom"
+  },
+  "asianselect.mytvsupercom": {
+    "name": "Golden Chinese Drama",
+    "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
     "source": "mytvsupercom"
   },
   "enews.mytvsupercom": {
@@ -149,6 +159,11 @@
     "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
     "source": "mytvsupercom"
   },
+  "rtlextreme.mytvsupercom": {
+    "name": "ROCK Action",
+    "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
+    "source": "mytvsupercom"
+  },
   "popc.mytvsupercom": {
     "name": "PopC",
     "icon": null,
@@ -157,6 +172,11 @@
   "actionhollywodmovies.mytvsupercom": {
     "name": "Action Hollywood Movies (Free)",
     "icon": "https://assets.mytvsuper.com/channel/1745931648041810_ACTM.png",
+    "source": "mytvsupercom"
+  },
+  "rcm.mytvsupercom": {
+    "name": "Rialto Classic Movies (RCM) (Free)",
+    "icon": "https://assets.mytvsuper.com/channel/1745931759705569_RCM.png",
     "source": "mytvsupercom"
   },
   "kik.mytvsupercom": {
@@ -214,6 +234,11 @@
     "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
     "source": "mytvsupercom"
   },
+  "rockextreme.mytvsupercom": {
+    "name": "ROCK X Stream",
+    "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
+    "source": "mytvsupercom"
+  },
   "animax.mytvsupercom": {
     "name": "Animax",
     "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
@@ -242,6 +267,11 @@
   "mezzolivehd.mytvsupercom": {
     "name": "Mezzo Live HD",
     "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
+    "source": "mytvsupercom"
+  },
+  "cctv1.mytvsupercom": {
+    "name": "CCTV-1 (Free)",
+    "icon": null,
     "source": "mytvsupercom"
   },
   "cgtndocumentary.mytvsupercom": {
@@ -294,6 +324,26 @@
     "icon": "https://assets.mytvsuper.com/channel/1744698246712152_YNTV.png",
     "source": "mytvsupercom"
   },
+  "anhuitv.mytvsupercom": {
+    "name": "Anhui TV (Free)",
+    "icon": "https://assets.mytvsuper.com/channel/1744698398526127_AHTV.png",
+    "source": "mytvsupercom"
+  },
+  "beijingtv.mytvsupercom": {
+    "name": "Beijing TV (Free)",
+    "icon": "https://assets.mytvsuper.com/channel/1744698452166744_BJTV.png",
+    "source": "mytvsupercom"
+  },
+  "fujiantv.mytvsupercom": {
+    "name": "Fujian TV (Free)",
+    "icon": "https://assets.mytvsuper.com/channel/1744698901041616_FJTV.png",
+    "source": "mytvsupercom"
+  },
+  "hunantv.mytvsupercom": {
+    "name": "Hunan TV (Free)",
+    "icon": "https://assets.mytvsuper.com/channel/1744698965997689_HNTV.png",
+    "source": "mytvsupercom"
+  },
   "jiangsutv.mytvsupercom": {
     "name": "Jiangsu TV (Free)",
     "icon": "https://assets.mytvsuper.com/channel/1744699023385650_JSTV.png",
@@ -307,6 +357,16 @@
   "zhejiangtv.mytvsupercom": {
     "name": "Zhejiang TV (Free)",
     "icon": "https://assets.mytvsuper.com/channel/1744699142762349_ZJTV.png",
+    "source": "mytvsupercom"
+  },
+  "shenzhentv.mytvsupercom": {
+    "name": "Shenzhen TV (Free)",
+    "icon": "https://assets.mytvsuper.com/channel/1744699192744305_SZTV.png",
+    "source": "mytvsupercom"
+  },
+  "now70s.mytvsupercom": {
+    "name": "that's 70s (Free)",
+    "icon": "https://assets.mytvsuper.com/channel/1745932338100361_NOW7.png",
     "source": "mytvsupercom"
   },
   "now80s.mytvsupercom": {
@@ -334,13 +394,38 @@
     "icon": null,
     "source": "mytvsupercom"
   },
+  "tvbsnews.mytvsupercom": {
+    "name": "TVBS News",
+    "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
+    "source": "mytvsupercom"
+  },
   "channelnewsasia.mytvsupercom": {
     "name": "Channel NewsAsia",
     "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
     "source": "mytvsupercom"
   },
+  "aljazeeraenglish.mytvsupercom": {
+    "name": "Al Jazeera English",
+    "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
+    "source": "mytvsupercom"
+  },
+  "france24.mytvsupercom": {
+    "name": "France 24",
+    "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
+    "source": "mytvsupercom"
+  },
   "dw.mytvsupercom": {
     "name": "DW",
+    "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
+    "source": "mytvsupercom"
+  },
+  "nhkworldtv.mytvsupercom": {
+    "name": "NHK World-Japan",
+    "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
+    "source": "mytvsupercom"
+  },
+  "arirangtv.mytvsupercom": {
+    "name": "Arirang TV",
     "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
     "source": "mytvsupercom"
   },
@@ -354,14 +439,34 @@
     "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
     "source": "mytvsupercom"
   },
+  "evt3.mytvsupercom": {
+    "name": "myTV SUPER Live Soccer 3",
+    "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
+    "source": "mytvsupercom"
+  },
   "evt4.mytvsupercom": {
     "name": "myTV SUPER Live Soccer 4",
+    "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
+    "source": "mytvsupercom"
+  },
+  "evt5.mytvsupercom": {
+    "name": "myTV SUPER Live Soccer 5",
     "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
     "source": "mytvsupercom"
   },
   "evt6.mytvsupercom": {
     "name": "myTV SUPER Live Soccer 6",
     "icon": "https://assets.mytvsuper.com/channel/1672992594257554_EVT6.png",
+    "source": "mytvsupercom"
+  },
+  "evt7.mytvsupercom": {
+    "name": "myTV SUPER Live Soccer 7",
+    "icon": "https://assets.mytvsuper.com/channel/1684393675758879_EVT7.png",
+    "source": "mytvsupercom"
+  },
+  "test.mytvsupercom": {
+    "name": "Test Channel",
+    "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
     "source": "mytvsupercom"
   },
   "viutvsix.nowcomhk": {
