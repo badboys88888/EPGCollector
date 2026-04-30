@@ -264,6 +264,11 @@
     "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
     "source": "mytvsupercom"
   },
+  "mezzolivehd.mytvsupercom": {
+    "name": "Mezzo Live HD",
+    "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
+    "source": "mytvsupercom"
+  },
   "cctv1.mytvsupercom": {
     "name": "CCTV-1 (Free)",
     "icon": null,
