@@ -94,6 +94,11 @@
     "icon": "https://assets.mytvsuper.com/channel/1651032687467218_CTVS.png",
     "source": "mytvsupercom"
   },
+  "chinesedrama.mytvsupercom": {
+    "name": "Chinese Drama",
+    "icon": "https://assets.mytvsuper.com/channel/1651032713939760_CDR3.png",
+    "source": "mytvsupercom"
+  },
   "asianselect.mytvsupercom": {
     "name": "Golden Chinese Drama",
     "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
