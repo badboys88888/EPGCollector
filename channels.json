@@ -34,9 +34,69 @@
     "icon": null,
     "source": "mytvsupercom"
   },
+  "supersitcom.mytvsupercom": {
+    "name": "SUPER Sitcom (Free)",
+    "icon": null,
+    "source": "mytvsupercom"
+  },
   "superatvdramafree.mytvsupercom": {
     "name": "SUPER ATV Drama (Free)",
     "icon": null,
+    "source": "mytvsupercom"
+  },
+  "superdocu.mytvsupercom": {
+    "name": "SUPER Sitcom2 (Free)",
+    "icon": null,
+    "source": "mytvsupercom"
+  },
+  "supersports.mytvsupercom": {
+    "name": "SUPER Sports (Free)",
+    "icon": null,
+    "source": "mytvsupercom"
+  },
+  "chmytvsuper18.mytvsupercom": {
+    "name": "myTV SUPER 18",
+    "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
+    "source": "mytvsupercom"
+  },
+  "goldenjade.mytvsupercom": {
+    "name": "Golden Jade (Free)",
+    "icon": "https://assets.mytvsuper.com/channel/1651032648621471_TVG.png",
+    "source": "mytvsupercom"
+  },
+  "jade.mytvsupercom": {
+    "name": "Jade (Free)",
+    "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
+    "source": "mytvsupercom"
+  },
+  "tvbplus.mytvsupercom": {
+    "name": "TVB Plus (Free)",
+    "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
+    "source": "mytvsupercom"
+  },
+  "inews.mytvsupercom": {
+    "name": "TVB News Channel (Free)",
+    "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
+    "source": "mytvsupercom"
+  },
+  "pearl.mytvsupercom": {
+    "name": "Pearl (Free)",
+    "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
+    "source": "mytvsupercom"
+  },
+  "classic.mytvsupercom": {
+    "name": "TVB Classic",
+    "icon": "https://assets.mytvsuper.com/channel/1651032673030814_CTVC.png",
+    "source": "mytvsupercom"
+  },
+  "asiandrama.mytvsupercom": {
+    "name": "Asian Drama",
+    "icon": "https://assets.mytvsuper.com/channel/1651032687467218_CTVS.png",
+    "source": "mytvsupercom"
+  },
+  "chinesedrama.mytvsupercom": {
+    "name": "Chinese Drama",
+    "icon": "https://assets.mytvsuper.com/channel/1651032713939760_CDR3.png",
     "source": "mytvsupercom"
   },
   "asianselect.mytvsupercom": {
