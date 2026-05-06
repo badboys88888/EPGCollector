@@ -9,6 +9,16 @@
     "icon": "https://assets.mytvsuper.com/channel/1745985345748344_SVAR.png",
     "source": "mytvsupercom"
   },
+  "supereyt.mytvsupercom": {
+    "name": "Drama Marathon (Free)",
+    "icon": null,
+    "source": "mytvsupercom"
+  },
+  "superfood.mytvsupercom": {
+    "name": "SUPER Food (Free)",
+    "icon": "https://assets.mytvsuper.com/channel/1745985725790287_SFOO.png",
+    "source": "mytvsupercom"
+  },
   "superfunfree.mytvsupercom": {
     "name": "SUPER Fun (Free)",
     "icon": null,
@@ -26,6 +36,11 @@
   },
   "supersitcom.mytvsupercom": {
     "name": "SUPER Sitcom (Free)",
+    "icon": null,
+    "source": "mytvsupercom"
+  },
+  "superatvdramafree.mytvsupercom": {
+    "name": "SUPER ATV Drama (Free)",
     "icon": null,
     "source": "mytvsupercom"
   },
@@ -72,6 +87,11 @@
   "classic.mytvsupercom": {
     "name": "TVB Classic",
     "icon": "https://assets.mytvsuper.com/channel/1651032673030814_CTVC.png",
+    "source": "mytvsupercom"
+  },
+  "asiandrama.mytvsupercom": {
+    "name": "Asian Drama",
+    "icon": "https://assets.mytvsuper.com/channel/1651032687467218_CTVS.png",
     "source": "mytvsupercom"
   },
   "chinesedrama.mytvsupercom": {
@@ -154,6 +174,11 @@
     "icon": "https://assets.mytvsuper.com/channel/1745931648041810_ACTM.png",
     "source": "mytvsupercom"
   },
+  "rcm.mytvsupercom": {
+    "name": "Rialto Classic Movies (RCM) (Free)",
+    "icon": "https://assets.mytvsuper.com/channel/1745931759705569_RCM.png",
+    "source": "mytvsupercom"
+  },
   "kik.mytvsupercom": {
     "name": "KIX",
     "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
@@ -161,6 +186,11 @@
   },
   "tracesportstars.mytvsupercom": {
     "name": "TRACE Sport Stars (Free)",
+    "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
+    "source": "mytvsupercom"
+  },
+  "lovenaturehd.mytvsupercom": {
+    "name": "Love Nature HD",
     "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
     "source": "mytvsupercom"
   },
@@ -172,6 +202,11 @@
   "sms.mytvsupercom": {
     "name": "Global Trekker",
     "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
+    "source": "mytvsupercom"
+  },
+  "petclubtv.mytvsupercom": {
+    "name": "Pet Club TV (Free)",
+    "icon": "https://assets.mytvsuper.com/channel/1745932012475990_PETC.png",
     "source": "mytvsupercom"
   },
   "globetrotter.mytvsupercom": {
@@ -241,6 +276,11 @@
   },
   "cgtndocumentary.mytvsupercom": {
     "name": "CGTN Documentary (Free)",
+    "icon": null,
+    "source": "mytvsupercom"
+  },
+  "cgtnenglish.mytvsupercom": {
+    "name": "CGTN English (Free)",
     "icon": null,
     "source": "mytvsupercom"
   },
