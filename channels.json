@@ -9,16 +9,6 @@
     "icon": "https://assets.mytvsuper.com/channel/1745985345748344_SVAR.png",
     "source": "mytvsupercom"
   },
-  "supereyt.mytvsupercom": {
-    "name": "Drama Marathon (Free)",
-    "icon": null,
-    "source": "mytvsupercom"
-  },
-  "superfood.mytvsupercom": {
-    "name": "SUPER Food (Free)",
-    "icon": "https://assets.mytvsuper.com/channel/1745985725790287_SFOO.png",
-    "source": "mytvsupercom"
-  },
   "superfunfree.mytvsupercom": {
     "name": "SUPER Fun (Free)",
     "icon": null,
@@ -36,11 +26,6 @@
   },
   "supersitcom.mytvsupercom": {
     "name": "SUPER Sitcom (Free)",
-    "icon": null,
-    "source": "mytvsupercom"
-  },
-  "superatvdramafree.mytvsupercom": {
-    "name": "SUPER ATV Drama (Free)",
     "icon": null,
     "source": "mytvsupercom"
   },
@@ -87,11 +72,6 @@
   "classic.mytvsupercom": {
     "name": "TVB Classic",
     "icon": "https://assets.mytvsuper.com/channel/1651032673030814_CTVC.png",
-    "source": "mytvsupercom"
-  },
-  "asiandrama.mytvsupercom": {
-    "name": "Asian Drama",
-    "icon": "https://assets.mytvsuper.com/channel/1651032687467218_CTVS.png",
     "source": "mytvsupercom"
   },
   "chinesedrama.mytvsupercom": {
@@ -174,11 +154,6 @@
     "icon": "https://assets.mytvsuper.com/channel/1745931648041810_ACTM.png",
     "source": "mytvsupercom"
   },
-  "rcm.mytvsupercom": {
-    "name": "Rialto Classic Movies (RCM) (Free)",
-    "icon": "https://assets.mytvsuper.com/channel/1745931759705569_RCM.png",
-    "source": "mytvsupercom"
-  },
   "kik.mytvsupercom": {
     "name": "KIX",
     "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
@@ -186,11 +161,6 @@
   },
   "tracesportstars.mytvsupercom": {
     "name": "TRACE Sport Stars (Free)",
-    "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
-    "source": "mytvsupercom"
-  },
-  "lovenaturehd.mytvsupercom": {
-    "name": "Love Nature HD",
     "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
     "source": "mytvsupercom"
   },
@@ -202,11 +172,6 @@
   "sms.mytvsupercom": {
     "name": "Global Trekker",
     "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
-    "source": "mytvsupercom"
-  },
-  "petclubtv.mytvsupercom": {
-    "name": "Pet Club TV (Free)",
-    "icon": "https://assets.mytvsuper.com/channel/1745932012475990_PETC.png",
     "source": "mytvsupercom"
   },
   "globetrotter.mytvsupercom": {
@@ -276,11 +241,6 @@
   },
   "cgtndocumentary.mytvsupercom": {
     "name": "CGTN Documentary (Free)",
-    "icon": null,
-    "source": "mytvsupercom"
-  },
-  "cgtnenglish.mytvsupercom": {
-    "name": "CGTN English (Free)",
     "icon": null,
     "source": "mytvsupercom"
   },
@@ -3643,135 +3603,5 @@
     "name": "IQRA TV",
     "icon": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb6754.png",
     "source": "www.sky.com"
-  },
-  "beinsports1.beinsportsconnecthk": {
-    "name": "beIN Sports 1",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_1_70X40.png",
-    "source": "beinsportsconnecthk"
-  },
-  "beinsports2.beinsportsconnecthk": {
-    "name": "beIN Sports 2",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_2_70X40.png",
-    "source": "beinsportsconnecthk"
-  },
-  "beinsports3.beinsportsconnecthk": {
-    "name": "beIN Sports 3",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_3_70X40.png",
-    "source": "beinsportsconnecthk"
-  },
-  "lfctv.beinsportsconnecthk": {
-    "name": "LFCTV",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/lfctv_primary-logo_100x56_70X40.png",
-    "source": "beinsportsconnecthk"
-  },
-  "beinsportsoverflow3.beinsportsconnecthk": {
-    "name": "beIN SPORTS MAX",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
-    "source": "beinsportsconnecthk"
-  },
-  "beinsportsoverflow4.beinsportsconnecthk": {
-    "name": "beIN SPORTS MAX",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
-    "source": "beinsportsconnecthk"
-  },
-  "beinsportsoverflow5.beinsportsconnecthk": {
-    "name": "beIN SPORTS MAX",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
-    "source": "beinsportsconnecthk"
-  },
-  "beinsportsoverflow6.beinsportsconnecthk": {
-    "name": "beIN SPORTS MAX",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
-    "source": "beinsportsconnecthk"
-  },
-  "beinsportsoverflow7.beinsportsconnecthk": {
-    "name": "beIN SPORTS MAX",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
-    "source": "beinsportsconnecthk"
-  },
-  "beinsportsoverflow8.beinsportsconnecthk": {
-    "name": "beIN SPORTS MAX",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
-    "source": "beinsportsconnecthk"
-  },
-  "beinsportsoverflow9.beinsportsconnecthk": {
-    "name": "beIN SPORTS MAX",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
-    "source": "beinsportsconnecthk"
-  },
-  "beinsportsoverflow10.beinsportsconnecthk": {
-    "name": "beIN SPORTS MAX",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
-    "source": "beinsportsconnecthk"
-  },
-  "beinsportsoverflow11.beinsportsconnecthk": {
-    "name": "beIN SPORTS MAX",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
-    "source": "beinsportsconnecthk"
-  },
-  "beinsportsoverflow12.beinsportsconnecthk": {
-    "name": "beIN SPORTS MAX",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
-    "source": "beinsportsconnecthk"
-  },
-  "beinsportsoverflow13.beinsportsconnecthk": {
-    "name": "beIN SPORTS MAX",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
-    "source": "beinsportsconnecthk"
-  },
-  "beinsportsoverflow14.beinsportsconnecthk": {
-    "name": "beIN SPORTS MAX",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
-    "source": "beinsportsconnecthk"
-  },
-  "beinsportsoverflow15.beinsportsconnecthk": {
-    "name": "beIN SPORTS MAX",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
-    "source": "beinsportsconnecthk"
-  },
-  "beinsportsoverflow16.beinsportsconnecthk": {
-    "name": "beIN SPORTS MAX",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
-    "source": "beinsportsconnecthk"
-  },
-  "beinsportsoverflow17.beinsportsconnecthk": {
-    "name": "beIN SPORTS MAX",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
-    "source": "beinsportsconnecthk"
-  },
-  "beinsportsoverflow18.beinsportsconnecthk": {
-    "name": "beIN SPORTS MAX",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
-    "source": "beinsportsconnecthk"
-  },
-  "beinsportsoverflow19.beinsportsconnecthk": {
-    "name": "beIN SPORTS MAX",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
-    "source": "beinsportsconnecthk"
-  },
-  "beinsportsoverflow20.beinsportsconnecthk": {
-    "name": "beIN SPORTS MAX",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
-    "source": "beinsportsconnecthk"
-  },
-  "beinsportsxtra21.beinsportsconnecthk": {
-    "name": "beIN SPORTS MAX",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
-    "source": "beinsportsconnecthk"
-  },
-  "beinsportsxtra22.beinsportsconnecthk": {
-    "name": "beIN SPORTS MAX",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
-    "source": "beinsportsconnecthk"
-  },
-  "beinsportsxtra23.beinsportsconnecthk": {
-    "name": "beIN SPORTS MAX",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
-    "source": "beinsportsconnecthk"
-  },
-  "beinsportsxtra24.beinsportsconnecthk": {
-    "name": "beIN SPORTS MAX",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
-    "source": "beinsportsconnecthk"
   }
 }
