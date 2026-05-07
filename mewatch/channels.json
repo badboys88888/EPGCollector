@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source": "meWatch Singapore",
-    "generated_at": "2026-05-06T05:43:48.062420",
-    "total_channels": 122
+    "generated_at": "2026-05-07T05:46:42.247185",
+    "total_channels": 119
   },
   "channels": [
     {
@@ -86,42 +86,6 @@
       "name": "LIVE 1",
       "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5721803'&EntityType='Item'&EntityId='97073'&Width=1920&Height=1080",
       "description": "LIVE 1 will feature LIVE televised local events of national significance and other entertaiment genres.",
-      "number": null,
-      "genres": [
-        "toggle"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "97078",
-      "name": "LIVE 2",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5721800'&EntityType='Item'&EntityId='97078'&Width=1920&Height=1080",
-      "description": "LIVE 2 - An additional channel for coverage of live events.",
-      "number": null,
-      "genres": [
-        "toggle"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "98202",
-      "name": "LIVE 5",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='6215768'&EntityType='Item'&EntityId='98202'&Width=1920&Height=1080",
-      "description": "LIVE 5  - An additional channel for coverage of live events.",
-      "number": null,
-      "genres": [
-        "toggle"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "204746",
-      "name": "LIVE 6",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5853379'&EntityType='Item'&EntityId='204746'&Width=1920&Height=1080",
-      "description": "LIVE 6 - An additional channel for coverage of live events.   ",
       "number": null,
       "genres": [
         "toggle"
