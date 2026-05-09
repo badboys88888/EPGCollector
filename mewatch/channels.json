@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source": "meWatch Singapore",
-    "generated_at": "2026-05-08T05:17:07.481269",
-    "total_channels": 118
+    "generated_at": "2026-05-09T05:35:16.996233",
+    "total_channels": 120
   },
   "channels": [
     {
@@ -106,10 +106,34 @@
       "videoFormat": ""
     },
     {
+      "id": "558278",
+      "name": "MasterChef",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='12452401'&EntityType='Item'&EntityId='558278'&Width=1920&Height=1080",
+      "description": "MasterChef sets out to find the nation’s best amateur cook. A cook whose talent and passion could transform their life.",
+      "number": null,
+      "genres": [
+        "variety"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
       "id": "570813",
       "name": "Deal or No Deal",
       "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='10105767'&EntityType='Item'&EntityId='570813'&Width=1920&Height=1080",
       "description": "Deal Or No Deal is an exhilarating hit game show where contestants play and deal for a top cash prize in a high energy contest of nerves, luck and raw intuition.",
+      "number": null,
+      "genres": [
+        "variety"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "558258",
+      "name": "Fear Factor",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='10105771'&EntityType='Item'&EntityId='558258'&Width=1920&Height=1080",
+      "description": "Fear Factor is a high-guts reality game show that sees contestants put their most primal fears aside for a chance to win a large sum of cash.",
       "number": null,
       "genres": [
         "variety"
