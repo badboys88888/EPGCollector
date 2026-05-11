@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source": "meWatch Singapore",
-    "generated_at": "2026-05-10T05:50:24.756693",
-    "total_channels": 120
+    "generated_at": "2026-05-11T06:23:15.171776",
+    "total_channels": 119
   },
   "channels": [
     {
@@ -73,18 +73,6 @@
       "id": "98200",
       "name": "SPL CH01",
       "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5847893'&EntityType='Item'&EntityId='98200'&Width=1920&Height=1080",
-      "description": "Singapore Premier League 2025/2026\nThe Singapore Premier League 2025-2026 is the 8th season of the Singapore Premier League. A total of eight teams are taking part in a triple round-robin format. Will Lion City Sailors continue to defend their champion title, having won the 2024 edition or will another club be crowned as the new champion?",
-      "number": null,
-      "genres": [
-        "sports"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "98201",
-      "name": "SPL CH02",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5847892'&EntityType='Item'&EntityId='98201'&Width=1920&Height=1080",
       "description": "Singapore Premier League 2025/2026\nThe Singapore Premier League 2025-2026 is the 8th season of the Singapore Premier League. A total of eight teams are taking part in a triple round-robin format. Will Lion City Sailors continue to defend their champion title, having won the 2024 edition or will another club be crowned as the new champion?",
       "number": null,
       "genres": [
