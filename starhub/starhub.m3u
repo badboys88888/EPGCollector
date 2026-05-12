@@ -328,18 +328,6 @@ https://ucdn.starhubgo.com/bpk-tv/HubPremier5/output/manifest.mpd
 #EXTINF:-1 tvg-id="GLOBAL_1226" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/226_1920x1080_HTV.png?w=272" group-title="StarHub",Hub Premier 6
 https://ucdn.starhubgo.com/bpk-tv/HubPremier6/output/manifest.mpd
 
-#EXTINF:-1 tvg-id="GLOBAL_208" tvg-logo="https://poster.starhubgo.com/Linear_channels2/208_1920x1080_HTV.png?w=272" group-title="StarHub",Hub Sports 8
-https://ucdn.starhubgo.com/bpk-tv/HubSports8/output/manifest.mpd
-
-#EXTINF:-1 tvg-id="GLOBAL_207" tvg-logo="https://poster.starhubgo.com/Linear_channels2/207_1920x1080_HTV.png?w=272" group-title="StarHub",Hub Sports 7
-https://ucdn.starhubgo.com/bpk-tv/HubSports7/output/manifest.mpd
-
-#EXTINF:-1 tvg-id="GLOBAL_215" tvg-logo="https://poster.starhubgo.com/Linear_channels2/215_1920x1080_HTV.png?w=272" group-title="StarHub",beIN SPORTS MAX 2 HD
-https://ucdn.starhubgo.com/bpk-tv/beINSports4/output/manifest.mpd
-
-#EXTINF:-1 tvg-id="GLOBAL_216" tvg-logo="https://poster.starhubgo.com/Linear_channels2/216_1920x1080_HTV.png?w=272" group-title="StarHub",beIN SPORTS MAX 3 HD
-https://ucdn.starhubgo.com/bpk-tv/beINSports5/output/manifest.mpd
-
 #EXTINF:-1 tvg-id="GLOBAL_438" tvg-logo="https://poster.starhubgo.com/Linear_channels2/435_1920x1080_HTV.png?w=272" group-title="StarHub",AFN
 https://ucdn.starhubgo.com/bpk-tv/AFN/output/manifest.mpd
 
