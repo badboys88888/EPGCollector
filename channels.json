@@ -469,702 +469,702 @@
     "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
     "source": "mytvsupercom"
   },
-  "viutvsix.nowcomhk": {
+  "096.nowcomhk": {
     "name": "ViuTVsix",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch96_160_115",
     "source": "nowcomhk"
   },
-  "viutv.nowcomhk": {
+  "099.nowcomhk": {
     "name": "ViuTV",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch99_160_115",
     "source": "nowcomhk"
   },
-  "viuchannel.nowcomhk": {
+  "102.nowcomhk": {
     "name": "Viu channel",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch102_160_115",
     "source": "nowcomhk"
   },
-  "nowchinesedramachannel.nowcomhk": {
+  "105.nowcomhk": {
     "name": "Now Chinese Drama Channel",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch105_160_115",
     "source": "nowcomhk"
   },
-  "nowvideoexpress.nowcomhk": {
+  "106.nowcomhk": {
     "name": "Now Video Express",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch106_160_115",
     "source": "nowcomhk"
   },
-  "nowjelli.nowcomhk": {
+  "108.nowcomhk": {
     "name": "NowJelli",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch108_160_115",
     "source": "nowcomhk"
   },
-  "hbohits.nowcomhk": {
+  "111.nowcomhk": {
     "name": "HBO Hits",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch111_160_115",
     "source": "nowcomhk"
   },
-  "hbofamily.nowcomhk": {
+  "112.nowcomhk": {
     "name": "HBO Family",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch112_160_115",
     "source": "nowcomhk"
   },
-  "cinemax.nowcomhk": {
+  "113.nowcomhk": {
     "name": "CINEMAX",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch113_160_115",
     "source": "nowcomhk"
   },
-  "hbosignature.nowcomhk": {
+  "114.nowcomhk": {
     "name": "HBO Signature",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch114_160_115",
     "source": "nowcomhk"
   },
-  "hbo.nowcomhk": {
+  "115.nowcomhk": {
     "name": "HBO",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch115_160_115",
     "source": "nowcomhk"
   },
-  "moviemovie.nowcomhk": {
+  "116.nowcomhk": {
     "name": "MOVIE MOVIE",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch116_160_115",
     "source": "nowcomhk"
   },
-  "hitsmovies.nowcomhk": {
+  "119.nowcomhk": {
     "name": "HITS MOVIES",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch119_160_115",
     "source": "nowcomhk"
   },
-  "nowbaogumovies.nowcomhk": {
+  "133.nowcomhk": {
     "name": "Now Baogu Movies",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch133_160_115",
     "source": "nowcomhk"
   },
-  "nowbaogusuperstars.nowcomhk": {
+  "138.nowcomhk": {
     "name": "Now Baogu Superstars",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch138_160_115",
     "source": "nowcomhk"
   },
-  "animax.nowcomhk": {
+  "150.nowcomhk": {
     "name": "Animax",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch150_160_115",
     "source": "nowcomhk"
   },
-  "tvn.nowcomhk": {
+  "155.nowcomhk": {
     "name": "tvN",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch155_160_115",
     "source": "nowcomhk"
   },
-  "kbsworld.nowcomhk": {
+  "156.nowcomhk": {
     "name": "KBS World",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch156_160_115",
     "source": "nowcomhk"
   },
-  "moovconcertmv.nowcomhk": {
+  "168.nowcomhk": {
     "name": "MOOV Concert/MV",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch168_160_115",
     "source": "nowcomhk"
   },
-  "pandatv.nowcomhk": {
+  "200.nowcomhk": {
     "name": "Panda TV",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch200_160_115",
     "source": "nowcomhk"
   },
-  "discoveryasia.nowcomhk": {
+  "208.nowcomhk": {
     "name": "Discovery Asia",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch208_160_115",
     "source": "nowcomhk"
   },
-  "discoverychannel.nowcomhk": {
+  "209.nowcomhk": {
     "name": "Discovery Channel",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch209_160_115",
     "source": "nowcomhk"
   },
-  "animalplanet.nowcomhk": {
+  "210.nowcomhk": {
     "name": "Animal Planet",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch210_160_115",
     "source": "nowcomhk"
   },
-  "discoveryscience.nowcomhk": {
+  "211.nowcomhk": {
     "name": "Discovery Science",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch211_160_115",
     "source": "nowcomhk"
   },
-  "dmax.nowcomhk": {
+  "212.nowcomhk": {
     "name": "DMAX",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch212_160_115",
     "source": "nowcomhk"
   },
-  "tlc.nowcomhk": {
+  "213.nowcomhk": {
     "name": "TLC",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch213_160_115",
     "source": "nowcomhk"
   },
-  "lovenature.nowcomhk": {
+  "217.nowcomhk": {
     "name": "Love Nature",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch217_160_115",
     "source": "nowcomhk"
   },
-  "lovenature4k.nowcomhk": {
+  "218.nowcomhk": {
     "name": "Love Nature 4K",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch218_160_115",
     "source": "nowcomhk"
   },
-  "bbcearth.nowcomhk": {
+  "220.nowcomhk": {
     "name": "BBC Earth",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch220_160_115",
     "source": "nowcomhk"
   },
-  "outdoorchannel.nowcomhk": {
+  "221.nowcomhk": {
     "name": "Outdoor Channel",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch221_160_115",
     "source": "nowcomhk"
   },
-  "crimeinvestigation.nowcomhk": {
+  "222.nowcomhk": {
     "name": "Crime + Investigation",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch222_160_115",
     "source": "nowcomhk"
   },
-  "history.nowcomhk": {
+  "223.nowcomhk": {
     "name": "HISTORY",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch223_160_115",
     "source": "nowcomhk"
   },
-  "cnninternational.nowcomhk": {
+  "316.nowcomhk": {
     "name": "CNN International",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch316_160_115",
     "source": "nowcomhk"
   },
-  "cnbc.nowcomhk": {
+  "319.nowcomhk": {
     "name": "CNBC",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch319_160_115",
     "source": "nowcomhk"
   },
-  "bbcnews.nowcomhk": {
+  "320.nowcomhk": {
     "name": "BBC News",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch320_160_115",
     "source": "nowcomhk"
   },
-  "bloombergtelevision.nowcomhk": {
+  "321.nowcomhk": {
     "name": "Bloomberg Television",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch321_160_115",
     "source": "nowcomhk"
   },
-  "channelnewsasia.nowcomhk": {
+  "322.nowcomhk": {
     "name": "Channel NewsAsia",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch322_160_115",
     "source": "nowcomhk"
   },
-  "skynews.nowcomhk": {
+  "323.nowcomhk": {
     "name": "Sky News",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch323_160_115",
     "source": "nowcomhk"
   },
-  "dwenglish.nowcomhk": {
+  "324.nowcomhk": {
     "name": "DW (English)",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch324_160_115",
     "source": "nowcomhk"
   },
-  "aljazeeraenglish.nowcomhk": {
+  "325.nowcomhk": {
     "name": "Al Jazeera English",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch325_160_115",
     "source": "nowcomhk"
   },
-  "euronews.nowcomhk": {
+  "326.nowcomhk": {
     "name": "euronews",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch326_160_115",
     "source": "nowcomhk"
   },
-  "france24.nowcomhk": {
+  "327.nowcomhk": {
     "name": "France 24",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch327_160_115",
     "source": "nowcomhk"
   },
-  "nhkworldjapan.nowcomhk": {
+  "328.nowcomhk": {
     "name": "NHK WORLD-JAPAN",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch328_160_115",
     "source": "nowcomhk"
   },
-  "rt.nowcomhk": {
+  "329.nowcomhk": {
     "name": "RT",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch329_160_115",
     "source": "nowcomhk"
   },
-  "cgtn.nowcomhk": {
+  "330.nowcomhk": {
     "name": "CGTN",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch330_160_115",
     "source": "nowcomhk"
   },
-  "nowdirect.nowcomhk": {
+  "331.nowcomhk": {
     "name": "Now Direct",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch331_160_115",
     "source": "nowcomhk"
   },
-  "nownews.nowcomhk": {
+  "332.nowcomhk": {
     "name": "Now NEWS",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch332_160_115",
     "source": "nowcomhk"
   },
-  "nowbusinessnewschannel.nowcomhk": {
+  "333.nowcomhk": {
     "name": "Now Business News Channel",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch333_160_115",
     "source": "nowcomhk"
   },
-  "nowdata.nowcomhk": {
+  "336.nowcomhk": {
     "name": "Now Data",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch336_160_115",
     "source": "nowcomhk"
   },
-  "phoenixinfonewschannel.nowcomhk": {
+  "366.nowcomhk": {
     "name": "Phoenix InfoNews Channel",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch366_160_115",
     "source": "nowcomhk"
   },
-  "watchnlearn.nowcomhk": {
+  "400.nowcomhk": {
     "name": "Watch N Learn",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch400_160_115",
     "source": "nowcomhk"
   },
-  "cartoonnetwork.nowcomhk": {
+  "443.nowcomhk": {
     "name": "Cartoon Network",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch443_160_115",
     "source": "nowcomhk"
   },
-  "nickelodeon.nowcomhk": {
+  "444.nowcomhk": {
     "name": "Nickelodeon",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch444_160_115",
     "source": "nowcomhk"
   },
-  "cbeebies.nowcomhk": {
+  "447.nowcomhk": {
     "name": "CBeebies",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch447_160_115",
     "source": "nowcomhk"
   },
-  "moonbug.nowcomhk": {
+  "448.nowcomhk": {
     "name": "Moonbug",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch448_160_115",
     "source": "nowcomhk"
   },
-  "nickjr.nowcomhk": {
+  "449.nowcomhk": {
     "name": "Nick Jr.",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch449_160_115",
     "source": "nowcomhk"
   },
-  "davinci.nowcomhk": {
+  "460.nowcomhk": {
     "name": "Da Vinci",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch460_160_115",
     "source": "nowcomhk"
   },
-  "bbclifestyle.nowcomhk": {
+  "502.nowcomhk": {
     "name": "BBC Lifestyle",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch502_160_115",
     "source": "nowcomhk"
   },
-  "axn.nowcomhk": {
+  "512.nowcomhk": {
     "name": "AXN",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch512_160_115",
     "source": "nowcomhk"
   },
-  "hits.nowcomhk": {
+  "513.nowcomhk": {
     "name": "HITS",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch513_160_115",
     "source": "nowcomhk"
   },
-  "rockentertainment.nowcomhk": {
+  "517.nowcomhk": {
     "name": "ROCK Entertainment",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch517_160_115",
     "source": "nowcomhk"
   },
-  "lifetime.nowcomhk": {
+  "525.nowcomhk": {
     "name": "Lifetime",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch525_160_115",
     "source": "nowcomhk"
   },
-  "foodnetwork.nowcomhk": {
+  "526.nowcomhk": {
     "name": "Food Network",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch526_160_115",
     "source": "nowcomhk"
   },
-  "asianfoodnetwork.nowcomhk": {
+  "527.nowcomhk": {
     "name": "Asian Food Network",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch527_160_115",
     "source": "nowcomhk"
   },
-  "netflix.nowcomhk": {
+  "535.nowcomhk": {
     "name": "Netflix",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch535_160_115",
     "source": "nowcomhk"
   },
-  "ctiasiachannel.nowcomhk": {
+  "538.nowcomhk": {
     "name": "CTI Asia Channel",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch538_160_115",
     "source": "nowcomhk"
   },
-  "shenzhentv.nowcomhk": {
+  "540.nowcomhk": {
     "name": "Shenzhen TV",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch540_160_115",
     "source": "nowcomhk"
   },
-  "cctv1.nowcomhk": {
+  "541.nowcomhk": {
     "name": "CCTV-1",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch541_160_115",
     "source": "nowcomhk"
   },
-  "cctv4.nowcomhk": {
+  "542.nowcomhk": {
     "name": "CCTV-4",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch542_160_115",
     "source": "nowcomhk"
   },
-  "gbasatellitetv.nowcomhk": {
+  "543.nowcomhk": {
     "name": "GBA Satellite TV",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch543_160_115",
     "source": "nowcomhk"
   },
-  "cctv13.nowcomhk": {
+  "545.nowcomhk": {
     "name": "CCTV-13",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch545_160_115",
     "source": "nowcomhk"
   },
-  "phoenixchinesechannel.nowcomhk": {
+  "548.nowcomhk": {
     "name": "Phoenix Chinese Channel",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch548_160_115",
     "source": "nowcomhk"
   },
-  "dragontv.nowcomhk": {
+  "551.nowcomhk": {
     "name": "Dragon TV",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch551_160_115",
     "source": "nowcomhk"
   },
-  "sanshatv.nowcomhk": {
+  "553.nowcomhk": {
     "name": "Sansha TV",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch553_160_115",
     "source": "nowcomhk"
   },
-  "abcaustralia.nowcomhk": {
+  "561.nowcomhk": {
     "name": "ABC Australia",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch561_160_115",
     "source": "nowcomhk"
   },
-  "sportsschedulehighlights.nowcomhk": {
+  "600.nowcomhk": {
     "name": "Sports Schedule Highlights",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch600_160_115",
     "source": "nowcomhk"
   },
-  "nowsports4k1.nowcomhk": {
+  "611.nowcomhk": {
     "name": "Now Sports 4K 1",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch611_160_115",
     "source": "nowcomhk"
   },
-  "nowsports4k2.nowcomhk": {
+  "612.nowcomhk": {
     "name": "Now Sports 4K 2",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch612_160_115",
     "source": "nowcomhk"
   },
-  "nowsports4k3.nowcomhk": {
+  "613.nowcomhk": {
     "name": "Now Sports 4K 3",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch613_160_115",
     "source": "nowcomhk"
   },
-  "nowsports4k616.nowcomhk": {
+  "616.nowcomhk": {
     "name": "Now Sports 4K 616",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch616_160_115",
     "source": "nowcomhk"
   },
-  "nowsports4k617.nowcomhk": {
+  "617.nowcomhk": {
     "name": "Now Sports 4K 617",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch617_160_115",
     "source": "nowcomhk"
   },
-  "nowsports618.nowcomhk": {
+  "618.nowcomhk": {
     "name": "Now Sports 618",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch618_160_115",
     "source": "nowcomhk"
   },
-  "nowsports619.nowcomhk": {
+  "619.nowcomhk": {
     "name": "Now Sports 619",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch619_160_115",
     "source": "nowcomhk"
   },
-  "nowsportspremierleaguetv.nowcomhk": {
+  "620.nowcomhk": {
     "name": "Now Sports Premier League TV",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch620_160_115",
     "source": "nowcomhk"
   },
-  "nowsportspremierleague1.nowcomhk": {
+  "621.nowcomhk": {
     "name": "Now Sports Premier League 1",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch621_160_115",
     "source": "nowcomhk"
   },
-  "nowsportspremierleague2.nowcomhk": {
+  "622.nowcomhk": {
     "name": "Now Sports Premier League 2",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch622_160_115",
     "source": "nowcomhk"
   },
-  "nowsportspremierleague3.nowcomhk": {
+  "623.nowcomhk": {
     "name": "Now Sports Premier League 3",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch623_160_115",
     "source": "nowcomhk"
   },
-  "nowsportspremierleague4.nowcomhk": {
+  "624.nowcomhk": {
     "name": "Now Sports Premier League 4",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch624_160_115",
     "source": "nowcomhk"
   },
-  "nowsportspremierleague5.nowcomhk": {
+  "625.nowcomhk": {
     "name": "Now Sports Premier League 5",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch625_160_115",
     "source": "nowcomhk"
   },
-  "nowsportspremierleague6.nowcomhk": {
+  "626.nowcomhk": {
     "name": "Now Sports Premier League 6",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch626_160_115",
     "source": "nowcomhk"
   },
-  "nowsportspremierleague7.nowcomhk": {
+  "627.nowcomhk": {
     "name": "Now Sports Premier League 7",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch627_160_115",
     "source": "nowcomhk"
   },
-  "nowsportsprime.nowcomhk": {
+  "630.nowcomhk": {
     "name": "Now Sports Prime",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch630_160_115",
     "source": "nowcomhk"
   },
-  "nowsports1.nowcomhk": {
+  "631.nowcomhk": {
     "name": "Now Sports 1",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch631_160_115",
     "source": "nowcomhk"
   },
-  "nowsports2.nowcomhk": {
+  "632.nowcomhk": {
     "name": "Now Sports 2",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch632_160_115",
     "source": "nowcomhk"
   },
-  "nowsports3.nowcomhk": {
+  "633.nowcomhk": {
     "name": "Now Sports 3",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch633_160_115",
     "source": "nowcomhk"
   },
-  "nowsports4.nowcomhk": {
+  "634.nowcomhk": {
     "name": "Now Sports 4",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch634_160_115",
     "source": "nowcomhk"
   },
-  "nowsports5.nowcomhk": {
+  "635.nowcomhk": {
     "name": "Now Sports 5",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch635_160_115",
     "source": "nowcomhk"
   },
-  "nowsports6.nowcomhk": {
+  "636.nowcomhk": {
     "name": "Now Sports 6",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch636_160_115",
     "source": "nowcomhk"
   },
-  "nowsports7.nowcomhk": {
+  "637.nowcomhk": {
     "name": "Now Sports 7",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch637_160_115",
     "source": "nowcomhk"
   },
-  "beinsports1.nowcomhk": {
+  "638.nowcomhk": {
     "name": "beIN SPORTS 1",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch638_160_115",
     "source": "nowcomhk"
   },
-  "beinsports2.nowcomhk": {
+  "639.nowcomhk": {
     "name": "beIN SPORTS 2",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch639_160_115",
     "source": "nowcomhk"
   },
-  "mutv.nowcomhk": {
+  "640.nowcomhk": {
     "name": "MUTV",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch640_160_115",
     "source": "nowcomhk"
   },
-  "nowsports641.nowcomhk": {
+  "641.nowcomhk": {
     "name": "Now Sports 641",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch641_160_115",
     "source": "nowcomhk"
   },
-  "nbatv.nowcomhk": {
+  "642.nowcomhk": {
     "name": "NBA TV",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch642_160_115",
     "source": "nowcomhk"
   },
-  "beinsports3.nowcomhk": {
+  "643.nowcomhk": {
     "name": "beIN SPORTS 3",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch643_160_115",
     "source": "nowcomhk"
   },
-  "beinsports4.nowcomhk": {
+  "644.nowcomhk": {
     "name": "beIN SPORTS 4",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch644_160_115",
     "source": "nowcomhk"
   },
-  "beinsports5.nowcomhk": {
+  "645.nowcomhk": {
     "name": "beIN SPORTS 5",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch645_160_115",
     "source": "nowcomhk"
   },
-  "beinsports6.nowcomhk": {
+  "646.nowcomhk": {
     "name": "beIN SPORTS 6",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch646_160_115",
     "source": "nowcomhk"
   },
-  "nowsports647.nowcomhk": {
+  "647.nowcomhk": {
     "name": "Now Sports 647",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch647_160_115",
     "source": "nowcomhk"
   },
-  "nowsports650.nowcomhk": {
+  "650.nowcomhk": {
     "name": "Now Sports 650",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch650_160_115",
     "source": "nowcomhk"
   },
-  "nowsports651.nowcomhk": {
+  "651.nowcomhk": {
     "name": "Now Sports 651",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch651_160_115",
     "source": "nowcomhk"
   },
-  "nowsports652.nowcomhk": {
+  "652.nowcomhk": {
     "name": "Now Sports 652",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch652_160_115",
     "source": "nowcomhk"
   },
-  "now668.nowcomhk": {
+  "668.nowcomhk": {
     "name": "Now668",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch668_160_115",
     "source": "nowcomhk"
   },
-  "cricbuzz.nowcomhk": {
+  "674.nowcomhk": {
     "name": "Cricbuzz",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch674_160_115",
     "source": "nowcomhk"
   },
-  "premiersports.nowcomhk": {
+  "679.nowcomhk": {
     "name": "Premier Sports",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch679_160_115",
     "source": "nowcomhk"
   },
-  "nowsportsplus.nowcomhk": {
+  "680.nowcomhk": {
     "name": "Now Sports Plus",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch680_160_115",
     "source": "nowcomhk"
   },
-  "nowgolf2.nowcomhk": {
+  "683.nowcomhk": {
     "name": "Now Golf 2",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch683_160_115",
     "source": "nowcomhk"
   },
-  "nowgolf3.nowcomhk": {
+  "684.nowcomhk": {
     "name": "Now Golf 3",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch684_160_115",
     "source": "nowcomhk"
   },
-  "nhkworldpremium.nowcomhk": {
+  "711.nowcomhk": {
     "name": "NHK World Premium",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch711_160_115",
     "source": "nowcomhk"
   },
-  "tv5mondestyle.nowcomhk": {
+  "713.nowcomhk": {
     "name": "TV5MONDE Style",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch713_160_115",
     "source": "nowcomhk"
   },
-  "tv5mondeasie.nowcomhk": {
+  "714.nowcomhk": {
     "name": "TV5MONDE ASIE",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch714_160_115",
     "source": "nowcomhk"
   },
-  "france24french.nowcomhk": {
+  "715.nowcomhk": {
     "name": "France 24 (French)",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch715_160_115",
     "source": "nowcomhk"
   },
-  "gmapinoytv.nowcomhk": {
+  "720.nowcomhk": {
     "name": "GMA Pinoy TV",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch720_160_115",
     "source": "nowcomhk"
   },
-  "gmalifetv.nowcomhk": {
+  "721.nowcomhk": {
     "name": "GMA Life TV",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch721_160_115",
     "source": "nowcomhk"
   },
-  "gmanewstv.nowcomhk": {
+  "722.nowcomhk": {
     "name": "GMA News TV",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch722_160_115",
     "source": "nowcomhk"
   },
-  "tfc.nowcomhk": {
+  "725.nowcomhk": {
     "name": "TFC",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch725_160_115",
     "source": "nowcomhk"
   },
-  "sonytvindia.nowcomhk": {
+  "771.nowcomhk": {
     "name": "Sony TV (India)",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch771_160_115",
     "source": "nowcomhk"
   },
-  "sonymax.nowcomhk": {
+  "772.nowcomhk": {
     "name": "Sony MAX",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch772_160_115",
     "source": "nowcomhk"
   },
-  "sonysab.nowcomhk": {
+  "774.nowcomhk": {
     "name": "Sony SAB",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch774_160_115",
     "source": "nowcomhk"
   },
-  "mtvindia.nowcomhk": {
+  "779.nowcomhk": {
     "name": "MTV India",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch779_160_115",
     "source": "nowcomhk"
   },
-  "colors.nowcomhk": {
+  "780.nowcomhk": {
     "name": "COLORS",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch780_160_115",
     "source": "nowcomhk"
   },
-  "zeecinemainternational.nowcomhk": {
+  "781.nowcomhk": {
     "name": "Zee Cinema International",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch781_160_115",
     "source": "nowcomhk"
   },
-  "zeetv.nowcomhk": {
+  "782.nowcomhk": {
     "name": "Zee TV",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch782_160_115",
     "source": "nowcomhk"
   },
-  "zeenews.nowcomhk": {
+  "785.nowcomhk": {
     "name": "Zee News",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch785_160_115",
     "source": "nowcomhk"
   },
-  "stargold.nowcomhk": {
+  "793.nowcomhk": {
     "name": "Star Gold",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch793_160_115",
     "source": "nowcomhk"
   },
-  "starplus.nowcomhk": {
+  "794.nowcomhk": {
     "name": "STAR PLUS",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch794_160_115",
     "source": "nowcomhk"
   },
-  "starbharat.nowcomhk": {
+  "797.nowcomhk": {
     "name": "Star Bharat",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch797_160_115",
     "source": "nowcomhk"
   },
-  "adultpromotionalchannel.nowcomhk": {
+  "900.nowcomhk": {
     "name": "Adult Promotional Channel",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch900_160_115",
     "source": "nowcomhk"
   },
-  "icefire.nowcomhk": {
+  "901.nowcomhk": {
     "name": "Ice Fire",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch901_160_115",
     "source": "nowcomhk"
   },
-  "channeladult.nowcomhk": {
+  "903.nowcomhk": {
     "name": "Channel Adult",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch903_160_115",
     "source": "nowcomhk"
