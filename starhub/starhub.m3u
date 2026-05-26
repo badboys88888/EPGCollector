@@ -313,29 +313,11 @@ https://ucdn.starhubgo.com/bpk-tv/Cbuzz/output/manifest.mpd
 #EXTINF:-1 tvg-id="GLOBAL_852" tvg-logo="https://poster.starhubgo.com/Linear_channels2/852_1920x1080_HTV.png?w=272" group-title="StarHub",Hub Ruyi
 https://ucdn.starhubgo.com/bpk-tv/HubRuyi/output/manifest.mpd
 
-#EXTINF:-1 tvg-id="GLOBAL_2224" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/224_1920x1080_HTV.png?w=272" group-title="StarHub",Hub Premier 4
-https://ucdn.starhubgo.com/bpk-tv/HubPremier4/output/manifest.mpd
-
-#EXTINF:-1 tvg-id="GLOBAL_1223" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/223_1920x1080_HTV.png?w=272" group-title="StarHub",Hub Premier 3
-https://ucdn.starhubgo.com/bpk-tv/HubPremier3/output/manifest.mpd
-
-#EXTINF:-1 tvg-id="GLOBAL_1228" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/228_1920x1080_HTV.png?w=272" group-title="StarHub",Hub Premier 8
-https://ucdn.starhubgo.com/bpk-tv/HubPremier8/output/manifest.mpd
-
-#EXTINF:-1 tvg-id="GLOBAL_1225" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/225_1920x1080_HTV.png?w=272" group-title="StarHub",Hub Premier 5
-https://ucdn.starhubgo.com/bpk-tv/HubPremier5/output/manifest.mpd
-
-#EXTINF:-1 tvg-id="GLOBAL_1226" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/226_1920x1080_HTV.png?w=272" group-title="StarHub",Hub Premier 6
-https://ucdn.starhubgo.com/bpk-tv/HubPremier6/output/manifest.mpd
-
 #EXTINF:-1 tvg-id="GLOBAL_438" tvg-logo="https://poster.starhubgo.com/Linear_channels2/435_1920x1080_HTV.png?w=272" group-title="StarHub",AFN
 https://ucdn.starhubgo.com/bpk-tv/AFN/output/manifest.mpd
 
 #EXTINF:-1 tvg-id="GLOBAL_4001" tvg-logo="https://poster.starhubgo.com/Linear_channnes/falseNE?w=272" group-title="StarHub",Test 998
 https://stg-ucdn.starhubgo.com/bpk-tv/Mediacorp_CH5_DASH/output/manifest.mpd
-
-#EXTINF:-1 tvg-id="GLOBAL_1227" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/227_1920x1080_HTV.png?w=272" group-title="StarHub",Hub Premier 7
-https://ucdn.starhubgo.com/bpk-tv/HubPremier7/output/manifest.mpd
 
 #EXTINF:-1 tvg-id="GLOBAL_513" tvg-logo="https://poster.starhubgo.com/Linear_channels2/513_1920x1080_HTV.png?w=272" group-title="StarHub",HITSNOW
 https://ucdn.starhubgo.com/bpk-tv/HITSNOW/output/manifest.mpd
@@ -348,13 +330,4 @@ https://ucdn.starhubgo.com/bpk-tv/HubSports7/output/manifest.mpd
 
 #EXTINF:-1 tvg-id="GLOBAL_208" tvg-logo="https://poster.starhubgo.com/Linear_channels2/208_1920x1080_HTV.png?w=272" group-title="StarHub",Hub Sports 8
 https://ucdn.starhubgo.com/bpk-tv/HubSports8/output/manifest.mpd
-
-#EXTINF:-1 tvg-id="GLOBAL_1230" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/230_1920x1080_HTV.png?w=272" group-title="StarHub",Hub Premier 10
-https://ucdn.starhubgo.com/bpk-tv/HubPremier10/output/manifest.mpd
-
-#EXTINF:-1 tvg-id="GLOBAL_1231" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/231_1920x1080_HTV.png?w=272" group-title="StarHub",Hub Premier 11
-https://ucdn.starhubgo.com/bpk-tv/HubPremier11/output/manifest.mpd
-
-#EXTINF:-1 tvg-id="GLOBAL_1229" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/229_1920x1080_HTV.png?w=272" group-title="StarHub",Hub Premier 9
-https://ucdn.starhubgo.com/bpk-tv/HubPremier9/output/manifest.mpd
 
