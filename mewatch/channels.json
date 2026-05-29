@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source": "meWatch Singapore",
-    "generated_at": "2026-05-28T06:38:01.329350",
-    "total_channels": 120
+    "generated_at": "2026-05-29T06:39:35.349548",
+    "total_channels": 124
   },
   "channels": [
     {
@@ -70,6 +70,18 @@
       "videoFormat": ""
     },
     {
+      "id": "186574",
+      "name": "Oktolidays",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='10887804'&EntityType='Item'&EntityId='186574'&Width=1920&Height=1080",
+      "description": "Welcome to Oktolidays, where you and your kids will be able to enjoy engaging and entertaining original children's content, curated to meet the edutainment needs of a new generation.",
+      "number": null,
+      "genres": [
+        "kids"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
       "id": "98200",
       "name": "SPL CH01",
       "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5847893'&EntityType='Item'&EntityId='98200'&Width=1920&Height=1080",
@@ -98,6 +110,42 @@
       "name": "LIVE 2",
       "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5721800'&EntityType='Item'&EntityId='97078'&Width=1920&Height=1080",
       "description": "LIVE 2 - An additional channel for coverage of live events.",
+      "number": null,
+      "genres": [
+        "toggle"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "98202",
+      "name": "LIVE 5",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='6215768'&EntityType='Item'&EntityId='98202'&Width=1920&Height=1080",
+      "description": "LIVE 5  - An additional channel for coverage of live events.",
+      "number": null,
+      "genres": [
+        "toggle"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "204746",
+      "name": "LIVE 6",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5853379'&EntityType='Item'&EntityId='204746'&Width=1920&Height=1080",
+      "description": "LIVE 6 - An additional channel for coverage of live events.   ",
+      "number": null,
+      "genres": [
+        "toggle"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "497989",
+      "name": "LIVE 7",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='8274418'&EntityType='Item'&EntityId='497989'&Width=1920&Height=1080",
+      "description": "LIVE 7 - An additional channel for coverage of live events.",
       "number": null,
       "genres": [
         "toggle"
