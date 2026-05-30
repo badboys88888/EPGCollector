@@ -1,9 +1,6 @@
 #EXTM3U
 #EXTM3U url-tvg="./starhub_epg.xml"
 
-#EXTINF:-1 tvg-id="GLOBAL_27" tvg-logo="https://poster.starhubgo.com/Linear_channels2/801_1920x1080_HTV.png?w=272" group-title="StarHub",CCTV-4
-https://ucdn.starhubgo.com/bpk-tv/CCTV4/output/manifest.mpd
-
 #EXTINF:-1 tvg-id="GLOBAL_137" tvg-logo="https://poster.starhubgo.com/Linear_channels2/137_1920x1080_HTV.png?w=272" group-title="StarHub",Zee Thirai
 https://ucdn.starhubgo.com/bpk-tv/ZeeThirai/output/manifest.mpd
 
@@ -330,4 +327,7 @@ https://ucdn.starhubgo.com/bpk-tv/HubSports7/output/manifest.mpd
 
 #EXTINF:-1 tvg-id="GLOBAL_208" tvg-logo="https://poster.starhubgo.com/Linear_channels2/208_1920x1080_HTV.png?w=272" group-title="StarHub",Hub Sports 8
 https://ucdn.starhubgo.com/bpk-tv/HubSports8/output/manifest.mpd
+
+#EXTINF:-1 tvg-id="GLOBAL_27" tvg-logo="https://poster.starhubgo.com/Linear_channels2/801_1920x1080_HTV.png?w=272" group-title="StarHub",CCTV-4
+https://ucdn.starhubgo.com/bpk-tv/CCTV4/output/manifest.mpd
 
