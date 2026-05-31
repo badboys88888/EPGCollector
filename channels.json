@@ -749,11 +749,6 @@
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch449_160_115",
     "source": "nowcomhk"
   },
-  "460.nowcomhk": {
-    "name": "Da Vinci",
-    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch460_160_115",
-    "source": "nowcomhk"
-  },
   "502.nowcomhk": {
     "name": "BBC Lifestyle",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch502_160_115",
@@ -3684,16 +3679,6 @@
     "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
     "source": "beinsportsconnecthk"
   },
-  "beinsportsoverflow5.beinsportsconnecthk": {
-    "name": "beIN SPORTS MAX",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
-    "source": "beinsportsconnecthk"
-  },
-  "beinsportsoverflow7.beinsportsconnecthk": {
-    "name": "beIN SPORTS MAX",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
-    "source": "beinsportsconnecthk"
-  },
   "beinsportsoverflow10.beinsportsconnecthk": {
     "name": "beIN SPORTS MAX",
     "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
@@ -3710,16 +3695,6 @@
     "source": "beinsportsconnecthk"
   },
   "beinsportsxtra22.beinsportsconnecthk": {
-    "name": "beIN SPORTS MAX",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
-    "source": "beinsportsconnecthk"
-  },
-  "beinsportsxtra23.beinsportsconnecthk": {
-    "name": "beIN SPORTS MAX",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
-    "source": "beinsportsconnecthk"
-  },
-  "beinsportsxtra24.beinsportsconnecthk": {
     "name": "beIN SPORTS MAX",
     "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
     "source": "beinsportsconnecthk"
