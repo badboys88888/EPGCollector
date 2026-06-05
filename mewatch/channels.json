@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "meWatch Singapore",
-    "generated_at": "2026-06-04T07:08:23.572627",
+    "generated_at": "2026-06-05T06:50:16.282168",
     "total_channels": 121
   },
   "channels": [
@@ -70,18 +70,6 @@
       "videoFormat": ""
     },
     {
-      "id": "186574",
-      "name": "Oktolidays",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='10887804'&EntityType='Item'&EntityId='186574'&Width=1920&Height=1080",
-      "description": "Welcome to Oktolidays, where you and your kids will be able to enjoy engaging and entertaining original children's content, curated to meet the edutainment needs of a new generation.",
-      "number": null,
-      "genres": [
-        "kids"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
       "id": "558207",
       "name": "FIFA World Cup CH01",
       "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='14562664'&EntityType='Item'&EntityId='558207'&Width=1920&Height=1080",
@@ -89,6 +77,18 @@
       "number": null,
       "genres": [
         "sports"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "186574",
+      "name": "Oktolidays",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='10887804'&EntityType='Item'&EntityId='186574'&Width=1920&Height=1080",
+      "description": "Welcome to Oktolidays, where you and your kids will be able to enjoy engaging and entertaining original children's content, curated to meet the edutainment needs of a new generation.",
+      "number": null,
+      "genres": [
+        "kids"
       ],
       "isPlayable": false,
       "videoFormat": ""
