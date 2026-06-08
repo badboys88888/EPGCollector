@@ -1054,6 +1054,11 @@
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch684_160_115",
     "source": "nowcomhk"
   },
+  "688.nowcomhk": {
+    "name": "Lucky 688",
+    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch688_160_115",
+    "source": "nowcomhk"
+  },
   "711.nowcomhk": {
     "name": "NHK World Premium",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch711_160_115",
@@ -3665,11 +3670,6 @@
     "source": "beinsportsconnecthk"
   },
   "beinsportsoverflow3.beinsportsconnecthk": {
-    "name": "beIN SPORTS MAX",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
-    "source": "beinsportsconnecthk"
-  },
-  "beinsportsxtra21.beinsportsconnecthk": {
     "name": "beIN SPORTS MAX",
     "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
     "source": "beinsportsconnecthk"
