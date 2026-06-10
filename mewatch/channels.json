@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source": "meWatch Singapore",
-    "generated_at": "2026-06-09T06:33:15.348267",
-    "total_channels": 120
+    "generated_at": "2026-06-10T06:49:44.579458",
+    "total_channels": 122
   },
   "channels": [
     {
@@ -72,7 +72,7 @@
     {
       "id": "558207",
       "name": "FIFA World Cup CH01",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='14562664'&EntityType='Item'&EntityId='558207'&Width=1920&Height=1080",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='14698189'&EntityType='Item'&EntityId='558207'&Width=1024&Height=576",
       "description": "The FIFA World Cup 2026™ will mark a historic new chapter for the tournament, as it becomes the first edition to be co-hosted by three countries, the United States, Mexico, and Canada, and the first to feature an expanded 48-team format. Scheduled to run from June 12 to July 20, 2026, the competition will include 104 matches, 40 more than in 2022, making it the largest FIFA World Cup ever staged.",
       "number": null,
       "genres": [
@@ -209,6 +209,34 @@
       "number": null,
       "genres": [
         "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "558254",
+      "name": "Filem Mantap",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='11315967'&EntityType='Item'&EntityId='558254'&Width=1920&Height=1080",
+      "description": "The perfect destination for feature-length storytelling at its finest. It offers curated collection of telemovies across a wide range of genres that will entertain and enthrall you.",
+      "number": null,
+      "genres": [
+        "drama",
+        "comedy",
+        "romance",
+        "action",
+        "horror"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "558271",
+      "name": "Drama Hebat",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='11316044'&EntityType='Item'&EntityId='558271'&Width=1920&Height=1080",
+      "description": "Entertain yourself with a thematic mix of bespoke music and other content that provides you with round-the-clock entertainment across the globe. Journey back in time with our selection of captivating local dramas, where exceptional actors and actresses weave cinematic magic with their extraordinary performances. These timeless dramas offer a glimpse into the past, where emotions, conflicts and resolutions remain relevant today.",
+      "number": null,
+      "genres": [
+        "drama"
       ],
       "isPlayable": false,
       "videoFormat": ""
