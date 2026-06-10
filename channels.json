@@ -469,16 +469,6 @@
     "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
     "source": "mytvsupercom"
   },
-  "096.nowcomhk": {
-    "name": "ViuTVsix",
-    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch96_160_115",
-    "source": "nowcomhk"
-  },
-  "099.nowcomhk": {
-    "name": "ViuTV",
-    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch99_160_115",
-    "source": "nowcomhk"
-  },
   "102.nowcomhk": {
     "name": "Viu channel",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch102_160_115",
@@ -487,11 +477,6 @@
   "105.nowcomhk": {
     "name": "Now Chinese Drama Channel",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch105_160_115",
-    "source": "nowcomhk"
-  },
-  "106.nowcomhk": {
-    "name": "Now Video Express",
-    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch106_160_115",
     "source": "nowcomhk"
   },
   "108.nowcomhk": {
@@ -557,11 +542,6 @@
   "156.nowcomhk": {
     "name": "KBS World",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch156_160_115",
-    "source": "nowcomhk"
-  },
-  "168.nowcomhk": {
-    "name": "MOOV Concert/MV",
-    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch168_160_115",
     "source": "nowcomhk"
   },
   "200.nowcomhk": {
@@ -719,11 +699,6 @@
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch366_160_115",
     "source": "nowcomhk"
   },
-  "400.nowcomhk": {
-    "name": "Watch N Learn",
-    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch400_160_115",
-    "source": "nowcomhk"
-  },
   "443.nowcomhk": {
     "name": "Cartoon Network",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch443_160_115",
@@ -784,11 +759,6 @@
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch527_160_115",
     "source": "nowcomhk"
   },
-  "535.nowcomhk": {
-    "name": "Netflix",
-    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch535_160_115",
-    "source": "nowcomhk"
-  },
   "538.nowcomhk": {
     "name": "CTI Asia Channel",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch538_160_115",
@@ -837,11 +807,6 @@
   "561.nowcomhk": {
     "name": "ABC Australia",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch561_160_115",
-    "source": "nowcomhk"
-  },
-  "600.nowcomhk": {
-    "name": "Sports Schedule Highlights",
-    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch600_160_115",
     "source": "nowcomhk"
   },
   "611.nowcomhk": {
@@ -1009,11 +974,6 @@
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch647_160_115",
     "source": "nowcomhk"
   },
-  "650.nowcomhk": {
-    "name": "Now Sports 650",
-    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch650_160_115",
-    "source": "nowcomhk"
-  },
   "651.nowcomhk": {
     "name": "Now Sports 651",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch651_160_115",
@@ -1152,21 +1112,6 @@
   "797.nowcomhk": {
     "name": "Star Bharat",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch797_160_115",
-    "source": "nowcomhk"
-  },
-  "900.nowcomhk": {
-    "name": "Adult Promotional Channel",
-    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch900_160_115",
-    "source": "nowcomhk"
-  },
-  "901.nowcomhk": {
-    "name": "Ice Fire",
-    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch901_160_115",
-    "source": "nowcomhk"
-  },
-  "903.nowcomhk": {
-    "name": "Channel Adult",
-    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch903_160_115",
     "source": "nowcomhk"
   },
   "1tv.kbscokr": {
