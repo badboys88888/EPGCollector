@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "meWatch Singapore",
-    "generated_at": "2026-06-11T07:16:28.419891",
+    "generated_at": "2026-06-12T07:05:58.718193",
     "total_channels": 122
   },
   "channels": [
@@ -72,7 +72,7 @@
     {
       "id": "558207",
       "name": "FIFA World Cup CH01",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='14698189'&EntityType='Item'&EntityId='558207'&Width=1024&Height=576",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='14562664'&EntityType='Item'&EntityId='558207'&Width=1920&Height=1080",
       "description": "The FIFA World Cup 2026™ will mark a historic new chapter for the tournament, as it becomes the first edition to be co-hosted by three countries, the United States, Mexico, and Canada, and the first to feature an expanded 48-team format. Scheduled to run from June 12 to July 20, 2026, the competition will include 104 matches, 40 more than in 2022, making it the largest FIFA World Cup ever staged.",
       "number": null,
       "genres": [
