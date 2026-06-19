@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source": "meWatch Singapore",
-    "generated_at": "2026-06-18T07:17:40.432727",
-    "total_channels": 122
+    "generated_at": "2026-06-19T07:41:05.074324",
+    "total_channels": 123
   },
   "channels": [
     {
@@ -1389,6 +1389,18 @@
       "name": "TVBS-NEWS",
       "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9535459'&EntityType='Item'&EntityId='569802'&Width=1920&Height=1080",
       "description": "TVBS-NEWS",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "808739",
+      "name": "tvN HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='14794370'&EntityType='Item'&EntityId='808739'&Width=1920&Height=1080",
+      "description": "tvN HD",
       "number": null,
       "genres": [
         "entertainment"
