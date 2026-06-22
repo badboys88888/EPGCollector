@@ -824,6 +824,11 @@
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch613_160_115",
     "source": "nowcomhk"
   },
+  "nowsports615.nowcomhk": {
+    "name": "Now Sports 615",
+    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch615_160_115",
+    "source": "nowcomhk"
+  },
   "nowsports4k616.nowcomhk": {
     "name": "Now Sports 4K 616",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch616_160_115",
