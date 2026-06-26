@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source": "meWatch Singapore",
-    "generated_at": "2026-06-25T06:32:34.470233",
-    "total_channels": 126
+    "generated_at": "2026-06-26T06:36:33.758252",
+    "total_channels": 125
   },
   "channels": [
     {
@@ -122,18 +122,6 @@
       "name": "LIVE 2",
       "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5721800'&EntityType='Item'&EntityId='97078'&Width=1920&Height=1080",
       "description": "LIVE 2 - An additional channel for coverage of live events.",
-      "number": null,
-      "genres": [
-        "toggle"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "98202",
-      "name": "LIVE 5",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='6215768'&EntityType='Item'&EntityId='98202'&Width=1920&Height=1080",
-      "description": "LIVE 5  - An additional channel for coverage of live events.",
       "number": null,
       "genres": [
         "toggle"
