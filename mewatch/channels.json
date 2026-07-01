@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source": "meWatch Singapore",
-    "generated_at": "2026-06-30T06:39:32.544182",
-    "total_channels": 122
+    "generated_at": "2026-07-01T06:52:38.842871",
+    "total_channels": 120
   },
   "channels": [
     {
@@ -1173,30 +1173,6 @@
       "name": "Nickelodeon Asia HD",
       "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9524822'&EntityType='Item'&EntityId='569522'&Width=1920&Height=1080",
       "description": "Nickelodeon Asia HD",
-      "number": null,
-      "genres": [
-        "entertainment"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "569791",
-      "name": "ONE (Malay)",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9535380'&EntityType='Item'&EntityId='569791'&Width=1920&Height=1080",
-      "description": "ONE (Malay)",
-      "number": null,
-      "genres": [
-        "entertainment"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "566561",
-      "name": "ONE HD",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9478829'&EntityType='Item'&EntityId='566561'&Width=1920&Height=1080",
-      "description": "ONE HD\n",
       "number": null,
       "genres": [
         "entertainment"
