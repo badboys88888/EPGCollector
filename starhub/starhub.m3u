@@ -88,9 +88,6 @@ https://ucdn.starhubgo.com/bpk-tv/HubSports5HD/output/manifest.mpd
 #EXTINF:-1 tvg-id="GLOBAL_355" tvg-logo="https://poster.starhubgo.com/Linear_channels2/511_1920x1080_HTV.png?w=272" group-title="StarHub",AXN HD
 https://ucdn.starhubgo.com/bpk-tv/AXNHD/output/manifest.mpd
 
-#EXTINF:-1 tvg-id="GLOBAL_380" tvg-logo="https://poster.starhubgo.com/Linear_channels2/823_1920x1080_HTV.png?w=272" group-title="StarHub",ONE HD
-https://ucdn.starhubgo.com/bpk-tv/ONEHD/output/manifest.mpd
-
 #EXTINF:-1 tvg-id="GLOBAL_25" tvg-logo="https://poster.starhubgo.com/Linear_channels2/133_1920x1080_HTV.png?w=272" group-title="StarHub",Sun TV
 https://ucdn.starhubgo.com/bpk-tv/SunTV/output/manifest.mpd
 
@@ -231,9 +228,6 @@ https://ucdn.starhubgo.com/bpk-tv/TestChannel997/output/manifest.mpd
 
 #EXTINF:-1 tvg-id="GLOBAL_374" tvg-logo="https://poster.starhubgo.com/Linear_channels2/812_1920x1080_HTV.png?w=272" group-title="StarHub",NHK WORLD - JAPAN
 https://ucdn.starhubgo.com/bpk-tv/NHKWORLDJAPAN/output/manifest.mpd
-
-#EXTINF:-1 tvg-id="GLOBAL_379" tvg-logo="https://poster.starhubgo.com/Linear_channels2/124_1920x1080_HTV.png?w=272" group-title="StarHub",ONE (Malay)
-https://ucdn.starhubgo.com/bpk-tv/ONEMalay/output/manifest.mpd
 
 #EXTINF:-1 tvg-id="GLOBAL_376" tvg-logo="https://poster.starhubgo.com/Linear_channels2/128_1920x1080_HTV.png?w=272" group-title="StarHub",COLORS
 https://ucdn.starhubgo.com/bpk-tv/COLORS/output/manifest.mpd
