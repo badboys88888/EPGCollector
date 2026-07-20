@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source": "meWatch Singapore",
-    "generated_at": "2026-07-19T05:37:10.532190",
-    "total_channels": 120
+    "generated_at": "2026-07-20T05:54:34.662953",
+    "total_channels": 119
   },
   "channels": [
     {
@@ -137,18 +137,6 @@
       "number": null,
       "genres": [
         "documentary"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "558273",
-      "name": "FoodON",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='10105763'&EntityType='Item'&EntityId='558273'&Width=1920&Height=1080",
-      "description": "A channel where you can enjoy an array of programs focused on Korean food.",
-      "number": null,
-      "genres": [
-        "variety"
       ],
       "isPlayable": false,
       "videoFormat": ""
