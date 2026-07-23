@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source": "meWatch Singapore",
-    "generated_at": "2026-07-22T05:34:48.416001",
-    "total_channels": 118
+    "generated_at": "2026-07-23T05:39:48.584003",
+    "total_channels": 124
   },
   "channels": [
     {
@@ -70,6 +70,54 @@
       "videoFormat": ""
     },
     {
+      "id": "822075",
+      "name": "CWG CH01",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='15451050'&EntityType='Item'&EntityId='822075'&Width=1920&Height=1080",
+      "description": "The Commonwealth Games return to Glasgow in 2026, from 24 July until 3 August 2026.  As only the third city in history to host the Games twice, Glasgow brings deep experience and unmistakable character to this global moment. From world-class sport to street-level celebrations, Glasgow 2026 will be an 11-day festival of energy, community and ambition — all set within an eight-mile corridor that puts fans, athletes and the city side by side. 3,000 athletes from 74 nations and territories. 10 sports. ",
+      "number": null,
+      "genres": [
+        "sports"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "822074",
+      "name": "CWG CH02",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='15451046'&EntityType='Item'&EntityId='822074'&Width=1920&Height=1080",
+      "description": "The Commonwealth Games return to Glasgow in 2026, from 24 July until 3 August 2026.  As only the third city in history to host the Games twice, Glasgow brings deep experience and unmistakable character to this global moment. From world-class sport to street-level celebrations, Glasgow 2026 will be an 11-day festival of energy, community and ambition — all set within an eight-mile corridor that puts fans, athletes and the city side by side. 3,000 athletes from 74 nations and territories. 10 sports. ",
+      "number": null,
+      "genres": [
+        "sports"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "822077",
+      "name": "CWG CH03",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='15451042'&EntityType='Item'&EntityId='822077'&Width=1920&Height=1080",
+      "description": "The Commonwealth Games return to Glasgow in 2026, from 24 July until 3 August 2026.  As only the third city in history to host the Games twice, Glasgow brings deep experience and unmistakable character to this global moment. From world-class sport to street-level celebrations, Glasgow 2026 will be an 11-day festival of energy, community and ambition — all set within an eight-mile corridor that puts fans, athletes and the city side by side. 3,000 athletes from 74 nations and territories. 10 sports. ",
+      "number": null,
+      "genres": [
+        "sports"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "822076",
+      "name": "CWG CH04",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='15451038'&EntityType='Item'&EntityId='822076'&Width=1920&Height=1080",
+      "description": "The Commonwealth Games return to Glasgow in 2026, from 24 July until 3 August 2026.  As only the third city in history to host the Games twice, Glasgow brings deep experience and unmistakable character to this global moment. From world-class sport to street-level celebrations, Glasgow 2026 will be an 11-day festival of energy, community and ambition — all set within an eight-mile corridor that puts fans, athletes and the city side by side. 3,000 athletes from 74 nations and territories. 10 sports. ",
+      "number": null,
+      "genres": [
+        "sports"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
       "id": "558207",
       "name": "FIFA World Cup CH01",
       "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='14996729'&EntityType='Item'&EntityId='558207'&Width=1920&Height=1080",
@@ -86,6 +134,30 @@
       "name": "LIVE 1",
       "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5721803'&EntityType='Item'&EntityId='97073'&Width=1920&Height=1080",
       "description": "LIVE 1 will feature LIVE televised local events of national significance and other entertaiment genres.",
+      "number": null,
+      "genres": [
+        "toggle"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "98202",
+      "name": "LIVE 5",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='6215768'&EntityType='Item'&EntityId='98202'&Width=1920&Height=1080",
+      "description": "LIVE 5  - An additional channel for coverage of live events.",
+      "number": null,
+      "genres": [
+        "toggle"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "204746",
+      "name": "LIVE 6",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5853379'&EntityType='Item'&EntityId='204746'&Width=1920&Height=1080",
+      "description": "LIVE 6 - An additional channel for coverage of live events.   ",
       "number": null,
       "genres": [
         "toggle"
