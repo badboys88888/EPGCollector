@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source": "meWatch Singapore",
-    "generated_at": "2026-07-26T05:46:21.593973",
-    "total_channels": 125
+    "generated_at": "2026-07-27T06:05:27.752760",
+    "total_channels": 123
   },
   "channels": [
     {
@@ -118,34 +118,10 @@
       "videoFormat": ""
     },
     {
-      "id": "558207",
-      "name": "FIFA World Cup CH01",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='14996729'&EntityType='Item'&EntityId='558207'&Width=1920&Height=1080",
-      "description": "The FIFA World Cup 2026™ will mark a historic new chapter for the tournament, as it becomes the first edition to be co-hosted by three countries, the United States, Mexico, and Canada, and the first to feature an expanded 48-team format. Scheduled to run from June 12 to July 20, 2026, the competition will include 104 matches, 40 more than in 2022, making it the largest FIFA World Cup ever staged.",
-      "number": null,
-      "genres": [
-        "sports"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
       "id": "97073",
       "name": "LIVE 1",
       "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5721803'&EntityType='Item'&EntityId='97073'&Width=1920&Height=1080",
       "description": "LIVE 1 will feature LIVE televised local events of national significance and other entertaiment genres.",
-      "number": null,
-      "genres": [
-        "toggle"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "97078",
-      "name": "LIVE 2",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5721800'&EntityType='Item'&EntityId='97078'&Width=1920&Height=1080",
-      "description": "LIVE 2 - An additional channel for coverage of live events.",
       "number": null,
       "genres": [
         "toggle"
