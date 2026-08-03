@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source": "meWatch Singapore",
-    "generated_at": "2026-08-02T05:41:55.305911",
-    "total_channels": 123
+    "generated_at": "2026-08-03T05:58:00.542445",
+    "total_channels": 119
   },
   "channels": [
     {
@@ -65,54 +65,6 @@
       "number": null,
       "genres": [
         "news & documentaries"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "822075",
-      "name": "CWG CH01",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='15451050'&EntityType='Item'&EntityId='822075'&Width=1920&Height=1080",
-      "description": "The Commonwealth Games return to Glasgow in 2026, from 24 July until 3 August 2026.  As only the third city in history to host the Games twice, Glasgow brings deep experience and unmistakable character to this global moment. From world-class sport to street-level celebrations, Glasgow 2026 will be an 11-day festival of energy, community and ambition — all set within an eight-mile corridor that puts fans, athletes and the city side by side. 3,000 athletes from 74 nations and territories. 10 sports. ",
-      "number": null,
-      "genres": [
-        "sports"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "822074",
-      "name": "CWG CH02",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='15451046'&EntityType='Item'&EntityId='822074'&Width=1920&Height=1080",
-      "description": "The Commonwealth Games return to Glasgow in 2026, from 24 July until 3 August 2026.  As only the third city in history to host the Games twice, Glasgow brings deep experience and unmistakable character to this global moment. From world-class sport to street-level celebrations, Glasgow 2026 will be an 11-day festival of energy, community and ambition — all set within an eight-mile corridor that puts fans, athletes and the city side by side. 3,000 athletes from 74 nations and territories. 10 sports. ",
-      "number": null,
-      "genres": [
-        "sports"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "822077",
-      "name": "CWG CH03",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='15451042'&EntityType='Item'&EntityId='822077'&Width=1920&Height=1080",
-      "description": "The Commonwealth Games return to Glasgow in 2026, from 24 July until 3 August 2026.  As only the third city in history to host the Games twice, Glasgow brings deep experience and unmistakable character to this global moment. From world-class sport to street-level celebrations, Glasgow 2026 will be an 11-day festival of energy, community and ambition — all set within an eight-mile corridor that puts fans, athletes and the city side by side. 3,000 athletes from 74 nations and territories. 10 sports. ",
-      "number": null,
-      "genres": [
-        "sports"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "822076",
-      "name": "CWG CH04",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='15451038'&EntityType='Item'&EntityId='822076'&Width=1920&Height=1080",
-      "description": "The Commonwealth Games return to Glasgow in 2026, from 24 July until 3 August 2026.  As only the third city in history to host the Games twice, Glasgow brings deep experience and unmistakable character to this global moment. From world-class sport to street-level celebrations, Glasgow 2026 will be an 11-day festival of energy, community and ambition — all set within an eight-mile corridor that puts fans, athletes and the city side by side. 3,000 athletes from 74 nations and territories. 10 sports. ",
-      "number": null,
-      "genres": [
-        "sports"
       ],
       "isPlayable": false,
       "videoFormat": ""
