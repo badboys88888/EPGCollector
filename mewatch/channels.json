@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source": "meWatch Singapore",
-    "generated_at": "2026-08-12T04:23:48.497360",
-    "total_channels": 119
+    "generated_at": "2026-08-13T04:27:16.978339",
+    "total_channels": 114
   },
   "channels": [
     {
@@ -897,66 +897,6 @@
       "name": "Hub Premier 6",
       "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624633'&EntityType='Item'&EntityId='572421'&Width=1920&Height=1080",
       "description": "Hub Premier 6",
-      "number": null,
-      "genres": [
-        "entertainment"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "572417",
-      "name": "Hub Premier 7",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624605'&EntityType='Item'&EntityId='572417'&Width=1920&Height=1080",
-      "description": "Hub Premier 7",
-      "number": null,
-      "genres": [
-        "entertainment"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "572414",
-      "name": "Hub Premier 8",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624577'&EntityType='Item'&EntityId='572414'&Width=1920&Height=1080",
-      "description": "Hub Premier 8",
-      "number": null,
-      "genres": [
-        "entertainment"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "572411",
-      "name": "Hub Premier 9",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624548'&EntityType='Item'&EntityId='572411'&Width=1920&Height=1080",
-      "description": "Hub Premier 9",
-      "number": null,
-      "genres": [
-        "entertainment"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "572427",
-      "name": "Hub Premier 10",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624692'&EntityType='Item'&EntityId='572427'&Width=1920&Height=1080",
-      "description": "Hub Premier 10",
-      "number": null,
-      "genres": [
-        "entertainment"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "572408",
-      "name": "Hub Premier 11",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624519'&EntityType='Item'&EntityId='572408'&Width=1920&Height=1080",
-      "description": "Hub Premier 11",
       "number": null,
       "genres": [
         "entertainment"
