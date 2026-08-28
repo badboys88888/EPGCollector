@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source": "meWatch Singapore",
-    "generated_at": "2026-08-27T13:02:44.164882",
-    "total_channels": 114
+    "generated_at": "2026-08-28T14:33:35.797192",
+    "total_channels": 113
   },
   "channels": [
     {
@@ -74,18 +74,6 @@
       "name": "LIVE 1",
       "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5721803'&EntityType='Item'&EntityId='97073'&Width=1920&Height=1080",
       "description": "LIVE 1 will feature LIVE televised local events of national significance and other entertaiment genres.",
-      "number": null,
-      "genres": [
-        "toggle"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "98202",
-      "name": "LIVE 5",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='6215768'&EntityType='Item'&EntityId='98202'&Width=1920&Height=1080",
-      "description": "LIVE 5  - An additional channel for coverage of live events.",
       "number": null,
       "genres": [
         "toggle"
