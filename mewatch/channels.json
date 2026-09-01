@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source": "meWatch Singapore",
-    "generated_at": "2026-08-31T08:51:59.012128",
-    "total_channels": 113
+    "generated_at": "2026-09-01T07:57:42.594720",
+    "total_channels": 112
   },
   "channels": [
     {
@@ -1281,18 +1281,6 @@
       "name": "tvN HD",
       "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='14794370'&EntityType='Item'&EntityId='808739'&Width=1920&Height=1080",
       "description": "tvN HD",
-      "number": null,
-      "genres": [
-        "entertainment"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "572317",
-      "name": "Vannathirai",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9623717'&EntityType='Item'&EntityId='572317'&Width=1920&Height=1080",
-      "description": "Vannathirai",
       "number": null,
       "genres": [
         "entertainment"
