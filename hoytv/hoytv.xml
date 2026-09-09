@@ -12,87 +12,6 @@
     <display-name>HOY 78</display-name>
     <icon src="https://storage.hoy.tv/v1/image/channel/3.jpg"/>
   </channel>
-  <programme channel="76" start="20260906235500 +0800" stop="20260907020000 +0800">
-    <title>FIFA U-20 世界盃女子足球賽-美國  對 意大利</title>
-  </programme>
-  <programme channel="76" start="20260907020000 +0800" stop="20260907023000 +0800">
-    <title>In Good Shape</title>
-  </programme>
-  <programme channel="76" start="20260907023000 +0800" stop="20260907030000 +0800">
-    <title>Made In Germany</title>
-  </programme>
-  <programme channel="76" start="20260907030000 +0800" stop="20260907040000 +0800">
-    <title>鐵路建造的建築第3季</title>
-  </programme>
-  <programme channel="76" start="20260907040000 +0800" stop="20260907050000 +0800">
-    <title>狗的世界</title>
-  </programme>
-  <programme channel="76" start="20260907050000 +0800" stop="20260907060000 +0800">
-    <title>FashionTV</title>
-  </programme>
-  <programme channel="76" start="20260907060000 +0800" stop="20260907070000 +0800">
-    <title>Bloomberg 時段</title>
-  </programme>
-  <programme channel="76" start="20260907070000 +0800" stop="20260907080000 +0800">
-    <title>CGTN 時段</title>
-  </programme>
-  <programme channel="76" start="20260907080000 +0800" stop="20260907082500 +0800">
-    <title>Bloomberg 時段</title>
-  </programme>
-  <programme channel="76" start="20260907082500 +0800" stop="20260907103000 +0800">
-    <title>阿根廷甲組足球聯賽-競賽會 對  圖庫曼體育會</title>
-  </programme>
-  <programme channel="76" start="20260907103000 +0800" stop="20260907110000 +0800">
-    <title>奧利和朋友們 第8季</title>
-  </programme>
-  <programme channel="76" start="20260907110000 +0800" stop="20260907113000 +0800">
-    <title>跟隨Haslinda Amin一起探索動量</title>
-  </programme>
-  <programme channel="76" start="20260907113000 +0800" stop="20260907120000 +0800">
-    <title>量子行銷</title>
-  </programme>
-  <programme channel="76" start="20260907120000 +0800" stop="20260907130000 +0800">
-    <title>生於1965年</title>
-  </programme>
-  <programme channel="76" start="20260907130000 +0800" stop="20260907140000 +0800">
-    <title>Bloomberg 時段</title>
-  </programme>
-  <programme channel="76" start="20260907140000 +0800" stop="20260907150000 +0800">
-    <title>Bloomberg 時段</title>
-  </programme>
-  <programme channel="76" start="20260907150000 +0800" stop="20260907160000 +0800">
-    <title>Bloomberg 時段</title>
-  </programme>
-  <programme channel="76" start="20260907160000 +0800" stop="20260907163000 +0800">
-    <title>小恐龍可可奈 第1季</title>
-  </programme>
-  <programme channel="76" start="20260907163000 +0800" stop="20260907170000 +0800">
-    <title>小小動物歷險記 第2季</title>
-  </programme>
-  <programme channel="76" start="20260907170000 +0800" stop="20260907172500 +0800">
-    <title>夏洛克·亞克：動物園偵探</title>
-  </programme>
-  <programme channel="76" start="20260907172500 +0800" stop="20260907193000 +0800">
-    <title>FIBA世界盃女子籃球賽- 比利時 對 澳洲</title>
-  </programme>
-  <programme channel="76" start="20260907193000 +0800" stop="20260907200000 +0800">
-    <title>Bloomberg 時段</title>
-  </programme>
-  <programme channel="76" start="20260907200000 +0800" stop="20260907201500 +0800">
-    <title>有線新聞</title>
-  </programme>
-  <programme channel="76" start="20260907201500 +0800" stop="20260907205500 +0800">
-    <title>Bloomberg 時段</title>
-  </programme>
-  <programme channel="76" start="20260907205500 +0800" stop="20260907230000 +0800">
-    <title>FIFA U-20 世界盃女子足球賽-北韓 對  葡萄牙</title>
-  </programme>
-  <programme channel="76" start="20260907230000 +0800" stop="20260907231500 +0800">
-    <title>有線新聞</title>
-  </programme>
-  <programme channel="76" start="20260907231500 +0800" stop="20260907232500 +0800">
-    <title>Green Touch</title>
-  </programme>
   <programme channel="76" start="20260907232500 +0800" stop="20260908013000 +0800">
     <title>沙特職業足球聯賽-卡赫利 對  艾利雅德</title>
   </programme>
@@ -190,7 +109,7 @@
     <title>Bloomberg 時段</title>
   </programme>
   <programme channel="76" start="20260909024000 +0800" stop="20260909044500 +0800">
-    <title>FIBA世界盃女子籃球賽八強資格賽</title>
+    <title>FIBA世界盃女子籃球賽八強資格賽-德國  對 南韓</title>
   </programme>
   <programme channel="76" start="20260909044500 +0800" stop="20260909050000 +0800">
     <title>Bloomberg 時段</title>
@@ -271,7 +190,7 @@
     <title>Bloomberg 時段</title>
   </programme>
   <programme channel="76" start="20260910024000 +0800" stop="20260910044500 +0800">
-    <title>FIBA世界盃女子籃球賽八強資格賽</title>
+    <title>FIBA世界盃女子籃球賽八強資格賽-意大利 對 澳洲</title>
   </programme>
   <programme channel="76" start="20260910044500 +0800" stop="20260910050000 +0800">
     <title>Bloomberg 時段</title>
@@ -450,17 +369,11 @@
   <programme channel="76" start="20260912070000 +0800" stop="20260912080000 +0800">
     <title>CGTN 時段</title>
   </programme>
-  <programme channel="76" start="20260912080000 +0800" stop="20260912090000 +0800">
-    <title>CGTN 時段</title>
+  <programme channel="76" start="20260912080000 +0800" stop="20260912082500 +0800">
+    <title>Bloomberg 時段</title>
   </programme>
-  <programme channel="76" start="20260912090000 +0800" stop="20260912093000 +0800">
-    <title>小恐龍可可奈 第1季</title>
-  </programme>
-  <programme channel="76" start="20260912093000 +0800" stop="20260912100000 +0800">
-    <title>夏洛克·亞克：動物園偵探</title>
-  </programme>
-  <programme channel="76" start="20260912100000 +0800" stop="20260912103000 +0800">
-    <title>寶拉與朋友們 第1季</title>
+  <programme channel="76" start="20260912082500 +0800" stop="20260912103000 +0800">
+    <title>阿根廷甲組足球聯賽-小保加 對 CA科爾多瓦中央</title>
   </programme>
   <programme channel="76" start="20260912103000 +0800" stop="20260912110000 +0800">
     <title>奧利和朋友們 第8季</title>
@@ -657,14 +570,17 @@
   <programme channel="76" start="20260914170000 +0800" stop="20260914173000 +0800">
     <title>寶拉與朋友們 第1季</title>
   </programme>
-  <programme channel="76" start="20260914173000 +0800" stop="20260914180000 +0800">
+  <programme channel="76" start="20260914173000 +0800" stop="20260914175500 +0800">
     <title>小恐龍可可奈 第1季</title>
   </programme>
-  <programme channel="76" start="20260914180000 +0800" stop="20260914182500 +0800">
-    <title>Bloomberg 時段</title>
+  <programme channel="76" start="20260914175500 +0800" stop="20260914200000 +0800">
+    <title>愛知‧名古屋亞運女子足球賽-中國 對  中國香港</title>
   </programme>
-  <programme channel="76" start="20260914182500 +0800" stop="20260914203000 +0800">
-    <title>愛知‧名古屋亞運女子足球賽-日本 對  泰國</title>
+  <programme channel="76" start="20260914200000 +0800" stop="20260914201500 +0800">
+    <title>有線新聞</title>
+  </programme>
+  <programme channel="76" start="20260914201500 +0800" stop="20260914203000 +0800">
+    <title>Bloomberg 時段</title>
   </programme>
   <programme channel="76" start="20260914203000 +0800" stop="20260914210000 +0800">
     <title>Bloomberg 時段</title>
@@ -678,13 +594,7 @@
   <programme channel="76" start="20260914213000 +0800" stop="20260914214000 +0800">
     <title>Green Touch</title>
   </programme>
-  <programme channel="76" start="20260914214000 +0800" stop="20260914223000 +0800">
-    <title>亞洲聯賽冠軍盃精英聯賽-尼夫治 對 空軍體育會</title>
-  </programme>
-  <programme channel="76" start="20260914223000 +0800" stop="20260914224500 +0800">
-    <title>有線新聞</title>
-  </programme>
-  <programme channel="76" start="20260914224500 +0800" stop="20260914234500 +0800">
+  <programme channel="76" start="20260914214000 +0800" stop="20260914234500 +0800">
     <title>亞洲聯賽冠軍盃精英聯賽-尼夫治 對 空軍體育會</title>
   </programme>
   <programme channel="76" start="20260914234500 +0800" stop="20260914235500 +0800">
@@ -711,17 +621,14 @@
   <programme channel="76" start="20260915070000 +0800" stop="20260915080000 +0800">
     <title>CGTN 時段</title>
   </programme>
-  <programme channel="76" start="20260915080000 +0800" stop="20260915090000 +0800">
-    <title>CGTN 時段</title>
+  <programme channel="76" start="20260915080000 +0800" stop="20260915081000 +0800">
+    <title>Green Touch</title>
   </programme>
-  <programme channel="76" start="20260915090000 +0800" stop="20260915093000 +0800">
-    <title>小恐龍可可奈 第1季</title>
+  <programme channel="76" start="20260915081000 +0800" stop="20260915101500 +0800">
+    <title>阿根廷甲組足球聯賽- 聯合隊 對 里奧古亞圖學生隊</title>
   </programme>
-  <programme channel="76" start="20260915093000 +0800" stop="20260915100000 +0800">
-    <title>夏洛克·亞克：動物園偵探</title>
-  </programme>
-  <programme channel="76" start="20260915100000 +0800" stop="20260915103000 +0800">
-    <title>寶拉與朋友們 第1季</title>
+  <programme channel="76" start="20260915101500 +0800" stop="20260915103000 +0800">
+    <title>Green Touch</title>
   </programme>
   <programme channel="76" start="20260915103000 +0800" stop="20260915110000 +0800">
     <title>奧利和朋友們 第8季</title>
@@ -777,125 +684,77 @@
   <programme channel="76" start="20260915233000 +0800" stop="20260915235500 +0800">
     <title>Bloomberg 時段</title>
   </programme>
-  <programme channel="77" start="20260906235500 +0800" stop="20260907000000 +0800">
-    <title>東方表行Take Your Time 特約 : 一刻．時光</title>
+  <programme channel="76" start="20260915235500 +0800" stop="20260916020000 +0800">
+    <title>亞洲聯賽冠軍盃精英聯賽-艾阿恩 對 艾納斯</title>
   </programme>
-  <programme channel="77" start="20260907000000 +0800" stop="20260907003000 +0800">
-    <title>女遊大阪之御堂筋線</title>
+  <programme channel="76" start="20260916020000 +0800" stop="20260916030000 +0800">
+    <title>Bloomberg 時段</title>
   </programme>
-  <programme channel="77" start="20260907003000 +0800" stop="20260907010000 +0800">
-    <title>五平方Squarefoot 優質樓盤專區特約 : 樓盤傳真</title>
+  <programme channel="76" start="20260916030000 +0800" stop="20260916040000 +0800">
+    <title>Bloomberg 時段</title>
   </programme>
-  <programme channel="77" start="20260907010000 +0800" stop="20260907013000 +0800">
-    <title>嘻哈馬場</title>
+  <programme channel="76" start="20260916040000 +0800" stop="20260916050000 +0800">
+    <title>Bloomberg 時段</title>
   </programme>
-  <programme channel="77" start="20260907013000 +0800" stop="20260907020000 +0800">
-    <title>共享滋味</title>
+  <programme channel="76" start="20260916050000 +0800" stop="20260916055500 +0800">
+    <title>Bloomberg 時段</title>
   </programme>
-  <programme channel="77" start="20260907020000 +0800" stop="20260907023000 +0800">
-    <title>雪板呼嘯—阿勒泰毛皮滑雪紀實</title>
+  <programme channel="76" start="20260916055500 +0800" stop="20260916080000 +0800">
+    <title>南美自由盃半準決賽次回合-CA普拉坦斯 對 富明尼斯</title>
   </programme>
-  <programme channel="77" start="20260907023000 +0800" stop="20260907030000 +0800">
-    <title>開門七件事</title>
+  <programme channel="76" start="20260916080000 +0800" stop="20260916082500 +0800">
+    <title>Green Touch</title>
   </programme>
-  <programme channel="77" start="20260907030000 +0800" stop="20260907060000 +0800">
-    <title>魚樂無限</title>
+  <programme channel="76" start="20260916082500 +0800" stop="20260916103000 +0800">
+    <title>南美球會盃半準決賽次回合-聖保羅 對 小保加</title>
   </programme>
-  <programme channel="77" start="20260907060000 +0800" stop="20260907070000 +0800">
-    <title>田耕紀 第16集</title>
+  <programme channel="76" start="20260916103000 +0800" stop="20260916110000 +0800">
+    <title>奧利和朋友們 第8季</title>
   </programme>
-  <programme channel="77" start="20260907070000 +0800" stop="20260907073000 +0800">
-    <title>煮題COOK</title>
+  <programme channel="76" start="20260916110000 +0800" stop="20260916113000 +0800">
+    <title>與Kal Penn一起變暖</title>
   </programme>
-  <programme channel="77" start="20260907073000 +0800" stop="20260907075500 +0800">
-    <title>快閃．泰日韓</title>
+  <programme channel="76" start="20260916113000 +0800" stop="20260916120000 +0800">
+    <title>Emily Chang 的《後人類》</title>
   </programme>
-  <programme channel="77" start="20260907075500 +0800" stop="20260907080000 +0800">
-    <title>政制及內地事務局粵港澳大灣區發展辦公室呈獻 : 灣區快拍</title>
+  <programme channel="76" start="20260916120000 +0800" stop="20260916125500 +0800">
+    <title>洪堡海流</title>
   </programme>
-  <programme channel="77" start="20260907080000 +0800" stop="20260907090000 +0800">
-    <title>黑金風暴 第24集</title>
+  <programme channel="76" start="20260916125500 +0800" stop="20260916145500 +0800">
+    <title>愛知‧名古屋亞運男子足球賽-阿聯酋 對 伊朗</title>
   </programme>
-  <programme channel="77" start="20260907090000 +0800" stop="20260907093000 +0800">
-    <title>香港必食40道菜</title>
+  <programme channel="76" start="20260916145500 +0800" stop="20260916170000 +0800">
+    <title>愛知‧名古屋亞運男子足球賽- 泰國 對  吉爾吉斯</title>
   </programme>
-  <programme channel="77" start="20260907093000 +0800" stop="20260907100000 +0800">
-    <title>沖繩咖啡地圖</title>
+  <programme channel="76" start="20260916170000 +0800" stop="20260916173000 +0800">
+    <title>寶拉與朋友們 第1季</title>
   </programme>
-  <programme channel="77" start="20260907100000 +0800" stop="20260907103000 +0800">
-    <title>為食鐵道遊</title>
+  <programme channel="76" start="20260916173000 +0800" stop="20260916180000 +0800">
+    <title>小恐龍可可奈 第1季</title>
   </programme>
-  <programme channel="77" start="20260907103000 +0800" stop="20260907113000 +0800">
-    <title>亞洲劇場 : 重啟人生 第7集</title>
+  <programme channel="76" start="20260916180000 +0800" stop="20260916182500 +0800">
+    <title>Bloomberg 時段</title>
   </programme>
-  <programme channel="77" start="20260907113000 +0800" stop="20260907123000 +0800">
-    <title>田耕紀 第17集</title>
+  <programme channel="76" start="20260916182500 +0800" stop="20260916203000 +0800">
+    <title>愛知‧名古屋亞運男子足球賽-日本 對   中國香港</title>
   </programme>
-  <programme channel="77" start="20260907123000 +0800" stop="20260907130000 +0800">
-    <title>午間新聞</title>
+  <programme channel="76" start="20260916203000 +0800" stop="20260916205500 +0800">
+    <title>Bloomberg 時段</title>
   </programme>
-  <programme channel="77" start="20260907130000 +0800" stop="20260907133000 +0800">
-    <title>HOY榜啦</title>
+  <programme channel="76" start="20260916205500 +0800" stop="20260916214500 +0800">
+    <title>FIFA U-20 世界盃女子足球賽十六強</title>
   </programme>
-  <programme channel="77" start="20260907133000 +0800" stop="20260907140000 +0800">
-    <title>大航假期呈獻 : 我要做主播</title>
-  </programme>
-  <programme channel="77" start="20260907140000 +0800" stop="20260907143000 +0800">
-    <title>健康關注組</title>
-  </programme>
-  <programme channel="77" start="20260907143000 +0800" stop="20260907160000 +0800">
-    <title>HOY 枱啦</title>
-  </programme>
-  <programme channel="77" start="20260907160000 +0800" stop="20260907163000 +0800">
-    <title>煮題COOK</title>
-  </programme>
-  <programme channel="77" start="20260907163000 +0800" stop="20260907170000 +0800">
-    <title>超甲蟲戰記 聖域傳說</title>
-  </programme>
-  <programme channel="77" start="20260907170000 +0800" stop="20260907173000 +0800">
-    <title>藍精靈</title>
-  </programme>
-  <programme channel="77" start="20260907173000 +0800" stop="20260907180000 +0800">
-    <title>神勇小白鼠</title>
-  </programme>
-  <programme channel="77" start="20260907180000 +0800" stop="20260907183000 +0800">
-    <title>我是我生命的傳奇 3</title>
-  </programme>
-  <programme channel="77" start="20260907183000 +0800" stop="20260907190000 +0800">
-    <title>香港必食40道菜</title>
-  </programme>
-  <programme channel="77" start="20260907190000 +0800" stop="20260907195000 +0800">
-    <title>7點直播室</title>
-  </programme>
-  <programme channel="77" start="20260907195000 +0800" stop="20260907200000 +0800">
-    <title>28Hse 搵樓App 特約 : 每日樓市</title>
-  </programme>
-  <programme channel="77" start="20260907200000 +0800" stop="20260907202500 +0800">
-    <title>一線搜查</title>
-  </programme>
-  <programme channel="77" start="20260907202500 +0800" stop="20260907203000 +0800">
-    <title>政制及內地事務局粵港澳大灣區發展辦公室呈獻 : 灣區快拍</title>
-  </programme>
-  <programme channel="77" start="20260907203000 +0800" stop="20260907210000 +0800">
-    <title>健康關注組</title>
-  </programme>
-  <programme channel="77" start="20260907210000 +0800" stop="20260907212500 +0800">
-    <title>詹姆士出走料理</title>
-  </programme>
-  <programme channel="77" start="20260907212500 +0800" stop="20260907213000 +0800">
-    <title>亞運 919</title>
-  </programme>
-  <programme channel="77" start="20260907213000 +0800" stop="20260907220000 +0800">
-    <title>大航假期呈獻 : 我要做主播</title>
-  </programme>
-  <programme channel="77" start="20260907220000 +0800" stop="20260907230000 +0800">
-    <title>亞洲劇場 : 重啟人生 第8集</title>
-  </programme>
-  <programme channel="77" start="20260907230000 +0800" stop="20260907233000 +0800">
+  <programme channel="76" start="20260916214500 +0800" stop="20260916220000 +0800">
     <title>有線新聞</title>
   </programme>
-  <programme channel="77" start="20260907233000 +0800" stop="20260907234500 +0800">
-    <title>娛樂頭條 E-news Headline</title>
+  <programme channel="76" start="20260916220000 +0800" stop="20260916230000 +0800">
+    <title>FIFA U-20 世界盃女子足球賽十六強</title>
+  </programme>
+  <programme channel="76" start="20260916230000 +0800" stop="20260916231500 +0800">
+    <title>有線新聞</title>
+  </programme>
+  <programme channel="76" start="20260916231500 +0800" stop="20260916233000 +0800">
+    <title>Green Touch</title>
   </programme>
   <programme channel="77" start="20260907234500 +0800" stop="20260908004500 +0800">
     <title>晚安晚安</title>
@@ -1809,152 +1668,122 @@
   <programme channel="77" start="20260915233000 +0800" stop="20260915234500 +0800">
     <title>娛樂頭條 E-news Headline</title>
   </programme>
-  <programme channel="78" start="20260906235500 +0800" stop="20260907000000 +0800">
-    <title>東方表行Take Your Time特約 : 一刻．時光</title>
+  <programme channel="77" start="20260915234500 +0800" stop="20260916001500 +0800">
+    <title>亞洲TOP TEN 台灣篇</title>
   </programme>
-  <programme channel="78" start="20260907000000 +0800" stop="20260907003000 +0800">
-    <title>有線新聞</title>
+  <programme channel="77" start="20260916001500 +0800" stop="20260916004500 +0800">
+    <title>獨家旅行團</title>
   </programme>
-  <programme channel="78" start="20260907003000 +0800" stop="20260907010000 +0800">
-    <title>有線新聞</title>
+  <programme channel="77" start="20260916004500 +0800" stop="20260916014500 +0800">
+    <title>伍姑娘真識食</title>
   </programme>
-  <programme channel="78" start="20260907010000 +0800" stop="20260907013000 +0800">
-    <title>有線新聞</title>
+  <programme channel="77" start="20260916014500 +0800" stop="20260916031500 +0800">
+    <title>HOY 枱啦</title>
   </programme>
-  <programme channel="78" start="20260907013000 +0800" stop="20260907020000 +0800">
-    <title>有線新聞</title>
+  <programme channel="77" start="20260916031500 +0800" stop="20260916060000 +0800">
+    <title>魚樂無限</title>
   </programme>
-  <programme channel="78" start="20260907020000 +0800" stop="20260907023000 +0800">
-    <title>有線新聞</title>
+  <programme channel="77" start="20260916060000 +0800" stop="20260916070000 +0800">
+    <title>田耕紀 第23集</title>
   </programme>
-  <programme channel="78" start="20260907023000 +0800" stop="20260907030000 +0800">
-    <title>有線新聞</title>
+  <programme channel="77" start="20260916070000 +0800" stop="20260916073000 +0800">
+    <title>煮題COOK</title>
   </programme>
-  <programme channel="78" start="20260907030000 +0800" stop="20260907033000 +0800">
-    <title>有線新聞</title>
+  <programme channel="77" start="20260916073000 +0800" stop="20260916075500 +0800">
+    <title>亞洲TOP TEN 台灣篇</title>
   </programme>
-  <programme channel="78" start="20260907033000 +0800" stop="20260907040000 +0800">
-    <title>有線新聞</title>
-  </programme>
-  <programme channel="78" start="20260907040000 +0800" stop="20260907043000 +0800">
-    <title>有線新聞</title>
-  </programme>
-  <programme channel="78" start="20260907043000 +0800" stop="20260907050000 +0800">
-    <title>有線新聞</title>
-  </programme>
-  <programme channel="78" start="20260907050000 +0800" stop="20260907053000 +0800">
-    <title>有線新聞</title>
-  </programme>
-  <programme channel="78" start="20260907053000 +0800" stop="20260907060000 +0800">
-    <title>有線新聞</title>
-  </programme>
-  <programme channel="78" start="20260907060000 +0800" stop="20260907063000 +0800">
-    <title>有線新聞</title>
-  </programme>
-  <programme channel="78" start="20260907063000 +0800" stop="20260907070000 +0800">
-    <title>財智．商傳</title>
-  </programme>
-  <programme channel="78" start="20260907070000 +0800" stop="20260907073000 +0800">
-    <title>Cable 早晨</title>
-  </programme>
-  <programme channel="78" start="20260907073000 +0800" stop="20260907080000 +0800">
-    <title>Cable 早晨</title>
-  </programme>
-  <programme channel="78" start="20260907080000 +0800" stop="20260907083000 +0800">
-    <title>Cable 早晨</title>
-  </programme>
-  <programme channel="78" start="20260907083000 +0800" stop="20260907090000 +0800">
-    <title>Cable 早晨</title>
-  </programme>
-  <programme channel="78" start="20260907090000 +0800" stop="20260907100000 +0800">
-    <title>股市直播室</title>
-  </programme>
-  <programme channel="78" start="20260907100000 +0800" stop="20260907103000 +0800">
-    <title>有線新聞</title>
-  </programme>
-  <programme channel="78" start="20260907103000 +0800" stop="20260907110000 +0800">
-    <title>有線新聞</title>
-  </programme>
-  <programme channel="78" start="20260907110000 +0800" stop="20260907113000 +0800">
-    <title>有線新聞</title>
-  </programme>
-  <programme channel="78" start="20260907113000 +0800" stop="20260907120000 +0800">
-    <title>28Hse搵樓App特約 : 講樓 ‧港巿</title>
-  </programme>
-  <programme channel="78" start="20260907120000 +0800" stop="20260907123000 +0800">
-    <title>有線新聞</title>
-  </programme>
-  <programme channel="78" start="20260907123000 +0800" stop="20260907130000 +0800">
-    <title>午間新聞</title>
-  </programme>
-  <programme channel="78" start="20260907130000 +0800" stop="20260907133000 +0800">
-    <title>有線新聞</title>
-  </programme>
-  <programme channel="78" start="20260907133000 +0800" stop="20260907140000 +0800">
-    <title>財智．商傳</title>
-  </programme>
-  <programme channel="78" start="20260907140000 +0800" stop="20260907143000 +0800">
-    <title>有線新聞</title>
-  </programme>
-  <programme channel="78" start="20260907143000 +0800" stop="20260907150000 +0800">
-    <title>有線新聞</title>
-  </programme>
-  <programme channel="78" start="20260907150000 +0800" stop="20260907153000 +0800">
-    <title>有線新聞</title>
-  </programme>
-  <programme channel="78" start="20260907153000 +0800" stop="20260907160000 +0800">
-    <title>有線新聞</title>
-  </programme>
-  <programme channel="78" start="20260907160000 +0800" stop="20260907163000 +0800">
-    <title>股市直播室</title>
-  </programme>
-  <programme channel="78" start="20260907163000 +0800" stop="20260907170000 +0800">
-    <title>有線新聞</title>
-  </programme>
-  <programme channel="78" start="20260907170000 +0800" stop="20260907173000 +0800">
-    <title>有線新聞</title>
-  </programme>
-  <programme channel="78" start="20260907173000 +0800" stop="20260907180000 +0800">
-    <title>股市直播室</title>
-  </programme>
-  <programme channel="78" start="20260907180000 +0800" stop="20260907183000 +0800">
-    <title>手語新聞報道</title>
-  </programme>
-  <programme channel="78" start="20260907183000 +0800" stop="20260907185000 +0800">
-    <title>六點半新聞報道</title>
-  </programme>
-  <programme channel="78" start="20260907185000 +0800" stop="20260907190000 +0800">
-    <title>焦點財經</title>
-  </programme>
-  <programme channel="78" start="20260907190000 +0800" stop="20260907195000 +0800">
-    <title>7點直播室</title>
-  </programme>
-  <programme channel="78" start="20260907195000 +0800" stop="20260907200000 +0800">
-    <title>28Hse搵樓App特約 : 每日樓市</title>
-  </programme>
-  <programme channel="78" start="20260907200000 +0800" stop="20260907203000 +0800">
-    <title>國際最前線</title>
-  </programme>
-  <programme channel="78" start="20260907203000 +0800" stop="20260907205500 +0800">
-    <title>一線搜查</title>
-  </programme>
-  <programme channel="78" start="20260907205500 +0800" stop="20260907210000 +0800">
+  <programme channel="77" start="20260916075500 +0800" stop="20260916080000 +0800">
     <title>政制及內地事務局粵港澳大灣區發展辦公室呈獻 : 灣區快拍</title>
   </programme>
-  <programme channel="78" start="20260907210000 +0800" stop="20260907214500 +0800">
-    <title>晚間直播室</title>
+  <programme channel="77" start="20260916080000 +0800" stop="20260916083000 +0800">
+    <title>名廚Luke印度之旅</title>
   </programme>
-  <programme channel="78" start="20260907214500 +0800" stop="20260907220000 +0800">
-    <title>焦點財經及28Hse搵樓App特約:每日樓市</title>
+  <programme channel="77" start="20260916083000 +0800" stop="20260916090000 +0800">
+    <title>趣趣動物樂園</title>
   </programme>
-  <programme channel="78" start="20260907220000 +0800" stop="20260907223000 +0800">
-    <title>28Hse搵樓App特約 : 講樓 ‧港巿</title>
+  <programme channel="77" start="20260916090000 +0800" stop="20260916093000 +0800">
+    <title>名廚私藏12味</title>
   </programme>
-  <programme channel="78" start="20260907223000 +0800" stop="20260907230000 +0800">
+  <programme channel="77" start="20260916093000 +0800" stop="20260916100000 +0800">
+    <title>獨家旅行團</title>
+  </programme>
+  <programme channel="77" start="20260916100000 +0800" stop="20260916103000 +0800">
+    <title>關於．快樂的死亡 2</title>
+  </programme>
+  <programme channel="77" start="20260916103000 +0800" stop="20260916110000 +0800">
+    <title>遊走全世界</title>
+  </programme>
+  <programme channel="77" start="20260916110000 +0800" stop="20260916113000 +0800">
+    <title>愛知‧名古屋亞運速報</title>
+  </programme>
+  <programme channel="77" start="20260916113000 +0800" stop="20260916123000 +0800">
+    <title>田耕紀 第24集</title>
+  </programme>
+  <programme channel="77" start="20260916123000 +0800" stop="20260916130000 +0800">
+    <title>真深好玩</title>
+  </programme>
+  <programme channel="77" start="20260916130000 +0800" stop="20260916133000 +0800">
     <title>一線搜查</title>
   </programme>
-  <programme channel="78" start="20260907230000 +0800" stop="20260907233000 +0800">
+  <programme channel="77" start="20260916133000 +0800" stop="20260916140000 +0800">
+    <title>大航假期呈獻 : 我要做主播</title>
+  </programme>
+  <programme channel="77" start="20260916140000 +0800" stop="20260916143000 +0800">
+    <title>健康關注組</title>
+  </programme>
+  <programme channel="77" start="20260916143000 +0800" stop="20260916160000 +0800">
+    <title>HOY 枱啦</title>
+  </programme>
+  <programme channel="77" start="20260916160000 +0800" stop="20260916163000 +0800">
+    <title>煮題COOK</title>
+  </programme>
+  <programme channel="77" start="20260916163000 +0800" stop="20260916170000 +0800">
+    <title>超甲蟲戰記 聖域傳說</title>
+  </programme>
+  <programme channel="77" start="20260916170000 +0800" stop="20260916173000 +0800">
+    <title>藍精靈</title>
+  </programme>
+  <programme channel="77" start="20260916173000 +0800" stop="20260916180000 +0800">
+    <title>凱特與米米兔</title>
+  </programme>
+  <programme channel="77" start="20260916180000 +0800" stop="20260916183000 +0800">
+    <title>手語新聞報道</title>
+  </programme>
+  <programme channel="77" start="20260916183000 +0800" stop="20260916190000 +0800">
+    <title>名廚私藏12味</title>
+  </programme>
+  <programme channel="77" start="20260916190000 +0800" stop="20260916200000 +0800">
+    <title>毛孩趣怪組</title>
+  </programme>
+  <programme channel="77" start="20260916200000 +0800" stop="20260916202500 +0800">
+    <title>一線搜查</title>
+  </programme>
+  <programme channel="77" start="20260916202500 +0800" stop="20260916203000 +0800">
+    <title>政制及內地事務局粵港澳大灣區發展辦公室呈獻 : 灣區快拍</title>
+  </programme>
+  <programme channel="77" start="20260916203000 +0800" stop="20260916210000 +0800">
+    <title>健康關注組</title>
+  </programme>
+  <programme channel="77" start="20260916210000 +0800" stop="20260916212500 +0800">
+    <title>詹姆士出走料理</title>
+  </programme>
+  <programme channel="77" start="20260916212500 +0800" stop="20260916213000 +0800">
+    <title>亞運 919</title>
+  </programme>
+  <programme channel="77" start="20260916213000 +0800" stop="20260916220000 +0800">
+    <title>大航假期呈獻 : 我要做主播</title>
+  </programme>
+  <programme channel="77" start="20260916220000 +0800" stop="20260916223000 +0800">
+    <title>遊走全世界</title>
+  </programme>
+  <programme channel="77" start="20260916223000 +0800" stop="20260916230000 +0800">
+    <title>愛知‧名古屋亞運速報</title>
+  </programme>
+  <programme channel="77" start="20260916230000 +0800" stop="20260916233000 +0800">
     <title>有線新聞</title>
+  </programme>
+  <programme channel="77" start="20260916233000 +0800" stop="20260916234500 +0800">
+    <title>娛樂頭條 E-news Headline</title>
   </programme>
   <programme channel="78" start="20260907233000 +0800" stop="20260908000000 +0800">
     <title>有線新聞</title>
@@ -3154,6 +2983,141 @@
     <title>一線搜查</title>
   </programme>
   <programme channel="78" start="20260915230000 +0800" stop="20260915233000 +0800">
+    <title>有線新聞</title>
+  </programme>
+  <programme channel="78" start="20260915233000 +0800" stop="20260916000000 +0800">
+    <title>有線新聞</title>
+  </programme>
+  <programme channel="78" start="20260916000000 +0800" stop="20260916003000 +0800">
+    <title>有線新聞</title>
+  </programme>
+  <programme channel="78" start="20260916003000 +0800" stop="20260916010000 +0800">
+    <title>有線新聞</title>
+  </programme>
+  <programme channel="78" start="20260916010000 +0800" stop="20260916013000 +0800">
+    <title>有線新聞</title>
+  </programme>
+  <programme channel="78" start="20260916013000 +0800" stop="20260916020000 +0800">
+    <title>有線新聞</title>
+  </programme>
+  <programme channel="78" start="20260916020000 +0800" stop="20260916023000 +0800">
+    <title>有線新聞</title>
+  </programme>
+  <programme channel="78" start="20260916023000 +0800" stop="20260916030000 +0800">
+    <title>有線新聞</title>
+  </programme>
+  <programme channel="78" start="20260916030000 +0800" stop="20260916033000 +0800">
+    <title>有線新聞</title>
+  </programme>
+  <programme channel="78" start="20260916033000 +0800" stop="20260916040000 +0800">
+    <title>有線新聞</title>
+  </programme>
+  <programme channel="78" start="20260916040000 +0800" stop="20260916043000 +0800">
+    <title>有線新聞</title>
+  </programme>
+  <programme channel="78" start="20260916043000 +0800" stop="20260916050000 +0800">
+    <title>有線新聞</title>
+  </programme>
+  <programme channel="78" start="20260916050000 +0800" stop="20260916053000 +0800">
+    <title>有線新聞</title>
+  </programme>
+  <programme channel="78" start="20260916053000 +0800" stop="20260916060000 +0800">
+    <title>有線新聞</title>
+  </programme>
+  <programme channel="78" start="20260916060000 +0800" stop="20260916063000 +0800">
+    <title>有線新聞</title>
+  </programme>
+  <programme channel="78" start="20260916063000 +0800" stop="20260916070000 +0800">
+    <title>一線搜查</title>
+  </programme>
+  <programme channel="78" start="20260916070000 +0800" stop="20260916073000 +0800">
+    <title>Cable 早晨</title>
+  </programme>
+  <programme channel="78" start="20260916073000 +0800" stop="20260916080000 +0800">
+    <title>Cable 早晨</title>
+  </programme>
+  <programme channel="78" start="20260916080000 +0800" stop="20260916083000 +0800">
+    <title>Cable 早晨</title>
+  </programme>
+  <programme channel="78" start="20260916083000 +0800" stop="20260916090000 +0800">
+    <title>Cable 早晨</title>
+  </programme>
+  <programme channel="78" start="20260916090000 +0800" stop="20260916100000 +0800">
+    <title>股市直播室</title>
+  </programme>
+  <programme channel="78" start="20260916100000 +0800" stop="20260916103000 +0800">
+    <title>有線新聞</title>
+  </programme>
+  <programme channel="78" start="20260916103000 +0800" stop="20260916105900 +0800">
+    <title>有線新聞</title>
+  </programme>
+  <programme channel="78" start="20260916105900 +0800" stop="20260916125500 +0800">
+    <title>香港第一個五年規劃及2026年施政報告</title>
+  </programme>
+  <programme channel="78" start="20260916125500 +0800" stop="20260916130000 +0800">
+    <title>政制及內地事務局粵港澳大灣區發展辦公室呈獻 : 灣區快拍</title>
+  </programme>
+  <programme channel="78" start="20260916130000 +0800" stop="20260916133000 +0800">
+    <title>有線新聞</title>
+  </programme>
+  <programme channel="78" start="20260916133000 +0800" stop="20260916140000 +0800">
+    <title>有線新聞</title>
+  </programme>
+  <programme channel="78" start="20260916140000 +0800" stop="20260916143000 +0800">
+    <title>有線新聞</title>
+  </programme>
+  <programme channel="78" start="20260916143000 +0800" stop="20260916150000 +0800">
+    <title>有線新聞</title>
+  </programme>
+  <programme channel="78" start="20260916150000 +0800" stop="20260916153000 +0800">
+    <title>有線新聞</title>
+  </programme>
+  <programme channel="78" start="20260916153000 +0800" stop="20260916160000 +0800">
+    <title>有線新聞</title>
+  </programme>
+  <programme channel="78" start="20260916160000 +0800" stop="20260916163000 +0800">
+    <title>有線新聞</title>
+  </programme>
+  <programme channel="78" start="20260916163000 +0800" stop="20260916170000 +0800">
+    <title>有線新聞</title>
+  </programme>
+  <programme channel="78" start="20260916170000 +0800" stop="20260916173000 +0800">
+    <title>有線新聞</title>
+  </programme>
+  <programme channel="78" start="20260916173000 +0800" stop="20260916180000 +0800">
+    <title>有線新聞</title>
+  </programme>
+  <programme channel="78" start="20260916180000 +0800" stop="20260916183000 +0800">
+    <title>手語新聞報道</title>
+  </programme>
+  <programme channel="78" start="20260916183000 +0800" stop="20260916185000 +0800">
+    <title>六點半新聞報道</title>
+  </programme>
+  <programme channel="78" start="20260916185000 +0800" stop="20260916190000 +0800">
+    <title>焦點財經</title>
+  </programme>
+  <programme channel="78" start="20260916190000 +0800" stop="20260916200000 +0800">
+    <title>香港第一個五年規劃及2026年施政報告論壇</title>
+  </programme>
+  <programme channel="78" start="20260916200000 +0800" stop="20260916203000 +0800">
+    <title>有線新聞</title>
+  </programme>
+  <programme channel="78" start="20260916203000 +0800" stop="20260916210000 +0800">
+    <title>一線搜查</title>
+  </programme>
+  <programme channel="78" start="20260916210000 +0800" stop="20260916215000 +0800">
+    <title>晚間直播室</title>
+  </programme>
+  <programme channel="78" start="20260916215000 +0800" stop="20260916220000 +0800">
+    <title>焦點財經</title>
+  </programme>
+  <programme channel="78" start="20260916220000 +0800" stop="20260916223000 +0800">
+    <title>家國天下</title>
+  </programme>
+  <programme channel="78" start="20260916223000 +0800" stop="20260916230000 +0800">
+    <title>一線搜查</title>
+  </programme>
+  <programme channel="78" start="20260916230000 +0800" stop="20260916233000 +0800">
     <title>有線新聞</title>
   </programme>
 </tv>
