@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source": "meWatch Singapore",
-    "generated_at": "2026-09-09T07:32:30.498917",
-    "total_channels": 114
+    "generated_at": "2026-09-10T07:28:55.212151",
+    "total_channels": 115
   },
   "channels": [
     {
@@ -77,6 +77,18 @@
       "number": null,
       "genres": [
         "kids"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "840096",
+      "name": "Asian Games CH01",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16178838'&EntityType='Item'&EntityId='840096'&Width=1920&Height=1080",
+      "description": "The 20th edition of the Asian Games will take place this year in Aichi–Nagoya, Japan, featuring 41 sports and thousands of athletes across the continent for Asia’s biggest multi-sport event. Nagoya will be the third Japanese city to host the Asian Games, after Tokyo in 1958 and Hiroshima in 1994.",
+      "number": null,
+      "genres": [
+        "sports"
       ],
       "isPlayable": false,
       "videoFormat": ""
