@@ -469,6 +469,16 @@
     "icon": "https://assets.mytvsuper.com/channel/1651032626745665_C18.png",
     "source": "mytvsupercom"
   },
+  "viutvsix.nowcomhk": {
+    "name": "ViuTVsix",
+    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch96_160_115",
+    "source": "nowcomhk"
+  },
+  "viutv.nowcomhk": {
+    "name": "ViuTV",
+    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch99_160_115",
+    "source": "nowcomhk"
+  },
   "viuchannel.nowcomhk": {
     "name": "Viu channel",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch102_160_115",
@@ -477,6 +487,11 @@
   "nowchinesedramachannel.nowcomhk": {
     "name": "Now Chinese Drama Channel",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch105_160_115",
+    "source": "nowcomhk"
+  },
+  "nowvideoexpress.nowcomhk": {
+    "name": "Now Video Express",
+    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch106_160_115",
     "source": "nowcomhk"
   },
   "nowjelli.nowcomhk": {
@@ -542,6 +557,11 @@
   "kbsworld.nowcomhk": {
     "name": "KBS World",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch156_160_115",
+    "source": "nowcomhk"
+  },
+  "moovconcertmv.nowcomhk": {
+    "name": "MOOV Concert/MV",
+    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch168_160_115",
     "source": "nowcomhk"
   },
   "pandatv.nowcomhk": {
@@ -699,6 +719,11 @@
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch366_160_115",
     "source": "nowcomhk"
   },
+  "watchnlearn.nowcomhk": {
+    "name": "Watch N Learn",
+    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch400_160_115",
+    "source": "nowcomhk"
+  },
   "cartoonnetwork.nowcomhk": {
     "name": "Cartoon Network",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch443_160_115",
@@ -712,11 +737,6 @@
   "cbeebies.nowcomhk": {
     "name": "CBeebies",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch447_160_115",
-    "source": "nowcomhk"
-  },
-  "moonbug.nowcomhk": {
-    "name": "Moonbug",
-    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch448_160_115",
     "source": "nowcomhk"
   },
   "nickjr.nowcomhk": {
@@ -744,11 +764,6 @@
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch517_160_115",
     "source": "nowcomhk"
   },
-  "lifetime.nowcomhk": {
-    "name": "Lifetime",
-    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch525_160_115",
-    "source": "nowcomhk"
-  },
   "foodnetwork.nowcomhk": {
     "name": "Food Network",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch526_160_115",
@@ -757,6 +772,11 @@
   "asianfoodnetwork.nowcomhk": {
     "name": "Asian Food Network",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch527_160_115",
+    "source": "nowcomhk"
+  },
+  "netflix.nowcomhk": {
+    "name": "Netflix",
+    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch535_160_115",
     "source": "nowcomhk"
   },
   "ctiasiachannel.nowcomhk": {
@@ -809,6 +829,11 @@
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch561_160_115",
     "source": "nowcomhk"
   },
+  "sportsschedulehighlights.nowcomhk": {
+    "name": "Sports Schedule Highlights",
+    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch600_160_115",
+    "source": "nowcomhk"
+  },
   "nowsports4k1.nowcomhk": {
     "name": "Now Sports 4K 1",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch611_160_115",
@@ -822,31 +847,6 @@
   "nowsports4k3.nowcomhk": {
     "name": "Now Sports 4K 3",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch613_160_115",
-    "source": "nowcomhk"
-  },
-  "nowsports615.nowcomhk": {
-    "name": "Now Sports 615",
-    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch615_160_115",
-    "source": "nowcomhk"
-  },
-  "nowsports4k616.nowcomhk": {
-    "name": "Now Sports 4K 616",
-    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch616_160_115",
-    "source": "nowcomhk"
-  },
-  "nowsports4k617.nowcomhk": {
-    "name": "Now Sports 4K 617",
-    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch617_160_115",
-    "source": "nowcomhk"
-  },
-  "nowsports618.nowcomhk": {
-    "name": "Now Sports 618",
-    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch618_160_115",
-    "source": "nowcomhk"
-  },
-  "nowsports619.nowcomhk": {
-    "name": "Now Sports 619",
-    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch619_160_115",
     "source": "nowcomhk"
   },
   "nowsportspremierleaguetv.nowcomhk": {
@@ -887,6 +887,16 @@
   "nowsportspremierleague7.nowcomhk": {
     "name": "Now Sports Premier League 7",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch627_160_115",
+    "source": "nowcomhk"
+  },
+  "nowsportspremierleague8.nowcomhk": {
+    "name": "Now Sports Premier League 8",
+    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch628_160_115",
+    "source": "nowcomhk"
+  },
+  "nowsportspremierleague9.nowcomhk": {
+    "name": "Now Sports Premier League 9",
+    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch629_160_115",
     "source": "nowcomhk"
   },
   "nowsportsprime.nowcomhk": {
@@ -979,6 +989,11 @@
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch647_160_115",
     "source": "nowcomhk"
   },
+  "nowsports650.nowcomhk": {
+    "name": "Now Sports 650",
+    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch650_160_115",
+    "source": "nowcomhk"
+  },
   "nowsports651.nowcomhk": {
     "name": "Now Sports 651",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch651_160_115",
@@ -1017,11 +1032,6 @@
   "nowgolf3.nowcomhk": {
     "name": "Now Golf 3",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch684_160_115",
-    "source": "nowcomhk"
-  },
-  "lucky688.nowcomhk": {
-    "name": "Lucky 688",
-    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch688_160_115",
     "source": "nowcomhk"
   },
   "nhkworldpremium.nowcomhk": {
@@ -1117,6 +1127,21 @@
   "starbharat.nowcomhk": {
     "name": "Star Bharat",
     "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch797_160_115",
+    "source": "nowcomhk"
+  },
+  "adultpromotionalchannel.nowcomhk": {
+    "name": "Adult Promotional Channel",
+    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch900_160_115",
+    "source": "nowcomhk"
+  },
+  "icefire.nowcomhk": {
+    "name": "Ice Fire",
+    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch901_160_115",
+    "source": "nowcomhk"
+  },
+  "channeladult.nowcomhk": {
+    "name": "Channel Adult",
+    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch903_160_115",
     "source": "nowcomhk"
   },
   "1tv.kbscokr": {
@@ -3664,11 +3689,6 @@
     "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
     "source": "beinsportsconnecthk"
   },
-  "beinsportsoverflow2.beinsportsconnecthk": {
-    "name": "beIN SPORTS MAX",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
-    "source": "beinsportsconnecthk"
-  },
   "beinsportsoverflow3.beinsportsconnecthk": {
     "name": "beIN SPORTS MAX",
     "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
@@ -3700,6 +3720,81 @@
     "source": "beinsportsconnecthk"
   },
   "beinsportsoverflow9.beinsportsconnecthk": {
+    "name": "beIN SPORTS MAX",
+    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
+    "source": "beinsportsconnecthk"
+  },
+  "beinsportsoverflow10.beinsportsconnecthk": {
+    "name": "beIN SPORTS MAX",
+    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
+    "source": "beinsportsconnecthk"
+  },
+  "beinsportsoverflow11.beinsportsconnecthk": {
+    "name": "beIN SPORTS MAX",
+    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
+    "source": "beinsportsconnecthk"
+  },
+  "beinsportsoverflow12.beinsportsconnecthk": {
+    "name": "beIN SPORTS MAX",
+    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
+    "source": "beinsportsconnecthk"
+  },
+  "beinsportsoverflow13.beinsportsconnecthk": {
+    "name": "beIN SPORTS MAX",
+    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
+    "source": "beinsportsconnecthk"
+  },
+  "beinsportsoverflow14.beinsportsconnecthk": {
+    "name": "beIN SPORTS MAX",
+    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
+    "source": "beinsportsconnecthk"
+  },
+  "beinsportsoverflow15.beinsportsconnecthk": {
+    "name": "beIN SPORTS MAX",
+    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
+    "source": "beinsportsconnecthk"
+  },
+  "beinsportsoverflow16.beinsportsconnecthk": {
+    "name": "beIN SPORTS MAX",
+    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
+    "source": "beinsportsconnecthk"
+  },
+  "beinsportsoverflow17.beinsportsconnecthk": {
+    "name": "beIN SPORTS MAX",
+    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
+    "source": "beinsportsconnecthk"
+  },
+  "beinsportsoverflow18.beinsportsconnecthk": {
+    "name": "beIN SPORTS MAX",
+    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
+    "source": "beinsportsconnecthk"
+  },
+  "beinsportsoverflow19.beinsportsconnecthk": {
+    "name": "beIN SPORTS MAX",
+    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
+    "source": "beinsportsconnecthk"
+  },
+  "beinsportsoverflow20.beinsportsconnecthk": {
+    "name": "beIN SPORTS MAX",
+    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
+    "source": "beinsportsconnecthk"
+  },
+  "beinsportsxtra21.beinsportsconnecthk": {
+    "name": "beIN SPORTS MAX",
+    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
+    "source": "beinsportsconnecthk"
+  },
+  "beinsportsxtra22.beinsportsconnecthk": {
+    "name": "beIN SPORTS MAX",
+    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
+    "source": "beinsportsconnecthk"
+  },
+  "beinsportsxtra23.beinsportsconnecthk": {
+    "name": "beIN SPORTS MAX",
+    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
+    "source": "beinsportsconnecthk"
+  },
+  "beinsportsxtra24.beinsportsconnecthk": {
     "name": "beIN SPORTS MAX",
     "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
     "source": "beinsportsconnecthk"
