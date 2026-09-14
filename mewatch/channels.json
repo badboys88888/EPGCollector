@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source": "meWatch Singapore",
-    "generated_at": "2026-09-13T07:39:07.651230",
-    "total_channels": 115
+    "generated_at": "2026-09-14T08:04:49.874368",
+    "total_channels": 117
   },
   "channels": [
     {
@@ -85,6 +85,30 @@
       "id": "840096",
       "name": "Asian Games CH01",
       "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16178838'&EntityType='Item'&EntityId='840096'&Width=1920&Height=1080",
+      "description": "The 20th edition of the Asian Games will take place this year in Aichi–Nagoya, Japan, featuring 41 sports and thousands of athletes across the continent for Asia’s biggest multi-sport event. Nagoya will be the third Japanese city to host the Asian Games, after Tokyo in 1958 and Hiroshima in 1994.",
+      "number": null,
+      "genres": [
+        "sports"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "840094",
+      "name": "Asian Games CH02",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16178819'&EntityType='Item'&EntityId='840094'&Width=1920&Height=1080",
+      "description": "",
+      "number": null,
+      "genres": [
+        "sports"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "840099",
+      "name": "Asian Games CH03",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16178865'&EntityType='Item'&EntityId='840099'&Width=1920&Height=1080",
       "description": "The 20th edition of the Asian Games will take place this year in Aichi–Nagoya, Japan, featuring 41 sports and thousands of athletes across the continent for Asia’s biggest multi-sport event. Nagoya will be the third Japanese city to host the Asian Games, after Tokyo in 1958 and Hiroshima in 1994.",
       "number": null,
       "genres": [
