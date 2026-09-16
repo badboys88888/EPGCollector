@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source": "meWatch Singapore",
-    "generated_at": "2026-09-15T07:59:39.374070",
-    "total_channels": 117
+    "generated_at": "2026-09-16T07:52:39.244870",
+    "total_channels": 124
   },
   "channels": [
     {
@@ -118,10 +118,70 @@
       "videoFormat": ""
     },
     {
+      "id": "840097",
+      "name": "Asian Games CH04",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16178847'&EntityType='Item'&EntityId='840097'&Width=1920&Height=1080",
+      "description": "The 20th edition of the Asian Games will take place this year in Aichi–Nagoya, Japan, featuring 41 sports and thousands of athletes across the continent for Asia’s biggest multi-sport event. Nagoya will be the third Japanese city to host the Asian Games, after Tokyo in 1958 and Hiroshima in 1994.",
+      "number": null,
+      "genres": [
+        "sports"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "840095",
+      "name": "Asian Games CH05",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16178829'&EntityType='Item'&EntityId='840095'&Width=1920&Height=1080",
+      "description": "The 20th edition of the Asian Games will take place this year in Aichi–Nagoya, Japan, featuring 41 sports and thousands of athletes across the continent for Asia’s biggest multi-sport event. Nagoya will be the third Japanese city to host the Asian Games, after Tokyo in 1958 and Hiroshima in 1994.",
+      "number": null,
+      "genres": [
+        "sports"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "840093",
+      "name": "Asian Games CH06",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16178811'&EntityType='Item'&EntityId='840093'&Width=1920&Height=1080",
+      "description": "The 20th edition of the Asian Games will take place this year in Aichi–Nagoya, Japan, featuring 41 sports and thousands of athletes across the continent for Asia’s biggest multi-sport event. Nagoya will be the third Japanese city to host the Asian Games, after Tokyo in 1958 and Hiroshima in 1994.",
+      "number": null,
+      "genres": [
+        "sports"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "839745",
+      "name": "FIFA U20 Ch01",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16179082'&EntityType='Item'&EntityId='839745'&Width=1920&Height=1080",
+      "description": "The FIFA U-20 Women’s World Cup Poland 2026™ brings together 24 of the world’s best women’s U-20 national teams as the next generation of football stars compete for glory on the global stage. Hosted across four cities in Poland, the tournament showcases emerging talent, exciting international matchups and the future stars of women’s football.",
+      "number": null,
+      "genres": [
+        "sports"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "839744",
+      "name": "FIFA U20 Ch02",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16179073'&EntityType='Item'&EntityId='839744'&Width=1920&Height=1080",
+      "description": "The FIFA U-20 Women’s World Cup Poland 2026™ brings together 24 of the world’s best women’s U-20 national teams as the next generation of football stars compete for glory on the global stage. Hosted across four cities in Poland, the tournament showcases emerging talent, exciting international matchups and the future stars of women’s football.",
+      "number": null,
+      "genres": [
+        "sports"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
       "id": "98200",
       "name": "SPL CH01",
       "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5847893'&EntityType='Item'&EntityId='98200'&Width=1920&Height=1080",
-      "description": "Singapore Premier League 2025/2026\nThe Singapore Premier League 2025-2026 is the 8th season of the Singapore Premier League. A total of eight teams are taking part in a triple round-robin format. Will Lion City Sailors continue to defend their champion title, having won the 2024 edition or will another club be crowned as the new champion?",
+      "description": "Watch the Singapore Premier League 2026/2027 live on mewatch. Follow Singapore’s football clubs throughout the season and catch all the action live",
       "number": null,
       "genres": [
         "sports"
@@ -134,6 +194,30 @@
       "name": "LIVE 1",
       "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5721803'&EntityType='Item'&EntityId='97073'&Width=1920&Height=1080",
       "description": "LIVE 1 will feature LIVE televised local events of national significance and other entertaiment genres.",
+      "number": null,
+      "genres": [
+        "toggle"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "98202",
+      "name": "LIVE 5",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='6215768'&EntityType='Item'&EntityId='98202'&Width=1920&Height=1080",
+      "description": "LIVE 5  - An additional channel for coverage of live events.",
+      "number": null,
+      "genres": [
+        "toggle"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "204746",
+      "name": "LIVE 6",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5853379'&EntityType='Item'&EntityId='204746'&Width=1920&Height=1080",
+      "description": "LIVE 6 - An additional channel for coverage of live events.   ",
       "number": null,
       "genres": [
         "toggle"
