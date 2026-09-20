@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source": "meWatch Singapore",
-    "generated_at": "2026-09-19T07:30:40.070252",
-    "total_channels": 123
+    "generated_at": "2026-09-20T07:54:07.867265",
+    "total_channels": 121
   },
   "channels": [
     {
@@ -166,34 +166,10 @@
       "videoFormat": ""
     },
     {
-      "id": "839744",
-      "name": "FIFA U20 Ch02",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16179073'&EntityType='Item'&EntityId='839744'&Width=1920&Height=1080",
-      "description": "The FIFA U-20 Women’s World Cup Poland 2026™ brings together 24 of the world’s best women’s U-20 national teams as the next generation of football stars compete for glory on the global stage. Hosted across four cities in Poland, the tournament showcases emerging talent, exciting international matchups and the future stars of women’s football.",
-      "number": null,
-      "genres": [
-        "sports"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
       "id": "98200",
       "name": "SPL CH01",
       "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5847893'&EntityType='Item'&EntityId='98200'&Width=1920&Height=1080",
       "description": "Watch the Singapore Premier League 2026/2027 live on mewatch. Follow Singapore’s football clubs throughout the season and catch all the action live",
-      "number": null,
-      "genres": [
-        "sports"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "98201",
-      "name": "SPL CH02",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5847892'&EntityType='Item'&EntityId='98201'&Width=1920&Height=1080",
-      "description": "Watch the Singapore Premier League 2026/2027 live on mewatch. Follow Singapore’s football clubs throughout the season and catch all the action live.",
       "number": null,
       "genres": [
         "sports"
