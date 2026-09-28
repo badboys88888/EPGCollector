@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source": "meWatch Singapore",
-    "generated_at": "2026-09-27T08:30:41.596357",
-    "total_channels": 123
+    "generated_at": "2026-09-28T08:55:17.789776",
+    "total_channels": 119
   },
   "channels": [
     {
@@ -65,18 +65,6 @@
       "number": null,
       "genres": [
         "news & documentaries"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "186574",
-      "name": "Oktolidays",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='10887804'&EntityType='Item'&EntityId='186574'&Width=1920&Height=1080",
-      "description": "Welcome to Oktolidays, where you and your kids will be able to enjoy engaging and entertaining original children's content, curated to meet the edutainment needs of a new generation.",
-      "number": null,
-      "genres": [
-        "kids"
       ],
       "isPlayable": false,
       "videoFormat": ""
@@ -154,18 +142,6 @@
       "videoFormat": ""
     },
     {
-      "id": "839745",
-      "name": "FIFA U20 Ch01",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16179082'&EntityType='Item'&EntityId='839745'&Width=1920&Height=1080",
-      "description": "The FIFA U-20 Women’s World Cup Poland 2026™ brings together 24 of the world’s best women’s U-20 national teams as the next generation of football stars compete for glory on the global stage. Hosted across four cities in Poland, the tournament showcases emerging talent, exciting international matchups and the future stars of women’s football.",
-      "number": null,
-      "genres": [
-        "sports"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
       "id": "98200",
       "name": "SPL CH01",
       "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5847893'&EntityType='Item'&EntityId='98200'&Width=1920&Height=1080",
@@ -182,18 +158,6 @@
       "name": "LIVE 1",
       "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5721803'&EntityType='Item'&EntityId='97073'&Width=1920&Height=1080",
       "description": "LIVE 1 will feature LIVE televised local events of national significance and other entertaiment genres.",
-      "number": null,
-      "genres": [
-        "toggle"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "97078",
-      "name": "LIVE 2",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5721800'&EntityType='Item'&EntityId='97078'&Width=1920&Height=1080",
-      "description": "LIVE 2 - An additional channel for coverage of live events.",
       "number": null,
       "genres": [
         "toggle"
@@ -513,18 +477,6 @@
       "name": "AXN HD",
       "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9615609'&EntityType='Item'&EntityId='571915'&Width=1920&Height=1080",
       "description": "AXN HD",
-      "number": null,
-      "genres": [
-        "entertainment"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "566407",
-      "name": "BBC Earth HD",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9477755'&EntityType='Item'&EntityId='566407'&Width=1920&Height=1080",
-      "description": "BBC Earth HD\n",
       "number": null,
       "genres": [
         "entertainment"
