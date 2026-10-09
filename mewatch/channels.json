@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source": "meWatch Singapore",
-    "generated_at": "2026-10-08T09:23:56.250462",
-    "total_channels": 113
+    "generated_at": "2026-10-09T09:31:10.225315",
+    "total_channels": 114
   },
   "channels": [
     {
@@ -74,6 +74,18 @@
       "name": "SPL CH01",
       "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5847893'&EntityType='Item'&EntityId='98200'&Width=1920&Height=1080",
       "description": "Watch the Singapore Premier League 2026/2027 live on mewatch. Follow Singapore’s football clubs throughout the season and catch all the action live",
+      "number": null,
+      "genres": [
+        "sports"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "98201",
+      "name": "SPL CH02",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5847892'&EntityType='Item'&EntityId='98201'&Width=1920&Height=1080",
+      "description": "Watch the Singapore Premier League 2026/2027 live on mewatch. Follow Singapore’s football clubs throughout the season and catch all the action live.",
       "number": null,
       "genres": [
         "sports"
