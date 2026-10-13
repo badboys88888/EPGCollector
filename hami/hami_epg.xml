@@ -3852,17 +3852,26 @@
   <programme channel="OTT_LIVE_0000001736" start="20261013010000 +0800" stop="20261013100000 +0800">
     <title lang="zh">立法院會議直播(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001736" start="20261013100000 +0800" stop="20261013160000 +0800">
-    <title lang="zh">當日立法院會議轉播(普)</title>
+  <programme channel="OTT_LIVE_0000001736" start="20261013112200 +0800" stop="20261013132400 +0800">
+    <title lang="zh">立法院院會(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001736" start="20261013160000 +0800" stop="20261013210000 +0800">
-    <title lang="zh">前日立法院會議轉播(普)</title>
+  <programme channel="OTT_LIVE_0000001736" start="20261013132400 +0800" stop="20261013161700 +0800">
+    <title lang="zh">立法院院會(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001736" start="20261013210000 +0800" stop="20261014004700 +0800">
-    <title lang="zh">前日立法院會議轉播(普)</title>
+  <programme channel="OTT_LIVE_0000001736" start="20261013132400 +0800" stop="20261013161700 +0800">
+    <title lang="zh">立法院院會(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001736" start="20261014004700 +0800" stop="20261014010000 +0800">
-    <title lang="zh">週三會議預報(普)</title>
+  <programme channel="OTT_LIVE_0000001736" start="20261013161700 +0800" stop="20261013181800 +0800">
+    <title lang="zh">立法院院會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001736" start="20261013181800 +0800" stop="20261013211100 +0800">
+    <title lang="zh">立法院院會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001736" start="20261013211100 +0800" stop="20261013231300 +0800">
+    <title lang="zh">立法院院會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001736" start="20261013231300 +0800" stop="20261014010000 +0800">
+    <title lang="zh">立法院院會(普)</title>
   </programme>
   <programme channel="OTT_LIVE_0000001736" start="20261014010000 +0800" stop="20261014100000 +0800">
     <title lang="zh">立法院會議直播(普)</title>
@@ -3903,17 +3912,35 @@
   <programme channel="OTT_LIVE_0000001735" start="20261013010000 +0800" stop="20261013100000 +0800">
     <title lang="zh">立法院會議直播(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001735" start="20261013100000 +0800" stop="20261013160000 +0800">
-    <title lang="zh">當日立法院會議轉播(普)</title>
+  <programme channel="OTT_LIVE_0000001735" start="20261013112200 +0800" stop="20261013132400 +0800">
+    <title lang="zh">立法院院會(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001735" start="20261013160000 +0800" stop="20261013210000 +0800">
-    <title lang="zh">前日立法院會議轉播(普)</title>
+  <programme channel="OTT_LIVE_0000001735" start="20261013132400 +0800" stop="20261013133700 +0800">
+    <title lang="zh">程序委員會(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001735" start="20261013210000 +0800" stop="20261014004700 +0800">
-    <title lang="zh">前日立法院會議轉播(普)</title>
+  <programme channel="OTT_LIVE_0000001735" start="20261013133700 +0800" stop="20261013163000 +0800">
+    <title lang="zh">立法院院會(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001735" start="20261014004700 +0800" stop="20261014010000 +0800">
-    <title lang="zh">週三會議預報(普)</title>
+  <programme channel="OTT_LIVE_0000001735" start="20261013133700 +0800" stop="20261013163000 +0800">
+    <title lang="zh">立法院院會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261013163000 +0800" stop="20261013183200 +0800">
+    <title lang="zh">立法院院會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261013183200 +0800" stop="20261013184500 +0800">
+    <title lang="zh">程序委員會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261013184500 +0800" stop="20261013213800 +0800">
+    <title lang="zh">立法院院會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261013213800 +0800" stop="20261013233900 +0800">
+    <title lang="zh">立法院院會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261013233900 +0800" stop="20261013235300 +0800">
+    <title lang="zh">程序委員會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261013235300 +0800" stop="20261014010000 +0800">
+    <title lang="zh">立法院院會(普)</title>
   </programme>
   <programme channel="OTT_LIVE_0000001735" start="20261014010000 +0800" stop="20261014100000 +0800">
     <title lang="zh">立法院會議直播(普)</title>
@@ -12310,7 +12337,7 @@
     <title lang="zh">小宇宙大爆發(普)</title>
   </programme>
   <programme channel="momo綜合台" start="20261013050000 +0800" stop="20261013060000 +0800">
-    <title lang="zh">台灣第1001個故事(普)</title>
+    <title lang="zh">台灣1001個故事(普)</title>
   </programme>
   <programme channel="momo綜合台" start="20261013060000 +0800" stop="20261013070000 +0800">
     <title lang="zh">翻岳(普)</title>
@@ -12397,7 +12424,7 @@
     <title lang="zh">小宇宙大爆發(普)</title>
   </programme>
   <programme channel="momo綜合台" start="20261014050000 +0800" stop="20261014060000 +0800">
-    <title lang="zh">台灣第1001個故事(普)</title>
+    <title lang="zh">台灣1001個故事(普)</title>
   </programme>
   <programme channel="momo綜合台" start="20261014060000 +0800" stop="20261014070000 +0800">
     <title lang="zh">翻岳(普)</title>
@@ -12484,7 +12511,7 @@
     <title lang="zh">小宇宙大爆發(普)</title>
   </programme>
   <programme channel="momo綜合台" start="20261015050000 +0800" stop="20261015060000 +0800">
-    <title lang="zh">台灣第1001個故事(普)</title>
+    <title lang="zh">台灣1001個故事(普)</title>
   </programme>
   <programme channel="momo綜合台" start="20261015060000 +0800" stop="20261015070000 +0800">
     <title lang="zh">翻岳(普)</title>
