@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source": "meWatch Singapore",
-    "generated_at": "2026-10-16T07:28:31.681209",
-    "total_channels": 113
+    "generated_at": "2026-10-17T07:09:24.697136",
+    "total_channels": 116
   },
   "channels": [
     {
@@ -65,6 +65,30 @@
       "number": null,
       "genres": [
         "news & documentaries"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "840096",
+      "name": "Asian Para Games CH01",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16929333'&EntityType='Item'&EntityId='840096'&Width=1920&Height=1080",
+      "description": "Witness Team Singapore para athletes in action at the 5th Asian Para Games Aichi-Nagoya 2026 as they compete with top para athletes from across Asia for sporting glory from 18 to 24 October 2026.",
+      "number": null,
+      "genres": [
+        "sports"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "840094",
+      "name": "Asian Para Games CH02",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16929325'&EntityType='Item'&EntityId='840094'&Width=1920&Height=1080",
+      "description": "Witness Team Singapore para athletes in action at the 5th Asian Para Games Aichi-Nagoya 2026 as they compete with top para athletes from across Asia for sporting glory from 18 to 24 October 2026.",
+      "number": null,
+      "genres": [
+        "sports"
       ],
       "isPlayable": false,
       "videoFormat": ""
@@ -405,6 +429,18 @@
       "name": "AXN HD",
       "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9615609'&EntityType='Item'&EntityId='571915'&Width=1920&Height=1080",
       "description": "AXN HD",
+      "number": null,
+      "genres": [
+        "entertainment"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "851379",
+      "name": "BBC Earth HD",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16663911'&EntityType='Item'&EntityId='851379'&Width=1920&Height=1080",
+      "description": "BBC Earth HD\n",
       "number": null,
       "genres": [
         "entertainment"
