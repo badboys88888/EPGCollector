@@ -3803,5 +3803,15 @@
     "name": "beIN SPORTS MAX",
     "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/bein_sports_max_digi2_long_logo_70X40.png",
     "source": "beinsportsconnecthk"
+  },
+  "streamfornorthamerica.beinsportsconnecthk": {
+    "name": "beIN SPORTS 1",
+    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/1789575853393-1750749733840-bein_sports_1_100X56.png",
+    "source": "beinsportsconnecthk"
+  },
+  "teststreamforusa.beinsportsconnecthk": {
+    "name": "beIN SPORTS 2",
+    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/1790076836209-Long_bein_sports_2_100X56.png",
+    "source": "beinsportsconnecthk"
   }
 }
