@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source": "meWatch Singapore",
-    "generated_at": "2026-10-27T08:18:22.877059",
-    "total_channels": 113
+    "generated_at": "2026-10-28T08:55:24.573394",
+    "total_channels": 120
   },
   "channels": [
     {
@@ -70,6 +70,30 @@
       "videoFormat": ""
     },
     {
+      "id": "839745",
+      "name": "FIFA U17 WWC Ch01",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16999918'&EntityType='Item'&EntityId='839745'&Width=1920&Height=1080",
+      "description": "The FIFA U-17 Women’s World Cup Morocco 2026™ brings together 24 of the world’s best young women’s national teams as they compete for the ultimate prize in U-17 football. The tournament showcases the next generation of rising stars on the global stage, as young talents battle for the title of U-17 world champions.",
+      "number": null,
+      "genres": [
+        "sports"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "839744",
+      "name": "FIFA U17 WWC Ch02",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16999914'&EntityType='Item'&EntityId='839744'&Width=1920&Height=1080",
+      "description": "The FIFA U-17 Women’s World Cup Morocco 2026™ brings together 24 of the world’s best young women’s national teams as they compete for the ultimate prize in U-17 football. The tournament showcases the next generation of rising stars on the global stage, as young talents battle for the title of U-17 world champions.",
+      "number": null,
+      "genres": [
+        "sports"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
       "id": "98200",
       "name": "SPL CH01",
       "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5847893'&EntityType='Item'&EntityId='98200'&Width=1920&Height=1080",
@@ -86,6 +110,66 @@
       "name": "LIVE 1",
       "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5721803'&EntityType='Item'&EntityId='97073'&Width=1920&Height=1080",
       "description": "LIVE 1 will feature LIVE televised local events of national significance and other entertaiment genres.",
+      "number": null,
+      "genres": [
+        "toggle"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "97078",
+      "name": "LIVE 2",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5721800'&EntityType='Item'&EntityId='97078'&Width=1920&Height=1080",
+      "description": "LIVE 2 - An additional channel for coverage of live events.",
+      "number": null,
+      "genres": [
+        "toggle"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "98202",
+      "name": "LIVE 5",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='6215768'&EntityType='Item'&EntityId='98202'&Width=1920&Height=1080",
+      "description": "LIVE 5  - An additional channel for coverage of live events.",
+      "number": null,
+      "genres": [
+        "toggle"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "204746",
+      "name": "LIVE 6",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5853379'&EntityType='Item'&EntityId='204746'&Width=1920&Height=1080",
+      "description": "LIVE 6 - An additional channel for coverage of live events.   ",
+      "number": null,
+      "genres": [
+        "toggle"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "497989",
+      "name": "LIVE 7",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='8274418'&EntityType='Item'&EntityId='497989'&Width=1920&Height=1080",
+      "description": "LIVE 7 - An additional channel for coverage of live events.",
+      "number": null,
+      "genres": [
+        "toggle"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "554063",
+      "name": "LIVE 8",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9195612'&EntityType='Item'&EntityId='554063'&Width=1920&Height=1080",
+      "description": "LIVE 8 - An additional channel for coverage of live events.",
       "number": null,
       "genres": [
         "toggle"
