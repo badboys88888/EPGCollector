@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source": "meWatch Singapore",
-    "generated_at": "2026-10-28T08:55:24.573394",
-    "total_channels": 120
+    "generated_at": "2026-10-29T08:50:04.934920",
+    "total_channels": 118
   },
   "channels": [
     {
@@ -146,30 +146,6 @@
       "name": "LIVE 6",
       "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5853379'&EntityType='Item'&EntityId='204746'&Width=1920&Height=1080",
       "description": "LIVE 6 - An additional channel for coverage of live events.   ",
-      "number": null,
-      "genres": [
-        "toggle"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "497989",
-      "name": "LIVE 7",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='8274418'&EntityType='Item'&EntityId='497989'&Width=1920&Height=1080",
-      "description": "LIVE 7 - An additional channel for coverage of live events.",
-      "number": null,
-      "genres": [
-        "toggle"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "554063",
-      "name": "LIVE 8",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9195612'&EntityType='Item'&EntityId='554063'&Width=1920&Height=1080",
-      "description": "LIVE 8 - An additional channel for coverage of live events.",
       "number": null,
       "genres": [
         "toggle"
