@@ -100,11 +100,18 @@ def load_json(path, default):
 
 
 def read_sources(path):
-    out = []
+    out, seen = [], set()
     for line in Path(path).read_text(encoding="utf-8").splitlines():
         line = line.split(" #")[0].strip()
-        if line and not line.startswith("#"):
-            out.append(line)
+        if not line or line.startswith("#"):
+            continue
+        # 去重:github blob 与 raw 视为同一地址,忽略大小写和末尾斜杠
+        key = fix_github_url(line).rstrip("/").lower()
+        if key in seen:
+            log(f"[跳过重复地址] {line}")
+            continue
+        seen.add(key)
+        out.append(line)
     return out
 
 
