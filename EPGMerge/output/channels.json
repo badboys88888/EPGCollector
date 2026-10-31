@@ -1,0 +1,4411 @@
+{
+ "generated": "2026-10-31T12:09:49.481741+00:00",
+ "sources": [
+  "https://github.com/badboys88888/EPGCollector/blob/main/bein/bein_epg.xml",
+  "https://github.com/badboys88888/EPGCollector/blob/main/beinsports/beinsports_epg.xml",
+  "https://github.com/badboys88888/EPGCollector/blob/main/hami/hami_epg.xml",
+  "https://github.com/badboys88888/EPGCollector/blob/main/hoytv/hoytv.xml",
+  "https://github.com/badboys88888/EPGCollector/blob/main/mewatch/mewatch.xml",
+  "https://github.com/badboys88888/EPGCollector/blob/main/mytvsuper/epg.xml",
+  "https://github.com/badboys88888/EPGCollector/blob/main/nowtv/nowtv.xml",
+  "https://github.com/badboys88888/EPGCollector/blob/main/ntdtv/output/ntdtv.xml",
+  "https://github.com/badboys88888/EPGCollector/blob/main/starhub/starhub_epg.xml"
+ ],
+ "channel_count": 482,
+ "programme_count": 53463,
+ "channels": [
+  {
+   "id": "bein_sports_1",
+   "name": "beIN SPORTS 1",
+   "names": [
+    "beIN SPORTS 1"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS1_DIGITAL_Mono.png",
+   "programmes": 99
+  },
+  {
+   "id": "bein_sports_2",
+   "name": "beIN SPORTS 2",
+   "names": [
+    "beIN SPORTS 2"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS2_DIGITAL_Mono.png",
+   "programmes": 40
+  },
+  {
+   "id": "bein_sports_3",
+   "name": "beIN SPORTS 3",
+   "names": [
+    "beIN SPORTS 3"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS3_DIGITAL_Mono.png",
+   "programmes": 41
+  },
+  {
+   "id": "bein_sports_4",
+   "name": "beIN SPORTS 4",
+   "names": [
+    "beIN SPORTS 4"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS4_DIGITAL_Mono.png",
+   "programmes": 55
+  },
+  {
+   "id": "bein_sports_5",
+   "name": "beIN SPORTS 5",
+   "names": [
+    "beIN SPORTS 5"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS5_DIGITAL_Mono.png",
+   "programmes": 46
+  },
+  {
+   "id": "bein_sports_6",
+   "name": "beIN SPORTS 6",
+   "names": [
+    "beIN SPORTS 6"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2021/02/beIN_SPORTS66_DIGITAL_Mono-01.png",
+   "programmes": 45
+  },
+  {
+   "id": "bein_sports_7",
+   "name": "beIN SPORTS 7",
+   "names": [
+    "beIN SPORTS 7"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS7_DIGITAL_Mono.png",
+   "programmes": 40
+  },
+  {
+   "id": "bein_sports_8",
+   "name": "beIN SPORTS 8",
+   "names": [
+    "beIN SPORTS 8"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2023/09/logos-_beINSPORTS8.png",
+   "programmes": 58
+  },
+  {
+   "id": "bein_sports_9",
+   "name": "beIN SPORTS 9",
+   "names": [
+    "beIN SPORTS 9"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2023/09/logos-_beINSPORTS9.png",
+   "programmes": 44
+  },
+  {
+   "id": "bein_sport_snews",
+   "name": "beIN SPORT SNEWS",
+   "names": [
+    "beIN SPORT SNEWS"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/NEWS_DIGITAL_Mono.png",
+   "programmes": 99
+  },
+  {
+   "id": "bein_sports_fta",
+   "name": "bein SPORTS FTA",
+   "names": [
+    "bein SPORTS FTA"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/bein_SPORTS_FTA_DIGITAL_Mono.png",
+   "programmes": 40
+  },
+  {
+   "id": "bein_sports_1_english",
+   "name": "beIN SPORTS 1 ENGLISH",
+   "names": [
+    "beIN SPORTS 1 ENGLISH"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS1_ENGLISH_Digital_Mono.png",
+   "programmes": 59
+  },
+  {
+   "id": "bein_sports_2_english",
+   "name": "beIN SPORTS 2 ENGLISH",
+   "names": [
+    "beIN SPORTS 2 ENGLISH"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS2_ENGLISH_Digital_Mono.png",
+   "programmes": 49
+  },
+  {
+   "id": "bein_sports_1_french",
+   "name": "beIN SPORTS 1 FRENCH",
+   "names": [
+    "beIN SPORTS 1 FRENCH"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS1_FRENCH_Digital_Mono.png",
+   "programmes": 16
+  },
+  {
+   "id": "bein_sports_2_french",
+   "name": "beIN SPORTS 2 FRENCH",
+   "names": [
+    "beIN SPORTS 2 FRENCH"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS2_FRENCH_Digital_Mono.png",
+   "programmes": 15
+  },
+  {
+   "id": "bein_sports_4k",
+   "name": "beIN SPORTS 4K",
+   "names": [
+    "beIN SPORTS 4K"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/4k_DIGITAL_Mono.png",
+   "programmes": 37
+  },
+  {
+   "id": "bein_sports_xtra_1",
+   "name": "beIN SPORTS XTRA 1",
+   "names": [
+    "beIN SPORTS XTRA 1"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS_XTRA1_Digital_Mono.png",
+   "programmes": 84
+  },
+  {
+   "id": "bein_sports_xtra_2",
+   "name": "beIN SPORTS XTRA 2",
+   "names": [
+    "beIN SPORTS XTRA 2"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS_XTRA2_Digital_Mono.png",
+   "programmes": 66
+  },
+  {
+   "id": "bein_sports_xtra_3",
+   "name": "beIN SPORTS XTRA 3",
+   "names": [
+    "beIN SPORTS XTRA 3"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2023/09/logos-_beINSPORTSXTRA3.png",
+   "programmes": 72
+  },
+  {
+   "id": "bein_sports_xtra_4",
+   "name": "beIN SPORTS XTRA 4",
+   "names": [
+    "beIN SPORTS XTRA 4"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2025/01/beIN_SPORTS_XTRA_04_bein.com_.png",
+   "programmes": 77
+  },
+  {
+   "id": "bein_sports_xtra_5",
+   "name": "beIN SPORTS XTRA 5",
+   "names": [
+    "beIN SPORTS XTRA 5"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2025/01/beIN_SPORTS_XTRA_05_bein.com_.png",
+   "programmes": 74
+  },
+  {
+   "id": "bein_sports_xtra_6",
+   "name": "beIN SPORTS XTRA 6",
+   "names": [
+    "beIN SPORTS XTRA 6"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2025/01/beIN_SPORTS_XTRA_06_bein.com_.png",
+   "programmes": 76
+  },
+  {
+   "id": "bein_sports_xtra_7",
+   "name": "beIN SPORTS XTRA 7",
+   "names": [
+    "beIN SPORTS XTRA 7"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2025/01/beIN_SPORTS_XTRA_07_bein.com_.png",
+   "programmes": 74
+  },
+  {
+   "id": "bein_sports_xtra_8",
+   "name": "beIN SPORTS XTRA 8",
+   "names": [
+    "beIN SPORTS XTRA 8"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2025/01/beIN_SPORTS_XTRA_08_Bein.com_.png",
+   "programmes": 74
+  },
+  {
+   "id": "bein_sports_xtra_9",
+   "name": "beIN SPORTS XTRA 9",
+   "names": [
+    "beIN SPORTS XTRA 9"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2025/01/beIN_SPORTS_XTRA_Digital_09_Bein.com_.png",
+   "programmes": 72
+  },
+  {
+   "id": "bein_sports_max_1",
+   "name": "beIN SPORTS MAX 1",
+   "names": [
+    "beIN SPORTS MAX 1"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS_MAX1_DIGITAL_Mono.png",
+   "programmes": 36
+  },
+  {
+   "id": "bein_sports_max_2",
+   "name": "beIN SPORTS MAX 2",
+   "names": [
+    "beIN SPORTS MAX 2"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS_MAX2_DIGITAL_Mono.png",
+   "programmes": 36
+  },
+  {
+   "id": "bein_sports_max_3",
+   "name": "beIN SPORTS MAX 3",
+   "names": [
+    "beIN SPORTS MAX 3"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS_MAX3_DIGITAL_Mono.png",
+   "programmes": 36
+  },
+  {
+   "id": "bein_sports_max_4",
+   "name": "beIN SPORTS MAX 4",
+   "names": [
+    "beIN SPORTS MAX 4"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS_MAX4_DIGITAL_Mono.png",
+   "programmes": 36
+  },
+  {
+   "id": "alkass_1",
+   "name": "Alkass 1",
+   "names": [
+    "Alkass 1"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2020/06/2023_Alkass_1.png",
+   "programmes": 36
+  },
+  {
+   "id": "alkass_2",
+   "name": "Alkass 2",
+   "names": [
+    "Alkass 2"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2020/06/2023_Alkass_2.png",
+   "programmes": 36
+  },
+  {
+   "id": "alkass_3",
+   "name": "Alkass 3",
+   "names": [
+    "Alkass 3"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2020/06/2023_Alkass_3.png",
+   "programmes": 20
+  },
+  {
+   "id": "alkass_4",
+   "name": "Alkass 4",
+   "names": [
+    "Alkass 4"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2020/06/2023_Alkass_4.png",
+   "programmes": 20
+  },
+  {
+   "id": "alkass_5",
+   "name": "Alkass 5",
+   "names": [
+    "Alkass 5"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2020/06/2023_Alkass_5.png",
+   "programmes": 23
+  },
+  {
+   "id": "alkass_6",
+   "name": "Alkass 6",
+   "names": [
+    "Alkass 6"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2020/06/2023_Alkass_6.png",
+   "programmes": 18
+  },
+  {
+   "id": "alkass_7",
+   "name": "Alkass 7",
+   "names": [
+    "Alkass 7"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2020/06/2023_Alkass_7.png",
+   "programmes": 16
+  },
+  {
+   "id": "alkass_8",
+   "name": "Alkass 8",
+   "names": [
+    "Alkass 8"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2020/06/2023_Alkass_8.png",
+   "programmes": 18
+  },
+  {
+   "id": "bein_movies_1_premiere",
+   "name": "beIN MOVIES 1 PREMIERE",
+   "names": [
+    "beIN MOVIES 1 PREMIERE"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/MOVIES1_PREMIERE_DIGITAL_Mono.png",
+   "programmes": 42
+  },
+  {
+   "id": "bein_movies_2_action",
+   "name": "beIN MOVIES 2 ACTION",
+   "names": [
+    "beIN MOVIES 2 ACTION"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/MOVIES2_ACTION_DIGITAL_Mono.png",
+   "programmes": 39
+  },
+  {
+   "id": "bein_movies_3_drama",
+   "name": "beIN MOVIES 3 DRAMA",
+   "names": [
+    "beIN MOVIES 3 DRAMA"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/MOVIES3_DRAMA_DIGITAL_Mono.png",
+   "programmes": 43
+  },
+  {
+   "id": "bein_movies_4_family",
+   "name": "beIN MOVIES 4 FAMILY",
+   "names": [
+    "beIN MOVIES 4 FAMILY"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/MOVIES4_FAMILY_DIGITAL_Mono.png",
+   "programmes": 44
+  },
+  {
+   "id": "box_office_1",
+   "name": "Box Office 1",
+   "names": [
+    "Box Office 1"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/BoxOffice1_DIGITAL_Mono.png",
+   "programmes": 36
+  },
+  {
+   "id": "box_office_2",
+   "name": "Box Office 2",
+   "names": [
+    "Box Office 2"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/BoxOffice2_DIGITAL_Mono.png.png",
+   "programmes": 36
+  },
+  {
+   "id": "star_action",
+   "name": "Star Action",
+   "names": [
+    "Star Action"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/Star_Action_2024-200x200-1.png",
+   "programmes": 16
+  },
+  {
+   "id": "star_movies",
+   "name": "Star Movies",
+   "names": [
+    "Star Movies"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/Star_Movies_2024-200x200-1.png",
+   "programmes": 13
+  },
+  {
+   "id": "bein_series_1",
+   "name": "beIN SERIES 1",
+   "names": [
+    "beIN SERIES 1"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/SERIES1_DIGITAL_Mono.png",
+   "programmes": 90
+  },
+  {
+   "id": "bein_series_2",
+   "name": "beIN SERIES 2",
+   "names": [
+    "beIN SERIES 2"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/SERIES2_DIGITAL_Mono.png",
+   "programmes": 81
+  },
+  {
+   "id": "bein_drama_stacked",
+   "name": "beIN Drama Stacked",
+   "names": [
+    "beIN Drama Stacked"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2021/02/Drama_Stacked_nov_2024_200x200.png",
+   "programmes": 79
+  },
+  {
+   "id": "gourmet",
+   "name": "GOURMET",
+   "names": [
+    "GOURMET"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/GOURMET_DIGITAL_Mono.png",
+   "programmes": 72
+  },
+  {
+   "id": "travel_channel",
+   "name": "travel channel",
+   "names": [
+    "travel channel"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/0003_TCI_colour-Blue_UK2016.png",
+   "programmes": 32
+  },
+  {
+   "id": "food_network",
+   "name": "Food Network",
+   "names": [
+    "Food Network"
+   ],
+   "icon": "https://www.bein.com/en/wp-content/uploads/sites/3/2020/06/food-network-logo-2018-1.png",
+   "programmes": 40
+  },
+  {
+   "id": "hgtv",
+   "name": "HGTV",
+   "names": [
+    "HGTV"
+   ],
+   "icon": "https://www.bein.com/en/wp-content/uploads/sites/3/2020/06/HGTV.png",
+   "programmes": 20
+  },
+  {
+   "id": "star_world",
+   "name": "Star World",
+   "names": [
+    "Star World"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/Star_World_2024-200x200-1.png",
+   "programmes": 33
+  },
+  {
+   "id": "fatafeat",
+   "name": "FATAFEAT",
+   "names": [
+    "FATAFEAT"
+   ],
+   "icon": "https://www.bein.com/en/wp-content/uploads/sites/3/2020/06/FATAFEAT-1.png",
+   "programmes": 32
+  },
+  {
+   "id": "bloomberg",
+   "name": "Bloomberg",
+   "names": [
+    "Bloomberg"
+   ],
+   "icon": "https://www.bein.com/en/wp-content/uploads/sites/3/2020/06/Bloomberg-1.png",
+   "programmes": 34
+  },
+  {
+   "id": "nat_geo",
+   "name": "Nat geo",
+   "names": [
+    "Nat geo"
+   ],
+   "icon": "https://www.bein.com/en/wp-content/uploads/sites/3/2020/06/Nat_geo_hd.png",
+   "programmes": 31
+  },
+  {
+   "id": "pdatez_ngw",
+   "name": "PDATEz NGW",
+   "names": [
+    "PDATEz NGW"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2020/06/UPDATEz-NGW_Full_Logo_20182.png",
+   "programmes": 21
+  },
+  {
+   "id": "bbcearth",
+   "name": "BBCEarth",
+   "names": [
+    "BBCEarth"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2020/06/BBCEarth-new_200x200.png",
+   "programmes": 98
+  },
+  {
+   "id": "cnn_international",
+   "name": "CNN International",
+   "names": [
+    "CNN International"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/0004_CNN_International_logo.svg.png",
+   "programmes": 29
+  },
+  {
+   "id": "euro_news",
+   "name": "Euro News",
+   "names": [
+    "Euro News"
+   ],
+   "icon": "https://www.bein.com/en/wp-content/uploads/sites/3/2020/06/Euro-News.png",
+   "programmes": 377
+  },
+  {
+   "id": "discovery",
+   "name": "Discovery",
+   "names": [
+    "Discovery"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2021/03/Discovery-logo-1.png",
+   "programmes": 322
+  },
+  {
+   "id": "be_junior",
+   "name": "be JUNIOR",
+   "names": [
+    "be JUNIOR"
+   ],
+   "icon": "https://www.bein.com/en/wp-content/uploads/sites/3/2020/06/beJUNIOR-1.png",
+   "programmes": 363
+  },
+  {
+   "id": "entertainment_slider_26",
+   "name": "entertainment_slider_26",
+   "names": [
+    "entertainment_slider_26"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2020/06/Jeem-HD-1-01.png",
+   "programmes": 26
+  },
+  {
+   "id": "bara3em",
+   "name": "Bara3em",
+   "names": [
+    "Bara3em"
+   ],
+   "icon": "https://www.bein.com/en/wp-content/uploads/sites/3/2020/06/Bara3em-1.png",
+   "programmes": 14
+  },
+  {
+   "id": "awg_cn_brand",
+   "name": "AWG CN Brand",
+   "names": [
+    "AWG CN Brand"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/0001_AWG_CN_Brand_Logo_1color_Black_4C.png",
+   "programmes": 60
+  },
+  {
+   "id": "cartoon_network_arabic",
+   "name": "Cartoon Network Arabic",
+   "names": [
+    "Cartoon Network Arabic"
+   ],
+   "icon": "https://www.bein.com/en/wp-content/uploads/sites/3/2020/06/Cartoon-Network-Arabic-1.png",
+   "programmes": 77
+  },
+  {
+   "id": "disney_blue",
+   "name": "Disney Blue",
+   "names": [
+    "Disney Blue"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2025/02/DC-Blue-new.png",
+   "programmes": 317
+  },
+  {
+   "id": "disney_jr",
+   "name": "Disney jr.",
+   "names": [
+    "Disney jr."
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2025/02/DJ.png",
+   "programmes": 123
+  },
+  {
+   "id": "bein4k_67DD49",
+   "name": "beIN 4K",
+   "names": [
+    "beIN 4K"
+   ],
+   "icon": "https://prod-media.beinsports.com/image/8f53295a73878494e9bc8dd6c3c7104f.png",
+   "programmes": 40
+  },
+  {
+   "id": "beinsports_C244C4",
+   "name": "beIN SPORTS",
+   "names": [
+    "beIN SPORTS"
+   ],
+   "icon": "https://www.beinsports.com/_next/static/media/bein_logo.af017869.webp",
+   "programmes": 213
+  },
+  {
+   "id": "beinsports_84F7E0",
+   "name": "beIN SPORTS",
+   "names": [
+    "beIN SPORTS"
+   ],
+   "icon": "https://www.beinsports.com/_next/static/media/bein_logo.af017869.webp",
+   "programmes": 109
+  },
+  {
+   "id": "beinsports1_66265D",
+   "name": "beIN SPORTS 1",
+   "names": [
+    "beIN SPORTS 1"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS1_DIGITAL_Mono.png",
+   "programmes": 156
+  },
+  {
+   "id": "beinsports1_164C0E",
+   "name": "beIN SPORTS 1",
+   "names": [
+    "beIN SPORTS 1"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS1_DIGITAL_Mono.png",
+   "programmes": 79
+  },
+  {
+   "id": "beinsports1_0FA3DE",
+   "name": "beIN SPORTS 1",
+   "names": [
+    "beIN SPORTS 1"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS1_DIGITAL_Mono.png",
+   "programmes": 165
+  },
+  {
+   "id": "beinsports1_7836FE",
+   "name": "beIN SPORTS 1",
+   "names": [
+    "beIN SPORTS 1"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS1_DIGITAL_Mono.png",
+   "programmes": 126
+  },
+  {
+   "id": "beinsports2_1E886E",
+   "name": "beIN SPORTS 2",
+   "names": [
+    "beIN SPORTS 2"
+   ],
+   "icon": "https://photos.media-press.tv/logo/plurimedia/png_500x500_clair/1304.png",
+   "programmes": 131
+  },
+  {
+   "id": "beinsports2_63A30D",
+   "name": "beIN SPORTS 2",
+   "names": [
+    "beIN SPORTS 2"
+   ],
+   "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/1752576028271-bein_sports_2.png",
+   "programmes": 156
+  },
+  {
+   "id": "beinsports2_5F3234",
+   "name": "beIN SPORTS 2",
+   "names": [
+    "beIN SPORTS 2"
+   ],
+   "icon": "https://photos.media-press.tv/logo/plurimedia/png_500x500_clair/1304.png",
+   "programmes": 145
+  },
+  {
+   "id": "beinsports2_FD1DD7",
+   "name": "beIN SPORTS 2",
+   "names": [
+    "beIN SPORTS 2"
+   ],
+   "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/1752576028271-bein_sports_2.png",
+   "programmes": 102
+  },
+  {
+   "id": "beinsports3_6DB008",
+   "name": "beIN SPORTS 3",
+   "names": [
+    "beIN SPORTS 3"
+   ],
+   "icon": "https://photos.media-press.tv/logo/plurimedia/png_500x500_clair/1335.png",
+   "programmes": 133
+  },
+  {
+   "id": "beinsports3_90E69F",
+   "name": "beIN SPORTS 3",
+   "names": [
+    "beIN SPORTS 3"
+   ],
+   "icon": "https://cdn.mango-soft.com/bein-sports/channel-logo-3.webp",
+   "programmes": 57
+  },
+  {
+   "id": "beinsports3_2E8A62",
+   "name": "beIN SPORTS 3",
+   "names": [
+    "beIN SPORTS 3"
+   ],
+   "icon": "https://cdn.mango-soft.com/bein-sports/channel-logo-3.webp",
+   "programmes": 178
+  },
+  {
+   "id": "beinsports3_F3CE25",
+   "name": "beIN SPORTS 3",
+   "names": [
+    "beIN SPORTS 3"
+   ],
+   "icon": "https://cdn.mango-soft.com/bein-sports/channel-logo-3.webp",
+   "programmes": 141
+  },
+  {
+   "id": "beinsports3_8AEA24",
+   "name": "beIN SPORTS 3",
+   "names": [
+    "beIN SPORTS 3"
+   ],
+   "icon": "https://cdn.mango-soft.com/bein-sports/channel-logo-3.webp",
+   "programmes": 96
+  },
+  {
+   "id": "beinsports4_D0546E",
+   "name": "beIN SPORTS 4",
+   "names": [
+    "beIN SPORTS 4"
+   ],
+   "icon": "https://cdn.mango-soft.com/bein-sports/channel-logo-4.webp",
+   "programmes": 51
+  },
+  {
+   "id": "beinsports4_DB9361",
+   "name": "beIN SPORTS 4",
+   "names": [
+    "beIN SPORTS 4"
+   ],
+   "icon": "https://cdn.mango-soft.com/bein-sports/channel-logo-4.webp",
+   "programmes": 104
+  },
+  {
+   "id": "beinsports5_A5A48D",
+   "name": "beIN SPORTS 5",
+   "names": [
+    "beIN SPORTS 5"
+   ],
+   "icon": "https://cdn.mango-soft.com/bein-sports/channel-logo-5.webp",
+   "programmes": 52
+  },
+  {
+   "id": "beinsports5_964E62",
+   "name": "beIN SPORTS 5",
+   "names": [
+    "beIN SPORTS 5"
+   ],
+   "icon": "https://prod-media.beinsports.com/image/0d2131d903a4485c80374b7f91549323.png",
+   "programmes": 98
+  },
+  {
+   "id": "beinsports6_E56B09",
+   "name": "beIN SPORTS 6",
+   "names": [
+    "beIN SPORTS 6"
+   ],
+   "icon": "https://cdn.mango-soft.com/bein-sports/channel-logo-6.webp",
+   "programmes": 51
+  },
+  {
+   "id": "beinsports6_E24D9C",
+   "name": "beIN SPORTS 6",
+   "names": [
+    "beIN SPORTS 6"
+   ],
+   "icon": "https://cdn.mango-soft.com/bein-sports/channel-logo-6.webp",
+   "programmes": 85
+  },
+  {
+   "id": "beinsports7_831591",
+   "name": "beIN SPORTS 7",
+   "names": [
+    "beIN SPORTS 7"
+   ],
+   "icon": "https://cdn.mango-soft.com/bein-sports/channel-logo-7.webp",
+   "programmes": 47
+  },
+  {
+   "id": "beinsports7_A89206",
+   "name": "beIN SPORTS 7",
+   "names": [
+    "beIN SPORTS 7"
+   ],
+   "icon": "https://cdn.mango-soft.com/bein-sports/channel-logo-7.webp",
+   "programmes": 94
+  },
+  {
+   "id": "beinsports8_9A4242",
+   "name": "beIN SPORTS 8",
+   "names": [
+    "beIN SPORTS 8"
+   ],
+   "icon": "https://cdn.mango-soft.com/bein-sports/channel-logo-8.webp",
+   "programmes": 42
+  },
+  {
+   "id": "beinsports8_0F8D20",
+   "name": "beIN SPORTS 8",
+   "names": [
+    "beIN SPORTS 8"
+   ],
+   "icon": "https://cdn.mango-soft.com/bein-sports/channel-logo-8.webp",
+   "programmes": 73
+  },
+  {
+   "id": "beinsports9_5C08D9",
+   "name": "beIN SPORTS 9",
+   "names": [
+    "beIN SPORTS 9"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2023/09/logos-_beINSPORTS9.png",
+   "programmes": 93
+  },
+  {
+   "id": "beinen_8C1EC4",
+   "name": "beIN SPORTS EN 1",
+   "names": [
+    "beIN SPORTS EN 1"
+   ],
+   "icon": "https://prod-media.beinsports.com/image/6a971e08a01e6676d0f1a6e0dacbbd67.png",
+   "programmes": 99
+  },
+  {
+   "id": "beinen_846C79",
+   "name": "beIN SPORTS EN 2",
+   "names": [
+    "beIN SPORTS EN 2"
+   ],
+   "icon": "https://prod-media.beinsports.com/image/4cd31d31e16ac873f5f421d5880e88d6.png",
+   "programmes": 110
+  },
+  {
+   "id": "beinespanol_408366",
+   "name": "beIN SPORTS Español",
+   "names": [
+    "beIN SPORTS Español"
+   ],
+   "icon": "https://prod-media.beinsports.com/image/83ff5fb7036545401a7d3aa37880b8aa.png",
+   "programmes": 188
+  },
+  {
+   "id": "beinfr_930004",
+   "name": "beIN SPORTS FR 1",
+   "names": [
+    "beIN SPORTS FR 1"
+   ],
+   "icon": "https://prod-media.beinsports.com/image/e2c2ff9c7fb57db574e461fbe467d84e.png",
+   "programmes": 22
+  },
+  {
+   "id": "beinfr_9B9692",
+   "name": "beIN SPORTS FR 2",
+   "names": [
+    "beIN SPORTS FR 2"
+   ],
+   "icon": "https://prod-media.beinsports.com/image/501e3f8a108d7ab9335ceecd363d113d.png",
+   "programmes": 21
+  },
+  {
+   "id": "beinmax1_2FB430",
+   "name": "beIN SPORTS MAX 1",
+   "names": [
+    "beIN SPORTS MAX 1"
+   ],
+   "icon": "https://prod-media.beinsports.com/image/1113d7a76ffceca1bb350bfe145467c6.png",
+   "programmes": 29
+  },
+  {
+   "id": "beinmax10_6F4250",
+   "name": "beIN SPORTS MAX 10",
+   "names": [
+    "beIN SPORTS MAX 10"
+   ],
+   "icon": "https://photos.media-press.tv/logo/plurimedia/png_500x500_clair/1342.png",
+   "programmes": 52
+  },
+  {
+   "id": "beinmax2_008F0E",
+   "name": "beIN SPORTS MAX 2",
+   "names": [
+    "beIN SPORTS MAX 2"
+   ],
+   "icon": "https://prod-media.beinsports.com/image/a38b16173474ba8b1a95bcbc30d3b8a5.png",
+   "programmes": 29
+  },
+  {
+   "id": "beinmax3_7783DC",
+   "name": "beIN SPORTS MAX 3",
+   "names": [
+    "beIN SPORTS MAX 3"
+   ],
+   "icon": "https://prod-media.beinsports.com/image/dc1913d422398c25c5f0b81cab94cc87.png",
+   "programmes": 41
+  },
+  {
+   "id": "beinmax4_EF7E03",
+   "name": "beIN SPORTS MAX 4",
+   "names": [
+    "beIN SPORTS MAX 4"
+   ],
+   "icon": "https://photos.media-press.tv/logo/plurimedia/png_500x500_clair/1336.png",
+   "programmes": 57
+  },
+  {
+   "id": "beinmax4_5B1561",
+   "name": "beIN SPORTS MAX 4",
+   "names": [
+    "beIN SPORTS MAX 4"
+   ],
+   "icon": "https://prod-media.beinsports.com/image/3496a425359f4287e9db34c2a01c0a8c.png",
+   "programmes": 41
+  },
+  {
+   "id": "beinmax5_A4425E",
+   "name": "beIN SPORTS MAX 5",
+   "names": [
+    "beIN SPORTS MAX 5"
+   ],
+   "icon": "https://photos.media-press.tv/logo/plurimedia/png_500x500_clair/1337.png",
+   "programmes": 57
+  },
+  {
+   "id": "beinmax5_F72159",
+   "name": "beIN SPORTS MAX 5",
+   "names": [
+    "beIN SPORTS MAX 5"
+   ],
+   "icon": "https://prod-media.beinsports.com/image/ca886eb9edb61a42256192745c72cd79.png",
+   "programmes": 41
+  },
+  {
+   "id": "beinmax6_BBD26D",
+   "name": "beIN SPORTS MAX 6",
+   "names": [
+    "beIN SPORTS MAX 6"
+   ],
+   "icon": "https://photos.media-press.tv/logo/plurimedia/png_500x500_clair/1338.png",
+   "programmes": 53
+  },
+  {
+   "id": "beinmax6_DC0400",
+   "name": "beIN SPORTS MAX 6",
+   "names": [
+    "beIN SPORTS MAX 6"
+   ],
+   "icon": "https://prod-media.beinsports.com/image/32f2a17a525f222650821cbc362a74ec.png",
+   "programmes": 29
+  },
+  {
+   "id": "beinmax7_9B4708",
+   "name": "beIN SPORTS MAX 7",
+   "names": [
+    "beIN SPORTS MAX 7"
+   ],
+   "icon": "https://photos.media-press.tv/logo/plurimedia/png_500x500_clair/1339.png",
+   "programmes": 48
+  },
+  {
+   "id": "beinmax8_76D243",
+   "name": "beIN SPORTS MAX 8",
+   "names": [
+    "beIN SPORTS MAX 8"
+   ],
+   "icon": "https://photos.media-press.tv/logo/plurimedia/png_500x500_clair/1340.png",
+   "programmes": 48
+  },
+  {
+   "id": "beinmax9_FB2089",
+   "name": "beIN SPORTS MAX 9",
+   "names": [
+    "beIN SPORTS MAX 9"
+   ],
+   "icon": "https://photos.media-press.tv/logo/plurimedia/png_500x500_clair/1341.png",
+   "programmes": 50
+  },
+  {
+   "id": "beinsports_7B5582",
+   "name": "beIN SPORTS NEWS",
+   "names": [
+    "beIN SPORTS NEWS"
+   ],
+   "icon": "https://prod-media.beinsports.com/image/61a10e6abb1149ad9d08f303267f9bc4.png",
+   "programmes": 211
+  },
+  {
+   "id": "beinextra_1ACADC",
+   "name": "beIN SPORTS XTRA",
+   "names": [
+    "beIN SPORTS XTRA"
+   ],
+   "icon": "https://prod-media.beinsports.com/image/f51ff5e82c61a9c21b95a001fdc6c241.png",
+   "programmes": 192
+  },
+  {
+   "id": "beinextra_C938A2",
+   "name": "beIN SPORTS XTRA",
+   "names": [
+    "beIN SPORTS XTRA"
+   ],
+   "icon": "https://prod-media.beinsports.com/image/f51ff5e82c61a9c21b95a001fdc6c241.png",
+   "programmes": 194
+  },
+  {
+   "id": "beinextra_E3B37F",
+   "name": "beIN SPORTS XTRA 1",
+   "names": [
+    "beIN SPORTS XTRA 1"
+   ],
+   "icon": "https://prod-media.beinsports.com/image/a501bebf79d570651ff601788ea9d16d.png",
+   "programmes": 73
+  },
+  {
+   "id": "beinextra_27E670",
+   "name": "beIN SPORTS XTRA 2",
+   "names": [
+    "beIN SPORTS XTRA 2"
+   ],
+   "icon": "https://prod-media.beinsports.com/image/051928341be67dcba03f0e04104d9047.png",
+   "programmes": 174
+  },
+  {
+   "id": "beinextra_CDF1A4",
+   "name": "beIN SPORTS XTRA 3",
+   "names": [
+    "beIN SPORTS XTRA 3"
+   ],
+   "icon": "https://prod-media.beinsports.com/image/75c6b2d6319e12f37ff421834ad22fa8.png",
+   "programmes": 35
+  },
+  {
+   "id": "beinextra_7A8040",
+   "name": "beIN SPORTS XTRA 4",
+   "names": [
+    "beIN SPORTS XTRA 4"
+   ],
+   "icon": "https://prod-media.beinsports.com/image/17a2f75f991787fd923a77259dda115e.256.png",
+   "programmes": 34
+  },
+  {
+   "id": "beinextra_51D28C",
+   "name": "beIN SPORTS XTRA 5",
+   "names": [
+    "beIN SPORTS XTRA 5"
+   ],
+   "icon": "https://prod-media.beinsports.com/image/de6c3cf1b5d00bf10aaf95cb5ba69d75.256.png",
+   "programmes": 181
+  },
+  {
+   "id": "beinextra_9ABD32",
+   "name": "beIN SPORTS XTRA 6",
+   "names": [
+    "beIN SPORTS XTRA 6"
+   ],
+   "icon": "https://prod-media.beinsports.com/image/2c991594f9e4d315239a58e57cde71bb.256.png",
+   "programmes": 183
+  },
+  {
+   "id": "beinextra_1752F0",
+   "name": "beIN SPORTS XTRA 7",
+   "names": [
+    "beIN SPORTS XTRA 7"
+   ],
+   "icon": "https://prod-media.beinsports.com/image/0e7d4005bb386e7b30b56b171ef0f3f3.256.png",
+   "programmes": 36
+  },
+  {
+   "id": "beinextra_CD6347",
+   "name": "beIN SPORTS XTRA 8",
+   "names": [
+    "beIN SPORTS XTRA 8"
+   ],
+   "icon": "https://prod-media.beinsports.com/image/f8c077b1de82c818e0809f74c9409b85.256.png",
+   "programmes": 181
+  },
+  {
+   "id": "beinextra_522050",
+   "name": "beIN SPORTS XTRA 9",
+   "names": [
+    "beIN SPORTS XTRA 9"
+   ],
+   "icon": "https://prod-media.beinsports.com/image/9519f7e2743c36f2ff3f03f1c0264bd5.256.png",
+   "programmes": 35
+  },
+  {
+   "id": "beinextra_es_5223E3",
+   "name": "beIN SPORTS XTRA ñ",
+   "names": [
+    "beIN SPORTS XTRA ñ"
+   ],
+   "icon": "https://prod-media.beinsports.com/image/83ff5fb7036545401a7d3aa37880b8aa.png",
+   "programmes": 171
+  },
+  {
+   "id": "beinc_5ED9E1",
+   "name": "BEINC",
+   "names": [
+    "BEINC"
+   ],
+   "icon": "https://prod-media.beinsports.com/image/498f84ba449942229231dcfbbee14ea1.png",
+   "programmes": 170
+  },
+  {
+   "id": "beins8c_520D10",
+   "name": "BEINS8C",
+   "names": [
+    "BEINS8C"
+   ],
+   "icon": "https://prod-media.beinsports.com/image/498f84ba449942229231dcfbbee14ea1.png",
+   "programmes": 42
+  },
+  {
+   "id": "beinssc_5824C3",
+   "name": "BEINSSC",
+   "names": [
+    "BEINSSC"
+   ],
+   "icon": "https://prod-media.beinsports.com/image/498f84ba449942229231dcfbbee14ea1.png",
+   "programmes": 188
+  },
+  {
+   "id": "OTT_LIVE_0000001974",
+   "name": "OTT_LIVE_0000001974",
+   "names": [
+    "OTT_LIVE_0000001974"
+   ],
+   "icon": "",
+   "programmes": 84
+  },
+  {
+   "id": "OTT_LIVE_0000001736",
+   "name": "OTT_LIVE_0000001736",
+   "names": [
+    "OTT_LIVE_0000001736"
+   ],
+   "icon": "",
+   "programmes": 28
+  },
+  {
+   "id": "OTT_LIVE_0000001735",
+   "name": "OTT_LIVE_0000001735",
+   "names": [
+    "OTT_LIVE_0000001735"
+   ],
+   "icon": "",
+   "programmes": 26
+  },
+  {
+   "id": "76",
+   "name": "HOY 76",
+   "names": [
+    "HOY 76"
+   ],
+   "icon": "https://storage.hoy.tv/v1/image/channel/1.jpg",
+   "programmes": 193
+  },
+  {
+   "id": "77",
+   "name": "HOY 77",
+   "names": [
+    "HOY 77"
+   ],
+   "icon": "https://storage.hoy.tv/v1/image/channel/2.jpg",
+   "programmes": 320
+  },
+  {
+   "id": "78",
+   "name": "HOY 78",
+   "names": [
+    "HOY 78"
+   ],
+   "icon": "https://storage.hoy.tv/v1/image/channel/3.jpg",
+   "programmes": 381
+  },
+  {
+   "id": "CWIN",
+   "name": "SUPER",
+   "names": [
+    "SUPER"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1781170072476150_CWIN.webp",
+   "programmes": 272
+  },
+  {
+   "id": "SVAR",
+   "name": "SUPER Game Show",
+   "names": [
+    "SUPER Game Show"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1791756531329868_SVAR.jpeg",
+   "programmes": 344
+  },
+  {
+   "id": "SEYT",
+   "name": "愛．回家SUPER煲",
+   "names": [
+    "愛．回家SUPER煲",
+    "SUPER Sitcom3"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780290457744210_SEYT.jpeg",
+   "programmes": 504
+  },
+  {
+   "id": "SFOO",
+   "name": "SUPER識食",
+   "names": [
+    "SUPER識食",
+    "SUPER Food"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779419110040417_SFOO.webp",
+   "programmes": 496
+  },
+  {
+   "id": "STRA",
+   "name": "SUPER資訊娛樂",
+   "names": [
+    "SUPER資訊娛樂",
+    "SUPER Infotainment"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1791756557413486_STRA.jpeg",
+   "programmes": 442
+  },
+  {
+   "id": "SMUS",
+   "name": "SUPER Music",
+   "names": [
+    "SUPER Music"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779420473573613_SMUS.webp",
+   "programmes": 158
+  },
+  {
+   "id": "SGOL",
+   "name": "SUPER靈異",
+   "names": [
+    "SUPER靈異",
+    "SUPER Horror"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1791756580568275_SGOL.jpeg",
+   "programmes": 326
+  },
+  {
+   "id": "SSIT",
+   "name": "SUPER處境劇",
+   "names": [
+    "SUPER處境劇",
+    "SUPER Sitcom"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1791756605396879_SSIT.jpeg",
+   "programmes": 499
+  },
+  {
+   "id": "STVM",
+   "name": "SUPER亞視劇",
+   "names": [
+    "SUPER亞視劇",
+    "SUPER ATV Drama"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422061749535_STVM.webp",
+   "programmes": 244
+  },
+  {
+   "id": "SDOC",
+   "name": "真情SUPER煲",
+   "names": [
+    "真情SUPER煲",
+    "SUPER Sitcom2"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422070860622_SDOC.webp",
+   "programmes": 529
+  },
+  {
+   "id": "SSPT",
+   "name": "SUPER Sports",
+   "names": [
+    "SUPER Sports"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780296854303420_SSPT.webp",
+   "programmes": 109
+  },
+  {
+   "id": "C18",
+   "name": "myTV SUPER 18台",
+   "names": [
+    "myTV SUPER 18台",
+    "myTV SUPER 18"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422115756109_C18.webp",
+   "programmes": 212
+  },
+  {
+   "id": "TVG",
+   "name": "黃金翡翠台",
+   "names": [
+    "黃金翡翠台",
+    "Golden Jade"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422126942931_TVG.webp",
+   "programmes": 231
+  },
+  {
+   "id": "J",
+   "name": "翡翠台",
+   "names": [
+    "翡翠台",
+    "Jade"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422139392299_J.webp",
+   "programmes": 352
+  },
+  {
+   "id": "B",
+   "name": "TVB Plus",
+   "names": [
+    "TVB Plus"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885236612374_B.webp",
+   "programmes": 255
+  },
+  {
+   "id": "C",
+   "name": "無綫新聞台",
+   "names": [
+    "無綫新聞台",
+    "TVB News Channel"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422159594481_C.webp",
+   "programmes": 428
+  },
+  {
+   "id": "P",
+   "name": "明珠台",
+   "names": [
+    "明珠台",
+    "Pearl"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422173673152_P.webp",
+   "programmes": 261
+  },
+  {
+   "id": "CTVC",
+   "name": "千禧經典台",
+   "names": [
+    "千禧經典台",
+    "TVB Classic"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422184734494_CTVC.webp",
+   "programmes": 254
+  },
+  {
+   "id": "CTVS",
+   "name": "亞洲劇台",
+   "names": [
+    "亞洲劇台",
+    "Asian Drama"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422196182609_CTVS.webp",
+   "programmes": 189
+  },
+  {
+   "id": "CDR3",
+   "name": "華語劇台",
+   "names": [
+    "華語劇台",
+    "Chinese Drama"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422206504644_CDR3.webp",
+   "programmes": 262
+  },
+  {
+   "id": "TVO",
+   "name": "黃金華劇台",
+   "names": [
+    "黃金華劇台",
+    "Golden Chinese Drama"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422245634416_TVO.webp",
+   "programmes": 232
+  },
+  {
+   "id": "CTVE",
+   "name": "娛樂新聞台",
+   "names": [
+    "娛樂新聞台",
+    "Entertainment News"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422256202991_CTVE.webp",
+   "programmes": 384
+  },
+  {
+   "id": "CCOC",
+   "name": "戲曲台",
+   "names": [
+    "戲曲台",
+    "Chinese Opera Channel"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422293857252_CCOC.webp",
+   "programmes": 752
+  },
+  {
+   "id": "KID",
+   "name": "SUPER Kids Channel",
+   "names": [
+    "SUPER Kids Channel"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422303459788_KID.webp",
+   "programmes": 564
+  },
+  {
+   "id": "ZOO",
+   "name": "ZooMoo",
+   "names": [
+    "ZooMoo"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885287854827_ZOO.webp",
+   "programmes": 1249
+  },
+  {
+   "id": "SEVK",
+   "name": "SeaVa Kids",
+   "names": [
+    "SeaVa Kids"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1788942845507926_SEVK.jpeg",
+   "programmes": 942
+  },
+  {
+   "id": "CNIKO",
+   "name": "Nickelodeon",
+   "names": [
+    "Nickelodeon"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885297991536_CNIKO.webp",
+   "programmes": 523
+  },
+  {
+   "id": "CNIJR",
+   "name": "Nick Jr",
+   "names": [
+    "Nick Jr"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885308698582_CNIJR.webp",
+   "programmes": 655
+  },
+  {
+   "id": "CCLM",
+   "name": "粵語片台",
+   "names": [
+    "粵語片台",
+    "Classic Movies"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422353279391_CCLM.webp",
+   "programmes": 117
+  },
+  {
+   "id": "CMAM",
+   "name": "美亞電影台",
+   "names": [
+    "美亞電影台",
+    "Mei Ah Movie Channel"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885353272591_CMAM.webp",
+   "programmes": 119
+  },
+  {
+   "id": "CTHR",
+   "name": "Thrill",
+   "names": [
+    "Thrill"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885362039682_CTHR.webp",
+   "programmes": 131
+  },
+  {
+   "id": "CCCM",
+   "name": "天映經典頻道",
+   "names": [
+    "天映經典頻道",
+    "CCM"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885370596299_CCCM.webp",
+   "programmes": 120
+  },
+  {
+   "id": "CMC",
+   "name": "中國電影頻道",
+   "names": [
+    "中國電影頻道",
+    "China Movie Channel"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885382598959_CMC.webp",
+   "programmes": 213
+  },
+  {
+   "id": "CRTX",
+   "name": "ROCK Action",
+   "names": [
+    "ROCK Action"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885393244598_CRTX.webp",
+   "programmes": 111
+  },
+  {
+   "id": "POPC",
+   "name": "PopC",
+   "names": [
+    "PopC"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885402905699_POPC.webp",
+   "programmes": 136
+  },
+  {
+   "id": "ACTM",
+   "name": "Action Hollywood Movies",
+   "names": [
+    "Action Hollywood Movies"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422364984657_ACTM.webp",
+   "programmes": 96
+  },
+  {
+   "id": "RCM",
+   "name": "Rialto Classic Movies (RCM)",
+   "names": [
+    "Rialto Classic Movies (RCM)"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422374849570_RCM.webp",
+   "programmes": 95
+  },
+  {
+   "id": "MYCE",
+   "name": "My Cinema Europe",
+   "names": [
+    "My Cinema Europe"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1788942890633156_MYCE.jpeg",
+   "programmes": 134
+  },
+  {
+   "id": "CKIX",
+   "name": "KIX",
+   "names": [
+    "KIX"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885411761930_CKIX.webp",
+   "programmes": 140
+  },
+  {
+   "id": "TRSP",
+   "name": "TRACE Sport Stars",
+   "names": [
+    "TRACE Sport Stars"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422411253491_TRSP.webp",
+   "programmes": 339
+  },
+  {
+   "id": "MOTV",
+   "name": "Motorvision",
+   "names": [
+    "Motorvision"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1788942926292862_MOTV.jpeg",
+   "programmes": 267
+  },
+  {
+   "id": "ECLA",
+   "name": "Access eClutch",
+   "names": [
+    "Access eClutch"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1788942956165485_ECLA.jpeg",
+   "programmes": 503
+  },
+  {
+   "id": "ECL2",
+   "name": "eClutch Live 2",
+   "names": [
+    "eClutch Live 2"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1788942982001491_ECL2.jpeg",
+   "programmes": 495
+  },
+  {
+   "id": "LNH",
+   "name": "Love Nature HD",
+   "names": [
+    "Love Nature HD"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885450723823_LNH.webp",
+   "programmes": 216
+  },
+  {
+   "id": "LN4",
+   "name": "Love Nature 4K",
+   "names": [
+    "Love Nature 4K"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885458922189_LN4.webp",
+   "programmes": 216
+  },
+  {
+   "id": "SMS",
+   "name": "Global Trekker",
+   "names": [
+    "Global Trekker"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885468557406_SMS.webp",
+   "programmes": 259
+  },
+  {
+   "id": "PETC",
+   "name": "Pet Club TV",
+   "names": [
+    "Pet Club TV"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422419004489_PETC.webp",
+   "programmes": 224
+  },
+  {
+   "id": "GLBT",
+   "name": "Globetrotter",
+   "names": [
+    "Globetrotter"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422426470989_GLBT.webp",
+   "programmes": 245
+  },
+  {
+   "id": "DOCV",
+   "name": "Docsville",
+   "names": [
+    "Docsville"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422435665423_DOCV.webp",
+   "programmes": 202
+  },
+  {
+   "id": "PULS",
+   "name": "Wild Stuff",
+   "names": [
+    "Wild Stuff"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885479727274_PULS.webp",
+   "programmes": 217
+  },
+  {
+   "id": "CRTE",
+   "name": "ROCK綜藝娛樂",
+   "names": [
+    "ROCK綜藝娛樂",
+    "ROCK Entertainment"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885489051825_CRTE.webp",
+   "programmes": 250
+  },
+  {
+   "id": "RKEX",
+   "name": "ROCK X Stream",
+   "names": [
+    "ROCK X Stream"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780887279387146_RKEX.webp",
+   "programmes": 170
+  },
+  {
+   "id": "CJTV",
+   "name": "tvN",
+   "names": [
+    "tvN"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885602934726_CJTV.webp",
+   "programmes": 140
+  },
+  {
+   "id": "CTS1",
+   "name": "無線衛星亞洲台",
+   "names": [
+    "無線衛星亞洲台",
+    "TVBS Asia"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885612542420_CTS1.webp",
+   "programmes": 170
+  },
+  {
+   "id": "CRE",
+   "name": "創世電視",
+   "names": [
+    "創世電視",
+    "Creation TV"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885623338568_CRE.webp",
+   "programmes": 213
+  },
+  {
+   "id": "FSTV",
+   "name": "Fashion TV",
+   "names": [
+    "Fashion TV"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1788943011595830_FSTV.jpeg",
+   "programmes": 312
+  },
+  {
+   "id": "CMTV",
+   "name": "Crema.TV",
+   "names": [
+    "Crema.TV"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1788943037477984_CMTV.jpeg",
+   "programmes": 1294
+  },
+  {
+   "id": "CC1",
+   "name": "中央電視台綜合頻道 (港澳版)",
+   "names": [
+    "中央電視台綜合頻道 (港澳版)",
+    "CCTV-1"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422468767744_CC1.webp",
+   "programmes": 116
+  },
+  {
+   "id": "CGD",
+   "name": "CGTN (中國環球電視網)記錄頻道",
+   "names": [
+    "CGTN (中國環球電視網)記錄頻道",
+    "CGTN Documentary"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885652721826_CGD.webp",
+   "programmes": 537
+  },
+  {
+   "id": "CGE",
+   "name": "CGTN (中國環球電視網)英語頻道",
+   "names": [
+    "CGTN (中國環球電視網)英語頻道",
+    "CGTN English"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885662573668_CGE.webp",
+   "programmes": 358
+  },
+  {
+   "id": "DTV",
+   "name": "東方衛視國際頻道",
+   "names": [
+    "東方衛視國際頻道",
+    "Dragon TV"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885671871767_DTV.webp",
+   "programmes": 148
+  },
+  {
+   "id": "CC4",
+   "name": "中國中央電視台中文國際頻道",
+   "names": [
+    "中國中央電視台中文國際頻道",
+    "CCTV-4"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422535965356_CC4.webp",
+   "programmes": 56
+  },
+  {
+   "id": "CCE",
+   "name": "中國中央電視台娛樂頻道",
+   "names": [
+    "中國中央電視台娛樂頻道",
+    "CCTV Entertainment"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422545139470_CCE.webp",
+   "programmes": 56
+  },
+  {
+   "id": "CCO",
+   "name": "中國中央電視台戲曲頻道",
+   "names": [
+    "中國中央電視台戲曲頻道",
+    "CCTV Chinese Opera"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422552787860_CCO.webp",
+   "programmes": 56
+  },
+  {
+   "id": "YNTV",
+   "name": "雲南瀾湄國際衛視",
+   "names": [
+    "雲南瀾湄國際衛視",
+    "Yunnan TV"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422578830549_YNTV.webp",
+   "programmes": 56
+  },
+  {
+   "id": "AHTV",
+   "name": "安徽廣播電視台國際頻道",
+   "names": [
+    "安徽廣播電視台國際頻道",
+    "Anhui TV"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422586019291_AHTV.webp",
+   "programmes": 56
+  },
+  {
+   "id": "BJTV",
+   "name": "北京電視台國際頻道",
+   "names": [
+    "北京電視台國際頻道",
+    "Beijing TV"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422593880662_BJTV.webp",
+   "programmes": 56
+  },
+  {
+   "id": "FJTV",
+   "name": "福建海峽衛視國際頻道",
+   "names": [
+    "福建海峽衛視國際頻道",
+    "Fujian TV"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422647902739_FJTV.webp",
+   "programmes": 56
+  },
+  {
+   "id": "HNTV",
+   "name": "湖南電視台國際頻道",
+   "names": [
+    "湖南電視台國際頻道",
+    "Hunan TV"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422659115658_HNTV.webp",
+   "programmes": 56
+  },
+  {
+   "id": "JSTV",
+   "name": "江蘇電視台國際頻道",
+   "names": [
+    "江蘇電視台國際頻道",
+    "Jiangsu TV"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422668449705_JSTV.webp",
+   "programmes": 56
+  },
+  {
+   "id": "GBTV",
+   "name": "廣東廣播電視台大灣區衛視頻道",
+   "names": [
+    "廣東廣播電視台大灣區衛視頻道",
+    "GRT Greater Bay Area TV"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422676221397_GBTV.webp",
+   "programmes": 56
+  },
+  {
+   "id": "ZJTV",
+   "name": "浙江電視台國際頻道",
+   "names": [
+    "浙江電視台國際頻道",
+    "Zhejiang TV"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422684039580_ZJTV.webp",
+   "programmes": 56
+  },
+  {
+   "id": "SZTV",
+   "name": "深圳衛視國際頻道",
+   "names": [
+    "深圳衛視國際頻道",
+    "Shenzhen TV"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422690643817_SZTV.webp",
+   "programmes": 56
+  },
+  {
+   "id": "NOW7",
+   "name": "that&#x27;s 70s",
+   "names": [
+    "that&#x27;s 70s"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422698806489_NOW7.webp",
+   "programmes": 105
+  },
+  {
+   "id": "NOW8",
+   "name": "that&#x27;s 80s",
+   "names": [
+    "that&#x27;s 80s"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422705501674_NOW8.webp",
+   "programmes": 112
+  },
+  {
+   "id": "NOWR",
+   "name": "that&#x27;s Rock",
+   "names": [
+    "that&#x27;s Rock"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422713191398_NOWR.webp",
+   "programmes": 107
+  },
+  {
+   "id": "NOW9",
+   "name": "that&#x27;s 90s00s",
+   "names": [
+    "that&#x27;s 90s00s"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422721362938_NOW9.webp",
+   "programmes": 112
+  },
+  {
+   "id": "CONC",
+   "name": "Concerto",
+   "names": [
+    "Concerto"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422764457880_CONC.webp",
+   "programmes": 181
+  },
+  {
+   "id": "TRUR",
+   "name": "TRACE Urban",
+   "names": [
+    "TRACE Urban"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422772097265_TRUR.webp",
+   "programmes": 110
+  },
+  {
+   "id": "NWDR",
+   "name": "NewTV古裝劇場",
+   "names": [
+    "NewTV古裝劇場",
+    "NewTV Drama"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885782325749_NWDR.webp",
+   "programmes": 262
+  },
+  {
+   "id": "NWED",
+   "name": "New TV科教",
+   "names": [
+    "New TV科教",
+    "NewTV Education"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885790869541_NWED.webp",
+   "programmes": 337
+  },
+  {
+   "id": "NWHE",
+   "name": "NewTV養生",
+   "names": [
+    "NewTV養生",
+    "NewTV Health"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885799947324_NWHE.webp",
+   "programmes": 316
+  },
+  {
+   "id": "NWMA",
+   "name": "NewTV功夫",
+   "names": [
+    "NewTV功夫",
+    "NewTV Martial Arts"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885809463131_NWMA.webp",
+   "programmes": 342
+  },
+  {
+   "id": "SEVA",
+   "name": "SeaVa Asia",
+   "names": [
+    "SeaVa Asia"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1788943054462129_SEVA.jpeg",
+   "programmes": 536
+  },
+  {
+   "id": "CTSN",
+   "name": "無線衛星新聞台",
+   "names": [
+    "無線衛星新聞台",
+    "TVBS News"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885817700731_CTSN.webp",
+   "programmes": 188
+  },
+  {
+   "id": "CCNA",
+   "name": "亞洲新聞台",
+   "names": [
+    "亞洲新聞台",
+    "Channel NewsAsia"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885826604356_CCNA.webp",
+   "programmes": 257
+  },
+  {
+   "id": "CJAZ",
+   "name": "半島電視台英語頻道",
+   "names": [
+    "半島電視台英語頻道",
+    "Al Jazeera English"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885834017215_CJAZ.webp",
+   "programmes": 283
+  },
+  {
+   "id": "CF24",
+   "name": "France 24",
+   "names": [
+    "France 24"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885842308987_CF24.webp",
+   "programmes": 192
+  },
+  {
+   "id": "CDW1",
+   "name": "DW",
+   "names": [
+    "DW"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885850143290_CDW1.webp",
+   "programmes": 600
+  },
+  {
+   "id": "CNHK",
+   "name": "NHK World-Japan",
+   "names": [
+    "NHK World-Japan"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885864826509_CNHK.webp",
+   "programmes": 554
+  },
+  {
+   "id": "CARI",
+   "name": "Arirang TV",
+   "names": [
+    "Arirang TV"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780887259731393_CARI.webp",
+   "programmes": 411
+  },
+  {
+   "id": "NSWD",
+   "name": "NewsWorld",
+   "names": [
+    "NewsWorld"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422780308836_NSWD.webp",
+   "programmes": 384
+  },
+  {
+   "id": "INDO",
+   "name": "The Indonesia Channel",
+   "names": [
+    "The Indonesia Channel"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885906026413_INDO.webp",
+   "programmes": 198
+  },
+  {
+   "id": "EVT2",
+   "name": "myTV SUPER直播足球2台",
+   "names": [
+    "myTV SUPER直播足球2台",
+    "myTV SUPER Live Soccer 2"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885914406872_EVT2.webp",
+   "programmes": 73
+  },
+  {
+   "id": "EVT3",
+   "name": "myTV SUPER直播足球3台",
+   "names": [
+    "myTV SUPER直播足球3台",
+    "myTV SUPER Live Soccer 3"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885922961255_EVT3.webp",
+   "programmes": 70
+  },
+  {
+   "id": "EVT4",
+   "name": "myTV SUPER直播足球4台",
+   "names": [
+    "myTV SUPER直播足球4台",
+    "myTV SUPER Live Soccer 4"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885930912182_EVT4.webp",
+   "programmes": 67
+  },
+  {
+   "id": "EVT5",
+   "name": "myTV SUPER直播足球5台",
+   "names": [
+    "myTV SUPER直播足球5台",
+    "myTV SUPER Live Soccer 5"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885938690115_EVT5.webp",
+   "programmes": 64
+  },
+  {
+   "id": "EVT6",
+   "name": "myTV SUPER直播足球6台",
+   "names": [
+    "myTV SUPER直播足球6台",
+    "myTV SUPER Live Soccer 6"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885947751989_EVT6.webp",
+   "programmes": 64
+  },
+  {
+   "id": "EVT7",
+   "name": "myTV SUPER直播足球7台",
+   "names": [
+    "myTV SUPER直播足球7台",
+    "myTV SUPER Live Soccer 7"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885956231247_EVT7.webp",
+   "programmes": 64
+  },
+  {
+   "id": "TEST",
+   "name": "測試頻道",
+   "names": [
+    "測試頻道",
+    "Test Channel"
+   ],
+   "icon": "",
+   "programmes": 347
+  },
+  {
+   "id": "ViuTV",
+   "name": "ViuTV",
+   "names": [
+    "ViuTV"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/zh_tw/color/ch96_170_122",
+   "programmes": 52
+  },
+  {
+   "id": "ViuTV6",
+   "name": "ViuTV6",
+   "names": [
+    "ViuTV6"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/zh_tw/color/ch99_170_122",
+   "programmes": 62
+  },
+  {
+   "id": "Viu 頻道",
+   "name": "Viu 頻道",
+   "names": [
+    "Viu 頻道"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch102_170_122",
+   "programmes": 38
+  },
+  {
+   "id": "Now华剧台",
+   "name": "Now华剧台",
+   "names": [
+    "Now华剧台"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/zh_tw/color/ch105_170_122",
+   "programmes": 38
+  },
+  {
+   "id": "Now 影視點播站",
+   "name": "Now 影視點播站",
+   "names": [
+    "Now 影視點播站"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/zh_tw/color/ch106_170_122",
+   "programmes": 20
+  },
+  {
+   "id": "NowJelli",
+   "name": "NowJelli",
+   "names": [
+    "NowJelli"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch108_170_122",
+   "programmes": 30
+  },
+  {
+   "id": "HBO Hits",
+   "name": "HBO Hits",
+   "names": [
+    "HBO Hits"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch111_170_122",
+   "programmes": 22
+  },
+  {
+   "id": "HBO Family",
+   "name": "HBO Family",
+   "names": [
+    "HBO Family"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch112_170_122",
+   "programmes": 67
+  },
+  {
+   "id": "CINEMAX",
+   "name": "CINEMAX",
+   "names": [
+    "CINEMAX"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch113_170_122",
+   "programmes": 23
+  },
+  {
+   "id": "HBO Signature",
+   "name": "HBO Signature",
+   "names": [
+    "HBO Signature"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch114_170_122",
+   "programmes": 29
+  },
+  {
+   "id": "HBO",
+   "name": "HBO",
+   "names": [
+    "HBO"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch115_170_122",
+   "programmes": 23
+  },
+  {
+   "id": "MOVIE MOVIE",
+   "name": "MOVIE MOVIE",
+   "names": [
+    "MOVIE MOVIE"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch116_170_122",
+   "programmes": 21
+  },
+  {
+   "id": "HITS MOVIES",
+   "name": "HITS MOVIES",
+   "names": [
+    "HITS MOVIES"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch119_170_122",
+   "programmes": 17
+  },
+  {
+   "id": "Now 爆谷台",
+   "name": "Now 爆谷台",
+   "names": [
+    "Now 爆谷台"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch133_170_122",
+   "programmes": 29
+  },
+  {
+   "id": "Now爆谷星影台",
+   "name": "Now爆谷星影台",
+   "names": [
+    "Now爆谷星影台"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch138_170_122",
+   "programmes": 23
+  },
+  {
+   "id": "Animax",
+   "name": "Animax",
+   "names": [
+    "Animax"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch150_170_122",
+   "programmes": 74
+  },
+  {
+   "id": "tvN",
+   "name": "tvN",
+   "names": [
+    "tvN"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch155_170_122",
+   "programmes": 62
+  },
+  {
+   "id": "KBS World",
+   "name": "KBS World",
+   "names": [
+    "KBS World"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch156_170_122",
+   "programmes": 42
+  },
+  {
+   "id": "MOOV 演唱會.MV台",
+   "name": "MOOV 演唱會.MV台",
+   "names": [
+    "MOOV 演唱會.MV台"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch168_170_122",
+   "programmes": 20
+  },
+  {
+   "id": "熊貓 TV",
+   "name": "熊貓 TV",
+   "names": [
+    "熊貓 TV"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch200_170_122",
+   "programmes": 9
+  },
+  {
+   "id": "Discovery Asia",
+   "name": "Discovery Asia",
+   "names": [
+    "Discovery Asia"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch208_170_122",
+   "programmes": 111
+  },
+  {
+   "id": "Discovery Channel",
+   "name": "Discovery Channel",
+   "names": [
+    "Discovery Channel"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch209_170_122",
+   "programmes": 40
+  },
+  {
+   "id": "动物星球频道",
+   "name": "动物星球频道",
+   "names": [
+    "动物星球频道"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch210_170_122",
+   "programmes": 46
+  },
+  {
+   "id": "Discovery 科学頻道",
+   "name": "Discovery 科学頻道",
+   "names": [
+    "Discovery 科学頻道"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch211_170_122",
+   "programmes": 59
+  },
+  {
+   "id": "DMAX",
+   "name": "DMAX",
+   "names": [
+    "DMAX"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch212_170_122",
+   "programmes": 60
+  },
+  {
+   "id": "TLC旅遊生活頻道",
+   "name": "TLC旅遊生活頻道",
+   "names": [
+    "TLC旅遊生活頻道"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch213_170_122",
+   "programmes": 55
+  },
+  {
+   "id": "Love Nature",
+   "name": "Love Nature",
+   "names": [
+    "Love Nature"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch217_170_122",
+   "programmes": 42
+  },
+  {
+   "id": "Love Nature 4K",
+   "name": "Love Nature 4K",
+   "names": [
+    "Love Nature 4K"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch218_170_122",
+   "programmes": 42
+  },
+  {
+   "id": "BBC Earth",
+   "name": "BBC Earth",
+   "names": [
+    "BBC Earth"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch220_170_122",
+   "programmes": 87
+  },
+  {
+   "id": "戶外頻道",
+   "name": "戶外頻道",
+   "names": [
+    "戶外頻道"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch221_170_122",
+   "programmes": 70
+  },
+  {
+   "id": "罪案 + 偵緝",
+   "name": "罪案 + 偵緝",
+   "names": [
+    "罪案 + 偵緝"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch222_170_122",
+   "programmes": 51
+  },
+  {
+   "id": "HISTORY",
+   "name": "HISTORY",
+   "names": [
+    "HISTORY"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch223_170_122",
+   "programmes": 42
+  },
+  {
+   "id": "CNN",
+   "name": "CNN",
+   "names": [
+    "CNN"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/zh_tw/color/ch316_170_122",
+   "programmes": 50
+  },
+  {
+   "id": "CNBC",
+   "name": "CNBC",
+   "names": [
+    "CNBC"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/zh_tw/color/ch319_170_122",
+   "programmes": 53
+  },
+  {
+   "id": "BBC News",
+   "name": "BBC News",
+   "names": [
+    "BBC News"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch320_170_122",
+   "programmes": 73
+  },
+  {
+   "id": "Bloomberg Television",
+   "name": "Bloomberg Television",
+   "names": [
+    "Bloomberg Television"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch321_170_122",
+   "programmes": 52
+  },
+  {
+   "id": "亚洲新闻台",
+   "name": "亚洲新闻台",
+   "names": [
+    "亚洲新闻台"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch322_170_122",
+   "programmes": 71
+  },
+  {
+   "id": "Sky News",
+   "name": "Sky News",
+   "names": [
+    "Sky News"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch323_170_122",
+   "programmes": 66
+  },
+  {
+   "id": "DW (English)",
+   "name": "DW (English)",
+   "names": [
+    "DW (English)"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch324_170_122",
+   "programmes": 116
+  },
+  {
+   "id": "半岛电视台英语频道",
+   "name": "半岛电视台英语频道",
+   "names": [
+    "半岛电视台英语频道"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch325_170_122",
+   "programmes": 55
+  },
+  {
+   "id": "euronews",
+   "name": "euronews",
+   "names": [
+    "euronews"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch326_170_122",
+   "programmes": 55
+  },
+  {
+   "id": "France 24",
+   "name": "France 24",
+   "names": [
+    "France 24"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch327_170_122",
+   "programmes": 200
+  },
+  {
+   "id": "NHK WORLD-JAPAN",
+   "name": "NHK WORLD-JAPAN",
+   "names": [
+    "NHK WORLD-JAPAN"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch328_170_122",
+   "programmes": 116
+  },
+  {
+   "id": "RT",
+   "name": "RT",
+   "names": [
+    "RT"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch329_170_122",
+   "programmes": 7
+  },
+  {
+   "id": "CGTN",
+   "name": "CGTN",
+   "names": [
+    "CGTN"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch330_170_122",
+   "programmes": 69
+  },
+  {
+   "id": "Now直播台",
+   "name": "Now直播台",
+   "names": [
+    "Now直播台"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch331_170_122",
+   "programmes": 30
+  },
+  {
+   "id": "Now新闻台",
+   "name": "Now新闻台",
+   "names": [
+    "Now新闻台"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch332_170_122",
+   "programmes": 89
+  },
+  {
+   "id": "Now财经台",
+   "name": "Now财经台",
+   "names": [
+    "Now财经台"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch333_170_122",
+   "programmes": 86
+  },
+  {
+   "id": "Now报价台",
+   "name": "Now报价台",
+   "names": [
+    "Now报价台"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch336_170_122",
+   "programmes": 20
+  },
+  {
+   "id": "凤凰卫视资讯台",
+   "name": "凤凰卫视资讯台",
+   "names": [
+    "凤凰卫视资讯台"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch366_170_122",
+   "programmes": 100
+  },
+  {
+   "id": "Cartoon Network",
+   "name": "Cartoon Network",
+   "names": [
+    "Cartoon Network"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch443_170_122",
+   "programmes": 60
+  },
+  {
+   "id": "Nickelodeon",
+   "name": "Nickelodeon",
+   "names": [
+    "Nickelodeon"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch444_170_122",
+   "programmes": 92
+  },
+  {
+   "id": "CBeebies",
+   "name": "CBeebies",
+   "names": [
+    "CBeebies"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch447_170_122",
+   "programmes": 583
+  },
+  {
+   "id": "Nick Jr.",
+   "name": "Nick Jr.",
+   "names": [
+    "Nick Jr."
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch449_170_122",
+   "programmes": 248
+  },
+  {
+   "id": "BBC Lifestyle",
+   "name": "BBC Lifestyle",
+   "names": [
+    "BBC Lifestyle"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch502_170_122",
+   "programmes": 96
+  },
+  {
+   "id": "AXN",
+   "name": "AXN",
+   "names": [
+    "AXN"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch512_170_122",
+   "programmes": 41
+  },
+  {
+   "id": "HITS",
+   "name": "HITS",
+   "names": [
+    "HITS"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch513_170_122",
+   "programmes": 51
+  },
+  {
+   "id": "ROCK Entertainment",
+   "name": "ROCK Entertainment",
+   "names": [
+    "ROCK Entertainment"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch517_170_122",
+   "programmes": 110
+  },
+  {
+   "id": "Food Network",
+   "name": "Food Network",
+   "names": [
+    "Food Network"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch526_170_122",
+   "programmes": 62
+  },
+  {
+   "id": "亚洲美食台",
+   "name": "亚洲美食台",
+   "names": [
+    "亚洲美食台"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch527_170_122",
+   "programmes": 60
+  },
+  {
+   "id": "Netflix",
+   "name": "Netflix",
+   "names": [
+    "Netflix"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch535_170_122",
+   "programmes": 20
+  },
+  {
+   "id": "中天亚洲台",
+   "name": "中天亚洲台",
+   "names": [
+    "中天亚洲台"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch538_170_122",
+   "programmes": 40
+  },
+  {
+   "id": "深圳卫视",
+   "name": "深圳卫视",
+   "names": [
+    "深圳卫视"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch540_170_122",
+   "programmes": 51
+  },
+  {
+   "id": "CCTV1",
+   "name": "CCTV1",
+   "names": [
+    "CCTV1"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch541_170_122",
+   "programmes": 61
+  },
+  {
+   "id": "CCTV4",
+   "name": "CCTV4",
+   "names": [
+    "CCTV4"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch542_170_122",
+   "programmes": 61
+  },
+  {
+   "id": "大湾区卫视",
+   "name": "大湾区卫视",
+   "names": [
+    "大湾区卫视"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch543_170_122",
+   "programmes": 39
+  },
+  {
+   "id": "CCTV13",
+   "name": "CCTV13",
+   "names": [
+    "CCTV13"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch545_170_122",
+   "programmes": 48
+  },
+  {
+   "id": "凤凰卫视中文台",
+   "name": "凤凰卫视中文台",
+   "names": [
+    "凤凰卫视中文台"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch548_170_122",
+   "programmes": 76
+  },
+  {
+   "id": "东方卫视国际频道",
+   "name": "东方卫视国际频道",
+   "names": [
+    "东方卫视国际频道"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch551_170_122",
+   "programmes": 7
+  },
+  {
+   "id": "三沙卫视",
+   "name": "三沙卫视",
+   "names": [
+    "三沙卫视"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch553_170_122",
+   "programmes": 3
+  },
+  {
+   "id": "ABC Australia",
+   "name": "ABC Australia",
+   "names": [
+    "ABC Australia"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch561_170_122",
+   "programmes": 51
+  },
+  {
+   "id": "Now Sports 4K 1",
+   "name": "Now Sports 4K 1",
+   "names": [
+    "Now Sports 4K 1"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch611_170_122",
+   "programmes": 36
+  },
+  {
+   "id": "Now Sports 4K 2",
+   "name": "Now Sports 4K 2",
+   "names": [
+    "Now Sports 4K 2"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch612_170_122",
+   "programmes": 20
+  },
+  {
+   "id": "Now Sports 4K 3",
+   "name": "Now Sports 4K 3",
+   "names": [
+    "Now Sports 4K 3"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch613_170_122",
+   "programmes": 20
+  },
+  {
+   "id": "Now Sports Premier League TV",
+   "name": "Now Sports Premier League TV",
+   "names": [
+    "Now Sports Premier League TV"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch620_170_122",
+   "programmes": 48
+  },
+  {
+   "id": "Now Sports 英超1台",
+   "name": "Now Sports 英超1台",
+   "names": [
+    "Now Sports 英超1台"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch621_170_122",
+   "programmes": 43
+  },
+  {
+   "id": "Now Sports 英超2台",
+   "name": "Now Sports 英超2台",
+   "names": [
+    "Now Sports 英超2台"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch622_170_122",
+   "programmes": 13
+  },
+  {
+   "id": "Now Sports 英超3台",
+   "name": "Now Sports 英超3台",
+   "names": [
+    "Now Sports 英超3台"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch623_170_122",
+   "programmes": 12
+  },
+  {
+   "id": "Now Sports 英超4台",
+   "name": "Now Sports 英超4台",
+   "names": [
+    "Now Sports 英超4台"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch624_170_122",
+   "programmes": 12
+  },
+  {
+   "id": "Now Sports 英超5台",
+   "name": "Now Sports 英超5台",
+   "names": [
+    "Now Sports 英超5台"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch625_170_122",
+   "programmes": 12
+  },
+  {
+   "id": "Now Sports 英超6台",
+   "name": "Now Sports 英超6台",
+   "names": [
+    "Now Sports 英超6台"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch626_170_122",
+   "programmes": 11
+  },
+  {
+   "id": "Now Sports 英超7台",
+   "name": "Now Sports 英超7台",
+   "names": [
+    "Now Sports 英超7台"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch627_170_122",
+   "programmes": 11
+  },
+  {
+   "id": "Now Sports 精选",
+   "name": "Now Sports 精选",
+   "names": [
+    "Now Sports 精选"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch630_170_122",
+   "programmes": 63
+  },
+  {
+   "id": "Now Sports 1",
+   "name": "Now Sports 1",
+   "names": [
+    "Now Sports 1"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch631_170_122",
+   "programmes": 64
+  },
+  {
+   "id": "Now Sports 2",
+   "name": "Now Sports 2",
+   "names": [
+    "Now Sports 2"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch632_170_122",
+   "programmes": 22
+  },
+  {
+   "id": "Now Sports 3",
+   "name": "Now Sports 3",
+   "names": [
+    "Now Sports 3"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch633_170_122",
+   "programmes": 38
+  },
+  {
+   "id": "Now Sports 4",
+   "name": "Now Sports 4",
+   "names": [
+    "Now Sports 4"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch634_170_122",
+   "programmes": 74
+  },
+  {
+   "id": "Now Sports 5",
+   "name": "Now Sports 5",
+   "names": [
+    "Now Sports 5"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch635_170_122",
+   "programmes": 34
+  },
+  {
+   "id": "Now Sports 6",
+   "name": "Now Sports 6",
+   "names": [
+    "Now Sports 6"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch636_170_122",
+   "programmes": 50
+  },
+  {
+   "id": "Now Sports 7",
+   "name": "Now Sports 7",
+   "names": [
+    "Now Sports 7"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch637_170_122",
+   "programmes": 38
+  },
+  {
+   "id": "beIN SPORTS 2",
+   "name": "beIN SPORTS 2",
+   "names": [
+    "beIN SPORTS 2"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch639_170_122",
+   "programmes": 35
+  },
+  {
+   "id": "曼联电视频道",
+   "name": "曼联电视频道",
+   "names": [
+    "曼联电视频道"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch640_170_122",
+   "programmes": 65
+  },
+  {
+   "id": "Now Sports 641",
+   "name": "Now Sports 641",
+   "names": [
+    "Now Sports 641"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch641_170_122",
+   "programmes": 21
+  },
+  {
+   "id": "NBA TV",
+   "name": "NBA TV",
+   "names": [
+    "NBA TV"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch642_170_122",
+   "programmes": 56
+  },
+  {
+   "id": "beIN SPORTS 3",
+   "name": "beIN SPORTS 3",
+   "names": [
+    "beIN SPORTS 3"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch643_170_122",
+   "programmes": 33
+  },
+  {
+   "id": "beIN SPORTS 4",
+   "name": "beIN SPORTS 4",
+   "names": [
+    "beIN SPORTS 4"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch644_170_122",
+   "programmes": 11
+  },
+  {
+   "id": "beIN SPORTS 5",
+   "name": "beIN SPORTS 5",
+   "names": [
+    "beIN SPORTS 5"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch645_170_122",
+   "programmes": 11
+  },
+  {
+   "id": "beIN SPORTS 6",
+   "name": "beIN SPORTS 6",
+   "names": [
+    "beIN SPORTS 6"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch646_170_122",
+   "programmes": 11
+  },
+  {
+   "id": "Now Sports 647",
+   "name": "Now Sports 647",
+   "names": [
+    "Now Sports 647"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch647_170_122",
+   "programmes": 19
+  },
+  {
+   "id": "Now Sports 651",
+   "name": "Now Sports 651",
+   "names": [
+    "Now Sports 651"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch651_170_122",
+   "programmes": 20
+  },
+  {
+   "id": "Now Sports 652",
+   "name": "Now Sports 652",
+   "names": [
+    "Now Sports 652"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch652_170_122",
+   "programmes": 20
+  },
+  {
+   "id": "Now668",
+   "name": "Now668",
+   "names": [
+    "Now668"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch668_170_122",
+   "programmes": 48
+  },
+  {
+   "id": "Cricbuzz",
+   "name": "Cricbuzz",
+   "names": [
+    "Cricbuzz"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch674_170_122",
+   "programmes": 37
+  },
+  {
+   "id": "Premier Sports",
+   "name": "Premier Sports",
+   "names": [
+    "Premier Sports"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch679_170_122",
+   "programmes": 32
+  },
+  {
+   "id": "Now Sports Plus",
+   "name": "Now Sports Plus",
+   "names": [
+    "Now Sports Plus"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch680_170_122",
+   "programmes": 11
+  },
+  {
+   "id": "Now Golf 2",
+   "name": "Now Golf 2",
+   "names": [
+    "Now Golf 2"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch683_170_122",
+   "programmes": 25
+  },
+  {
+   "id": "Now Golf 3",
+   "name": "Now Golf 3",
+   "names": [
+    "Now Golf 3"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch684_170_122",
+   "programmes": 28
+  },
+  {
+   "id": "NHK World Premium",
+   "name": "NHK World Premium",
+   "names": [
+    "NHK World Premium"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch711_170_122",
+   "programmes": 96
+  },
+  {
+   "id": "TV5MONDE Style",
+   "name": "TV5MONDE Style",
+   "names": [
+    "TV5MONDE Style"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch713_170_122",
+   "programmes": 66
+  },
+  {
+   "id": "TV5MONDE ASIE",
+   "name": "TV5MONDE ASIE",
+   "names": [
+    "TV5MONDE ASIE"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch714_170_122",
+   "programmes": 70
+  },
+  {
+   "id": "France 24 (French)",
+   "name": "France 24 (French)",
+   "names": [
+    "France 24 (French)"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch715_170_122",
+   "programmes": 150
+  },
+  {
+   "id": "GMA Pinoy TV",
+   "name": "GMA Pinoy TV",
+   "names": [
+    "GMA Pinoy TV"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch720_170_122",
+   "programmes": 46
+  },
+  {
+   "id": "GMA Life TV",
+   "name": "GMA Life TV",
+   "names": [
+    "GMA Life TV"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch721_170_122",
+   "programmes": 46
+  },
+  {
+   "id": "GMA News TV",
+   "name": "GMA News TV",
+   "names": [
+    "GMA News TV"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch722_170_122",
+   "programmes": 46
+  },
+  {
+   "id": "TFC",
+   "name": "TFC",
+   "names": [
+    "TFC"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch725_170_122",
+   "programmes": 44
+  },
+  {
+   "id": "Sony TV (India)",
+   "name": "Sony TV (India)",
+   "names": [
+    "Sony TV (India)"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch771_170_122",
+   "programmes": 35
+  },
+  {
+   "id": "Sony MAX",
+   "name": "Sony MAX",
+   "names": [
+    "Sony MAX"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch772_170_122",
+   "programmes": 18
+  },
+  {
+   "id": "Sony SAB",
+   "name": "Sony SAB",
+   "names": [
+    "Sony SAB"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch774_170_122",
+   "programmes": 84
+  },
+  {
+   "id": "MTV India",
+   "name": "MTV India",
+   "names": [
+    "MTV India"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch779_170_122",
+   "programmes": 27
+  },
+  {
+   "id": "COLORS",
+   "name": "COLORS",
+   "names": [
+    "COLORS"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch780_170_122",
+   "programmes": 52
+  },
+  {
+   "id": "Zee Cinema International",
+   "name": "Zee Cinema International",
+   "names": [
+    "Zee Cinema International"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch781_170_122",
+   "programmes": 14
+  },
+  {
+   "id": "Zee TV",
+   "name": "Zee TV",
+   "names": [
+    "Zee TV"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch782_170_122",
+   "programmes": 43
+  },
+  {
+   "id": "Zee News",
+   "name": "Zee News",
+   "names": [
+    "Zee News"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch785_170_122",
+   "programmes": 29
+  },
+  {
+   "id": "Star Gold",
+   "name": "Star Gold",
+   "names": [
+    "Star Gold"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch793_170_122",
+   "programmes": 18
+  },
+  {
+   "id": "STAR PLUS",
+   "name": "STAR PLUS",
+   "names": [
+    "STAR PLUS"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch794_170_122",
+   "programmes": 61
+  },
+  {
+   "id": "Star Bharat",
+   "name": "Star Bharat",
+   "names": [
+    "Star Bharat"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch797_170_122",
+   "programmes": 44
+  },
+  {
+   "id": "冰火頻道",
+   "name": "冰火頻道",
+   "names": [
+    "冰火頻道"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch901_170_122",
+   "programmes": 20
+  },
+  {
+   "id": "成人極品台",
+   "name": "成人極品台",
+   "names": [
+    "成人極品台"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch903_170_122",
+   "programmes": 38
+  },
+  {
+   "id": "美東台",
+   "name": "美東台",
+   "names": [
+    "美東台"
+   ],
+   "icon": "",
+   "programmes": 369
+  },
+  {
+   "id": "美西台",
+   "name": "美西台",
+   "names": [
+    "美西台"
+   ],
+   "icon": "",
+   "programmes": 373
+  },
+  {
+   "id": "加東台",
+   "name": "加東台",
+   "names": [
+    "加東台"
+   ],
+   "icon": "",
+   "programmes": 353
+  },
+  {
+   "id": "加西台",
+   "name": "加西台",
+   "names": [
+    "加西台"
+   ],
+   "icon": "",
+   "programmes": 369
+  },
+  {
+   "id": "亞太台",
+   "name": "亞太台",
+   "names": [
+    "亞太台"
+   ],
+   "icon": "",
+   "programmes": 377
+  },
+  {
+   "id": "中國台",
+   "name": "中國台",
+   "names": [
+    "中國台"
+   ],
+   "icon": "",
+   "programmes": 391
+  },
+  {
+   "id": "愛爾達體育3台",
+   "name": "愛爾達體育3台",
+   "names": [
+    "愛爾達體育3台"
+   ],
+   "icon": "",
+   "programmes": 26
+  },
+  {
+   "id": "愛爾達體育2台",
+   "name": "愛爾達體育2台",
+   "names": [
+    "愛爾達體育2台"
+   ],
+   "icon": "",
+   "programmes": 30
+  },
+  {
+   "id": "Lifetime",
+   "name": "Lifetime",
+   "names": [
+    "Lifetime"
+   ],
+   "icon": "",
+   "programmes": 44
+  },
+  {
+   "id": "History",
+   "name": "History",
+   "names": [
+    "History"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch223_170_122",
+   "programmes": 51
+  },
+  {
+   "id": "amc電影台",
+   "name": "amc電影台",
+   "names": [
+    "amc電影台"
+   ],
+   "icon": "",
+   "programmes": 29
+  },
+  {
+   "id": "DreamWorks",
+   "name": "DreamWorks",
+   "names": [
+    "DreamWorks"
+   ],
+   "icon": "",
+   "programmes": 123
+  },
+  {
+   "id": "愛爾達娛樂台",
+   "name": "愛爾達娛樂台",
+   "names": [
+    "愛爾達娛樂台"
+   ],
+   "icon": "",
+   "programmes": 49
+  },
+  {
+   "id": "博斯運動一台",
+   "name": "博斯運動一台",
+   "names": [
+    "博斯運動一台"
+   ],
+   "icon": "",
+   "programmes": 21
+  },
+  {
+   "id": "愛爾達體育MAX4台",
+   "name": "愛爾達體育MAX4台",
+   "names": [
+    "愛爾達體育MAX4台"
+   ],
+   "icon": "",
+   "programmes": 10
+  },
+  {
+   "id": "愛爾達體育1台",
+   "name": "愛爾達體育1台",
+   "names": [
+    "愛爾達體育1台"
+   ],
+   "icon": "",
+   "programmes": 27
+  },
+  {
+   "id": "愛爾達體育MAX1台",
+   "name": "愛爾達體育MAX1台",
+   "names": [
+    "愛爾達體育MAX1台"
+   ],
+   "icon": "",
+   "programmes": 14
+  },
+  {
+   "id": "愛爾達體育4台",
+   "name": "愛爾達體育4台",
+   "names": [
+    "愛爾達體育4台"
+   ],
+   "icon": "",
+   "programmes": 24
+  },
+  {
+   "id": "愛爾達體育MAX2台",
+   "name": "愛爾達體育MAX2台",
+   "names": [
+    "愛爾達體育MAX2台"
+   ],
+   "icon": "",
+   "programmes": 11
+  },
+  {
+   "id": "愛爾達體育MAX3台",
+   "name": "愛爾達體育MAX3台",
+   "names": [
+    "愛爾達體育MAX3台"
+   ],
+   "icon": "",
+   "programmes": 15
+  },
+  {
+   "id": "博斯網球台",
+   "name": "博斯網球台",
+   "names": [
+    "博斯網球台"
+   ],
+   "icon": "",
+   "programmes": 16
+  },
+  {
+   "id": "博斯魅力網",
+   "name": "博斯魅力網",
+   "names": [
+    "博斯魅力網"
+   ],
+   "icon": "",
+   "programmes": 24
+  },
+  {
+   "id": "Asian Food Network亞洲美食頻道",
+   "name": "Asian Food Network亞洲美食頻道",
+   "names": [
+    "Asian Food Network亞洲美食頻道"
+   ],
+   "icon": "",
+   "programmes": 72
+  },
+  {
+   "id": "BBC NEWS",
+   "name": "BBC NEWS",
+   "names": [
+    "BBC NEWS"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch320_170_122",
+   "programmes": 85
+  },
+  {
+   "id": "Bloomberg TV",
+   "name": "Bloomberg TV",
+   "names": [
+    "Bloomberg TV"
+   ],
+   "icon": "",
+   "programmes": 64
+  },
+  {
+   "id": "CARTOONITO",
+   "name": "CARTOONITO",
+   "names": [
+    "CARTOONITO"
+   ],
+   "icon": "",
+   "programmes": 82
+  },
+  {
+   "id": "CATCHPLAY電影台",
+   "name": "CATCHPLAY電影台",
+   "names": [
+    "CATCHPLAY電影台"
+   ],
+   "icon": "",
+   "programmes": 33
+  },
+  {
+   "id": "CinemaWorld頻道",
+   "name": "CinemaWorld頻道",
+   "names": [
+    "CinemaWorld頻道"
+   ],
+   "icon": "",
+   "programmes": 28
+  },
+  {
+   "id": "CNEX紀實頻道",
+   "name": "CNEX紀實頻道",
+   "names": [
+    "CNEX紀實頻道"
+   ],
+   "icon": "",
+   "programmes": 57
+  },
+  {
+   "id": "CNN國際新聞台",
+   "name": "CNN國際新聞台",
+   "names": [
+    "CNN國際新聞台"
+   ],
+   "icon": "",
+   "programmes": 56
+  },
+  {
+   "id": "CNN頭條新聞台(HLN)",
+   "name": "CNN頭條新聞台(HLN)",
+   "names": [
+    "CNN頭條新聞台(HLN)"
+   ],
+   "icon": "",
+   "programmes": 52
+  },
+  {
+   "id": "CN卡通頻道",
+   "name": "CN卡通頻道",
+   "names": [
+    "CN卡通頻道"
+   ],
+   "icon": "",
+   "programmes": 70
+  },
+  {
+   "id": "Discovery DMAX",
+   "name": "Discovery DMAX",
+   "names": [
+    "Discovery DMAX"
+   ],
+   "icon": "",
+   "programmes": 69
+  },
+  {
+   "id": "Discovery EVE",
+   "name": "Discovery EVE",
+   "names": [
+    "Discovery EVE"
+   ],
+   "icon": "",
+   "programmes": 68
+  },
+  {
+   "id": "Discovery科學台(Science)",
+   "name": "Discovery科學台(Science)",
+   "names": [
+    "Discovery科學台(Science)"
+   ],
+   "icon": "",
+   "programmes": 69
+  },
+  {
+   "id": "EUROSPORT",
+   "name": "EUROSPORT",
+   "names": [
+    "EUROSPORT"
+   ],
+   "icon": "",
+   "programmes": 30
+  },
+  {
+   "id": "Ginx TV電競頻道",
+   "name": "Ginx TV電競頻道",
+   "names": [
+    "Ginx TV電競頻道"
+   ],
+   "icon": "",
+   "programmes": 50
+  },
+  {
+   "id": "Global Trekker",
+   "name": "Global Trekker",
+   "names": [
+    "Global Trekker"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885468557406_SMS.webp",
+   "programmes": 63
+  },
+  {
+   "id": "Hami WBC1台",
+   "name": "Hami WBC1台",
+   "names": [
+    "Hami WBC1台"
+   ],
+   "icon": "",
+   "programmes": 1
+  },
+  {
+   "id": "Hami體育2台",
+   "name": "Hami體育2台",
+   "names": [
+    "Hami體育2台"
+   ],
+   "icon": "",
+   "programmes": 2
+  },
+  {
+   "id": "HGTV居家樂活頻道",
+   "name": "HGTV居家樂活頻道",
+   "names": [
+    "HGTV居家樂活頻道"
+   ],
+   "icon": "",
+   "programmes": 71
+  },
+  {
+   "id": "INULTRA",
+   "name": "INULTRA",
+   "names": [
+    "INULTRA"
+   ],
+   "icon": "",
+   "programmes": 68
+  },
+  {
+   "id": "LiveABC互動英語頻道",
+   "name": "LiveABC互動英語頻道",
+   "names": [
+    "LiveABC互動英語頻道"
+   ],
+   "icon": "",
+   "programmes": 126
+  },
+  {
+   "id": "LOVE NATURE",
+   "name": "LOVE NATURE",
+   "names": [
+    "LOVE NATURE"
+   ],
+   "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch217_170_122",
+   "programmes": 51
+  },
+  {
+   "id": "Mezzo Live",
+   "name": "Mezzo Live",
+   "names": [
+    "Mezzo Live"
+   ],
+   "icon": "",
+   "programmes": 33
+  },
+  {
+   "id": "momo綜合台",
+   "name": "momo綜合台",
+   "names": [
+    "momo綜合台"
+   ],
+   "icon": "",
+   "programmes": 55
+  },
+  {
+   "id": "momo親子台",
+   "name": "momo親子台",
+   "names": [
+    "momo親子台"
+   ],
+   "icon": "",
+   "programmes": 132
+  },
+  {
+   "id": "PET CLUB TV",
+   "name": "PET CLUB TV",
+   "names": [
+    "PET CLUB TV"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422419004489_PETC.webp",
+   "programmes": 51
+  },
+  {
+   "id": "ROCK Action",
+   "name": "ROCK Action",
+   "names": [
+    "ROCK Action"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780885393244598_CRTX.webp",
+   "programmes": 25
+  },
+  {
+   "id": "ROCK X Stream",
+   "name": "ROCK X Stream",
+   "names": [
+    "ROCK X Stream"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1780887279387146_RKEX.webp",
+   "programmes": 33
+  },
+  {
+   "id": "TRACE Sport Stars",
+   "name": "TRACE Sport Stars",
+   "names": [
+    "TRACE Sport Stars"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422411253491_TRSP.webp",
+   "programmes": 88
+  },
+  {
+   "id": "Trace Urban",
+   "name": "Trace Urban",
+   "names": [
+    "Trace Urban"
+   ],
+   "icon": "https://assets.mytvsuper.com/channel/1779422772097265_TRUR.webp",
+   "programmes": 24
+  },
+  {
+   "id": "Travel Channel",
+   "name": "Travel Channel",
+   "names": [
+    "Travel Channel"
+   ],
+   "icon": "https://assets.bein.com/mena/sites/3/2015/06/0003_TCI_colour-Blue_UK2016.png",
+   "programmes": 69
+  },
+  {
+   "id": "TVBS",
+   "name": "TVBS",
+   "names": [
+    "TVBS"
+   ],
+   "icon": "",
+   "programmes": 35
+  },
+  {
+   "id": "TVBS新聞台",
+   "name": "TVBS新聞台",
+   "names": [
+    "TVBS新聞台"
+   ],
+   "icon": "",
+   "programmes": 33
+  },
+  {
+   "id": "TVBS歡樂台",
+   "name": "TVBS歡樂台",
+   "names": [
+    "TVBS歡樂台"
+   ],
+   "icon": "",
+   "programmes": 43
+  },
+  {
+   "id": "TVBS精采台",
+   "name": "TVBS精采台",
+   "names": [
+    "TVBS精采台"
+   ],
+   "icon": "",
+   "programmes": 37
+  },
+  {
+   "id": "Warner TV",
+   "name": "Warner TV",
+   "names": [
+    "Warner TV"
+   ],
+   "icon": "",
+   "programmes": 50
+  },
+  {
+   "id": "三立iNEWS",
+   "name": "三立iNEWS",
+   "names": [
+    "三立iNEWS"
+   ],
+   "icon": "",
+   "programmes": 45
+  },
+  {
+   "id": "三立新聞台",
+   "name": "三立新聞台",
+   "names": [
+    "三立新聞台"
+   ],
+   "icon": "",
+   "programmes": 45
+  },
+  {
+   "id": "中天新聞台",
+   "name": "中天新聞台",
+   "names": [
+    "中天新聞台"
+   ],
+   "icon": "",
+   "programmes": 44
+  },
+  {
+   "id": "中視主頻",
+   "name": "中視主頻",
+   "names": [
+    "中視主頻"
+   ],
+   "icon": "",
+   "programmes": 35
+  },
+  {
+   "id": "中視新聞台",
+   "name": "中視新聞台",
+   "names": [
+    "中視新聞台"
+   ],
+   "icon": "",
+   "programmes": 44
+  },
+  {
+   "id": "中視經典台",
+   "name": "中視經典台",
+   "names": [
+    "中視經典台"
+   ],
+   "icon": "",
+   "programmes": 36
+  },
+  {
+   "id": "中視菁采台",
+   "name": "中視菁采台",
+   "names": [
+    "中視菁采台"
+   ],
+   "icon": "",
+   "programmes": 35
+  },
+  {
+   "id": "亞洲旅遊台",
+   "name": "亞洲旅遊台",
+   "names": [
+    "亞洲旅遊台"
+   ],
+   "icon": "",
+   "programmes": 36
+  },
+  {
+   "id": "人間衛視",
+   "name": "人間衛視",
+   "names": [
+    "人間衛視"
+   ],
+   "icon": "",
+   "programmes": 54
+  },
+  {
+   "id": "八大精彩台",
+   "name": "八大精彩台",
+   "names": [
+    "八大精彩台"
+   ],
+   "icon": "",
+   "programmes": 59
+  },
+  {
+   "id": "八大綜藝台",
+   "name": "八大綜藝台",
+   "names": [
+    "八大綜藝台"
+   ],
+   "icon": "",
+   "programmes": 60
+  },
+  {
+   "id": "公視戲劇",
+   "name": "公視戲劇",
+   "names": [
+    "公視戲劇"
+   ],
+   "icon": "",
+   "programmes": 37
+  },
+  {
+   "id": "博斯無限二台",
+   "name": "博斯無限二台",
+   "names": [
+    "博斯無限二台"
+   ],
+   "icon": "",
+   "programmes": 27
+  },
+  {
+   "id": "博斯無限台",
+   "name": "博斯無限台",
+   "names": [
+    "博斯無限台"
+   ],
+   "icon": "",
+   "programmes": 19
+  },
+  {
+   "id": "博斯運動二台",
+   "name": "博斯運動二台",
+   "names": [
+    "博斯運動二台"
+   ],
+   "icon": "",
+   "programmes": 27
+  },
+  {
+   "id": "博斯高球一台",
+   "name": "博斯高球一台",
+   "names": [
+    "博斯高球一台"
+   ],
+   "icon": "",
+   "programmes": 15
+  },
+  {
+   "id": "古典音樂台",
+   "name": "古典音樂台",
+   "names": [
+    "古典音樂台"
+   ],
+   "icon": "",
+   "programmes": 46
+  },
+  {
+   "id": "台視主頻",
+   "name": "台視主頻",
+   "names": [
+    "台視主頻"
+   ],
+   "icon": "",
+   "programmes": 43
+  },
+  {
+   "id": "台視新聞台",
+   "name": "台視新聞台",
+   "names": [
+    "台視新聞台"
+   ],
+   "icon": "",
+   "programmes": 49
+  },
+  {
+   "id": "台視綜合台",
+   "name": "台視綜合台",
+   "names": [
+    "台視綜合台"
+   ],
+   "icon": "",
+   "programmes": 45
+  },
+  {
+   "id": "台視財經台",
+   "name": "台視財經台",
+   "names": [
+    "台視財經台"
+   ],
+   "icon": "",
+   "programmes": 50
+  },
+  {
+   "id": "大愛電視",
+   "name": "大愛電視",
+   "names": [
+    "大愛電視"
+   ],
+   "icon": "",
+   "programmes": 97
+  },
+  {
+   "id": "寰宇新聞",
+   "name": "寰宇新聞",
+   "names": [
+    "寰宇新聞"
+   ],
+   "icon": "",
+   "programmes": 46
+  },
+  {
+   "id": "尼克兒童頻道",
+   "name": "尼克兒童頻道",
+   "names": [
+    "尼克兒童頻道"
+   ],
+   "icon": "",
+   "programmes": 111
+  },
+  {
+   "id": "影迷數位紀實台",
+   "name": "影迷數位紀實台",
+   "names": [
+    "影迷數位紀實台"
+   ],
+   "icon": "",
+   "programmes": 45
+  },
+  {
+   "id": "影迷數位電影台",
+   "name": "影迷數位電影台",
+   "names": [
+    "影迷數位電影台"
+   ],
+   "icon": "",
+   "programmes": 22
+  },
+  {
+   "id": "愛爾達影劇台",
+   "name": "愛爾達影劇台",
+   "names": [
+    "愛爾達影劇台"
+   ],
+   "icon": "",
+   "programmes": 44
+  },
+  {
+   "id": "愛爾達日韓台",
+   "name": "愛爾達日韓台",
+   "names": [
+    "愛爾達日韓台"
+   ],
+   "icon": "",
+   "programmes": 46
+  },
+  {
+   "id": "愛爾達綜合台",
+   "name": "愛爾達綜合台",
+   "names": [
+    "愛爾達綜合台"
+   ],
+   "icon": "",
+   "programmes": 46
+  },
+  {
+   "id": "東森新聞台",
+   "name": "東森新聞台",
+   "names": [
+    "東森新聞台"
+   ],
+   "icon": "",
+   "programmes": 25
+  },
+  {
+   "id": "東森財經台",
+   "name": "東森財經台",
+   "names": [
+    "東森財經台"
+   ],
+   "icon": "",
+   "programmes": 45
+  },
+  {
+   "id": "民視台灣台",
+   "name": "民視台灣台",
+   "names": [
+    "民視台灣台"
+   ],
+   "icon": "",
+   "programmes": 43
+  },
+  {
+   "id": "民視影劇台",
+   "name": "民視影劇台",
+   "names": [
+    "民視影劇台"
+   ],
+   "icon": "",
+   "programmes": 38
+  },
+  {
+   "id": "民視新聞台",
+   "name": "民視新聞台",
+   "names": [
+    "民視新聞台"
+   ],
+   "icon": "",
+   "programmes": 47
+  },
+  {
+   "id": "民視無線台",
+   "name": "民視無線台",
+   "names": [
+    "民視無線台"
+   ],
+   "icon": "",
+   "programmes": 53
+  },
+  {
+   "id": "民視第一台",
+   "name": "民視第一台",
+   "names": [
+    "民視第一台"
+   ],
+   "icon": "",
+   "programmes": 61
+  },
+  {
+   "id": "民視綜藝台",
+   "name": "民視綜藝台",
+   "names": [
+    "民視綜藝台"
+   ],
+   "icon": "",
+   "programmes": 34
+  },
+  {
+   "id": "空中英語教室",
+   "name": "空中英語教室",
+   "names": [
+    "空中英語教室"
+   ],
+   "icon": "",
+   "programmes": 111
+  },
+  {
+   "id": "罪案偵緝頻道",
+   "name": "罪案偵緝頻道",
+   "names": [
+    "罪案偵緝頻道"
+   ],
+   "icon": "",
+   "programmes": 58
+  },
+  {
+   "id": "華藝中文台",
+   "name": "華藝中文台",
+   "names": [
+    "華藝中文台"
+   ],
+   "icon": "",
+   "programmes": 52
+  },
+  {
+   "id": "華視主頻",
+   "name": "華視主頻",
+   "names": [
+    "華視主頻"
+   ],
+   "icon": "",
+   "programmes": 38
+  },
+  {
+   "id": "華視新聞資訊台",
+   "name": "華視新聞資訊台",
+   "names": [
+    "華視新聞資訊台"
+   ],
+   "icon": "",
+   "programmes": 41
+  },
+  {
+   "id": "豬哥亮歌廳秀",
+   "name": "豬哥亮歌廳秀",
+   "names": [
+    "豬哥亮歌廳秀"
+   ],
+   "icon": "",
+   "programmes": 42
+  },
+  {
+   "id": "達文西頻道",
+   "name": "達文西頻道",
+   "names": [
+    "達文西頻道"
+   ],
+   "icon": "",
+   "programmes": 151
+  },
+  {
+   "id": "采昌影劇台",
+   "name": "采昌影劇台",
+   "names": [
+    "采昌影劇台"
+   ],
+   "icon": "",
+   "programmes": 35
+  },
+  {
+   "id": "金光布袋戲",
+   "name": "金光布袋戲",
+   "names": [
+    "金光布袋戲"
+   ],
+   "icon": "",
+   "programmes": 30
+  },
+  {
+   "id": "鏡電視新聞台",
+   "name": "鏡電視新聞台",
+   "names": [
+    "鏡電視新聞台"
+   ],
+   "icon": "",
+   "programmes": 40
+  },
+  {
+   "id": "電影原聲台CMusic",
+   "name": "電影原聲台CMusic",
+   "names": [
+    "電影原聲台CMusic"
+   ],
+   "icon": "",
+   "programmes": 871
+  },
+  {
+   "id": "靖天中文台",
+   "name": "靖天中文台",
+   "names": [
+    "靖天中文台"
+   ],
+   "icon": "",
+   "programmes": 45
+  },
+  {
+   "id": "靖天日本台",
+   "name": "靖天日本台",
+   "names": [
+    "靖天日本台"
+   ],
+   "icon": "",
+   "programmes": 64
+  },
+  {
+   "id": "靖天育樂台",
+   "name": "靖天育樂台",
+   "names": [
+    "靖天育樂台"
+   ],
+   "icon": "",
+   "programmes": 45
+  },
+  {
+   "id": "靖洋戲劇台",
+   "name": "靖洋戲劇台",
+   "names": [
+    "靖洋戲劇台"
+   ],
+   "icon": "",
+   "programmes": 44
+  },
+  {
+   "id": "非凡商業台",
+   "name": "非凡商業台",
+   "names": [
+    "非凡商業台"
+   ],
+   "icon": "",
+   "programmes": 61
+  },
+  {
+   "id": "非凡新聞台",
+   "name": "非凡新聞台",
+   "names": [
+    "非凡新聞台"
+   ],
+   "icon": "",
+   "programmes": 47
+  },
+  {
+   "id": "麥卡貝綜藝",
+   "name": "麥卡貝綜藝",
+   "names": [
+    "麥卡貝綜藝"
+   ],
+   "icon": "",
+   "programmes": 41
+  },
+  {
+   "id": "麥哲倫頻道",
+   "name": "麥哲倫頻道",
+   "names": [
+    "麥哲倫頻道"
+   ],
+   "icon": "",
+   "programmes": 64
+  },
+  {
+   "id": "龍華偶像",
+   "name": "龍華偶像",
+   "names": [
+    "龍華偶像"
+   ],
+   "icon": "",
+   "programmes": 26
+  },
+  {
+   "id": "龍華影劇",
+   "name": "龍華影劇",
+   "names": [
+    "龍華影劇"
+   ],
+   "icon": "",
+   "programmes": 22
+  },
+  {
+   "id": "龍華戲劇",
+   "name": "龍華戲劇",
+   "names": [
+    "龍華戲劇"
+   ],
+   "icon": "",
+   "programmes": 26
+  },
+  {
+   "id": "龍華洋片台",
+   "name": "龍華洋片台",
+   "names": [
+    "龍華洋片台"
+   ],
+   "icon": "",
+   "programmes": 23
+  },
+  {
+   "id": "龍華電影",
+   "name": "龍華電影",
+   "names": [
+    "龍華電影"
+   ],
+   "icon": "",
+   "programmes": 20
+  }
+ ]
+}
