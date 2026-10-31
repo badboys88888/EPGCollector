@@ -14,6 +14,7 @@ XMLTV 里的频道 id = 频道名(和 ntdtv.m3u 里的 tvg-id 一致)。
   python epg.py output/schedules.json --check         # 也可以直接读 inspect_schedules.py 存的 JSON
 """
 import argparse
+import gzip
 import json
 import time
 from datetime import datetime, timedelta, timezone
@@ -106,6 +107,7 @@ def main():
     ap.add_argument("--default-minutes", type=int, default=30, help="最后一个节目的时长")
     ap.add_argument("--max-hours", type=float, default=6, help="单个节目最长时长")
     ap.add_argument("--check", action="store_true", help="只检查并打印, 不写文件")
+    ap.add_argument("--gzip", action="store_true", help="同时写出 .xml.gz 压缩版")
     ap.add_argument("--at", help="检查时模拟的时间点(UTC), 如 2026-10-30T20:08:00Z, 用来对照已保存页面当时的显示")
     ap.add_argument("--page-list", action="store_true", help="打印页面里 .time-list 实际显示的节目(对照用)")
     args = ap.parse_args()
@@ -141,6 +143,13 @@ def main():
     out.parent.mkdir(parents=True, exist_ok=True)
     write_xmltv(out, channels, programmes)
     print(f"已写入 {out}: {len(channels)} 个频道, {len(programmes)} 条节目")
+    if args.gzip:
+        gz_path = Path(str(out) + ".gz")
+        with open(out, "rb") as f_in, open(gz_path, "wb") as raw:
+            # filename="" 且 mtime=0: 压缩结果只取决于内容, 内容没变时字节完全一致
+            with gzip.GzipFile(filename="", mode="wb", fileobj=raw, compresslevel=9, mtime=0) as gz:
+                gz.write(f_in.read())
+        print(f"已写入 {gz_path} ({gz_path.stat().st_size} 字节)")
 
 
 if __name__ == "__main__":
