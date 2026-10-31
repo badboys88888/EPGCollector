@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-31T12:09:49.481741+00:00",
+ "generated": "2026-10-31T12:15:28.454148+00:00",
  "sources": [
   "https://github.com/badboys88888/EPGCollector/blob/main/bein/bein_epg.xml",
   "https://github.com/badboys88888/EPGCollector/blob/main/beinsports/beinsports_epg.xml",
   "https://github.com/badboys88888/EPGCollector/blob/main/hami/hami_epg.xml",
   "https://github.com/badboys88888/EPGCollector/blob/main/hoytv/hoytv.xml",
-  "https://github.com/badboys88888/EPGCollector/blob/main/mewatch/mewatch.xml",
+  "https://raw.githubusercontent.com/badboys88888/EPGCollector/refs/heads/main/mewatch/mewatch.xml",
   "https://github.com/badboys88888/EPGCollector/blob/main/mytvsuper/epg.xml",
   "https://github.com/badboys88888/EPGCollector/blob/main/nowtv/nowtv.xml",
   "https://github.com/badboys88888/EPGCollector/blob/main/ntdtv/output/ntdtv.xml",
   "https://github.com/badboys88888/EPGCollector/blob/main/starhub/starhub_epg.xml"
  ],
  "channel_count": 482,
- "programme_count": 53463,
+ "programme_count": 53438,
  "channels": [
   {
    "id": "bein_sports_1",
@@ -768,7 +768,7 @@
     "beIN SPORTS 3"
    ],
    "icon": "https://cdn.mango-soft.com/bein-sports/channel-logo-3.webp",
-   "programmes": 96
+   "programmes": 95
   },
   {
    "id": "beinsports4_D0546E",
@@ -2344,7 +2344,7 @@
     "KBS World"
    ],
    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch156_170_122",
-   "programmes": 42
+   "programmes": 41
   },
   {
    "id": "MOOV 演唱會.MV台",
@@ -2371,7 +2371,7 @@
     "Discovery Asia"
    ],
    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch208_170_122",
-   "programmes": 111
+   "programmes": 110
   },
   {
    "id": "Discovery Channel",
@@ -2443,7 +2443,7 @@
     "BBC Earth"
    ],
    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch220_170_122",
-   "programmes": 87
+   "programmes": 86
   },
   {
    "id": "戶外頻道",
@@ -2461,7 +2461,7 @@
     "罪案 + 偵緝"
    ],
    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch222_170_122",
-   "programmes": 51
+   "programmes": 50
   },
   {
    "id": "HISTORY",
@@ -2533,7 +2533,7 @@
     "DW (English)"
    ],
    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch324_170_122",
-   "programmes": 116
+   "programmes": 115
   },
   {
    "id": "半岛电视台英语频道",
@@ -2551,7 +2551,7 @@
     "euronews"
    ],
    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch326_170_122",
-   "programmes": 55
+   "programmes": 54
   },
   {
    "id": "France 24",
@@ -2560,7 +2560,7 @@
     "France 24"
    ],
    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch327_170_122",
-   "programmes": 200
+   "programmes": 199
   },
   {
    "id": "NHK WORLD-JAPAN",
@@ -2587,7 +2587,7 @@
     "CGTN"
    ],
    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch330_170_122",
-   "programmes": 69
+   "programmes": 68
   },
   {
    "id": "Now直播台",
@@ -2641,7 +2641,7 @@
     "Cartoon Network"
    ],
    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch443_170_122",
-   "programmes": 60
+   "programmes": 59
   },
   {
    "id": "Nickelodeon",
@@ -2659,7 +2659,7 @@
     "CBeebies"
    ],
    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch447_170_122",
-   "programmes": 583
+   "programmes": 581
   },
   {
    "id": "Nick Jr.",
@@ -2668,7 +2668,7 @@
     "Nick Jr."
    ],
    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch449_170_122",
-   "programmes": 248
+   "programmes": 247
   },
   {
    "id": "BBC Lifestyle",
@@ -2677,7 +2677,7 @@
     "BBC Lifestyle"
    ],
    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch502_170_122",
-   "programmes": 96
+   "programmes": 95
   },
   {
    "id": "AXN",
@@ -3613,7 +3613,7 @@
     "CNN頭條新聞台(HLN)"
    ],
    "icon": "",
-   "programmes": 52
+   "programmes": 51
   },
   {
    "id": "CN卡通頻道",
@@ -3676,7 +3676,7 @@
     "Global Trekker"
    ],
    "icon": "https://assets.mytvsuper.com/channel/1780885468557406_SMS.webp",
-   "programmes": 63
+   "programmes": 62
   },
   {
    "id": "Hami WBC1台",
@@ -3730,7 +3730,7 @@
     "LOVE NATURE"
    ],
    "icon": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch217_170_122",
-   "programmes": 51
+   "programmes": 50
   },
   {
    "id": "Mezzo Live",
@@ -3946,7 +3946,7 @@
     "八大精彩台"
    ],
    "icon": "",
-   "programmes": 59
+   "programmes": 58
   },
   {
    "id": "八大綜藝台",
@@ -4054,7 +4054,7 @@
     "大愛電視"
    ],
    "icon": "",
-   "programmes": 97
+   "programmes": 96
   },
   {
    "id": "寰宇新聞",
@@ -4198,7 +4198,7 @@
     "空中英語教室"
    ],
    "icon": "",
-   "programmes": 111
+   "programmes": 110
   },
   {
    "id": "罪案偵緝頻道",
@@ -4252,7 +4252,7 @@
     "達文西頻道"
    ],
    "icon": "",
-   "programmes": 151
+   "programmes": 150
   },
   {
    "id": "采昌影劇台",
@@ -4288,7 +4288,7 @@
     "電影原聲台CMusic"
    ],
    "icon": "",
-   "programmes": 871
+   "programmes": 869
   },
   {
    "id": "靖天中文台",
@@ -4297,7 +4297,7 @@
     "靖天中文台"
    ],
    "icon": "",
-   "programmes": 45
+   "programmes": 44
   },
   {
    "id": "靖天日本台",
@@ -4396,7 +4396,7 @@
     "龍華洋片台"
    ],
    "icon": "",
-   "programmes": 23
+   "programmes": 22
   },
   {
    "id": "龍華電影",

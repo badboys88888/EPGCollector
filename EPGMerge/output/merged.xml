@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="EPGMerge" date="20261031120949 +0000">
+<tv generator-info-name="EPGMerge" date="20261031121528 +0000">
   <channel id="bein_sports_1">
     <display-name>beIN SPORTS 1</display-name>
     <icon src="https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS1_DIGITAL_Mono.png" />
@@ -7312,9 +7312,6 @@
     <title lang="en">OT Unlimited</title>
     <desc lang="zh">每晚深夜，公司仲有邊個未收工？有屋企唔返，咁搏命係愛定係責任？閉路電視全程無間斷直擊，《社畜求生101》主角阿星同阿花捱更抵夜職場血淚史！</desc>
   </programme>
-  <programme channel="BBC Earth" start="20261030191000 +0800" stop="20261030201500 +0800">
-    <title lang="zh">賽門李維野性之旅S2(3)(普)</title>
-  </programme>
   <programme channel="BBC Earth" start="20261030200000 +0800" stop="20261030210000 +0800">
     <title lang="zh">賽門李維野性之旅 第2季第3集 -加拿大</title>
   </programme>
@@ -7572,9 +7569,6 @@
   </programme>
   <programme channel="BBC Earth" start="20261102000000 +0800" stop="20261102005500 +0800">
     <title lang="zh">工程大改造 第1季第10集</title>
-  </programme>
-  <programme channel="BBC Lifestyle" start="20261030192000 +0800" stop="20261030201000 +0800">
-    <title lang="zh">頂級奢華旅遊秀S1(3)(普)</title>
   </programme>
   <programme channel="BBC Lifestyle" start="20261030193000 +0800" stop="20261030203000 +0800">
     <title lang="zh">多諾的美食、信仰與節慶 第1季第1集</title>
@@ -13757,12 +13751,6 @@
   </programme>
   <programme channel="CATCHPLAY電影台" start="20261101150000 +0800" stop="20261101170500 +0800">
     <title lang="zh">獵魂人(護)</title>
-  </programme>
-  <programme channel="CBeebies" start="20261030200500 +0800" stop="20261030201100 +0800">
-    <title lang="zh">小倉鼠史丹利S1(39)(普)</title>
-  </programme>
-  <programme channel="CBeebies" start="20261030200700 +0800" stop="20261030201500 +0800">
-    <title lang="zh">Bluey 第3季第6集 -Mini Bluey</title>
   </programme>
   <programme channel="CBeebies" start="20261030201100 +0800" stop="20261030202000 +0800">
     <title lang="zh">小倉鼠史丹利S1(38)(普)</title>
@@ -32088,9 +32076,6 @@ with clarity, context and journalistic rigor. Each segment goes beyond the headl
     <title lang="zh">Leaders Talk</title>
     <title lang="en">Leaders Talk</title>
     <desc lang="zh">Leaders Talk is China Media Group’s new current affairs program featuring one-on-one interviews with heads of state and high-ranking government officials and heads of international organizations. They</desc>
-  </programme>
-  <programme channel="CGTN" start="20261030200000 +0800" stop="20261030201500 +0800">
-    <title lang="en">The World Today</title>
   </programme>
   <programme channel="CGTN" start="20261030201500 +0800" stop="20261030210000 +0800">
     <title lang="en">China 24</title>
@@ -52582,9 +52567,6 @@ with clarity, context and journalistic rigor. Each segment goes beyond the headl
   <programme channel="CNN國際新聞台" start="20261101150000 +0800" stop="20261101155959 +0800">
     <title lang="zh">Sunday, November 1, 2026 10AMFareed Zakaria GPS</title>
   </programme>
-  <programme channel="CNN頭條新聞台(HLN)" start="20261030193000 +0800" stop="20261030201500 +0800">
-    <title lang="zh">CNN Special Report</title>
-  </programme>
   <programme channel="CNN頭條新聞台(HLN)" start="20261030201500 +0800" stop="20261030214500 +0800">
     <title lang="zh">CNN Special Report</title>
   </programme>
@@ -64619,9 +64601,6 @@ with clarity, context and journalistic rigor. Each segment goes beyond the headl
     <title lang="en">WAR AND BEAUTY #8 [Can]</title>
     <desc lang="zh">如欲羅致瑩為己用。田助查獲釋，春懷疑淳染上毒癖，告知田。宮中失火，武冒死救回太祖之靈牌，立下大功獲官職。颺受託替淳戒除毒癖，發現她藉此舒緩哮喘，淳抗拒接受治療，昏倒，颺替她寬衣並施針灸，不料瑩突到來。</desc>
   </programme>
-  <programme channel="Cartoon Network" start="20261030194500 +0800" stop="20261030201500 +0800">
-    <title lang="zh">叔比狗神秘檔案 第1季第5集 -神秘之歌</title>
-  </programme>
   <programme channel="Cartoon Network" start="20261030201500 +0800" stop="20261030211500 +0800">
     <title lang="zh">少年戰隊Go! 第7季第1350集 -甜美的復仇/滿肚數字/免費著數/尋找水行俠/完美推銷</title>
   </programme>
@@ -66776,9 +66755,6 @@ with clarity, context and journalistic rigor. Each segment goes beyond the headl
     <title lang="zh">頻道尚未提供當日節目表</title>
     <title lang="en">頻道尚未提供當日節目表</title>
   </programme>
-  <programme channel="DW (English)" start="20261030200200 +0800" stop="20261030201500 +0800">
-    <title lang="en">DW News Focus -News</title>
-  </programme>
   <programme channel="DW (English)" start="20261030201500 +0800" stop="20261030210000 +0800">
     <title lang="en">Docfilm -North Korea - Building An Alliance With China And Russia - The Kim Dynasty</title>
   </programme>
@@ -67123,9 +67099,6 @@ with clarity, context and journalistic rigor. Each segment goes beyond the headl
   </programme>
   <programme channel="DW (English)" start="20261102001500 +0800" stop="20261102003000 +0800">
     <title lang="en">Reporter -On Location</title>
-  </programme>
-  <programme channel="Discovery Asia" start="20261030192000 +0800" stop="20261030201000 +0800">
-    <title lang="zh">非一般婚禮 第1季第1集 -中國麗江</title>
   </programme>
   <programme channel="Discovery Asia" start="20261030194000 +0800" stop="20261030203000 +0800">
     <title lang="zh">全球采風第2季:日本北端北海道(普)</title>
@@ -77789,9 +77762,6 @@ with clarity, context and journalistic rigor. Each segment goes beyond the headl
   <programme channel="Food Network" start="20261102001200 +0800" stop="20261102003600 +0800">
     <title lang="zh">美食大揭密2.0 第2季第6集 -風味滿點</title>
   </programme>
-  <programme channel="France 24" start="20261030200000 +0800" stop="20261030201500 +0800">
-    <title lang="zh">News[直播]</title>
-  </programme>
   <programme channel="France 24" start="20261030201500 +0800" stop="20261030203000 +0800">
     <title lang="zh">Scoop[直播]</title>
   </programme>
@@ -80907,9 +80877,6 @@ with clarity, context and journalistic rigor. Each segment goes beyond the headl
   </programme>
   <programme channel="Ginx TV電競頻道" start="20261101153000 +0800" stop="20261101155959 +0800">
     <title lang="zh">瘋傳起來吧：Pete Heat (輔)(第5集)</title>
-  </programme>
-  <programme channel="Global Trekker" start="20261030192500 +0800" stop="20261030201500 +0800">
-    <title lang="zh">維修的奧祕 第2季S2(7)(普)</title>
   </programme>
   <programme channel="Global Trekker" start="20261030201500 +0800" stop="20261030210500 +0800">
     <title lang="zh">維修的奧祕 第2季S2(8)(普)</title>
@@ -85634,9 +85601,6 @@ with clarity, context and journalistic rigor. Each segment goes beyond the headl
     <title lang="zh">江蘇電視台國際頻道全日24小時為你送上精彩節目</title>
     <title lang="en">Jiangsu TV Programs</title>
     <desc lang="zh">江蘇電視台國際頻道全日24小時為你送上精彩節目</desc>
-  </programme>
-  <programme channel="KBS World" start="20261030193500 +0800" stop="20261030201000 +0800">
-    <title lang="zh">Mission: Mompossible 第15集</title>
   </programme>
   <programme channel="KBS World" start="20261030201000 +0800" stop="20261030205000 +0800">
     <title lang="zh">A Trap Called Desire 第44集</title>
@@ -90630,9 +90594,6 @@ with clarity, context and journalistic rigor. Each segment goes beyond the headl
     <title lang="zh">獅群的法則 #3</title>
     <title lang="en">Pride Rules 1 #3</title>
     <desc lang="zh">​​​​​​​​​​​​​​​面對雨季的挑戰,這個季節讓一切轉為綠意盎然,同時破壞了獅子隱蔽的保護色,掩飾效果徹底失靈.觀看愛因斯坦無法建立新的聯繫,並權衡得失,在琪薩與牠的幼崽被敵對雄獅瘋眼穆迪綁走之時.</desc>
-  </programme>
-  <programme channel="LOVE NATURE" start="20261030191500 +0800" stop="20261030201000 +0800">
-    <title lang="zh">南荒之地 (雙語)S1(3)(普)</title>
   </programme>
   <programme channel="LOVE NATURE" start="20261030201000 +0800" stop="20261030210500 +0800">
     <title lang="zh">成為大象：瑞提提的孤兒們S1(1)(普)</title>
@@ -104085,9 +104046,6 @@ with clarity, context and journalistic rigor. Each segment goes beyond the headl
   </programme>
   <programme channel="Netflix" start="20261102000000 +0800" stop="20261102020000 +0800">
     <title lang="zh">觀看 Netflix</title>
-  </programme>
-  <programme channel="Nick Jr." start="20261030195500 +0800" stop="20261030201500 +0800">
-    <title lang="zh">汪汪隊之小礫與工程家族S3(303)(普)</title>
   </programme>
   <programme channel="Nick Jr." start="20261030201500 +0800" stop="20261030204000 +0800">
     <title lang="zh">汪汪隊之小礫與工程家族S3(304)(普)</title>
@@ -190200,11 +190158,6 @@ Barcelona are the two-time defending champions, having won their 29th title last
     <title lang="en">Ça se passe sur beIN SPORTS</title>
     <category lang="en">Sports</category>
   </programme>
-  <programme channel="beinsports3_8AEA24" start="20261030101500 +0000" stop="20261030121500 +0000" source-id="8AEA2426-D451-4BA5-BF48-114A1F04B1A8" program-id="BACC503B-4C26-4882-B5E7-3679FFC11B0A">
-    <title lang="en">Preston vs West Brom - EFL - English Football League  SkyBet - Championship 2026/2027</title>
-    <desc lang="en">The English Football League Championship is the highest division of the English Football League (EFL) and second-highest overall in the English football league system after the Premier League. The best of the week’s matches are live and exclusive only on beIN.</desc>
-    <category lang="en">Sports</category>
-  </programme>
   <programme channel="beinsports3_8AEA24" start="20261030121500 +0000" stop="20261030140000 +0000" source-id="8AEA2426-D451-4BA5-BF48-114A1F04B1A8" program-id="AF43F184-8600-4645-83CF-B81BBB9A11A2">
     <title lang="en">Aston villa vs Manchester City - English Premier League 2026/2027 - Week 8</title>
     <desc lang="en">Ipswich Town won their first two Premier League games against Nottingham Forest in the 1992-93 season, but they have since lost all four against the Tricky Trees in 1994-95 and 2024-25. Nottingham Forest won 4-2 on their last trip to Portman Road in 2024-25, but haven’t won consecutive league visits to Ipswich since beating them in 2010-11 and 2011</desc>
@@ -205781,9 +205734,6 @@ Jaber Al-Mubarak Al-Hamad Stadium Stadium
     <title>BUILDER BROTHER DREAM FACTORY S1 S1 | E4</title>
     <desc>19:27 - 14:00</desc>
   </programme>
-  <programme channel="euronews" start="20261030200000 +0800" stop="20261030201400 +0800">
-    <title lang="en">Euronews Now</title>
-  </programme>
   <programme channel="euronews" start="20261030201400 +0800" stop="20261030202900 +0800">
     <title lang="en">Euronews Now</title>
   </programme>
@@ -211902,9 +211852,6 @@ Jaber Al-Mubarak Al-Hamad Stadium Stadium
   <programme channel="人間衛視" start="20261101150000 +0800" stop="20261101160000 +0800">
     <title lang="zh">挑戰吧！Let's Play Sports!  匹克球(3)(首)(普)</title>
   </programme>
-  <programme channel="八大精彩台" start="20261030192100 +0800" stop="20261030201000 +0800">
-    <title lang="zh">琅琊榜-EP12</title>
-  </programme>
   <programme channel="八大精彩台" start="20261030201000 +0800" stop="20261030205900 +0800">
     <title lang="zh">琅琊榜-EP13</title>
   </programme>
@@ -216573,9 +216520,6 @@ Jaber Al-Mubarak Al-Hamad Stadium Stadium
   <programme channel="台視財經台" start="20261101150000 +0800" stop="20261101155959 +0800">
     <title lang="zh">益起看世界 (第0443 集)【普】</title>
   </programme>
-  <programme channel="大愛電視" start="20261030200000 +0800" stop="20261030201500 +0800">
-    <title lang="zh">證嚴上人說故事(普)</title>
-  </programme>
   <programme channel="大愛電視" start="20261030201500 +0800" stop="20261030203000 +0800">
     <title lang="zh">風月同天(普)</title>
   </programme>
@@ -220416,9 +220360,6 @@ Jaber Al-Mubarak Al-Hamad Stadium Stadium
   <programme channel="熊貓 TV" start="20261102000000 +0800" stop="20261102050000 +0800">
     <title lang="zh">海洋公園 (重溫)</title>
   </programme>
-  <programme channel="空中英語教室" start="20261030194600 +0800" stop="20261030201000 +0800">
-    <title lang="zh">空中英語教室-1031【普】</title>
-  </programme>
   <programme channel="空中英語教室" start="20261030201000 +0800" stop="20261030203400 +0800">
     <title lang="zh">大家說英語-1031【普】</title>
   </programme>
@@ -220748,9 +220689,6 @@ Jaber Al-Mubarak Al-Hamad Stadium Stadium
   </programme>
   <programme channel="空中英語教室" start="20261101154900 +0800" stop="20261101155959 +0800">
     <title lang="zh">空中英語教室-1031【普】</title>
-  </programme>
-  <programme channel="罪案 + 偵緝" start="20261030195000 +0800" stop="20261030201500 +0800">
-    <title lang="zh">法庭現場 第154集</title>
   </programme>
   <programme channel="罪案 + 偵緝" start="20261030201500 +0800" stop="20261030210500 +0800">
     <title lang="zh">阿拉斯加州警 第1集 -夏至時分</title>
@@ -223821,9 +223759,6 @@ Jaber Al-Mubarak Al-Hamad Stadium Stadium
   <programme channel="豬哥亮歌廳秀" start="20261101153600 +0800" stop="20261101155959 +0800">
     <title lang="zh">豬哥會社-第131集【普】</title>
   </programme>
-  <programme channel="達文西頻道" start="20261030200300 +0800" stop="20261030201200 +0800">
-    <title lang="zh">柔伊與麥洛的世界之旅－路易斯安那州之旅(普)</title>
-  </programme>
   <programme channel="達文西頻道" start="20261030201200 +0800" stop="20261030201800 +0800">
     <title lang="zh">柔伊與麥洛的世界之旅－冰島之旅(普)</title>
   </programme>
@@ -224588,12 +224523,6 @@ Jaber Al-Mubarak Al-Hamad Stadium Stadium
   </programme>
   <programme channel="鏡電視新聞台" start="20261101150000 +0800" stop="20261101160000 +0800">
     <title lang="zh">宵夜鏡來講(35)(普)</title>
-  </programme>
-  <programme channel="電影原聲台CMusic" start="20261030200800 +0800" stop="20261030201000 +0800">
-    <title lang="zh">La donna è mobile(普)</title>
-  </programme>
-  <programme channel="電影原聲台CMusic" start="20261030201000 +0800" stop="20261030201400 +0800">
-    <title lang="zh">Lucy in the Sky with Diamonds(普)</title>
   </programme>
   <programme channel="電影原聲台CMusic" start="20261030201400 +0800" stop="20261030201600 +0800">
     <title lang="zh">Travers Goff(普)</title>
@@ -227202,9 +227131,6 @@ Jaber Al-Mubarak Al-Hamad Stadium Stadium
   <programme channel="電影原聲台CMusic" start="20261101155700 +0800" stop="20261101160000 +0800">
     <title lang="zh">Summertime(普)</title>
   </programme>
-  <programme channel="靖天中文台" start="20261030183839 +0800" stop="20261030201312 +0800">
-    <title lang="zh">NowJelli紫金國際台-17號音樂倉庫 05</title>
-  </programme>
   <programme channel="靖天中文台" start="20261030201312 +0800" stop="20261030214615 +0800">
     <title lang="zh">NowJelli紫金國際台-17號音樂倉庫 06</title>
   </programme>
@@ -228656,9 +228582,6 @@ Jaber Al-Mubarak Al-Hamad Stadium Stadium
   </programme>
   <programme channel="龍華戲劇" start="20261101140000 +0800" stop="20261101160000 +0800">
     <title lang="zh">雍正王朝(5-6)(普)</title>
-  </programme>
-  <programme channel="龍華洋片台" start="20261030184000 +0800" stop="20261030201500 +0800">
-    <title lang="zh">戰無不勝(輔15)</title>
   </programme>
   <programme channel="龍華洋片台" start="20261030201500 +0800" stop="20261030220000 +0800">
     <title lang="zh">天怒(輔12)</title>
