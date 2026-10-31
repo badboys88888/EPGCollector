@@ -6,7 +6,7 @@ on:
   workflow_dispatch:         # 允许在 Actions 页面手动触发
 
 permissions:
-  contents: read
+  contents: write            # 把生成的文件提交回仓库需要
   pages: write
   id-token: write
 
@@ -40,12 +40,13 @@ jobs:
           REPO="${GITHUB_REPOSITORY#*/}"
           EPG_URL="https://${OWNER}.github.io/${REPO}/ntdtv.xml"
           python live_iptv.py "$URL" --out work/ntdtv.m3u --epg-url "$EPG_URL"
-          python epg.py "$URL" --channels-json work/ntdtv.json --out site/ntdtv.xml
+          python epg.py "$URL" --channels-json work/ntdtv.json --out site/ntdtv.xml --gzip
           cp work/ntdtv.m3u site/ntdtv.m3u
 
       - name: Sanity check
         run: |
           python - <<'PY'
+          import gzip
           import xml.etree.ElementTree as ET
           m3u = open("site/ntdtv.m3u", encoding="utf-8").read()
           urls = [l for l in m3u.splitlines() if l.startswith("http")]
@@ -57,7 +58,26 @@ jobs:
           pr = len(root.findall("programme"))
           print(f"epg channels={ch} programmes={pr}")
           assert ch >= 1 and pr >= 100, "节目数量异常, 不发布"
+          with gzip.open("site/ntdtv.xml.gz", "rb") as f:
+              gz_root = ET.fromstring(f.read())
+          assert len(gz_root.findall("programme")) == pr, "gz 与 xml 内容不一致, 不发布"
+          print("gz OK")
           PY
+
+      - name: Commit generated files to repo
+        continue-on-error: true      # 提交失败(如分支受保护)不影响 Pages 发布
+        run: |
+          mkdir -p output
+          cp site/ntdtv.m3u site/ntdtv.xml site/ntdtv.xml.gz output/
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output
+          if git diff --cached --quiet; then
+            echo "没有变化, 不提交"
+          else
+            git commit -m "Update playlist and EPG ($(date -u +'%F %H:%M') UTC)"
+            git push
+          fi
 
       - uses: actions/configure-pages@v5
 
