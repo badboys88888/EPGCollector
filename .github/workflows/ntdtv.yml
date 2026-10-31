@@ -1,4 +1,4 @@
-name: Update playlist and EPG
+name: Update playlist and ntdtv EPG
 
 on:
   schedule:
