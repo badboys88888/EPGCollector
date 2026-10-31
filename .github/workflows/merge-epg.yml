@@ -1,8 +1,8 @@
-name: Merge EPG
+name: Merge 合并EPG
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # 每6小时一次(UTC)
+    - cron: "0 20 * * *"    # 每天一次,UTC 20:00 = 北京时间凌晨 4:00
   workflow_dispatch:         # 允许手动运行
 
 permissions:
