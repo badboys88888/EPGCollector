@@ -1,0 +1,8 @@
+# 每行一个源,支持 .xml / .xml.gz,不看后缀,按文件头自动识别
+# 支持: 外网 URL、GitHub raw 链接、GitHub blob 链接(自动转 raw)、仓库内本地相对路径
+# 靠前的源优先级更高(相同频道+开始时间的节目,保留先出现的)
+
+# https://example.com/epg.xml.gz
+# https://raw.githubusercontent.com/用户/仓库/main/epg.xml
+# https://github.com/用户/仓库/blob/main/e.xml
+# ../local_epg.xml
