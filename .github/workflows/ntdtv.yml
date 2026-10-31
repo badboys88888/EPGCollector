@@ -17,6 +17,9 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ntdtv     # 脚本放在仓库里的 ntdtv 文件夹
     steps:
       - uses: actions/checkout@v4
 
@@ -24,6 +27,7 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
+          cache-dependency-path: ntdtv/requirements.txt
 
       - name: Install dependencies
         run: pip install -r requirements.txt
@@ -59,7 +63,7 @@ jobs:
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: site
+          path: ntdtv/site
 
   deploy:
     needs: build
