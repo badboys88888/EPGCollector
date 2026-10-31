@@ -10,7 +10,7 @@ https://github.com/badboys88888/EPGCollector/blob/main/bein/bein_epg.xml
 https://github.com/badboys88888/EPGCollector/blob/main/beinsports/beinsports_epg.xml
 https://github.com/badboys88888/EPGCollector/blob/main/hami/hami_epg.xml
 https://github.com/badboys88888/EPGCollector/blob/main/hoytv/hoytv.xml
-https://github.com/badboys88888/EPGCollector/raw/refs/heads/main/mewatch/mewatch.xml.gz
+https://raw.githubusercontent.com/badboys88888/EPGCollector/refs/heads/main/mewatch/mewatch.xml
 https://github.com/badboys88888/EPGCollector/blob/main/mytvsuper/epg.xml
 https://github.com/badboys88888/EPGCollector/blob/main/nowtv/nowtv.xml
 https://github.com/badboys88888/EPGCollector/blob/main/ntdtv/output/ntdtv.xml
