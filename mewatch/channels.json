@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source": "meWatch Singapore",
-    "generated_at": "2026-10-30T08:54:29.607624",
-    "total_channels": 119
+    "generated_at": "2026-10-31T08:46:02.763443",
+    "total_channels": 122
   },
   "channels": [
     {
@@ -70,6 +70,78 @@
       "videoFormat": ""
     },
     {
+      "id": "862712",
+      "name": "YOG CH01",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='17251041'&EntityType='Item'&EntityId='862712'&Width=1920&Height=1080",
+      "description": "Experience the excitement of the Dakar 2026 Youth Olympic Games, featuring live sporting action, Opening and Closing Ceremonies, and daily highlights. Rally behind Team Singapore's young athletes as they compete against the world's rising sporting talents on the global stage.",
+      "number": null,
+      "genres": [
+        "sports"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "862710",
+      "name": "YOG CH02",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='17251037'&EntityType='Item'&EntityId='862710'&Width=1920&Height=1080",
+      "description": "Experience the excitement of the Dakar 2026 Youth Olympic Games, featuring live sporting action, Opening and Closing Ceremonies, and daily highlights. Rally behind Team Singapore's young athletes as they compete against the world's rising sporting talents on the global stage.",
+      "number": null,
+      "genres": [
+        "sports"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "862709",
+      "name": "YOG CH03",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='17251033'&EntityType='Item'&EntityId='862709'&Width=1920&Height=1080",
+      "description": "Experience the excitement of the Dakar 2026 Youth Olympic Games, featuring live sporting action, Opening and Closing Ceremonies, and daily highlights. Rally behind Team Singapore's young athletes as they compete against the world's rising sporting talents on the global stage.",
+      "number": null,
+      "genres": [
+        "sports"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "862713",
+      "name": "YOG CH04",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='17251053'&EntityType='Item'&EntityId='862713'&Width=1920&Height=1080",
+      "description": "Experience the excitement of the Dakar 2026 Youth Olympic Games, featuring live sporting action, Opening and Closing Ceremonies, and daily highlights. Rally behind Team Singapore's young athletes as they compete against the world's rising sporting talents on the global stage.",
+      "number": null,
+      "genres": [
+        "sports"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "862711",
+      "name": "YOG CH05",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='17251049'&EntityType='Item'&EntityId='862711'&Width=1920&Height=1080",
+      "description": "Experience the excitement of the Dakar 2026 Youth Olympic Games, featuring live sporting action, Opening and Closing Ceremonies, and daily highlights. Rally behind Team Singapore's young athletes as they compete against the world's rising sporting talents on the global stage.",
+      "number": null,
+      "genres": [
+        "sports"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
+      "id": "862714",
+      "name": "YOG CH06",
+      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='17251045'&EntityType='Item'&EntityId='862714'&Width=1920&Height=1080",
+      "description": "Experience the excitement of the Dakar 2026 Youth Olympic Games, featuring live sporting action, Opening and Closing Ceremonies, and daily highlights. Rally behind Team Singapore's young athletes as they compete against the world's rising sporting talents on the global stage.",
+      "number": null,
+      "genres": [
+        "sports"
+      ],
+      "isPlayable": false,
+      "videoFormat": ""
+    },
+    {
       "id": "839745",
       "name": "FIFA U17 WWC Ch01",
       "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16999918'&EntityType='Item'&EntityId='839745'&Width=1920&Height=1080",
@@ -122,42 +194,6 @@
       "name": "LIVE 1",
       "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5721803'&EntityType='Item'&EntityId='97073'&Width=1920&Height=1080",
       "description": "LIVE 1 will feature LIVE televised local events of national significance and other entertaiment genres.",
-      "number": null,
-      "genres": [
-        "toggle"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "97078",
-      "name": "LIVE 2",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5721800'&EntityType='Item'&EntityId='97078'&Width=1920&Height=1080",
-      "description": "LIVE 2 - An additional channel for coverage of live events.",
-      "number": null,
-      "genres": [
-        "toggle"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "98202",
-      "name": "LIVE 5",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='6215768'&EntityType='Item'&EntityId='98202'&Width=1920&Height=1080",
-      "description": "LIVE 5  - An additional channel for coverage of live events.",
-      "number": null,
-      "genres": [
-        "toggle"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "204746",
-      "name": "LIVE 6",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5853379'&EntityType='Item'&EntityId='204746'&Width=1920&Height=1080",
-      "description": "LIVE 6 - An additional channel for coverage of live events.   ",
       "number": null,
       "genres": [
         "toggle"
