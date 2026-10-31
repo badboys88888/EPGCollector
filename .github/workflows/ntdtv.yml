@@ -1,0 +1,72 @@
+name: Update playlist and EPG
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # 每 6 小时一次(UTC), 避开整点, 减少排队延迟
+  workflow_dispatch:         # 允许在 Actions 页面手动触发
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate playlist and EPG
+        run: |
+          mkdir -p site work
+          URL="https://www.ntdtv.com/b5/live-tv"
+          OWNER=$(echo "$GITHUB_REPOSITORY_OWNER" | tr 'A-Z' 'a-z')
+          REPO="${GITHUB_REPOSITORY#*/}"
+          EPG_URL="https://${OWNER}.github.io/${REPO}/ntdtv.xml"
+          python live_iptv.py "$URL" --out work/ntdtv.m3u --epg-url "$EPG_URL"
+          python epg.py "$URL" --channels-json work/ntdtv.json --out site/ntdtv.xml
+          cp work/ntdtv.m3u site/ntdtv.m3u
+
+      - name: Sanity check
+        run: |
+          python - <<'PY'
+          import xml.etree.ElementTree as ET
+          m3u = open("site/ntdtv.m3u", encoding="utf-8").read()
+          urls = [l for l in m3u.splitlines() if l.startswith("http")]
+          print(f"m3u channels={len(urls)}")
+          assert len(urls) >= 3, "频道数量异常, 不发布"
+          assert all(u.startswith("https://") and ".m3u8" in u for u in urls), "存在不完整的播放地址, 不发布"
+          root = ET.parse("site/ntdtv.xml").getroot()
+          ch = len(root.findall("channel"))
+          pr = len(root.findall("programme"))
+          print(f"epg channels={ch} programmes={pr}")
+          assert ch >= 1 and pr >= 100, "节目数量异常, 不发布"
+          PY
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
