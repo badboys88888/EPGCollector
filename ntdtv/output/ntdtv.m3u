@@ -1,0 +1,13 @@
+#EXTM3U x-tvg-url="https://badboys88888.github.io/EPGCollector/ntdtv.xml" url-tvg="https://badboys88888.github.io/EPGCollector/ntdtv.xml"
+#EXTINF:-1 tvg-id="美東台" tvg-name="美東台",美東台
+https://ntd02.akamaized.net/HD-NY/index.m3u8
+#EXTINF:-1 tvg-id="美西台" tvg-name="美西台",美西台
+https://live.ntdtv.com/uwlive990/playlist.m3u8
+#EXTINF:-1 tvg-id="加東台" tvg-name="加東台",加東台
+https://live.ntdtv.com/mllive860/playlist.m3u8
+#EXTINF:-1 tvg-id="加西台" tvg-name="加西台",加西台
+https://live.ntdtv.com/cwlive220/playlist.m3u8
+#EXTINF:-1 tvg-id="亞太台" tvg-name="亞太台",亞太台
+https://live.ntdtv.com/aplive200/playlist.m3u8
+#EXTINF:-1 tvg-id="中國台" tvg-name="中國台",中國台
+https://live.ntdtv.com/cnlive900/playlist.m3u8
