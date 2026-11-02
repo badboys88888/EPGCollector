@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source": "meWatch Singapore",
-    "generated_at": "2026-11-01T09:36:23.658948",
-    "total_channels": 122
+    "generated_at": "2026-11-02T09:52:38.917719",
+    "total_channels": 120
   },
   "channels": [
     {
@@ -158,30 +158,6 @@
       "name": "FIFA U17 WWC Ch02",
       "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='16999914'&EntityType='Item'&EntityId='839744'&Width=1920&Height=1080",
       "description": "The FIFA U-17 Women’s World Cup Morocco 2026™ brings together 24 of the world’s best young women’s national teams as they compete for the ultimate prize in U-17 football. The tournament showcases the next generation of rising stars on the global stage, as young talents battle for the title of U-17 world champions.",
-      "number": null,
-      "genres": [
-        "sports"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "98200",
-      "name": "SPL CH01",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5847893'&EntityType='Item'&EntityId='98200'&Width=1920&Height=1080",
-      "description": "Watch the Singapore Premier League 2026/2027 live on mewatch. Follow Singapore’s football clubs throughout the season and catch all the action live",
-      "number": null,
-      "genres": [
-        "sports"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "98201",
-      "name": "SPL CH02",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5847892'&EntityType='Item'&EntityId='98201'&Width=1920&Height=1080",
-      "description": "Watch the Singapore Premier League 2026/2027 live on mewatch. Follow Singapore’s football clubs throughout the season and catch all the action live.",
       "number": null,
       "genres": [
         "sports"
