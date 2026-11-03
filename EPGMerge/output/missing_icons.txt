@@ -1,6 +1,7 @@
 OTT_LIVE_0000001974
 OTT_LIVE_0000001736
 OTT_LIVE_0000001735
+OTT_LIVE_0000002109
 TEST
 美東台
 美西台
@@ -36,6 +37,7 @@ Discovery EVE
 Discovery科學台(Science)
 EUROSPORT
 Ginx TV電競頻道
+Hami WBC1台
 Hami體育2台
 HGTV居家樂活頻道
 INULTRA
