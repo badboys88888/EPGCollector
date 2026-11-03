@@ -3806,12 +3806,12 @@
   },
   "streamfornorthamerica.beinsportsconnecthk": {
     "name": "beIN SPORTS 1",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/1789575853393-1750749733840-bein_sports_1_100X56.png",
+    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/1793679895490-bein_sports_max_long_logo_100X56.png",
     "source": "beinsportsconnecthk"
   },
   "teststreamforusa.beinsportsconnecthk": {
     "name": "beIN SPORTS 2",
-    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/1790076836209-Long_bein_sports_2_100X56.png",
+    "icon": "https://mediacms01.apac.beiniz.biz/channel_logo/1793680007734-bein_sports_max_long_logo_100X56.png",
     "source": "beinsportsconnecthk"
   }
 }
