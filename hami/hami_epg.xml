@@ -457,16 +457,10 @@
     <title lang="zh">WTT冠軍賽 蒙佩利爾站 男單決賽 11/2</title>
   </programme>
   <programme channel="愛爾達體育3台" start="20261103110000 +0800" stop="20261103155500 +0800">
-    <title lang="zh">LIVE WTT冠軍賽 法蘭克福站 單打32強 11/3</title>
-  </programme>
-  <programme channel="愛爾達體育3台" start="20261103155500 +0800" stop="20261103173000 +0800">
-    <title lang="zh">LIVE 青年奧運 柔道 男子100/女子78公斤級決賽 11/3(原音)</title>
-  </programme>
-  <programme channel="愛爾達體育3台" start="20261103155500 +0800" stop="20261103173000 +0800">
-    <title lang="zh">LIVE 青年奧運 柔道 男子100/女子78公斤級決賽 11/3(原音)</title>
+    <title lang="zh">LIVE WTT冠軍賽 法蘭克福站 鄭怡靜 林昀儒 單打32強 11/3</title>
   </programme>
   <programme channel="愛爾達體育3台" start="20261103173000 +0800" stop="20261103210000 +0800">
-    <title lang="zh">LIVE WTT冠軍賽 法蘭克福站 單打32強 (上) 11/4</title>
+    <title lang="zh">LIVE WTT冠軍賽 法蘭克福站 彭郁涵 單打32強 (上) 11/4</title>
   </programme>
   <programme channel="愛爾達體育3台" start="20261103210000 +0800" stop="20261103213000 +0800">
     <title lang="zh">體壇最前線 11/3 (新)</title>
@@ -478,10 +472,10 @@
     <title lang="zh">體壇最前線 11/3</title>
   </programme>
   <programme channel="愛爾達體育3台" start="20261104000000 +0800" stop="20261104020000 +0800">
-    <title lang="zh">WTT冠軍賽 法蘭克福站 單打32強第一日回顧</title>
+    <title lang="zh">WTT冠軍賽 法蘭克福站 單打32強第一日回顧 中華隊</title>
   </programme>
   <programme channel="愛爾達體育3台" start="20261104020000 +0800" stop="20261104040000 +0800">
-    <title lang="zh">WTT冠軍賽 法蘭克福站 單打32強第一日回顧</title>
+    <title lang="zh">WTT冠軍賽 法蘭克福站 單打32強第一日回顧 中華隊</title>
   </programme>
   <programme channel="愛爾達體育3台" start="20261104040000 +0800" stop="20261104043000 +0800">
     <title lang="zh">體壇最前線 11/3</title>
@@ -493,10 +487,10 @@
     <title lang="zh">體壇最前線 11/3</title>
   </programme>
   <programme channel="愛爾達體育3台" start="20261104070000 +0800" stop="20261104090000 +0800">
-    <title lang="zh">WTT冠軍賽 法蘭克福站 單打32強第一日回顧</title>
+    <title lang="zh">WTT冠軍賽 法蘭克福站 單打32強第一日回顧 中華隊</title>
   </programme>
   <programme channel="愛爾達體育3台" start="20261104090000 +0800" stop="20261104110000 +0800">
-    <title lang="zh">WTT冠軍賽 法蘭克福站 單打32強第一日回顧</title>
+    <title lang="zh">WTT冠軍賽 法蘭克福站 單打32強第一日回顧 中華隊</title>
   </programme>
   <programme channel="愛爾達體育3台" start="20261104110000 +0800" stop="20261104160000 +0800">
     <title lang="zh">LIVE WTT冠軍賽 法蘭克福站 單打32強 (下) 11/4</title>
@@ -544,7 +538,7 @@
     <title lang="zh">中華職棒 中信 VS 味全 台灣大賽G6 10/26</title>
   </programme>
   <programme channel="愛爾達體育2台" start="20261102210000 +0800" stop="20261102230000 +0800">
-    <title lang="zh">英超 切爾西 VS 曼聯 第9輪</title>
+    <title lang="zh">精彩運動賽事回顧</title>
   </programme>
   <programme channel="愛爾達體育2台" start="20261102230000 +0800" stop="20261103010000 +0800">
     <title lang="zh">F1 墨西哥站 正賽</title>
@@ -562,7 +556,7 @@
     <title lang="zh">中華職棒 中信 VS 味全 台灣大賽G6 10/26</title>
   </programme>
   <programme channel="愛爾達體育2台" start="20261103073000 +0800" stop="20261103094000 +0800">
-    <title lang="zh">英超 利物浦 VS 兵工廠 第9輪</title>
+    <title lang="zh">精彩運動賽事回顧</title>
   </programme>
   <programme channel="愛爾達體育2台" start="20261103094000 +0800" stop="20261103095500 +0800">
     <title lang="zh">法甲精華 第8輪</title>
@@ -574,7 +568,7 @@
     <title lang="zh">D-LIVE 青年奧運 朱宥恩 武術 男/女太極拳決賽(太極拳/太極扇) 11/3</title>
   </programme>
   <programme channel="愛爾達體育2台" start="20261103133000 +0800" stop="20261103140000 +0800">
-    <title lang="zh">NBA動態#1</title>
+    <title lang="zh">精彩運動賽事回顧</title>
   </programme>
   <programme channel="愛爾達體育2台" start="20261103140000 +0800" stop="20261103143000 +0800">
     <title lang="zh">LIVE 體壇最前線 11/3</title>
@@ -588,14 +582,14 @@
   <programme channel="愛爾達體育2台" start="20261103145500 +0800" stop="20261103162500 +0800">
     <title lang="zh">LIVE 青年奧運 墨西哥VS肯亞 五人制棒球 銅牌戰 11/3</title>
   </programme>
-  <programme channel="愛爾達體育2台" start="20261103162500 +0800" stop="20261103175500 +0800">
+  <programme channel="愛爾達體育2台" start="20261103165300 +0800" stop="20261103174800 +0800">
     <title lang="zh">LIVE 青年奧運 中華VS古巴 五人制棒球 金牌戰 11/4</title>
   </programme>
-  <programme channel="愛爾達體育2台" start="20261103175500 +0800" stop="20261103195000 +0800">
-    <title lang="zh">LIVE UEFA歐冠 頓內茲克礦工 VS 里斯本競技 第4比賽日(原音)(MOD遙控器按982、網路MAX10台直播；本頻道青奧後播出)</title>
+  <programme channel="愛爾達體育2台" start="20261103174800 +0800" stop="20261103195000 +0800">
+    <title lang="zh">精彩運動賽事回顧</title>
   </programme>
   <programme channel="愛爾達體育2台" start="20261103195000 +0800" stop="20261103220500 +0800">
-    <title lang="zh">LIVE UEFA歐冠 馬德里競技 VS 拜仁慕尼黑 第4比賽日(原音)</title>
+    <title lang="zh">精彩運動賽事回顧</title>
   </programme>
   <programme channel="愛爾達體育2台" start="20261103220500 +0800" stop="20261104000500 +0800">
     <title lang="zh">F1 美國站 正賽</title>
@@ -630,26 +624,20 @@
   <programme channel="愛爾達體育2台" start="20261104143000 +0800" stop="20261104145500 +0800">
     <title lang="zh">LIVE 體壇最前線 11/4</title>
   </programme>
-  <programme channel="愛爾達體育2台" start="20261104145500 +0800" stop="20261104163000 +0800">
+  <programme channel="愛爾達體育2台" start="20261104145500 +0800" stop="20261104160000 +0800">
     <title lang="zh">LIVE 青年奧運 游泳 決賽 11/4</title>
   </programme>
-  <programme channel="愛爾達體育2台" start="20261104145500 +0800" stop="20261104163000 +0800">
-    <title lang="zh">LIVE 青年奧運 游泳 決賽 11/4</title>
-  </programme>
-  <programme channel="愛爾達體育2台" start="20261104163000 +0800" stop="20261104164500 +0800">
-    <title lang="zh">德甲精華 第6輪</title>
-  </programme>
-  <programme channel="愛爾達體育2台" start="20261104164500 +0800" stop="20261104170000 +0800">
-    <title lang="zh">德甲精華 第7輪</title>
+  <programme channel="愛爾達體育2台" start="20261104160000 +0800" stop="20261104170000 +0800">
+    <title lang="zh">LIVE 青年奧運 滑板 男子街頭賽決賽 11/4</title>
   </programme>
   <programme channel="愛爾達體育2台" start="20261104170000 +0800" stop="20261104173500 +0800">
     <title lang="zh">體壇最前線 11/4</title>
   </programme>
   <programme channel="愛爾達體育2台" start="20261104173500 +0800" stop="20261104195000 +0800">
-    <title lang="zh">LIVE UEFA歐冠 費內巴切 VS 利物浦 第4比賽日(原音)</title>
+    <title lang="zh">精彩運動賽事回顧</title>
   </programme>
   <programme channel="愛爾達體育2台" start="20261104195000 +0800" stop="20261104220500 +0800">
-    <title lang="zh">LIVE UEFA歐冠 布拉格斯拉夫 VS 兵工廠 第4比賽日(原音)</title>
+    <title lang="zh">精彩運動賽事回顧</title>
   </programme>
   <programme channel="愛爾達體育2台" start="20261104220500 +0800" stop="20261104230000 +0800">
     <title lang="zh">英超精華 第9輪</title>
@@ -2589,16 +2577,16 @@
   <programme channel="愛爾達體育MAX1台" start="20261103040000 +0800" stop="20261103104500 +0800">
     <title lang="zh">【非賽事直播時段】運科轉播精彩時刻</title>
   </programme>
-  <programme channel="愛爾達體育MAX1台" start="20261103104500 +0800" stop="20261103130000 +0800">
+  <programme channel="愛爾達體育MAX1台" start="20261103104500 +0800" stop="20261103133000 +0800">
     <title lang="zh">LIVE 青年奧運 陳忞昕 桌球 男/女單打16強 11/3(原音)</title>
   </programme>
-  <programme channel="愛爾達體育MAX1台" start="20261103130000 +0800" stop="20261103160000 +0800">
+  <programme channel="愛爾達體育MAX1台" start="20261103160000 +0800" stop="20261103174800 +0800">
     <title lang="zh">【非賽事直播時段】運科轉播精彩時刻</title>
   </programme>
-  <programme channel="愛爾達體育MAX1台" start="20261103160000 +0800" stop="20261103220000 +0800">
-    <title lang="zh">【非賽事直播時段】運科轉播精彩時刻</title>
+  <programme channel="愛爾達體育MAX1台" start="20261103174800 +0800" stop="20261103183000 +0800">
+    <title lang="zh">LIVE 青年奧運 五人制棒球 頒獎典禮 11/4(原音)</title>
   </programme>
-  <programme channel="愛爾達體育MAX1台" start="20261103220000 +0800" stop="20261104040000 +0800">
+  <programme channel="愛爾達體育MAX1台" start="20261103183000 +0800" stop="20261104040000 +0800">
     <title lang="zh">【非賽事直播時段】運科轉播精彩時刻</title>
   </programme>
   <programme channel="愛爾達體育MAX1台" start="20261104040000 +0800" stop="20261104100000 +0800">
@@ -2649,10 +2637,10 @@
   <programme channel="愛爾達體育4台" start="20261103083000 +0800" stop="20261103094500 +0800">
     <title lang="zh">F1 墨西哥站 排位賽</title>
   </programme>
-  <programme channel="愛爾達體育4台" start="20261103094500 +0800" stop="20261103103000 +0800">
+  <programme channel="愛爾達體育4台" start="20261103094500 +0800" stop="20261103102800 +0800">
     <title lang="zh">LIVE 青年奧運 莊詠能 羽球 男子單打預賽 11/3(原音)</title>
   </programme>
-  <programme channel="愛爾達體育4台" start="20261103103000 +0800" stop="20261103133000 +0800">
+  <programme channel="愛爾達體育4台" start="20261103102800 +0800" stop="20261103133000 +0800">
     <title lang="zh">LIVE 新竹棒球場50週年交流賽 韓國尚武 VS 新竹城市 11/3</title>
   </programme>
   <programme channel="愛爾達體育4台" start="20261103133000 +0800" stop="20261103140000 +0800">
@@ -2661,22 +2649,16 @@
   <programme channel="愛爾達體育4台" start="20261103140000 +0800" stop="20261103142500 +0800">
     <title lang="zh">歐冠足球誌#7</title>
   </programme>
-  <programme channel="愛爾達體育4台" start="20261103142500 +0800" stop="20261103160000 +0800">
-    <title lang="zh">LIVE 青年奧運 鄭淽云 羽球 男/女單打預賽 11/3(原音)</title>
-  </programme>
   <programme channel="愛爾達體育4台" start="20261103160000 +0800" stop="20261103173000 +0800">
     <title lang="zh">登峰造極排球邀請賽 明星賽</title>
   </programme>
   <programme channel="愛爾達體育4台" start="20261103173000 +0800" stop="20261103175500 +0800">
     <title lang="zh">英超名人堂 #20 守門員進化史</title>
   </programme>
-  <programme channel="愛爾達體育4台" start="20261103175500 +0800" stop="20261103191500 +0800">
+  <programme channel="愛爾達體育4台" start="20261103175500 +0800" stop="20261103193100 +0800">
     <title lang="zh">LIVE 青年奧運 中華隊 桌球 混雙獎牌戰 11/4</title>
   </programme>
-  <programme channel="愛爾達體育4台" start="20261103191500 +0800" stop="20261103193000 +0800">
-    <title lang="zh">BWF世界羽球週報#34 丹麥公開賽 安洗瑩47冠寫紀錄</title>
-  </programme>
-  <programme channel="愛爾達體育4台" start="20261103193000 +0800" stop="20261103223000 +0800">
+  <programme channel="愛爾達體育4台" start="20261103193100 +0800" stop="20261103223000 +0800">
     <title lang="zh">WBC棒球經典賽 中華 VS 南韓 3/8 C組預賽</title>
   </programme>
   <programme channel="愛爾達體育4台" start="20261103223000 +0800" stop="20261104003000 +0800">
@@ -2701,31 +2683,49 @@
     <title lang="zh">體育班#10</title>
   </programme>
   <programme channel="愛爾達體育4台" start="20261104085500 +0800" stop="20261104123000 +0800">
-    <title lang="zh">LIVE 青年奧運 羽球 單打八強 11/4</title>
+    <title lang="zh">LIVE 青年奧運 莊詠能/鄭淽云 羽球 單打八強 11/4</title>
   </programme>
   <programme channel="愛爾達體育4台" start="20261104123000 +0800" stop="20261104142500 +0800">
     <title lang="zh">2026 達卡青年奧運 開幕典禮</title>
   </programme>
-  <programme channel="愛爾達體育4台" start="20261104142500 +0800" stop="20261104190000 +0800">
-    <title lang="zh">LIVE 青年奧運 羽球/桌球 11/4</title>
+  <programme channel="愛爾達體育4台" start="20261104142500 +0800" stop="20261104180000 +0800">
+    <title lang="zh">LIVE 青年奧運 羽球 單打四強 11/4(原音)</title>
   </programme>
-  <programme channel="愛爾達體育4台" start="20261104142500 +0800" stop="20261104190000 +0800">
-    <title lang="zh">LIVE 青年奧運 羽球/桌球 11/4</title>
+  <programme channel="愛爾達體育4台" start="20261104142500 +0800" stop="20261104180000 +0800">
+    <title lang="zh">LIVE 青年奧運 羽球 單打四強 11/4(原音)</title>
+  </programme>
+  <programme channel="愛爾達體育4台" start="20261104180000 +0800" stop="20261104190000 +0800">
+    <title lang="zh">2026 WEC世界耐久錦標賽特輯#6 - 富士6小時(原音)</title>
   </programme>
   <programme channel="愛爾達體育4台" start="20261104190000 +0800" stop="20261104200000 +0800">
     <title lang="zh">2026 WEC世界耐久錦標賽特輯#7 - 巴塞隆納6小時(原音)</title>
   </programme>
-  <programme channel="愛爾達體育4台" start="20261104200000 +0800" stop="20261105000000 +0800">
+  <programme channel="愛爾達體育4台" start="20261104200000 +0800" stop="20261104230000 +0800">
     <title lang="zh">WBC棒球經典賽 中華 VS 南韓 3/8 C組預賽</title>
   </programme>
-  <programme channel="愛爾達體育4台" start="20261105000000 +0800" stop="20261105050000 +0800">
-    <title lang="zh">2026 達卡青年奧運</title>
+  <programme channel="愛爾達體育4台" start="20261104230000 +0800" stop="20261105012500 +0800">
+    <title lang="zh">IFSC世界運動攀登系列賽 抱石賽 布拉格站 女子組準決賽(原音)</title>
   </programme>
-  <programme channel="愛爾達體育4台" start="20261105050000 +0800" stop="20261105100000 +0800">
-    <title lang="zh">2026 達卡青年奧運</title>
+  <programme channel="愛爾達體育4台" start="20261105012500 +0800" stop="20261105041500 +0800">
+    <title lang="zh">IFSC世界運動攀登系列賽 抱石賽 布拉格站 女子組決賽(原音)</title>
   </programme>
-  <programme channel="愛爾達體育4台" start="20261105100000 +0800" stop="20261105160000 +0800">
-    <title lang="zh">2026 達卡青年奧運</title>
+  <programme channel="愛爾達體育4台" start="20261105041500 +0800" stop="20261105043000 +0800">
+    <title lang="zh">體育班#10</title>
+  </programme>
+  <programme channel="愛爾達體育4台" start="20261105043000 +0800" stop="20261105080000 +0800">
+    <title lang="zh">新竹棒球場50週年交流賽 韓國尚武 VS 國立體大 11/1</title>
+  </programme>
+  <programme channel="愛爾達體育4台" start="20261105080000 +0800" stop="20261105110000 +0800">
+    <title lang="zh">新竹棒球場50週年交流賽 日本枥木 VS 新竹城市 11/1</title>
+  </programme>
+  <programme channel="愛爾達體育4台" start="20261105110000 +0800" stop="20261105111500 +0800">
+    <title lang="zh">體育班#10</title>
+  </programme>
+  <programme channel="愛爾達體育4台" start="20261105111500 +0800" stop="20261105133000 +0800">
+    <title lang="zh">新竹棒球場50週年交流賽 韓國尚武 VS 日本枥木 11/2</title>
+  </programme>
+  <programme channel="愛爾達體育4台" start="20261105133000 +0800" stop="20261105164500 +0800">
+    <title lang="zh">新竹棒球場50週年交流賽 國立體大 VS 新竹城市 11/2</title>
   </programme>
   <programme channel="愛爾達體育MAX2台" start="20261102160000 +0800" stop="20261102193000 +0800">
     <title lang="zh">【非賽事直播時段】運科轉播精彩時刻</title>
@@ -3003,167 +3003,479 @@
   <programme channel="OTT_LIVE_0000001974" start="20261103090000 +0800" stop="20261103100000 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261103100000 +0800" stop="20261103110000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261103100000 +0800" stop="20261103101500 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261103110000 +0800" stop="20261103120000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261103101500 +0800" stop="20261103102000 +0800">
+    <title lang="zh">Ukiyo-e Edo-Life(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103102000 +0800" stop="20261103103000 +0800">
+    <title lang="zh">On the Wings 5min.(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103103000 +0800" stop="20261103110000 +0800">
+    <title lang="zh">Darwin's Amazing Animals(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103110000 +0800" stop="20261103111500 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261103120000 +0800" stop="20261103130000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261103111500 +0800" stop="20261103112500 +0800">
+    <title lang="zh">Herbal Symphony(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103112500 +0800" stop="20261103112800 +0800">
+    <title lang="zh">The Masterpieces of Tsutaju(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103112800 +0800" stop="20261103114300 +0800">
+    <title lang="zh">Direct Talk(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103114300 +0800" stop="20261103115500 +0800">
+    <title lang="zh">Magical Japanese(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103115500 +0800" stop="20261103120000 +0800">
+    <title lang="zh">Easy Japanese(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103120000 +0800" stop="20261103121500 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261103130000 +0800" stop="20261103140000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261103121500 +0800" stop="20261103123000 +0800">
+    <title lang="zh">Matsuri: The Heartbeat of Japan(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103123000 +0800" stop="20261103130000 +0800">
+    <title lang="zh">Dining with the Chef(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103130000 +0800" stop="20261103131000 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261103140000 +0800" stop="20261103150000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261103131000 +0800" stop="20261103133000 +0800">
+    <title lang="zh">My Street Piano(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103133000 +0800" stop="20261103140000 +0800">
+    <title lang="zh">Document 72 Hours(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103140000 +0800" stop="20261103141000 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261103150000 +0800" stop="20261103160000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261103141000 +0800" stop="20261103142000 +0800">
+    <title lang="zh">Herbal Symphony(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103142000 +0800" stop="20261103142500 +0800">
+    <title lang="zh">Ukiyo-e Edo-Life(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103142500 +0800" stop="20261103143000 +0800">
+    <title lang="zh">The Masterpieces of Tsutaju(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103143000 +0800" stop="20261103150000 +0800">
+    <title lang="zh">Science View(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103150000 +0800" stop="20261103151000 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261103160000 +0800" stop="20261103170000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261103151000 +0800" stop="20261103153000 +0800">
+    <title lang="zh">Cinematic Journey(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103153000 +0800" stop="20261103160000 +0800">
+    <title lang="zh">Journeys in Japan(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103160000 +0800" stop="20261103161000 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261103170000 +0800" stop="20261103180000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261103161000 +0800" stop="20261103163000 +0800">
+    <title lang="zh">Time-Lapse Journey(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103163000 +0800" stop="20261103164500 +0800">
+    <title lang="zh">Activate Your Japanese!(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103164500 +0800" stop="20261103165500 +0800">
+    <title lang="zh">Dig More Japan!(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103165500 +0800" stop="20261103170000 +0800">
+    <title lang="zh">Dining with the Chef mini(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103170000 +0800" stop="20261103171000 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261103180000 +0800" stop="20261103190000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261103171000 +0800" stop="20261103173000 +0800">
+    <title lang="zh">The World Heritage Sites in Japan(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103173000 +0800" stop="20261103180000 +0800">
+    <title lang="zh">Dining with the Chef(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103180000 +0800" stop="20261103181000 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261103190000 +0800" stop="20261103200000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261103181000 +0800" stop="20261103182000 +0800">
+    <title lang="zh">Matsuri: The Heartbeat of Japan(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103182000 +0800" stop="20261103182500 +0800">
+    <title lang="zh">On the Wings 5min.(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103182500 +0800" stop="20261103182800 +0800">
+    <title lang="zh">The Masterpieces of Tsutaju(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103182800 +0800" stop="20261103184300 +0800">
+    <title lang="zh">Direct Talk(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103184300 +0800" stop="20261103184800 +0800">
+    <title lang="zh">Japan From Above: Up Close(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103184800 +0800" stop="20261103185500 +0800">
+    <title lang="zh">1/1000: Lay Judges(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103185500 +0800" stop="20261103190000 +0800">
+    <title lang="zh">Ukiyo-e Edo-Life(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103190000 +0800" stop="20261103193000 +0800">
+    <title lang="zh">Japan in Focus(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103193000 +0800" stop="20261103200000 +0800">
+    <title lang="zh">Document 72 Hours(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103200000 +0800" stop="20261103201500 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261103200000 +0800" stop="20261103210000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261103201500 +0800" stop="20261103202000 +0800">
+    <title lang="zh">Ukiyo-e Edo-Life(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103202000 +0800" stop="20261103202500 +0800">
+    <title lang="zh">On the Wings 5min.(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103202500 +0800" stop="20261103203000 +0800">
+    <title lang="zh">Nun's Cookbook(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103203000 +0800" stop="20261103210000 +0800">
+    <title lang="zh">Science View(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103210000 +0800" stop="20261103211500 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261103210000 +0800" stop="20261103220000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261103211500 +0800" stop="20261103212500 +0800">
+    <title lang="zh">Herbal Symphony(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103212500 +0800" stop="20261103213000 +0800">
+    <title lang="zh">The Masterpieces of Tsutaju(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103213000 +0800" stop="20261103220000 +0800">
+    <title lang="zh">Journeys in Japan(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103220000 +0800" stop="20261103221500 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261103220000 +0800" stop="20261103230000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261103221500 +0800" stop="20261103222500 +0800">
+    <title lang="zh">Matsuri: The Heartbeat of Japan(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103222500 +0800" stop="20261103223000 +0800">
+    <title lang="zh">Nun's Cookbook(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103223000 +0800" stop="20261103230000 +0800">
+    <title lang="zh">Dining with the Chef(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103230000 +0800" stop="20261103231500 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261103230000 +0800" stop="20261104000000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261103231500 +0800" stop="20261103233000 +0800">
+    <title lang="zh">The World Heritage Sites in Japan(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103233000 +0800" stop="20261103234500 +0800">
+    <title lang="zh">Activate Your Japanese!(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103234500 +0800" stop="20261103235500 +0800">
+    <title lang="zh">Dig More Japan!(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261103235500 +0800" stop="20261104000000 +0800">
+    <title lang="zh">Dining with the Chef mini(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104000000 +0800" stop="20261104001500 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261104000000 +0800" stop="20261104010000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261104001500 +0800" stop="20261104002500 +0800">
+    <title lang="zh">Matsuri: The Heartbeat of Japan(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104002500 +0800" stop="20261104003000 +0800">
+    <title lang="zh">Nun's Cookbook(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104003000 +0800" stop="20261104010000 +0800">
+    <title lang="zh">Dive in Tokyo(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104010000 +0800" stop="20261104011500 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261104010000 +0800" stop="20261104020000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261104011500 +0800" stop="20261104013000 +0800">
+    <title lang="zh">Cinematic Journey(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104013000 +0800" stop="20261104014500 +0800">
+    <title lang="zh">Direct Talk(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104014500 +0800" stop="20261104020000 +0800">
+    <title lang="zh">Japan's Top Inventions(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104020000 +0800" stop="20261104023000 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261104020000 +0800" stop="20261104030000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261104023000 +0800" stop="20261104030000 +0800">
+    <title lang="zh">Frontrunners(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104030000 +0800" stop="20261104033000 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261104030000 +0800" stop="20261104040000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261104033000 +0800" stop="20261104040000 +0800">
+    <title lang="zh">Science View(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104040000 +0800" stop="20261104043000 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261104040000 +0800" stop="20261104050000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261104043000 +0800" stop="20261104050000 +0800">
+    <title lang="zh">Across the Divide(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104050000 +0800" stop="20261104053000 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261104050000 +0800" stop="20261104060000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261104053000 +0800" stop="20261104060000 +0800">
+    <title lang="zh">Dive in Tokyo(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104060000 +0800" stop="20261104063000 +0800">
+    <title lang="zh">Newsline Asia 24(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104063000 +0800" stop="20261104064500 +0800">
+    <title lang="zh">Direct Talk(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104064500 +0800" stop="20261104070000 +0800">
+    <title lang="zh">Japan's Top Inventions(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104070000 +0800" stop="20261104073000 +0800">
+    <title lang="zh">Newsline Asia 24(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104073000 +0800" stop="20261104080000 +0800">
+    <title lang="zh">Frontrunners(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104080000 +0800" stop="20261104083000 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261104060000 +0800" stop="20261104070000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261104083000 +0800" stop="20261104090000 +0800">
+    <title lang="zh">Across the Divide(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104090000 +0800" stop="20261104093000 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261104070000 +0800" stop="20261104080000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261104093000 +0800" stop="20261104100000 +0800">
+    <title lang="zh">Science View(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104100000 +0800" stop="20261104103000 +0800">
+    <title lang="zh">NHK News 7(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104103000 +0800" stop="20261104104500 +0800">
+    <title lang="zh">Bosai: Science That Can Save Your Life(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104104500 +0800" stop="20261104105500 +0800">
+    <title lang="zh">Why is Hay Fever Getting Worse?(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104105500 +0800" stop="20261104110000 +0800">
+    <title lang="zh">Time-Lapse Japan(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104110000 +0800" stop="20261104112800 +0800">
+    <title lang="zh">Newsroom Tokyo(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104112800 +0800" stop="20261104114300 +0800">
+    <title lang="zh">Direct Talk(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104114300 +0800" stop="20261104115500 +0800">
+    <title lang="zh">Nun's Seasonal Calendar(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104115500 +0800" stop="20261104120000 +0800">
+    <title lang="zh">Ukiyo-e Edo-Life(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104120000 +0800" stop="20261104123000 +0800">
+    <title lang="zh">Newsroom Tokyo(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104123000 +0800" stop="20261104124500 +0800">
+    <title lang="zh">Direct Talk(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104124500 +0800" stop="20261104130000 +0800">
+    <title lang="zh">Japan's Top Inventions(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104130000 +0800" stop="20261104133000 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261104080000 +0800" stop="20261104090000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261104133000 +0800" stop="20261104140000 +0800">
+    <title lang="zh">Frontrunners(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104140000 +0800" stop="20261104143000 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261104090000 +0800" stop="20261104100000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261104143000 +0800" stop="20261104150000 +0800">
+    <title lang="zh">Trails to Oishii Tokyo(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104150000 +0800" stop="20261104153000 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261104100000 +0800" stop="20261104110000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261104153000 +0800" stop="20261104160000 +0800">
+    <title lang="zh">Dive in Tokyo(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104160000 +0800" stop="20261104163000 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261104110000 +0800" stop="20261104120000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261104163000 +0800" stop="20261104170000 +0800">
+    <title lang="zh">Across the Divide(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104170000 +0800" stop="20261104173000 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261104120000 +0800" stop="20261104130000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261104173000 +0800" stop="20261104174500 +0800">
+    <title lang="zh">Direct Talk(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104174500 +0800" stop="20261104180000 +0800">
+    <title lang="zh">Japan's Top Inventions(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104180000 +0800" stop="20261104182800 +0800">
+    <title lang="zh">Newsroom Tokyo(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104182800 +0800" stop="20261104184300 +0800">
+    <title lang="zh">Direct Talk(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104184300 +0800" stop="20261104184800 +0800">
+    <title lang="zh">Japan From Above: Up Close(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104184800 +0800" stop="20261104185500 +0800">
+    <title lang="zh">1/2: People Who Don't Drink(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104185500 +0800" stop="20261104190000 +0800">
+    <title lang="zh">Ukiyo-e Edo-Life(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104190000 +0800" stop="20261104193000 +0800">
+    <title lang="zh">Science View(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104193000 +0800" stop="20261104200000 +0800">
+    <title lang="zh">Frontrunners(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104200000 +0800" stop="20261104203000 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261104130000 +0800" stop="20261104140000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261104203000 +0800" stop="20261104210000 +0800">
+    <title lang="zh">Trails to Oishii Tokyo(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104210000 +0800" stop="20261104213000 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261104140000 +0800" stop="20261104150000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261104213000 +0800" stop="20261104220000 +0800">
+    <title lang="zh">Dive in Tokyo(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104220000 +0800" stop="20261104223000 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261104150000 +0800" stop="20261104160000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261104223000 +0800" stop="20261104224500 +0800">
+    <title lang="zh">Direct Talk(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104224500 +0800" stop="20261104230000 +0800">
+    <title lang="zh">Japan's Top Inventions(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261104230000 +0800" stop="20261104233000 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261104160000 +0800" stop="20261104170000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261104233000 +0800" stop="20261105000000 +0800">
+    <title lang="zh">Across the Divide(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261105000000 +0800" stop="20261105003000 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261104170000 +0800" stop="20261104180000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261105003000 +0800" stop="20261105010000 +0800">
+    <title lang="zh">Today's Close-Up(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261105010000 +0800" stop="20261105013000 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261104180000 +0800" stop="20261104190000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261105013000 +0800" stop="20261105020000 +0800">
+    <title lang="zh">Core Kyoto(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261105020000 +0800" stop="20261105023000 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261104190000 +0800" stop="20261104200000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261105023000 +0800" stop="20261105030000 +0800">
+    <title lang="zh">Japanology Plus(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261105030000 +0800" stop="20261105033000 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261104200000 +0800" stop="20261104210000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261105033000 +0800" stop="20261105040000 +0800">
+    <title lang="zh">Trails to Oishii Tokyo(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261105040000 +0800" stop="20261105043000 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261104210000 +0800" stop="20261104220000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261105043000 +0800" stop="20261105050000 +0800">
+    <title lang="zh">Backstage Japan(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261105050000 +0800" stop="20261105053000 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261104220000 +0800" stop="20261104230000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261105053000 +0800" stop="20261105060000 +0800">
+    <title lang="zh">Today's Close-Up(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261105060000 +0800" stop="20261105063000 +0800">
+    <title lang="zh">Newsline Asia 24(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261105063000 +0800" stop="20261105070000 +0800">
+    <title lang="zh">Core Kyoto(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261105070000 +0800" stop="20261105073000 +0800">
+    <title lang="zh">Newsline Asia 24(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261105073000 +0800" stop="20261105080000 +0800">
+    <title lang="zh">Japanology Plus(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261105080000 +0800" stop="20261105083000 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261104230000 +0800" stop="20261105000000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261105083000 +0800" stop="20261105090000 +0800">
+    <title lang="zh">Backstage Japan(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261105090000 +0800" stop="20261105093000 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261105000000 +0800" stop="20261105010000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261105093000 +0800" stop="20261105100000 +0800">
+    <title lang="zh">Trails to Oishii Tokyo(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261105100000 +0800" stop="20261105103000 +0800">
+    <title lang="zh">NHK News 7(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261105103000 +0800" stop="20261105110000 +0800">
+    <title lang="zh">Today's Close-Up(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261105110000 +0800" stop="20261105112800 +0800">
+    <title lang="zh">Newsroom Tokyo(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261105112800 +0800" stop="20261105114300 +0800">
+    <title lang="zh">Direct Talk(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261105114300 +0800" stop="20261105114800 +0800">
+    <title lang="zh">Japan From Above: Up Close(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261105114800 +0800" stop="20261105115500 +0800">
+    <title lang="zh">1/1000: Lay Judges(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261105115500 +0800" stop="20261105120000 +0800">
+    <title lang="zh">Ukiyo-e Edo-Life(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261105120000 +0800" stop="20261105123000 +0800">
+    <title lang="zh">Newsroom Tokyo(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261105123000 +0800" stop="20261105130000 +0800">
+    <title lang="zh">Core Kyoto(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261105130000 +0800" stop="20261105133000 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261105010000 +0800" stop="20261105020000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261105133000 +0800" stop="20261105140000 +0800">
+    <title lang="zh">Japanology Plus(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261105140000 +0800" stop="20261105143000 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261105020000 +0800" stop="20261105030000 +0800">
+  <programme channel="OTT_LIVE_0000001974" start="20261105143000 +0800" stop="20261105150000 +0800">
+    <title lang="zh">Japan Railway Journal(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001974" start="20261105150000 +0800" stop="20261105153000 +0800">
     <title lang="zh">NHK Newsline(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261105030000 +0800" stop="20261105040000 +0800">
-    <title lang="zh">NHK Newsline(普)</title>
-  </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261105040000 +0800" stop="20261105050000 +0800">
-    <title lang="zh">NHK Newsline(普)</title>
-  </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261105050000 +0800" stop="20261105060000 +0800">
-    <title lang="zh">NHK Newsline(普)</title>
-  </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261105060000 +0800" stop="20261105070000 +0800">
-    <title lang="zh">NHK Newsline(普)</title>
-  </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261105070000 +0800" stop="20261105080000 +0800">
-    <title lang="zh">NHK Newsline(普)</title>
-  </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261105080000 +0800" stop="20261105090000 +0800">
-    <title lang="zh">NHK Newsline(普)</title>
-  </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261105090000 +0800" stop="20261105100000 +0800">
-    <title lang="zh">NHK Newsline(普)</title>
-  </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261105100000 +0800" stop="20261105110000 +0800">
-    <title lang="zh">NHK Newsline(普)</title>
-  </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261105110000 +0800" stop="20261105120000 +0800">
-    <title lang="zh">NHK Newsline(普)</title>
-  </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261105120000 +0800" stop="20261105130000 +0800">
-    <title lang="zh">NHK Newsline(普)</title>
-  </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261105130000 +0800" stop="20261105140000 +0800">
-    <title lang="zh">NHK Newsline(普)</title>
-  </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261105140000 +0800" stop="20261105150000 +0800">
-    <title lang="zh">NHK Newsline(普)</title>
-  </programme>
-  <programme channel="OTT_LIVE_0000001974" start="20261105150000 +0800" stop="20261105160000 +0800">
-    <title lang="zh">NHK Newsline(普)</title>
+  <programme channel="OTT_LIVE_0000001974" start="20261105153000 +0800" stop="20261105160000 +0800">
+    <title lang="zh">Today's Close-Up(普)</title>
   </programme>
   <programme channel="OTT_LIVE_0000001736" start="20261102143200 +0800" stop="20261102172200 +0800">
     <title lang="zh">經濟委員會(普)</title>
@@ -3186,14 +3498,35 @@
   <programme channel="OTT_LIVE_0000001736" start="20261103010000 +0800" stop="20261103100000 +0800">
     <title lang="zh">立法院會議直播(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001736" start="20261103100000 +0800" stop="20261103160000 +0800">
-    <title lang="zh">當日立法院會議轉播(普)</title>
+  <programme channel="OTT_LIVE_0000001736" start="20261103100600 +0800" stop="20261103104100 +0800">
+    <title lang="zh">立法院院會(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001736" start="20261103160000 +0800" stop="20261103210000 +0800">
-    <title lang="zh">前日立法院會議轉播(普)</title>
+  <programme channel="OTT_LIVE_0000001736" start="20261103104100 +0800" stop="20261103133900 +0800">
+    <title lang="zh">立法院院會(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001736" start="20261103210000 +0800" stop="20261104004700 +0800">
-    <title lang="zh">前日立法院會議轉播(普)</title>
+  <programme channel="OTT_LIVE_0000001736" start="20261103133900 +0800" stop="20261103141400 +0800">
+    <title lang="zh">立法院院會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001736" start="20261103141400 +0800" stop="20261103171200 +0800">
+    <title lang="zh">立法院院會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001736" start="20261103141400 +0800" stop="20261103171200 +0800">
+    <title lang="zh">立法院院會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001736" start="20261103171200 +0800" stop="20261103174700 +0800">
+    <title lang="zh">立法院院會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001736" start="20261103174700 +0800" stop="20261103204500 +0800">
+    <title lang="zh">立法院院會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001736" start="20261103204500 +0800" stop="20261103212100 +0800">
+    <title lang="zh">立法院院會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001736" start="20261103212100 +0800" stop="20261104001800 +0800">
+    <title lang="zh">立法院院會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001736" start="20261104001800 +0800" stop="20261104004700 +0800">
+    <title lang="zh">立法院院會(普)</title>
   </programme>
   <programme channel="OTT_LIVE_0000001736" start="20261104004700 +0800" stop="20261104010000 +0800">
     <title lang="zh">週三會議預報(普)</title>
@@ -3237,14 +3570,41 @@
   <programme channel="OTT_LIVE_0000001735" start="20261103010000 +0800" stop="20261103100000 +0800">
     <title lang="zh">立法院會議直播(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001735" start="20261103100000 +0800" stop="20261103160000 +0800">
-    <title lang="zh">當日立法院會議轉播(普)</title>
+  <programme channel="OTT_LIVE_0000001735" start="20261103100600 +0800" stop="20261103104100 +0800">
+    <title lang="zh">立法院院會(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001735" start="20261103160000 +0800" stop="20261103210000 +0800">
-    <title lang="zh">前日立法院會議轉播(普)</title>
+  <programme channel="OTT_LIVE_0000001735" start="20261103104100 +0800" stop="20261103105400 +0800">
+    <title lang="zh">程序委員會(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001735" start="20261103210000 +0800" stop="20261104004700 +0800">
-    <title lang="zh">前日立法院會議轉播(普)</title>
+  <programme channel="OTT_LIVE_0000001735" start="20261103105400 +0800" stop="20261103135100 +0800">
+    <title lang="zh">立法院院會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261103135100 +0800" stop="20261103142700 +0800">
+    <title lang="zh">立法院院會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261103142700 +0800" stop="20261103144000 +0800">
+    <title lang="zh">程序委員會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261103144000 +0800" stop="20261103172900 +0800">
+    <title lang="zh">教育及文化委員會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261103144000 +0800" stop="20261103172900 +0800">
+    <title lang="zh">教育及文化委員會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261103172900 +0800" stop="20261103202600 +0800">
+    <title lang="zh">立法院院會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261103202600 +0800" stop="20261103210200 +0800">
+    <title lang="zh">立法院院會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261103210200 +0800" stop="20261103211400 +0800">
+    <title lang="zh">程序委員會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261103211400 +0800" stop="20261104000300 +0800">
+    <title lang="zh">教育及文化委員會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261104000300 +0800" stop="20261104004700 +0800">
+    <title lang="zh">立法院院會(普)</title>
   </programme>
   <programme channel="OTT_LIVE_0000001735" start="20261104004700 +0800" stop="20261104010000 +0800">
     <title lang="zh">週三會議預報(普)</title>
@@ -14350,19 +14710,19 @@
     <title lang="zh">女中豪傑(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261103100000 +0800" stop="20261103103000 +0800">
-    <title lang="zh">Flashpoint(普)</title>
-  </programme>
-  <programme channel="TRACE Sport Stars" start="20261103103000 +0800" stop="20261103110000 +0800">
-    <title lang="zh">The Evolution Of Sport(普)</title>
-  </programme>
-  <programme channel="TRACE Sport Stars" start="20261103110000 +0800" stop="20261103113000 +0800">
     <title lang="zh">女中豪傑(普)</title>
   </programme>
+  <programme channel="TRACE Sport Stars" start="20261103103000 +0800" stop="20261103110000 +0800">
+    <title lang="zh">Flashpoint(普)</title>
+  </programme>
+  <programme channel="TRACE Sport Stars" start="20261103110000 +0800" stop="20261103113000 +0800">
+    <title lang="zh">The Evolution Of Sport(普)</title>
+  </programme>
   <programme channel="TRACE Sport Stars" start="20261103113000 +0800" stop="20261103120000 +0800">
-    <title lang="zh">Only Live Once(普)</title>
+    <title lang="zh">女中豪傑(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261103120000 +0800" stop="20261103123000 +0800">
-    <title lang="zh">足球巔峰時刻(普)</title>
+    <title lang="zh">Only Live Once(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261103123000 +0800" stop="20261103130000 +0800">
     <title lang="zh">足球巔峰時刻(普)</title>
@@ -14377,34 +14737,34 @@
     <title lang="zh">足球巔峰時刻(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261103143000 +0800" stop="20261103150000 +0800">
-    <title lang="zh">Top 20(普)</title>
+    <title lang="zh">足球巔峰時刻(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261103150000 +0800" stop="20261103153000 +0800">
-    <title lang="zh">足球巔峰時刻(普)</title>
+    <title lang="zh">Top 20(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261103153000 +0800" stop="20261103160000 +0800">
-    <title lang="zh">Flashpoint(普)</title>
+    <title lang="zh">足球巔峰時刻(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261103160000 +0800" stop="20261103163000 +0800">
-    <title lang="zh">The Evolution of Sport(普)</title>
-  </programme>
-  <programme channel="TRACE Sport Stars" start="20261103163000 +0800" stop="20261103170000 +0800">
-    <title lang="zh">Only Live Once(普)</title>
-  </programme>
-  <programme channel="TRACE Sport Stars" start="20261103170000 +0800" stop="20261103173000 +0800">
-    <title lang="zh">足球巔峰時刻(普)</title>
-  </programme>
-  <programme channel="TRACE Sport Stars" start="20261103173000 +0800" stop="20261103180000 +0800">
     <title lang="zh">Flashpoint(普)</title>
   </programme>
-  <programme channel="TRACE Sport Stars" start="20261103180000 +0800" stop="20261103183000 +0800">
+  <programme channel="TRACE Sport Stars" start="20261103163000 +0800" stop="20261103170000 +0800">
+    <title lang="zh">The Evolution of Sport(普)</title>
+  </programme>
+  <programme channel="TRACE Sport Stars" start="20261103170000 +0800" stop="20261103173000 +0800">
     <title lang="zh">女中豪傑(普)</title>
   </programme>
-  <programme channel="TRACE Sport Stars" start="20261103183000 +0800" stop="20261103190000 +0800">
+  <programme channel="TRACE Sport Stars" start="20261103173000 +0800" stop="20261103180000 +0800">
+    <title lang="zh">Only Live Once(普)</title>
+  </programme>
+  <programme channel="TRACE Sport Stars" start="20261103180000 +0800" stop="20261103183000 +0800">
     <title lang="zh">足球巔峰時刻(普)</title>
   </programme>
+  <programme channel="TRACE Sport Stars" start="20261103183000 +0800" stop="20261103190000 +0800">
+    <title lang="zh">Flashpoint(普)</title>
+  </programme>
   <programme channel="TRACE Sport Stars" start="20261103190000 +0800" stop="20261103193000 +0800">
-    <title lang="zh">足球巔峰時刻(普)</title>
+    <title lang="zh">女中豪傑(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261103193000 +0800" stop="20261103200000 +0800">
     <title lang="zh">足球巔峰時刻(普)</title>
@@ -14413,18 +14773,24 @@
     <title lang="zh">足球巔峰時刻(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261103203000 +0800" stop="20261103210000 +0800">
-    <title lang="zh">Top 20(普)</title>
+    <title lang="zh">足球巔峰時刻(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261103210000 +0800" stop="20261103213000 +0800">
     <title lang="zh">足球巔峰時刻(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261103213000 +0800" stop="20261103220000 +0800">
-    <title lang="zh">足球巔峰時刻(普)</title>
+    <title lang="zh">Top 20(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261103220000 +0800" stop="20261103223000 +0800">
+    <title lang="zh">足球巔峰時刻(普)</title>
+  </programme>
+  <programme channel="TRACE Sport Stars" start="20261103223000 +0800" stop="20261103230000 +0800">
+    <title lang="zh">足球巔峰時刻(普)</title>
+  </programme>
+  <programme channel="TRACE Sport Stars" start="20261103230000 +0800" stop="20261103233000 +0800">
     <title lang="zh">Flashpoint(普)</title>
   </programme>
-  <programme channel="TRACE Sport Stars" start="20261103223000 +0800" stop="20261104000000 +0800">
+  <programme channel="TRACE Sport Stars" start="20261103233000 +0800" stop="20261104000000 +0800">
     <title lang="zh">Only Live Once(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261104000000 +0800" stop="20261104003000 +0800">
@@ -14470,49 +14836,49 @@
     <title lang="zh">Only Live Once(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261104070000 +0800" stop="20261104073000 +0800">
-    <title lang="zh">足球國度(普)</title>
+    <title lang="zh">足球巔峰時刻(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261104073000 +0800" stop="20261104080000 +0800">
-    <title lang="zh">Top 20(普)</title>
+    <title lang="zh">足球國度(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261104080000 +0800" stop="20261104083000 +0800">
-    <title lang="zh">足球明星(普)</title>
+    <title lang="zh">Top 20(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261104083000 +0800" stop="20261104090000 +0800">
-    <title lang="zh">標誌時刻(普)</title>
-  </programme>
-  <programme channel="TRACE Sport Stars" start="20261104090000 +0800" stop="20261104093000 +0800">
     <title lang="zh">足球明星(普)</title>
   </programme>
+  <programme channel="TRACE Sport Stars" start="20261104090000 +0800" stop="20261104093000 +0800">
+    <title lang="zh">標誌時刻(普)</title>
+  </programme>
   <programme channel="TRACE Sport Stars" start="20261104093000 +0800" stop="20261104100000 +0800">
-    <title lang="zh">Flashpoint(普)</title>
+    <title lang="zh">足球明星(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261104100000 +0800" stop="20261104103000 +0800">
     <title lang="zh">Flashpoint(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261104103000 +0800" stop="20261104110000 +0800">
-    <title lang="zh">The Evolution of Sport(普)</title>
-  </programme>
-  <programme channel="TRACE Sport Stars" start="20261104110000 +0800" stop="20261104113000 +0800">
-    <title lang="zh">女中豪傑(普)</title>
-  </programme>
-  <programme channel="TRACE Sport Stars" start="20261104113000 +0800" stop="20261104120000 +0800">
-    <title lang="zh">Only Live Once(普)</title>
-  </programme>
-  <programme channel="TRACE Sport Stars" start="20261104120000 +0800" stop="20261104123000 +0800">
-    <title lang="zh">足球巔峰時刻(普)</title>
-  </programme>
-  <programme channel="TRACE Sport Stars" start="20261104123000 +0800" stop="20261104130000 +0800">
     <title lang="zh">Flashpoint(普)</title>
   </programme>
+  <programme channel="TRACE Sport Stars" start="20261104110000 +0800" stop="20261104113000 +0800">
+    <title lang="zh">The Evolution of Sport(普)</title>
+  </programme>
+  <programme channel="TRACE Sport Stars" start="20261104113000 +0800" stop="20261104120000 +0800">
+    <title lang="zh">女中豪傑(普)</title>
+  </programme>
+  <programme channel="TRACE Sport Stars" start="20261104120000 +0800" stop="20261104123000 +0800">
+    <title lang="zh">Only Live Once(普)</title>
+  </programme>
+  <programme channel="TRACE Sport Stars" start="20261104123000 +0800" stop="20261104130000 +0800">
+    <title lang="zh">足球巔峰時刻(普)</title>
+  </programme>
   <programme channel="TRACE Sport Stars" start="20261104130000 +0800" stop="20261104133000 +0800">
-    <title lang="zh">不潔運動(普)</title>
+    <title lang="zh">Flashpoint(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261104133000 +0800" stop="20261104140000 +0800">
-    <title lang="zh">標誌時刻(普)</title>
+    <title lang="zh">不潔運動(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261104140000 +0800" stop="20261104143000 +0800">
-    <title lang="zh">足球巔峰時刻(普)</title>
+    <title lang="zh">標誌時刻(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261104143000 +0800" stop="20261104150000 +0800">
     <title lang="zh">足球巔峰時刻(普)</title>
@@ -14521,37 +14887,37 @@
     <title lang="zh">足球巔峰時刻(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261104153000 +0800" stop="20261104160000 +0800">
-    <title lang="zh">The Evolution of Sport(普)</title>
-  </programme>
-  <programme channel="TRACE Sport Stars" start="20261104160000 +0800" stop="20261104163000 +0800">
-    <title lang="zh">女中豪傑(普)</title>
-  </programme>
-  <programme channel="TRACE Sport Stars" start="20261104163000 +0800" stop="20261104170000 +0800">
-    <title lang="zh">Only Live Once(普)</title>
-  </programme>
-  <programme channel="TRACE Sport Stars" start="20261104170000 +0800" stop="20261104173000 +0800">
     <title lang="zh">足球巔峰時刻(普)</title>
   </programme>
-  <programme channel="TRACE Sport Stars" start="20261104173000 +0800" stop="20261104180000 +0800">
+  <programme channel="TRACE Sport Stars" start="20261104160000 +0800" stop="20261104163000 +0800">
     <title lang="zh">Flashpoint(普)</title>
   </programme>
-  <programme channel="TRACE Sport Stars" start="20261104180000 +0800" stop="20261104183000 +0800">
+  <programme channel="TRACE Sport Stars" start="20261104163000 +0800" stop="20261104170000 +0800">
+    <title lang="zh">The Evolution of Sport(普)</title>
+  </programme>
+  <programme channel="TRACE Sport Stars" start="20261104170000 +0800" stop="20261104173000 +0800">
     <title lang="zh">女中豪傑(普)</title>
+  </programme>
+  <programme channel="TRACE Sport Stars" start="20261104173000 +0800" stop="20261104180000 +0800">
+    <title lang="zh">Only Live Once(普)</title>
+  </programme>
+  <programme channel="TRACE Sport Stars" start="20261104180000 +0800" stop="20261104183000 +0800">
+    <title lang="zh">足球巔峰時刻(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261104183000 +0800" stop="20261104190000 +0800">
     <title lang="zh">Flashpoint(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261104190000 +0800" stop="20261104193000 +0800">
-    <title lang="zh">不潔運動(普)</title>
+    <title lang="zh">女中豪傑(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261104193000 +0800" stop="20261104200000 +0800">
-    <title lang="zh">標誌時刻(普)</title>
+    <title lang="zh">Flashpoint(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261104200000 +0800" stop="20261104203000 +0800">
-    <title lang="zh">足球巔峰時刻(普)</title>
+    <title lang="zh">不潔運動(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261104203000 +0800" stop="20261104210000 +0800">
-    <title lang="zh">足球巔峰時刻(普)</title>
+    <title lang="zh">標誌時刻(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261104210000 +0800" stop="20261104213000 +0800">
     <title lang="zh">足球巔峰時刻(普)</title>
@@ -14560,9 +14926,15 @@
     <title lang="zh">足球巔峰時刻(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261104220000 +0800" stop="20261104223000 +0800">
+    <title lang="zh">足球巔峰時刻(普)</title>
+  </programme>
+  <programme channel="TRACE Sport Stars" start="20261104223000 +0800" stop="20261104230000 +0800">
+    <title lang="zh">足球巔峰時刻(普)</title>
+  </programme>
+  <programme channel="TRACE Sport Stars" start="20261104230000 +0800" stop="20261104233000 +0800">
     <title lang="zh">Flashpoint(普)</title>
   </programme>
-  <programme channel="TRACE Sport Stars" start="20261104223000 +0800" stop="20261105000000 +0800">
+  <programme channel="TRACE Sport Stars" start="20261104233000 +0800" stop="20261105000000 +0800">
     <title lang="zh">Only Live Once(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261105000000 +0800" stop="20261105003000 +0800">
@@ -14599,13 +14971,13 @@
     <title lang="zh">Flashpoint(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261105053000 +0800" stop="20261105060000 +0800">
-    <title lang="zh">女中豪傑(普)</title>
+    <title lang="zh">The Evolution of Sport(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261105060000 +0800" stop="20261105063000 +0800">
-    <title lang="zh">Only Live Once(普)</title>
+    <title lang="zh">女中豪傑(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261105063000 +0800" stop="20261105070000 +0800">
-    <title lang="zh">足球巔峰時刻(普)</title>
+    <title lang="zh">Only Live Once(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261105070000 +0800" stop="20261105073000 +0800">
     <title lang="zh">足球巔峰時刻(普)</title>
@@ -14620,46 +14992,46 @@
     <title lang="zh">足球巔峰時刻(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261105090000 +0800" stop="20261105093000 +0800">
-    <title lang="zh">Top 20(普)</title>
+    <title lang="zh">足球巔峰時刻(普)</title>
   </programme>
   <programme channel="TRACE Sport Stars" start="20261105093000 +0800" stop="20261105100000 +0800">
-    <title lang="zh">足球巔峰時刻(普)</title>
-  </programme>
-  <programme channel="TRACE Sport Stars" start="20261105100000 +0800" stop="20261105103000 +0800">
-    <title lang="zh">Flashpoint(普)</title>
-  </programme>
-  <programme channel="TRACE Sport Stars" start="20261105103000 +0800" stop="20261105110000 +0800">
-    <title lang="zh">The Evolution Of Sport(普)</title>
-  </programme>
-  <programme channel="TRACE Sport Stars" start="20261105110000 +0800" stop="20261105113000 +0800">
-    <title lang="zh">女中豪傑(普)</title>
-  </programme>
-  <programme channel="TRACE Sport Stars" start="20261105113000 +0800" stop="20261105120000 +0800">
-    <title lang="zh">Only Live Once(普)</title>
-  </programme>
-  <programme channel="TRACE Sport Stars" start="20261105120000 +0800" stop="20261105123000 +0800">
-    <title lang="zh">足球巔峰時刻(普)</title>
-  </programme>
-  <programme channel="TRACE Sport Stars" start="20261105123000 +0800" stop="20261105130000 +0800">
-    <title lang="zh">明星大車拼(普)</title>
-  </programme>
-  <programme channel="TRACE Sport Stars" start="20261105130000 +0800" stop="20261105133000 +0800">
-    <title lang="zh">Star Attraction(普)</title>
-  </programme>
-  <programme channel="TRACE Sport Stars" start="20261105133000 +0800" stop="20261105140000 +0800">
-    <title lang="zh">女中豪傑(普)</title>
-  </programme>
-  <programme channel="TRACE Sport Stars" start="20261105140000 +0800" stop="20261105143000 +0800">
-    <title lang="zh">Flashpoint(普)</title>
-  </programme>
-  <programme channel="TRACE Sport Stars" start="20261105143000 +0800" stop="20261105150000 +0800">
-    <title lang="zh">女運動員(普)</title>
-  </programme>
-  <programme channel="TRACE Sport Stars" start="20261105150000 +0800" stop="20261105153000 +0800">
     <title lang="zh">Top 20(普)</title>
   </programme>
-  <programme channel="TRACE Sport Stars" start="20261105153000 +0800" stop="20261105160000 +0800">
+  <programme channel="TRACE Sport Stars" start="20261105100000 +0800" stop="20261105103000 +0800">
+    <title lang="zh">足球巔峰時刻(普)</title>
+  </programme>
+  <programme channel="TRACE Sport Stars" start="20261105103000 +0800" stop="20261105110000 +0800">
     <title lang="zh">Flashpoint(普)</title>
+  </programme>
+  <programme channel="TRACE Sport Stars" start="20261105110000 +0800" stop="20261105113000 +0800">
+    <title lang="zh">The Evolution Of Sport(普)</title>
+  </programme>
+  <programme channel="TRACE Sport Stars" start="20261105113000 +0800" stop="20261105120000 +0800">
+    <title lang="zh">女中豪傑(普)</title>
+  </programme>
+  <programme channel="TRACE Sport Stars" start="20261105120000 +0800" stop="20261105123000 +0800">
+    <title lang="zh">Only Live Once(普)</title>
+  </programme>
+  <programme channel="TRACE Sport Stars" start="20261105123000 +0800" stop="20261105130000 +0800">
+    <title lang="zh">足球巔峰時刻(普)</title>
+  </programme>
+  <programme channel="TRACE Sport Stars" start="20261105130000 +0800" stop="20261105133000 +0800">
+    <title lang="zh">明星大車拼(普)</title>
+  </programme>
+  <programme channel="TRACE Sport Stars" start="20261105133000 +0800" stop="20261105140000 +0800">
+    <title lang="zh">Star Attraction(普)</title>
+  </programme>
+  <programme channel="TRACE Sport Stars" start="20261105140000 +0800" stop="20261105143000 +0800">
+    <title lang="zh">女中豪傑(普)</title>
+  </programme>
+  <programme channel="TRACE Sport Stars" start="20261105143000 +0800" stop="20261105150000 +0800">
+    <title lang="zh">Flashpoint(普)</title>
+  </programme>
+  <programme channel="TRACE Sport Stars" start="20261105150000 +0800" stop="20261105153000 +0800">
+    <title lang="zh">女運動員(普)</title>
+  </programme>
+  <programme channel="TRACE Sport Stars" start="20261105153000 +0800" stop="20261105160000 +0800">
+    <title lang="zh">Top 20(普)</title>
   </programme>
   <programme channel="Trace Urban" start="20261102120000 +0800" stop="20261102180000 +0800">
     <title lang="zh">金曲不停歇(普)</title>
@@ -33502,7 +33874,7 @@
     <title lang="zh">這群人-惡鄰居的經典語錄</title>
   </programme>
   <programme channel="麥卡貝綜藝" start="20261103041500 +0800" stop="20261103052500 +0800">
-    <title lang="zh">一日系列第259集 一日登山嚮導</title>
+    <title lang="zh">一日系列第260集 一日登山嚮導</title>
   </programme>
   <programme channel="麥卡貝綜藝" start="20261103052500 +0800" stop="20261103061000 +0800">
     <title lang="zh">一日系列第243集 一日園藝布置</title>
@@ -33586,7 +33958,7 @@
     <title lang="zh">這群人-校園大亂鬥</title>
   </programme>
   <programme channel="麥卡貝綜藝" start="20261104033000 +0800" stop="20261104044000 +0800">
-    <title lang="zh">一日系列第259集 一日登山嚮導</title>
+    <title lang="zh">一日系列第260集 一日登山嚮導</title>
   </programme>
   <programme channel="麥卡貝綜藝" start="20261104044000 +0800" stop="20261104063500 +0800">
     <title lang="zh">一日系列第86集 一日Google特派員</title>
@@ -33673,7 +34045,7 @@
     <title lang="zh">這群人-各種領域專業的人才</title>
   </programme>
   <programme channel="麥卡貝綜藝" start="20261105041500 +0800" stop="20261105052500 +0800">
-    <title lang="zh">一日系列第259集 一日登山嚮導</title>
+    <title lang="zh">一日系列第260集 一日登山嚮導</title>
   </programme>
   <programme channel="麥卡貝綜藝" start="20261105052500 +0800" stop="20261105062500 +0800">
     <title lang="zh">一日系列第102集 一日新聞台員工</title>
