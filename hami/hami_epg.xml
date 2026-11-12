@@ -435,10 +435,10 @@
   <programme channel="愛爾達體育3台" start="20261111233000 +0800" stop="20261112000000 +0800">
     <title lang="zh">體壇最前線 11/11</title>
   </programme>
-  <programme channel="愛爾達體育3台" start="20261112000000 +0800" stop="20261112040000 +0800">
+  <programme channel="愛爾達體育3台" start="20261112000000 +0800" stop="20261112033000 +0800">
     <title lang="zh">LIVE BWF 日本名人賽 邱相榤/王齊麟 16強(上) 11/12</title>
   </programme>
-  <programme channel="愛爾達體育3台" start="20261112040000 +0800" stop="20261112080000 +0800">
+  <programme channel="愛爾達體育3台" start="20261112033000 +0800" stop="20261112080000 +0800">
     <title lang="zh">LIVE BWF 日本名人賽 周天成 16強(下) 11/12</title>
   </programme>
   <programme channel="愛爾達體育3台" start="20261112080000 +0800" stop="20261112083000 +0800">
@@ -490,10 +490,10 @@
     <title lang="zh">BWF 日本名人賽 16強回顧 中華隊</title>
   </programme>
   <programme channel="愛爾達體育3台" start="20261113010000 +0800" stop="20261113050000 +0800">
-    <title lang="zh">LIVE BWF 日本名人賽 八強(上) 11/13</title>
+    <title lang="zh">LIVE BWF 日本名人賽 葉宏蔚/詹又蓁 八強(上) 11/13</title>
   </programme>
   <programme channel="愛爾達體育3台" start="20261113050000 +0800" stop="20261113090000 +0800">
-    <title lang="zh">LIVE BWF 日本名人賽 八強(下) 11/13</title>
+    <title lang="zh">LIVE BWF 日本名人賽 林湘緹 八強(下) 11/13</title>
   </programme>
   <programme channel="愛爾達體育3台" start="20261113090000 +0800" stop="20261113093000 +0800">
     <title lang="zh">2026 BWF世界羽球雜誌#10 陳清晨/賈一凡 獨家專訪</title>
@@ -502,13 +502,13 @@
     <title lang="zh">青年奧運 滑板 男子街頭賽決賽 11/4</title>
   </programme>
   <programme channel="愛爾達體育3台" start="20261113103000 +0800" stop="20261113123000 +0800">
-    <title lang="zh">BWF 日本名人賽 八強回顧</title>
+    <title lang="zh">BWF 日本名人賽 八強回顧 中華隊</title>
   </programme>
   <programme channel="愛爾達體育3台" start="20261113123000 +0800" stop="20261113133000 +0800">
     <title lang="zh">青年奧運 陳忞昕 桌球 男/女單打金牌戰 11/6</title>
   </programme>
   <programme channel="愛爾達體育3台" start="20261113133000 +0800" stop="20261113153000 +0800">
-    <title lang="zh">BWF 日本名人賽 八強回顧</title>
+    <title lang="zh">BWF 日本名人賽 八強回顧 中華隊</title>
   </programme>
   <programme channel="愛爾達體育3台" start="20261113153000 +0800" stop="20261113160000 +0800">
     <title lang="zh">2026 BWF世界羽球雜誌#10 陳清晨/賈一凡 獨家專訪</title>
@@ -517,7 +517,7 @@
     <title lang="zh">體壇最前線 11/13 (新)</title>
   </programme>
   <programme channel="愛爾達體育3台" start="20261113163000 +0800" stop="20261113183000 +0800">
-    <title lang="zh">BWF 日本名人賽 八強回顧</title>
+    <title lang="zh">BWF 日本名人賽 八強回顧 中華隊</title>
   </programme>
   <programme channel="愛爾達體育3台" start="20261113183000 +0800" stop="20261113210000 +0800">
     <title lang="zh">亞洲職棒冠軍爭霸賽 南韓 VS 日本 預賽 11/13</title>
@@ -526,7 +526,7 @@
     <title lang="zh">2026 達卡青年奧運 閉幕典禮</title>
   </programme>
   <programme channel="愛爾達體育3台" start="20261113213000 +0800" stop="20261114003000 +0800">
-    <title lang="zh">BWF 日本名人賽 八強回顧</title>
+    <title lang="zh">BWF 日本名人賽 八強回顧 中華隊</title>
   </programme>
   <programme channel="愛爾達體育3台" start="20261114003000 +0800" stop="20261114010000 +0800">
     <title lang="zh">2026 達卡青年奧運 閉幕典禮</title>
@@ -573,11 +573,8 @@
   <programme channel="愛爾達體育2台" start="20261112023000 +0800" stop="20261112025000 +0800">
     <title lang="zh">LIVE 亞洲職棒冠軍爭霸賽 東京巨蛋戰前報 11/12</title>
   </programme>
-  <programme channel="愛爾達體育2台" start="20261112025000 +0800" stop="20261112063000 +0800">
+  <programme channel="愛爾達體育2台" start="20261112025000 +0800" stop="20261112070000 +0800">
     <title lang="zh">LIVE 亞洲職棒冠軍爭霸賽 澳大利亞 VS 南韓 預賽 11/12</title>
-  </programme>
-  <programme channel="愛爾達體育2台" start="20261112063000 +0800" stop="20261112070000 +0800">
-    <title lang="zh">歐國聯戰報#2 第5~6比賽日前瞻</title>
   </programme>
   <programme channel="愛爾達體育2台" start="20261112070000 +0800" stop="20261112091500 +0800">
     <title lang="zh">德甲 拜仁慕尼黑 VS 多特蒙德 (摩比人動畫版)</title>
@@ -588,8 +585,11 @@
   <programme channel="愛爾達體育2台" start="20261112093000 +0800" stop="20261112095000 +0800">
     <title lang="zh">LIVE 亞洲職棒冠軍爭霸賽 東京巨蛋戰前報 11/12</title>
   </programme>
-  <programme channel="愛爾達體育2台" start="20261112095000 +0800" stop="20261112133000 +0800">
+  <programme channel="愛爾達體育2台" start="20261112095000 +0800" stop="20261112130400 +0800">
     <title lang="zh">LIVE 亞洲職棒冠軍爭霸賽 日本 VS 台灣 預賽 11/12</title>
+  </programme>
+  <programme channel="愛爾達體育2台" start="20261112130400 +0800" stop="20261112133000 +0800">
+    <title lang="zh">歐國聯戰報#2 第5~6比賽日前瞻</title>
   </programme>
   <programme channel="愛爾達體育2台" start="20261112133000 +0800" stop="20261112134500 +0800">
     <title lang="zh">德甲精華 第9輪</title>
@@ -2701,7 +2701,7 @@
     <title lang="zh">【非賽事直播時段】運科轉播精彩時刻</title>
   </programme>
   <programme channel="愛爾達體育MAX1台" start="20261113095500 +0800" stop="20261113124500 +0800">
-    <title lang="zh">LIVE 青年奧運 霹靂舞 男/女決賽 11/13</title>
+    <title lang="zh">LIVE 青年奧運 林泳岳 霹靂舞 男/女決賽 11/13</title>
   </programme>
   <programme channel="愛爾達體育MAX1台" start="20261113124500 +0800" stop="20261113160000 +0800">
     <title lang="zh">【非賽事直播時段】運科轉播精彩時刻</title>
@@ -2709,10 +2709,10 @@
   <programme channel="愛爾達體育MAX1台" start="20261113160000 +0800" stop="20261113175500 +0800">
     <title lang="zh">【非賽事直播時段】運科轉播精彩時刻</title>
   </programme>
-  <programme channel="愛爾達體育MAX1台" start="20261113175500 +0800" stop="20261113183000 +0800">
+  <programme channel="愛爾達體育MAX1台" start="20261113175500 +0800" stop="20261113183500 +0800">
     <title lang="zh">LIVE 2026 達卡青年奧運 閉幕典禮</title>
   </programme>
-  <programme channel="愛爾達體育MAX1台" start="20261113183000 +0800" stop="20261113220000 +0800">
+  <programme channel="愛爾達體育MAX1台" start="20261113183500 +0800" stop="20261113220000 +0800">
     <title lang="zh">【非賽事直播時段】運科轉播精彩時刻</title>
   </programme>
   <programme channel="愛爾達體育MAX1台" start="20261113220000 +0800" stop="20261114040000 +0800">
@@ -2772,62 +2772,80 @@
   <programme channel="愛爾達體育4台" start="20261112180000 +0800" stop="20261112210000 +0800">
     <title lang="zh">WBC棒球經典賽 中華 VS 南韓 3/8 C組預賽</title>
   </programme>
-  <programme channel="愛爾達體育4台" start="20261112210000 +0800" stop="20261112233000 +0800">
+  <programme channel="愛爾達體育4台" start="20261112210000 +0800" stop="20261112234500 +0800">
     <title lang="zh">IFSC世界運動攀登系列賽 抱石賽 因斯布魯克站 女子組準決賽(原音)</title>
   </programme>
-  <programme channel="愛爾達體育4台" start="20261112233000 +0800" stop="20261113003000 +0800">
-    <title lang="zh">2026 WEC世界耐久錦標賽特輯#7 - 巴塞隆納6小時(原音)</title>
+  <programme channel="愛爾達體育4台" start="20261112234500 +0800" stop="20261113000000 +0800">
+    <title lang="zh">體育班#10</title>
   </programme>
-  <programme channel="愛爾達體育4台" start="20261113003000 +0800" stop="20261113033000 +0800">
+  <programme channel="愛爾達體育4台" start="20261113000000 +0800" stop="20261113002000 +0800">
+    <title lang="zh">體育班#11</title>
+  </programme>
+  <programme channel="愛爾達體育4台" start="20261113002000 +0800" stop="20261113033000 +0800">
     <title lang="zh">LIVE U23棒球世界盃 中華 VS 南韓 複賽 11/13</title>
   </programme>
-  <programme channel="愛爾達體育4台" start="20261113033000 +0800" stop="20261113053000 +0800">
+  <programme channel="愛爾達體育4台" start="20261113033000 +0800" stop="20261113040000 +0800">
+    <title lang="zh">體育班#10</title>
+  </programme>
+  <programme channel="愛爾達體育4台" start="20261113040000 +0800" stop="20261113060500 +0800">
     <title lang="zh">IFSC世界運動攀登系列賽 抱石賽 因斯布魯克站 女子組決賽(原音)</title>
   </programme>
-  <programme channel="愛爾達體育4台" start="20261113053000 +0800" stop="20261113083000 +0800">
-    <title lang="zh">U23棒球世界盃 捷克 VS 中華 預賽 11/7</title>
+  <programme channel="愛爾達體育4台" start="20261113060500 +0800" stop="20261113081500 +0800">
+    <title lang="zh">青年奧運 陳品安 射箭 男子個人賽八強/四強/決賽 11/8</title>
   </programme>
-  <programme channel="愛爾達體育4台" start="20261113083000 +0800" stop="20261113110000 +0800">
-    <title lang="zh">IFSC世界運動攀登系列賽 抱石賽 因斯布魯克站 女子組準決賽(原音)</title>
+  <programme channel="愛爾達體育4台" start="20261113081500 +0800" stop="20261113093000 +0800">
+    <title lang="zh">青年奧運 賴沂貞 跆拳道 女子44/男子48公斤級四強/決賽 11/9</title>
   </programme>
-  <programme channel="愛爾達體育4台" start="20261113110000 +0800" stop="20261113130000 +0800">
-    <title lang="zh">IFSC世界運動攀登系列賽 抱石賽 因斯布魯克站 女子組決賽(原音)</title>
-  </programme>
-  <programme channel="愛爾達體育4台" start="20261113130000 +0800" stop="20261113160000 +0800">
-    <title lang="zh">U23棒球世界盃 中華 VS 南韓 複賽 11/13</title>
-  </programme>
-  <programme channel="愛爾達體育4台" start="20261113160000 +0800" stop="20261113193000 +0800">
-    <title lang="zh">WBC棒球經典賽 中華 VS 南韓 3/8 C組預賽</title>
-  </programme>
-  <programme channel="愛爾達體育4台" start="20261113193000 +0800" stop="20261113213000 +0800">
+  <programme channel="愛爾達體育4台" start="20261113093000 +0800" stop="20261113123000 +0800">
     <title lang="zh">青年奧運 中華隊 3對3籃球 男/女預賽 11/7</title>
   </programme>
-  <programme channel="愛爾達體育4台" start="20261113213000 +0800" stop="20261114003000 +0800">
+  <programme channel="愛爾達體育4台" start="20261113123000 +0800" stop="20261113153000 +0800">
+    <title lang="zh">U23棒球世界盃 中華 VS 南韓 複賽 11/13</title>
+  </programme>
+  <programme channel="愛爾達體育4台" start="20261113153000 +0800" stop="20261113181500 +0800">
+    <title lang="zh">IFSC世界運動攀登系列賽 抱石賽 布拉格站 男子組準決賽(原音)</title>
+  </programme>
+  <programme channel="愛爾達體育4台" start="20261113153000 +0800" stop="20261113181500 +0800">
+    <title lang="zh">IFSC世界運動攀登系列賽 抱石賽 布拉格站 男子組準決賽(原音)</title>
+  </programme>
+  <programme channel="愛爾達體育4台" start="20261113181500 +0800" stop="20261113200000 +0800">
+    <title lang="zh">WBC棒球經典賽 中華 VS 南韓 3/8 C組預賽</title>
+  </programme>
+  <programme channel="愛爾達體育4台" start="20261113200000 +0800" stop="20261113220000 +0800">
+    <title lang="zh">IFSC世界運動攀登系列賽 抱石賽 因斯布魯克站 女子組決賽(原音)</title>
+  </programme>
+  <programme channel="愛爾達體育4台" start="20261113220000 +0800" stop="20261114002000 +0800">
     <title lang="zh">IFSC世界運動攀登系列賽 抱石賽 因斯布魯克站 男子組準決賽(原音)</title>
   </programme>
-  <programme channel="愛爾達體育4台" start="20261114003000 +0800" stop="20261114033000 +0800">
+  <programme channel="愛爾達體育4台" start="20261114002000 +0800" stop="20261114033000 +0800">
     <title lang="zh">LIVE U23棒球世界盃 中華 VS 日本 複賽 11/14</title>
   </programme>
   <programme channel="愛爾達體育4台" start="20261114033000 +0800" stop="20261114040000 +0800">
-    <title lang="zh">歐冠足球誌#10</title>
+    <title lang="zh">體育班#10</title>
   </programme>
   <programme channel="愛爾達體育4台" start="20261114040000 +0800" stop="20261114070000 +0800">
     <title lang="zh">LIVE 亞洲冬季棒球聯盟 日本社會人 VS 台灣海洋 11/14 開幕戰</title>
   </programme>
-  <programme channel="愛爾達體育4台" start="20261114070000 +0800" stop="20261114100000 +0800">
-    <title lang="zh">IFSC世界運動攀登系列賽 抱石賽 因斯布魯克站 男子組準決賽(原音)</title>
+  <programme channel="愛爾達體育4台" start="20261114070000 +0800" stop="20261114073000 +0800">
+    <title lang="zh">體育班#11</title>
   </programme>
-  <programme channel="愛爾達體育4台" start="20261114100000 +0800" stop="20261114123000 +0800">
-    <title lang="zh">IFSC世界運動攀登系列賽 抱石賽 因斯布魯克站 男子組決賽(原音)</title>
+  <programme channel="愛爾達體育4台" start="20261114073000 +0800" stop="20261114080000 +0800">
+    <title lang="zh">青年奧運 中華隊 3對3籃球 女子預賽 11/7</title>
   </programme>
-  <programme channel="愛爾達體育4台" start="20261114123000 +0800" stop="20261114130000 +0800">
-    <title lang="zh">歐冠足球誌#9</title>
+  <programme channel="愛爾達體育4台" start="20261114080000 +0800" stop="20261114100000 +0800">
+    <title lang="zh">U23棒球世界盃 捷克 VS 中華 預賽 11/7</title>
   </programme>
-  <programme channel="愛爾達體育4台" start="20261114130000 +0800" stop="20261114160000 +0800">
+  <programme channel="愛爾達體育4台" start="20261114100000 +0800" stop="20261114113000 +0800">
+    <title lang="zh">青年奧運 賴沂貞 跆拳道 女子44/男子48公斤級四強/決賽 11/9</title>
+  </programme>
+  <programme channel="愛爾達體育4台" start="20261114113000 +0800" stop="20261114143000 +0800">
     <title lang="zh">U23棒球世界盃 中華 VS 日本 複賽 11/14</title>
   </programme>
+  <programme channel="愛爾達體育4台" start="20261114143000 +0800" stop="20261114173000 +0800">
+    <title lang="zh">亞洲冬季棒球聯盟 日本社會人 VS 台灣海洋 11/14 開幕戰</title>
+  </programme>
   <programme channel="愛爾達體育MAX2台" start="20261111152500 +0800" stop="20261111181500 +0800">
-    <title lang="zh">LIVE 青年奧運 五人制足球 女子金牌戰 11/11 (原音)</title>
+    <title lang="zh">LIVE 青年奧運 委內瑞拉VS烏克蘭 五人制足球 女子金牌戰 11/11 (原音)</title>
   </programme>
   <programme channel="愛爾達體育MAX2台" start="20261111181500 +0800" stop="20261111220000 +0800">
     <title lang="zh">【非賽事直播時段】運科轉播精彩時刻</title>
@@ -2845,10 +2863,10 @@
     <title lang="zh">【非賽事直播時段】運科轉播精彩時刻</title>
   </programme>
   <programme channel="愛爾達體育MAX2台" start="20261112152500 +0800" stop="20261112181500 +0800">
-    <title lang="zh">LIVE 青年奧運 五人制足球 男子金牌戰 11/12 (原音)</title>
+    <title lang="zh">LIVE 青年奧運 葡萄牙VS阿根廷 五人制足球 男子金牌戰 11/12 (原音)</title>
   </programme>
   <programme channel="愛爾達體育MAX2台" start="20261112152500 +0800" stop="20261112181500 +0800">
-    <title lang="zh">LIVE 青年奧運 五人制足球 男子金牌戰 11/12 (原音)</title>
+    <title lang="zh">LIVE 青年奧運 葡萄牙VS阿根廷 五人制足球 男子金牌戰 11/12 (原音)</title>
   </programme>
   <programme channel="愛爾達體育MAX2台" start="20261112181500 +0800" stop="20261112220000 +0800">
     <title lang="zh">【非賽事直播時段】運科轉播精彩時刻</title>
@@ -2983,7 +3001,7 @@
     <title lang="zh">2026巴塞爾男網賽16強 DJO vs STR(普)</title>
   </programme>
   <programme channel="博斯網球台" start="20261113220000 +0800" stop="20261114000000 +0800">
-    <title lang="zh">2026巴黎大師賽 16強(普)</title>
+    <title lang="zh">2026巴黎大師賽 16強 PAU vs HAL(普)</title>
   </programme>
   <programme channel="博斯網球台" start="20261114000000 +0800" stop="20261114040000 +0800">
     <title lang="zh">LIVE 2026 WTA年終賽 第六天(普)</title>
@@ -2995,7 +3013,7 @@
     <title lang="zh">網球雜誌(普)</title>
   </programme>
   <programme channel="博斯網球台" start="20261114083000 +0800" stop="20261114103000 +0800">
-    <title lang="zh">2026巴黎大師賽 16強(普)</title>
+    <title lang="zh">2026巴黎大師賽 16強 PAU vs HAL(普)</title>
   </programme>
   <programme channel="博斯網球台" start="20261114103000 +0800" stop="20261114120000 +0800">
     <title lang="zh">2026維也納男網賽 8強 ZVE vs FER(普)</title>
@@ -3066,28 +3084,28 @@
   <programme channel="OTT_LIVE_0000002117" start="20261111160000 +0800" stop="20261112155959 +0800">
     <title lang="zh">U18青棒亞錦賽 決賽、循環賽精選重播</title>
   </programme>
-  <programme channel="OTT_LIVE_0000002117" start="20261112160000 +0800" stop="20261113005959 +0800">
+  <programme channel="OTT_LIVE_0000002117" start="20261112160000 +0800" stop="20261113002959 +0800">
     <title lang="zh">U18青棒亞錦賽 決賽、循環賽精選重播</title>
   </programme>
-  <programme channel="OTT_LIVE_0000002117" start="20261113010000 +0800" stop="20261113035959 +0800">
-    <title lang="zh">LIVE U23棒球世界盃 超級循環賽 11/13</title>
+  <programme channel="OTT_LIVE_0000002117" start="20261113003000 +0800" stop="20261113032959 +0800">
+    <title lang="zh">LIVE U23棒球世界盃 南韓 VS 中華 複賽 11/13</title>
   </programme>
-  <programme channel="OTT_LIVE_0000002117" start="20261113040000 +0800" stop="20261113045959 +0800">
+  <programme channel="OTT_LIVE_0000002117" start="20261113033000 +0800" stop="20261113042959 +0800">
     <title lang="zh">U23棒球世界盃 賽事預留時段</title>
   </programme>
-  <programme channel="OTT_LIVE_0000002117" start="20261113050000 +0800" stop="20261113155959 +0800">
+  <programme channel="OTT_LIVE_0000002117" start="20261113043000 +0800" stop="20261113155959 +0800">
     <title lang="zh">U18青棒亞錦賽 決賽、循環賽精選重播</title>
   </programme>
-  <programme channel="OTT_LIVE_0000002117" start="20261113160000 +0800" stop="20261114005959 +0800">
+  <programme channel="OTT_LIVE_0000002117" start="20261113160000 +0800" stop="20261114002959 +0800">
     <title lang="zh">U18青棒亞錦賽 決賽、循環賽精選重播</title>
   </programme>
-  <programme channel="OTT_LIVE_0000002117" start="20261114010000 +0800" stop="20261114035959 +0800">
-    <title lang="zh">LIVE U23棒球世界盃 超級循環賽 11/14</title>
+  <programme channel="OTT_LIVE_0000002117" start="20261114003000 +0800" stop="20261114032959 +0800">
+    <title lang="zh">LIVE U23棒球世界盃 中華 VS 日本 複賽 11/14</title>
   </programme>
-  <programme channel="OTT_LIVE_0000002117" start="20261114040000 +0800" stop="20261114045959 +0800">
+  <programme channel="OTT_LIVE_0000002117" start="20261114033000 +0800" stop="20261114042959 +0800">
     <title lang="zh">U23棒球世界盃 賽事預留時段</title>
   </programme>
-  <programme channel="OTT_LIVE_0000002117" start="20261114050000 +0800" stop="20261114155959 +0800">
+  <programme channel="OTT_LIVE_0000002117" start="20261114043000 +0800" stop="20261114155959 +0800">
     <title lang="zh">U18青棒亞錦賽 決賽、循環賽精選重播</title>
   </programme>
   <programme channel="OTT_LIVE_0000002062" start="20261111160000 +0800" stop="20261112155959 +0800">
@@ -3687,17 +3705,41 @@
   <programme channel="OTT_LIVE_0000001736" start="20261112004700 +0800" stop="20261112010000 +0800">
     <title lang="zh">週四會議預報(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001736" start="20261112010000 +0800" stop="20261112100000 +0800">
-    <title lang="zh">立法院會議直播(普)</title>
+  <programme channel="OTT_LIVE_0000001736" start="20261112052000 +0800" stop="20261112052500 +0800">
+    <title lang="zh">週四會議預報(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001736" start="20261112100000 +0800" stop="20261112160000 +0800">
-    <title lang="zh">當日立法院會議轉播(普)</title>
+  <programme channel="OTT_LIVE_0000001736" start="20261112052500 +0800" stop="20261112070900 +0800">
+    <title lang="zh">內政委員會(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001736" start="20261112160000 +0800" stop="20261112210000 +0800">
-    <title lang="zh">前日立法院會議轉播(普)</title>
+  <programme channel="OTT_LIVE_0000001736" start="20261112070900 +0800" stop="20261112091800 +0800">
+    <title lang="zh">外交及國防委員會(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001736" start="20261112210000 +0800" stop="20261113004700 +0800">
-    <title lang="zh">前日立法院會議轉播(普)</title>
+  <programme channel="OTT_LIVE_0000001736" start="20261112091800 +0800" stop="20261112110100 +0800">
+    <title lang="zh">內政委員會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001736" start="20261112110100 +0800" stop="20261112131000 +0800">
+    <title lang="zh">外交及國防委員會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001736" start="20261112131000 +0800" stop="20261112145400 +0800">
+    <title lang="zh">內政委員會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001736" start="20261112145400 +0800" stop="20261112170300 +0800">
+    <title lang="zh">外交及國防委員會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001736" start="20261112145400 +0800" stop="20261112170300 +0800">
+    <title lang="zh">外交及國防委員會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001736" start="20261112170300 +0800" stop="20261112184700 +0800">
+    <title lang="zh">內政委員會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001736" start="20261112184700 +0800" stop="20261112205600 +0800">
+    <title lang="zh">外交及國防委員會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001736" start="20261112205600 +0800" stop="20261112223900 +0800">
+    <title lang="zh">內政委員會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001736" start="20261112223900 +0800" stop="20261113004700 +0800">
+    <title lang="zh">外交及國防委員會(普)</title>
   </programme>
   <programme channel="OTT_LIVE_0000001736" start="20261113004700 +0800" stop="20261113010000 +0800">
     <title lang="zh">週五會議預報(普)</title>
@@ -3741,17 +3783,29 @@
   <programme channel="OTT_LIVE_0000001735" start="20261112004700 +0800" stop="20261112010000 +0800">
     <title lang="zh">週四會議預報(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001735" start="20261112010000 +0800" stop="20261112100000 +0800">
-    <title lang="zh">立法院會議直播(普)</title>
+  <programme channel="OTT_LIVE_0000001735" start="20261112070300 +0800" stop="20261112070800 +0800">
+    <title lang="zh">週四會議預報(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001735" start="20261112100000 +0800" stop="20261112160000 +0800">
-    <title lang="zh">當日立法院會議轉播(普)</title>
+  <programme channel="OTT_LIVE_0000001735" start="20261112070800 +0800" stop="20261112120300 +0800">
+    <title lang="zh">教育及文化委員會(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001735" start="20261112160000 +0800" stop="20261112210000 +0800">
-    <title lang="zh">前日立法院會議轉播(普)</title>
+  <programme channel="OTT_LIVE_0000001735" start="20261112120300 +0800" stop="20261112153200 +0800">
+    <title lang="zh">社會福利及衛生環境委員會(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001735" start="20261112210000 +0800" stop="20261113004700 +0800">
-    <title lang="zh">前日立法院會議轉播(普)</title>
+  <programme channel="OTT_LIVE_0000001735" start="20261112153200 +0800" stop="20261112202700 +0800">
+    <title lang="zh">教育及文化委員會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261112153200 +0800" stop="20261112202700 +0800">
+    <title lang="zh">教育及文化委員會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261112202700 +0800" stop="20261112205700 +0800">
+    <title lang="zh">司法及法制委員會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261112205700 +0800" stop="20261112213200 +0800">
+    <title lang="zh">司法及法制委員會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261112213200 +0800" stop="20261113004700 +0800">
+    <title lang="zh">社會福利及衛生環境委員會(普)</title>
   </programme>
   <programme channel="OTT_LIVE_0000001735" start="20261113004700 +0800" stop="20261113010000 +0800">
     <title lang="zh">週五會議預報(普)</title>
@@ -5875,7 +5929,7 @@
     <title lang="zh">【金鐘得獎】我們與惡的距離II(9)(輔15)</title>
   </programme>
   <programme channel="CATCHPLAY電影台" start="20261113142000 +0800" stop="20261113154000 +0800">
-    <title lang="zh">【金鐘得獎】我們與惡的距離II(10)(輔15)</title>
+    <title lang="zh">【金鐘得獎】我們與惡的距離II(最終回)(10)(輔15)</title>
   </programme>
   <programme channel="CATCHPLAY電影台" start="20261113154000 +0800" stop="20261113172500 +0800">
     <title lang="zh">緝盜(輔15)</title>
@@ -10779,28 +10833,28 @@
   <programme channel="Hami體育3台" start="20261111160000 +0800" stop="20261112155959 +0800">
     <title lang="zh">U18青棒亞錦賽 決賽、循環賽精選重播</title>
   </programme>
-  <programme channel="Hami體育3台" start="20261112160000 +0800" stop="20261113005959 +0800">
+  <programme channel="Hami體育3台" start="20261112160000 +0800" stop="20261113002959 +0800">
     <title lang="zh">U18青棒亞錦賽 決賽、循環賽精選重播</title>
   </programme>
-  <programme channel="Hami體育3台" start="20261113010000 +0800" stop="20261113035959 +0800">
-    <title lang="zh">LIVE U23棒球世界盃 超級循環賽 11/13</title>
+  <programme channel="Hami體育3台" start="20261113003000 +0800" stop="20261113032959 +0800">
+    <title lang="zh">LIVE U23棒球世界盃 南韓 VS 中華 複賽 11/13</title>
   </programme>
-  <programme channel="Hami體育3台" start="20261113040000 +0800" stop="20261113045959 +0800">
+  <programme channel="Hami體育3台" start="20261113033000 +0800" stop="20261113042959 +0800">
     <title lang="zh">U23棒球世界盃 賽事預留時段</title>
   </programme>
-  <programme channel="Hami體育3台" start="20261113050000 +0800" stop="20261113155959 +0800">
+  <programme channel="Hami體育3台" start="20261113043000 +0800" stop="20261113155959 +0800">
     <title lang="zh">U18青棒亞錦賽 決賽、循環賽精選重播</title>
   </programme>
-  <programme channel="Hami體育3台" start="20261113160000 +0800" stop="20261114005959 +0800">
+  <programme channel="Hami體育3台" start="20261113160000 +0800" stop="20261114002959 +0800">
     <title lang="zh">U18青棒亞錦賽 決賽、循環賽精選重播</title>
   </programme>
-  <programme channel="Hami體育3台" start="20261114010000 +0800" stop="20261114035959 +0800">
-    <title lang="zh">LIVE U23棒球世界盃 超級循環賽 11/14</title>
+  <programme channel="Hami體育3台" start="20261114003000 +0800" stop="20261114032959 +0800">
+    <title lang="zh">LIVE U23棒球世界盃 中華 VS 日本 複賽 11/14</title>
   </programme>
-  <programme channel="Hami體育3台" start="20261114040000 +0800" stop="20261114045959 +0800">
+  <programme channel="Hami體育3台" start="20261114033000 +0800" stop="20261114042959 +0800">
     <title lang="zh">U23棒球世界盃 賽事預留時段</title>
   </programme>
-  <programme channel="Hami體育3台" start="20261114050000 +0800" stop="20261114155959 +0800">
+  <programme channel="Hami體育3台" start="20261114043000 +0800" stop="20261114155959 +0800">
     <title lang="zh">U18青棒亞錦賽 決賽、循環賽精選重播</title>
   </programme>
   <programme channel="HBLTV1台" start="20261111160000 +0800" stop="20261112155959 +0800">
@@ -19821,13 +19875,13 @@
   <programme channel="博斯高球一台" start="20261112130000 +0800" stop="20261112160000 +0800">
     <title lang="zh">2026 歐巡 阿布達比錦標賽 第三天(普)</title>
   </programme>
-  <programme channel="博斯高球一台" start="20261112160000 +0800" stop="20261112180000 +0800">
+  <programme channel="博斯高球一台" start="20261112160000 +0800" stop="20261112190000 +0800">
     <title lang="zh">2026 歐巡 阿布達比錦標賽 第三天(普)</title>
   </programme>
-  <programme channel="博斯高球一台" start="20261112180000 +0800" stop="20261112210000 +0800">
+  <programme channel="博斯高球一台" start="20261112190000 +0800" stop="20261112220000 +0800">
     <title lang="zh">LIVE 2026 PGA 奧斯丁錦標賽 第一天(普)</title>
   </programme>
-  <programme channel="博斯高球一台" start="20261112210000 +0800" stop="20261113000000 +0800">
+  <programme channel="博斯高球一台" start="20261112220000 +0800" stop="20261113000000 +0800">
     <title lang="zh">2026 PGA 墨西哥公開賽 第三天(普)</title>
   </programme>
   <programme channel="博斯高球一台" start="20261113000000 +0800" stop="20261113030000 +0800">
@@ -19845,13 +19899,13 @@
   <programme channel="博斯高球一台" start="20261113130000 +0800" stop="20261113160000 +0800">
     <title lang="zh">2026 歐巡 阿布達比錦標賽 第四天(普)</title>
   </programme>
-  <programme channel="博斯高球一台" start="20261113160000 +0800" stop="20261113180000 +0800">
+  <programme channel="博斯高球一台" start="20261113160000 +0800" stop="20261113190000 +0800">
     <title lang="zh">2026 歐巡 阿布達比錦標賽 第四天(普)</title>
   </programme>
-  <programme channel="博斯高球一台" start="20261113180000 +0800" stop="20261113210000 +0800">
+  <programme channel="博斯高球一台" start="20261113190000 +0800" stop="20261113220000 +0800">
     <title lang="zh">LIVE 2026 PGA 奧斯丁錦標賽 第二天(普)</title>
   </programme>
-  <programme channel="博斯高球一台" start="20261113210000 +0800" stop="20261114000000 +0800">
+  <programme channel="博斯高球一台" start="20261113220000 +0800" stop="20261114000000 +0800">
     <title lang="zh">2026 PGA 墨西哥公開賽 第四天(普)</title>
   </programme>
   <programme channel="博斯高球一台" start="20261114000000 +0800" stop="20261114030000 +0800">
@@ -19861,7 +19915,7 @@
     <title lang="zh">首播 2026 PGA 奧斯丁錦標賽 第二天(普)</title>
   </programme>
   <programme channel="博斯高球一台" start="20261114060000 +0800" stop="20261114070000 +0800">
-    <title lang="zh">2026 PGA 墨西哥公開賽 精華(普)</title>
+    <title lang="zh">2026 PGA 巴特菲爾德百慕達錦標賽 精華(普)</title>
   </programme>
   <programme channel="博斯高球一台" start="20261114070000 +0800" stop="20261114130000 +0800">
     <title lang="zh">LIVE 2026 歐巡 世界巡迴錦標賽 第三天(普)</title>
