@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source": "meWatch Singapore",
-    "generated_at": "2026-11-13T09:54:21.511433",
-    "total_channels": 119
+    "generated_at": "2026-11-14T09:18:50.640395",
+    "total_channels": 113
   },
   "channels": [
     {
@@ -65,78 +65,6 @@
       "number": null,
       "genres": [
         "news & documentaries"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "862712",
-      "name": "YOG CH01",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='17251041'&EntityType='Item'&EntityId='862712'&Width=1920&Height=1080",
-      "description": "Experience the excitement of the Dakar 2026 Youth Olympic Games, featuring live sporting action, Opening and Closing Ceremonies, and daily highlights. Rally behind Team Singapore's young athletes as they compete against the world's rising sporting talents on the global stage.",
-      "number": null,
-      "genres": [
-        "sports"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "862710",
-      "name": "YOG CH02",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='17251037'&EntityType='Item'&EntityId='862710'&Width=1920&Height=1080",
-      "description": "Experience the excitement of the Dakar 2026 Youth Olympic Games, featuring live sporting action, Opening and Closing Ceremonies, and daily highlights. Rally behind Team Singapore's young athletes as they compete against the world's rising sporting talents on the global stage.",
-      "number": null,
-      "genres": [
-        "sports"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "862709",
-      "name": "YOG CH03",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='17251033'&EntityType='Item'&EntityId='862709'&Width=1920&Height=1080",
-      "description": "Experience the excitement of the Dakar 2026 Youth Olympic Games, featuring live sporting action, Opening and Closing Ceremonies, and daily highlights. Rally behind Team Singapore's young athletes as they compete against the world's rising sporting talents on the global stage.",
-      "number": null,
-      "genres": [
-        "sports"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "862713",
-      "name": "YOG CH04",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='17251053'&EntityType='Item'&EntityId='862713'&Width=1920&Height=1080",
-      "description": "Experience the excitement of the Dakar 2026 Youth Olympic Games, featuring live sporting action, Opening and Closing Ceremonies, and daily highlights. Rally behind Team Singapore's young athletes as they compete against the world's rising sporting talents on the global stage.",
-      "number": null,
-      "genres": [
-        "sports"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "862711",
-      "name": "YOG CH05",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='17251049'&EntityType='Item'&EntityId='862711'&Width=1920&Height=1080",
-      "description": "Experience the excitement of the Dakar 2026 Youth Olympic Games, featuring live sporting action, Opening and Closing Ceremonies, and daily highlights. Rally behind Team Singapore's young athletes as they compete against the world's rising sporting talents on the global stage.",
-      "number": null,
-      "genres": [
-        "sports"
-      ],
-      "isPlayable": false,
-      "videoFormat": ""
-    },
-    {
-      "id": "862714",
-      "name": "YOG CH06",
-      "icon": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='17251045'&EntityType='Item'&EntityId='862714'&Width=1920&Height=1080",
-      "description": "Experience the excitement of the Dakar 2026 Youth Olympic Games, featuring live sporting action, Opening and Closing Ceremonies, and daily highlights. Rally behind Team Singapore's young athletes as they compete against the world's rising sporting talents on the global stage.",
-      "number": null,
-      "genres": [
-        "sports"
       ],
       "isPlayable": false,
       "videoFormat": ""
