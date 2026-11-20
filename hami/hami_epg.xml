@@ -555,10 +555,10 @@
   <programme channel="愛爾達體育3台" start="20261122130000 +0800" stop="20261122160000 +0800">
     <title lang="zh">BWF 香港公開賽 決賽 11/22</title>
   </programme>
-  <programme channel="愛爾達體育2台" start="20261119130000 +0800" stop="20261119170000 +0800">
+  <programme channel="愛爾達體育2台" start="20261119130000 +0800" stop="20261119173700 +0800">
     <title lang="zh">LIVE WTT球星挑戰賽 馬斯喀特站 葉伊恬 單打32強 11/19</title>
   </programme>
-  <programme channel="愛爾達體育2台" start="20261119170000 +0800" stop="20261119193000 +0800">
+  <programme channel="愛爾達體育2台" start="20261119173700 +0800" stop="20261119193000 +0800">
     <title lang="zh">青年奧運 林泳岳 霹靂舞 男/女決賽 11/13</title>
   </programme>
   <programme channel="愛爾達體育2台" start="20261119193000 +0800" stop="20261119223000 +0800">
@@ -2773,19 +2773,22 @@
     <title lang="zh">IFSC世界運動攀登系列賽 抱石賽 因斯布魯克站 男子組準決賽(原音)</title>
   </programme>
   <programme channel="愛爾達體育4台" start="20261119233000 +0800" stop="20261120013000 +0800">
-    <title lang="zh">重光盃少棒 61敗 VS 62敗 11/18</title>
+    <title lang="zh">重光盃少棒 新北大豐 VS 臺東卑南 季軍戰 11/18</title>
   </programme>
   <programme channel="愛爾達體育4台" start="20261120013000 +0800" stop="20261120040000 +0800">
-    <title lang="zh">重光盃少棒 61勝 VS 62勝 11/18</title>
+    <title lang="zh">重光盃少棒 桃園中平 VS 臺北福林 冠軍戰 11/18</title>
   </programme>
   <programme channel="愛爾達體育4台" start="20261120040000 +0800" stop="20261120070000 +0800">
     <title lang="zh">LIVE 亞洲冬季棒球聯盟 日本社會人 VS 日職聯隊 11/20 例行賽</title>
   </programme>
-  <programme channel="愛爾達體育4台" start="20261120070000 +0800" stop="20261120080000 +0800">
-    <title lang="zh">2026 WEC世界耐久錦標賽特輯#8 - 蒙札8小時(原音)</title>
+  <programme channel="愛爾達體育4台" start="20261120070000 +0800" stop="20261120073000 +0800">
+    <title lang="zh">英超名人堂 #23 阿斯頓維拉1992-93 賽季背後</title>
   </programme>
-  <programme channel="愛爾達體育4台" start="20261120080000 +0800" stop="20261120103000 +0800">
-    <title lang="zh">IFSC世界運動攀登系列賽 抱石賽 布拉格站 女子組準決賽(原音)</title>
+  <programme channel="愛爾達體育4台" start="20261120073000 +0800" stop="20261120101500 +0800">
+    <title lang="zh">U23棒球世界盃 中華 VS 委內瑞拉 複賽 11/15</title>
+  </programme>
+  <programme channel="愛爾達體育4台" start="20261120101500 +0800" stop="20261120103000 +0800">
+    <title lang="zh">BWF世界羽球週報#34 丹麥公開賽 安洗瑩47冠寫紀錄</title>
   </programme>
   <programme channel="愛爾達體育4台" start="20261120103000 +0800" stop="20261120130000 +0800">
     <title lang="zh">LIVE BWF 香港公開賽 八強(下) 11/20</title>
@@ -2793,59 +2796,71 @@
   <programme channel="愛爾達體育4台" start="20261120130000 +0800" stop="20261120133000 +0800">
     <title lang="zh">2026 BWF世界羽球雜誌#10 陳清晨/賈一凡 獨家專訪</title>
   </programme>
-  <programme channel="愛爾達體育4台" start="20261120133000 +0800" stop="20261120160000 +0800">
+  <programme channel="愛爾達體育4台" start="20261120133000 +0800" stop="20261120140000 +0800">
+    <title lang="zh">體育班#10</title>
+  </programme>
+  <programme channel="愛爾達體育4台" start="20261120140000 +0800" stop="20261120170000 +0800">
     <title lang="zh">亞洲冬季棒球聯盟 日本社會人 VS 日職聯隊 11/20 例行賽</title>
   </programme>
-  <programme channel="愛爾達體育4台" start="20261120160000 +0800" stop="20261120180000 +0800">
-    <title lang="zh">IFSC世界運動攀登系列賽 抱石賽 布拉格站 女子組決賽(原音)</title>
+  <programme channel="愛爾達體育4台" start="20261120140000 +0800" stop="20261120170000 +0800">
+    <title lang="zh">亞洲冬季棒球聯盟 日本社會人 VS 日職聯隊 11/20 例行賽</title>
+  </programme>
+  <programme channel="愛爾達體育4台" start="20261120170000 +0800" stop="20261120180000 +0800">
+    <title lang="zh">2026 WEC世界耐久錦標賽特輯#8 - 蒙札8小時(原音)</title>
   </programme>
   <programme channel="愛爾達體育4台" start="20261120180000 +0800" stop="20261120210000 +0800">
     <title lang="zh">WBC棒球經典賽 中華 VS 南韓 3/8 C組預賽</title>
   </programme>
-  <programme channel="愛爾達體育4台" start="20261120210000 +0800" stop="20261120220000 +0800">
-    <title lang="zh">2026 WEC世界耐久錦標賽特輯#8 - 蒙札8小時(原音)</title>
+  <programme channel="愛爾達體育4台" start="20261120210000 +0800" stop="20261120231500 +0800">
+    <title lang="zh">IFSC世界運動攀登系列賽 抱石賽 因斯布魯克站 男子組決賽(原音)</title>
   </programme>
-  <programme channel="愛爾達體育4台" start="20261120220000 +0800" stop="20261121000000 +0800">
-    <title lang="zh">UBA 11/19 臺北護大 VS 北市大學 女子預賽</title>
+  <programme channel="愛爾達體育4台" start="20261120231500 +0800" stop="20261120233000 +0800">
+    <title lang="zh">BWF世界羽球週報#34 丹麥公開賽 安洗瑩47冠寫紀錄</title>
+  </programme>
+  <programme channel="愛爾達體育4台" start="20261120233000 +0800" stop="20261121000000 +0800">
+    <title lang="zh">體育班#10</title>
   </programme>
   <programme channel="愛爾達體育4台" start="20261121000000 +0800" stop="20261121020000 +0800">
-    <title lang="zh">UBA 11/19 文化大學 VS 輔仁大學 女子預賽</title>
+    <title lang="zh">重光盃少棒 新北大豐 VS 臺東卑南 季軍戰 11/18</title>
   </programme>
   <programme channel="愛爾達體育4台" start="20261121020000 +0800" stop="20261121040000 +0800">
-    <title lang="zh">UBA 11/19 臺灣科大 VS 臺灣師大 女子預賽</title>
+    <title lang="zh">重光盃少棒 桃園中平 VS 臺北福林 冠軍戰 11/18</title>
   </programme>
   <programme channel="愛爾達體育4台" start="20261121040000 +0800" stop="20261121070000 +0800">
     <title lang="zh">LIVE 亞洲冬季棒球聯盟 台灣海洋 VS 台灣山林 11/21 例行賽</title>
   </programme>
   <programme channel="愛爾達體育4台" start="20261121070000 +0800" stop="20261121073000 +0800">
-    <title lang="zh">2026 BWF世界羽球雜誌#10 陳清晨/賈一凡 獨家專訪</title>
+    <title lang="zh">團長會客室#1 謝南強</title>
   </programme>
   <programme channel="愛爾達體育4台" start="20261121073000 +0800" stop="20261121100000 +0800">
-    <title lang="zh">亞洲冬季棒球聯盟 日本社會人 VS 日職聯隊 11/20 例行賽</title>
+    <title lang="zh">U23棒球世界盃 中華 VS 日本 季軍戰 11/16</title>
   </programme>
   <programme channel="愛爾達體育4台" start="20261121100000 +0800" stop="20261121130000 +0800">
     <title lang="zh">LIVE 亞洲冬季棒球聯盟 韓職聯隊 VS 日職聯隊 11/21 例行賽</title>
   </programme>
   <programme channel="愛爾達體育4台" start="20261121130000 +0800" stop="20261121133000 +0800">
-    <title lang="zh">2026 BWF世界羽球雜誌#8 宮崎友花&amp;Alwi Farhan 羽壇新勢力</title>
+    <title lang="zh">團長會客室#2 杜元坤</title>
   </programme>
-  <programme channel="愛爾達體育4台" start="20261121133000 +0800" stop="20261121140000 +0800">
-    <title lang="zh">2026 BWF世界羽球雜誌#9 世錦賽五大難忘時刻</title>
+  <programme channel="愛爾達體育4台" start="20261121133000 +0800" stop="20261121142000 +0800">
+    <title lang="zh">2026 WEC世界耐久錦標賽特輯#8 - 蒙札8小時(原音)</title>
   </programme>
-  <programme channel="愛爾達體育4台" start="20261121140000 +0800" stop="20261121142000 +0800">
+  <programme channel="愛爾達體育4台" start="20261121142000 +0800" stop="20261121163500 +0800">
+    <title lang="zh">LIVE 德甲 門興 VS 多特蒙德 第10輪(原音)</title>
+  </programme>
+  <programme channel="愛爾達體育4台" start="20261121142000 +0800" stop="20261121163500 +0800">
+    <title lang="zh">LIVE 德甲 門興 VS 多特蒙德 第10輪(原音)</title>
+  </programme>
+  <programme channel="愛爾達體育4台" start="20261121163500 +0800" stop="20261121170000 +0800">
+    <title lang="zh">體育班#10</title>
+  </programme>
+  <programme channel="愛爾達體育4台" start="20261121170000 +0800" stop="20261121173000 +0800">
+    <title lang="zh">歐冠足球誌#10</title>
+  </programme>
+  <programme channel="愛爾達體育4台" start="20261121173000 +0800" stop="20261121180000 +0800">
     <title lang="zh">2026 BWF世界羽球雜誌#10 陳清晨/賈一凡 獨家專訪</title>
   </programme>
-  <programme channel="愛爾達體育4台" start="20261121142000 +0800" stop="20261121163500 +0800">
-    <title lang="zh">LIVE 德甲 門興 VS 多特蒙德 第10輪(原音)</title>
-  </programme>
-  <programme channel="愛爾達體育4台" start="20261121142000 +0800" stop="20261121163500 +0800">
-    <title lang="zh">LIVE 德甲 門興 VS 多特蒙德 第10輪(原音)</title>
-  </programme>
-  <programme channel="愛爾達體育4台" start="20261121163500 +0800" stop="20261121190000 +0800">
-    <title lang="zh">亞洲冬季棒球聯盟 韓職聯隊 VS 日職聯隊 11/21 例行賽</title>
-  </programme>
-  <programme channel="愛爾達體育4台" start="20261121190000 +0800" stop="20261121210000 +0800">
-    <title lang="zh">IFSC世界運動攀登系列賽 抱石賽 布拉格站 男子組決賽(原音)</title>
+  <programme channel="愛爾達體育4台" start="20261121180000 +0800" stop="20261121210000 +0800">
+    <title lang="zh">WBC棒球經典賽 中華 VS 南韓 3/8 C組預賽</title>
   </programme>
   <programme channel="愛爾達體育4台" start="20261121210000 +0800" stop="20261121230000 +0800">
     <title lang="zh">IFSC世界運動攀登系列賽 抱石賽 布拉格站 女子組決賽(原音)</title>
@@ -2863,7 +2878,7 @@
     <title lang="zh">2026 BWF世界羽球雜誌#10 陳清晨/賈一凡 獨家專訪</title>
   </programme>
   <programme channel="愛爾達體育4台" start="20261122073000 +0800" stop="20261122100000 +0800">
-    <title lang="zh">亞洲冬季棒球聯盟 台灣海洋 VS 台灣山林 11/21 例行賽</title>
+    <title lang="zh">U23棒球世界盃 澳大利亞 VS 委內瑞拉 冠軍戰 11/16</title>
   </programme>
   <programme channel="愛爾達體育4台" start="20261122100000 +0800" stop="20261122130000 +0800">
     <title lang="zh">LIVE 亞洲冬季棒球聯盟 台灣山林 VS 日本社會人 11/22 例行賽</title>
@@ -2872,7 +2887,7 @@
     <title lang="zh">2026 BWF世界羽球雜誌#10 陳清晨/賈一凡 獨家專訪</title>
   </programme>
   <programme channel="愛爾達體育4台" start="20261122133000 +0800" stop="20261122160000 +0800">
-    <title lang="zh">U23棒球世界盃 澳大利亞 VS 委內瑞拉 冠軍戰 11/16</title>
+    <title lang="zh">U23棒球世界盃 中華 VS 日本 季軍戰 11/16</title>
   </programme>
   <programme channel="愛爾達體育MAX2台" start="20261119160000 +0800" stop="20261119220000 +0800">
     <title lang="zh">【非賽事直播時段】運科轉播精彩時刻</title>
@@ -2883,10 +2898,22 @@
   <programme channel="愛爾達體育MAX2台" start="20261120040000 +0800" stop="20261120100000 +0800">
     <title lang="zh">【非賽事直播時段】運科轉播精彩時刻</title>
   </programme>
-  <programme channel="愛爾達體育MAX2台" start="20261120100000 +0800" stop="20261120160000 +0800">
+  <programme channel="愛爾達體育MAX2台" start="20261120100000 +0800" stop="20261120125000 +0800">
     <title lang="zh">【非賽事直播時段】運科轉播精彩時刻</title>
   </programme>
-  <programme channel="愛爾達體育MAX2台" start="20261120160000 +0800" stop="20261120220000 +0800">
+  <programme channel="愛爾達體育MAX2台" start="20261120125000 +0800" stop="20261120145000 +0800">
+    <title lang="zh">LIVE FIFA U17世界盃™ 古巴 VS 塔吉克 小組賽 F組第一輪 11/20 #12</title>
+  </programme>
+  <programme channel="愛爾達體育MAX2台" start="20261120145000 +0800" stop="20261120155000 +0800">
+    <title lang="zh">【非賽事直播時段】 歐冠：全台獨家 每輪精選直播</title>
+  </programme>
+  <programme channel="愛爾達體育MAX2台" start="20261120155000 +0800" stop="20261120175000 +0800">
+    <title lang="zh">LIVE FIFA U17世界盃™ 斐濟 VS 摩洛哥 小組賽 H組第一輪 11/20 #16</title>
+  </programme>
+  <programme channel="愛爾達體育MAX2台" start="20261120155000 +0800" stop="20261120175000 +0800">
+    <title lang="zh">LIVE FIFA U17世界盃™ 斐濟 VS 摩洛哥 小組賽 H組第一輪 11/20 #16</title>
+  </programme>
+  <programme channel="愛爾達體育MAX2台" start="20261120175000 +0800" stop="20261120220000 +0800">
     <title lang="zh">【非賽事直播時段】運科轉播精彩時刻</title>
   </programme>
   <programme channel="愛爾達體育MAX2台" start="20261120220000 +0800" stop="20261121040000 +0800">
@@ -4095,47 +4122,101 @@
   <programme channel="OTT_LIVE_0000001735" start="20261120010000 +0800" stop="20261120100000 +0800">
     <title lang="zh">立法院會議直播(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001735" start="20261120100000 +0800" stop="20261120160000 +0800">
-    <title lang="zh">當日立法院會議轉播(普)</title>
+  <programme channel="OTT_LIVE_0000001735" start="20261120102500 +0800" stop="20261120104000 +0800">
+    <title lang="zh">經費稽核委員會(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001735" start="20261120160000 +0800" stop="20261120210000 +0800">
-    <title lang="zh">前日立法院會議轉播(普)</title>
+  <programme channel="OTT_LIVE_0000001735" start="20261120104000 +0800" stop="20261120111300 +0800">
+    <title lang="zh">黨團協商(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001735" start="20261120210000 +0800" stop="20261121010000 +0800">
-    <title lang="zh">本週立法院會議轉播(普)</title>
+  <programme channel="OTT_LIVE_0000001735" start="20261120111300 +0800" stop="20261120133100 +0800">
+    <title lang="zh">立法院院會(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001735" start="20261121010000 +0800" stop="20261121050000 +0800">
-    <title lang="zh">本週立法院會議轉播(普)</title>
+  <programme channel="OTT_LIVE_0000001735" start="20261120133100 +0800" stop="20261120134600 +0800">
+    <title lang="zh">經費稽核委員會(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001735" start="20261121050000 +0800" stop="20261121090000 +0800">
-    <title lang="zh">本週立法院會議轉播(普)</title>
+  <programme channel="OTT_LIVE_0000001735" start="20261120134600 +0800" stop="20261120141900 +0800">
+    <title lang="zh">黨團協商(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001735" start="20261121090000 +0800" stop="20261121130000 +0800">
-    <title lang="zh">本週立法院會議轉播(普)</title>
+  <programme channel="OTT_LIVE_0000001735" start="20261120141900 +0800" stop="20261120163700 +0800">
+    <title lang="zh">立法院院會(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001735" start="20261121130000 +0800" stop="20261121170000 +0800">
-    <title lang="zh">本週立法院會議轉播(普)</title>
+  <programme channel="OTT_LIVE_0000001735" start="20261120141900 +0800" stop="20261120163700 +0800">
+    <title lang="zh">立法院院會(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001735" start="20261121130000 +0800" stop="20261121170000 +0800">
-    <title lang="zh">本週立法院會議轉播(普)</title>
+  <programme channel="OTT_LIVE_0000001735" start="20261120163700 +0800" stop="20261120165200 +0800">
+    <title lang="zh">經費稽核委員會(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001735" start="20261121170000 +0800" stop="20261121210000 +0800">
-    <title lang="zh">本週立法院會議轉播(普)</title>
+  <programme channel="OTT_LIVE_0000001735" start="20261120165200 +0800" stop="20261120193600 +0800">
+    <title lang="zh">司法及法制委員會(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001735" start="20261121210000 +0800" stop="20261122010000 +0800">
-    <title lang="zh">本週立法院會議轉播(普)</title>
+  <programme channel="OTT_LIVE_0000001735" start="20261120193600 +0800" stop="20261120210600 +0800">
+    <title lang="zh">社會福利及衛生環境委員會(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001735" start="20261122010000 +0800" stop="20261122050000 +0800">
-    <title lang="zh">本週立法院會議轉播(普)</title>
+  <programme channel="OTT_LIVE_0000001735" start="20261120210600 +0800" stop="20261120231600 +0800">
+    <title lang="zh">社會福利及衛生環境委員會(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001735" start="20261122050000 +0800" stop="20261122090000 +0800">
-    <title lang="zh">本週立法院會議轉播(普)</title>
+  <programme channel="OTT_LIVE_0000001735" start="20261120231600 +0800" stop="20261121010000 +0800">
+    <title lang="zh">黨團協商(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001735" start="20261122090000 +0800" stop="20261122130000 +0800">
-    <title lang="zh">本週立法院會議轉播(普)</title>
+  <programme channel="OTT_LIVE_0000001735" start="20261121010000 +0800" stop="20261121050400 +0800">
+    <title lang="zh">教育及文化委員會(普)</title>
   </programme>
-  <programme channel="OTT_LIVE_0000001735" start="20261122130000 +0800" stop="20261122170000 +0800">
-    <title lang="zh">本週立法院會議轉播(普)</title>
+  <programme channel="OTT_LIVE_0000001735" start="20261121050400 +0800" stop="20261121074100 +0800">
+    <title lang="zh">立法院院會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261121074100 +0800" stop="20261121083200 +0800">
+    <title lang="zh">立法院院會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261121083200 +0800" stop="20261121084400 +0800">
+    <title lang="zh">程序委員會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261121084400 +0800" stop="20261121111700 +0800">
+    <title lang="zh">交通委員會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261121111700 +0800" stop="20261121120000 +0800">
+    <title lang="zh">司法及法制委員會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261121120000 +0800" stop="20261121153200 +0800">
+    <title lang="zh">社會福利及衛生環境委員會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261121153200 +0800" stop="20261121170200 +0800">
+    <title lang="zh">社會福利及衛生環境委員會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261121153200 +0800" stop="20261121170200 +0800">
+    <title lang="zh">社會福利及衛生環境委員會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261121170200 +0800" stop="20261121194900 +0800">
+    <title lang="zh">司法及法制委員會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261121194900 +0800" stop="20261121204900 +0800">
+    <title lang="zh">交通委員會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261121204900 +0800" stop="20261121222100 +0800">
+    <title lang="zh">交通委員會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261121222100 +0800" stop="20261122010000 +0800">
+    <title lang="zh">社會福利及衛生環境委員會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261122010000 +0800" stop="20261122034400 +0800">
+    <title lang="zh">司法及法制委員會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261122034400 +0800" stop="20261122072300 +0800">
+    <title lang="zh">社會福利及衛生環境委員會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261122072300 +0800" stop="20261122092900 +0800">
+    <title lang="zh">黨團協商(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261122092900 +0800" stop="20261122100200 +0800">
+    <title lang="zh">黨團協商(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261122100200 +0800" stop="20261122120000 +0800">
+    <title lang="zh">立法院院會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261122120000 +0800" stop="20261122153900 +0800">
+    <title lang="zh">社會福利及衛生環境委員會(普)</title>
+  </programme>
+  <programme channel="OTT_LIVE_0000001735" start="20261122153900 +0800" stop="20261122174500 +0800">
+    <title lang="zh">黨團協商(普)</title>
   </programme>
   <programme channel="OTT_LIVE_0000002109" start="20261119154000 +0800" stop="20261119164000 +0800">
     <title lang="zh">丹佐華盛頓:美國代表人物(普)</title>
@@ -16684,7 +16765,7 @@
     <title lang="zh">TVBS財經</title>
   </programme>
   <programme channel="TVBS" start="20261119220000 +0800" stop="20261119230000 +0800">
-    <title lang="zh">金臨天下</title>
+    <title lang="zh">TVBS財經</title>
   </programme>
   <programme channel="TVBS" start="20261119230000 +0800" stop="20261120000000 +0800">
     <title lang="zh">FOCUS全球新聞</title>
@@ -16734,8 +16815,11 @@
   <programme channel="TVBS" start="20261120180000 +0800" stop="20261120190000 +0800">
     <title lang="zh">全球股市線上特報</title>
   </programme>
-  <programme channel="TVBS" start="20261120190000 +0800" stop="20261120210000 +0800">
-    <title lang="zh">全球股市線上特報</title>
+  <programme channel="TVBS" start="20261120190000 +0800" stop="20261120200000 +0800">
+    <title lang="zh">少康戰情室</title>
+  </programme>
+  <programme channel="TVBS" start="20261120200000 +0800" stop="20261120210000 +0800">
+    <title lang="zh">FOCUS國際話題</title>
   </programme>
   <programme channel="TVBS" start="20261120210000 +0800" stop="20261120220000 +0800">
     <title lang="zh">一步一腳印發現新台灣</title>
@@ -16764,11 +16848,8 @@
   <programme channel="TVBS" start="20261121060000 +0800" stop="20261121100000 +0800">
     <title lang="zh">新聞大白話特報</title>
   </programme>
-  <programme channel="TVBS" start="20261121100000 +0800" stop="20261121110000 +0800">
-    <title lang="zh">健康2.0</title>
-  </programme>
-  <programme channel="TVBS" start="20261121110000 +0800" stop="20261121130000 +0800">
-    <title lang="zh">ＴＶＢＳ戰情室</title>
+  <programme channel="TVBS" start="20261121100000 +0800" stop="20261121130000 +0800">
+    <title lang="zh">民眾相挺台灣必贏決勝之夜</title>
   </programme>
   <programme channel="TVBS" start="20261121130000 +0800" stop="20261121140000 +0800">
     <title lang="zh">TVBS文茜的世界周報</title>
@@ -16777,7 +16858,7 @@
     <title lang="zh">TVBS文茜的世界周報(歐洲版)</title>
   </programme>
   <programme channel="TVBS" start="20261121150000 +0800" stop="20261121155959 +0800">
-    <title lang="zh">T觀點</title>
+    <title lang="zh">TVBS戰情室</title>
   </programme>
   <programme channel="TVBS" start="20261121160000 +0800" stop="20261121170000 +0800">
     <title lang="zh">新聞大白話特報1500</title>
@@ -16789,7 +16870,7 @@
     <title lang="zh">TVBS文茜的世界周報(歐洲版)</title>
   </programme>
   <programme channel="TVBS" start="20261121190000 +0800" stop="20261121200000 +0800">
-    <title lang="zh">T觀點</title>
+    <title lang="zh">全球股市線上特報</title>
   </programme>
   <programme channel="TVBS" start="20261121200000 +0800" stop="20261121210000 +0800">
     <title lang="zh">ＴＶＢＳ戰情室</title>
@@ -16807,7 +16888,7 @@
     <title lang="zh">健康2.0</title>
   </programme>
   <programme channel="TVBS" start="20261122010000 +0800" stop="20261122020000 +0800">
-    <title lang="zh">T觀點</title>
+    <title lang="zh">全球股市線上特報</title>
   </programme>
   <programme channel="TVBS" start="20261122020000 +0800" stop="20261122030000 +0800">
     <title lang="zh">ＴＶＢＳ戰情室</title>
@@ -16838,9 +16919,6 @@
   </programme>
   <programme channel="TVBS" start="20261122150000 +0800" stop="20261122155959 +0800">
     <title lang="zh">美股金週報</title>
-  </programme>
-  <programme channel="TVBS新聞台" start="20261119160000 +0800" stop="20261119170000 +0800">
-    <title lang="zh">新聞夜視界</title>
   </programme>
   <programme channel="TVBS新聞台" start="20261119170000 +0800" stop="20261119180000 +0800">
     <title lang="zh">十點不一樣</title>
@@ -17167,7 +17245,7 @@
     <title lang="zh">親愛壞蛋(保護級)</title>
   </programme>
   <programme channel="TVBS歡樂台" start="20261121200000 +0800" stop="20261121210000 +0800">
-    <title lang="zh">食尚玩家瘋狂總部</title>
+    <title lang="zh">食尚玩家熱血48小時</title>
   </programme>
   <programme channel="TVBS歡樂台" start="20261121210000 +0800" stop="20261121220000 +0800">
     <title lang="zh">食尚玩家</title>
@@ -17176,7 +17254,7 @@
     <title lang="zh">健康2.0</title>
   </programme>
   <programme channel="TVBS歡樂台" start="20261121230000 +0800" stop="20261122000000 +0800">
-    <title lang="zh">食尚玩家瘋狂總部</title>
+    <title lang="zh">食尚玩家熱血48小時</title>
   </programme>
   <programme channel="TVBS歡樂台" start="20261122000000 +0800" stop="20261122010000 +0800">
     <title lang="zh">食尚玩家</title>
@@ -17191,7 +17269,7 @@
     <title lang="zh">女人我最大</title>
   </programme>
   <programme channel="TVBS歡樂台" start="20261122040000 +0800" stop="20261122050000 +0800">
-    <title lang="zh">食尚玩家瘋狂總部</title>
+    <title lang="zh">食尚玩家熱血48小時</title>
   </programme>
   <programme channel="TVBS歡樂台" start="20261122050000 +0800" stop="20261122060000 +0800">
     <title lang="zh">食尚玩家</title>
@@ -21208,7 +21286,7 @@
     <title lang="zh">百味小廚神：中元大餐(第0003 集)【普】</title>
   </programme>
   <programme channel="台視主頻" start="20261121225800 +0800" stop="20261121235800 +0800">
-    <title lang="zh">益起看世界 (第0028 集)【普】</title>
+    <title lang="zh">益起看世界 (第0445 集)【普】</title>
   </programme>
   <programme channel="台視主頻" start="20261121235800 +0800" stop="20261122005800 +0800">
     <title lang="zh">週日幸福一點通 (第0445 集)【普】</title>
@@ -21229,7 +21307,7 @@
     <title lang="zh">ＡＩ城市新未未 (第0001 集)【普】</title>
   </programme>
   <programme channel="台視主頻" start="20261122032800 +0800" stop="20261122035800 +0800">
-    <title lang="zh">熱線追蹤(第0079 集)【普】</title>
+    <title lang="zh">跟著主播輕旅行 (第0001 集)【普】</title>
   </programme>
   <programme channel="台視主頻" start="20261122035800 +0800" stop="20261122050000 +0800">
     <title lang="zh">午安您好－台視新聞 (第1720 集)【普】</title>
@@ -21244,16 +21322,16 @@
     <title lang="zh">假日寶島西米樂守護 (第0381 集)【普】</title>
   </programme>
   <programme channel="台視主頻" start="20261122090000 +0800" stop="20261122103000 +0800">
-    <title lang="zh">第６３屆金馬獎星光大道 (第0001 集)【普】</title>
+    <title lang="zh">(第0001 集)【普】</title>
   </programme>
   <programme channel="台視主頻" start="20261122103000 +0800" stop="20261122143000 +0800">
-    <title lang="zh">第６３屆金馬獎頒獎典禮 (第0001 集)【普】</title>
+    <title lang="zh">(第0001 集)【普】</title>
   </programme>
   <programme channel="台視主頻" start="20261122143000 +0800" stop="20261122153000 +0800">
-    <title lang="zh">第６３屆金馬獎幕後花絮 (第0001 集)【普】</title>
+    <title lang="zh">(第0001 集)【普】</title>
   </programme>
-  <programme channel="台視主頻" start="20261122153000 +0800" stop="20261122155959 +0800">
-    <title lang="zh">假日第６３屆金馬獎頒獎典禮 (第0001 集)【普】</title>
+  <programme channel="台視主頻" start="20261122153000 +0800" stop="20261122193000 +0800">
+    <title lang="zh">(第0001 集)【普】</title>
   </programme>
   <programme channel="台視新聞台" start="20261119160000 +0800" stop="20261119170000 +0800">
     <title lang="zh">晚安台灣(重) (第3083 集)【普】</title>
@@ -22236,37 +22314,13 @@
   <programme channel="大愛電視" start="20261121063000 +0800" stop="20261121073000 +0800">
     <title lang="zh">大愛迷你劇場_情比姊妹深(普)</title>
   </programme>
-  <programme channel="大愛電視" start="20261121073000 +0800" stop="20261121074500 +0800">
-    <title lang="zh">證嚴上人說故事(普)</title>
+  <programme channel="大愛電視" start="20261121073000 +0800" stop="20261121101000 +0800">
+    <title lang="zh">2026無量義法髓頌經藏演繹(普)</title>
   </programme>
-  <programme channel="大愛電視" start="20261121074500 +0800" stop="20261121080000 +0800">
-    <title lang="zh">證嚴上人說故事(普)</title>
-  </programme>
-  <programme channel="大愛電視" start="20261121080000 +0800" stop="20261121081500 +0800">
-    <title lang="zh">風月同天(普)</title>
-  </programme>
-  <programme channel="大愛電視" start="20261121081500 +0800" stop="20261121082300 +0800">
-    <title lang="zh">365日日素(普)</title>
-  </programme>
-  <programme channel="大愛電視" start="20261121082300 +0800" stop="20261121083000 +0800">
-    <title lang="zh">大愛真健康(普)</title>
-  </programme>
-  <programme channel="大愛電視" start="20261121083000 +0800" stop="20261121090000 +0800">
-    <title lang="zh">映照人生(普)</title>
-  </programme>
-  <programme channel="大愛電視" start="20261121090000 +0800" stop="20261121093000 +0800">
-    <title lang="zh">守護大自然(普)</title>
-  </programme>
-  <programme channel="大愛電視" start="20261121093000 +0800" stop="20261121100000 +0800">
-    <title lang="zh">大愛全紀實(普)</title>
-  </programme>
-  <programme channel="大愛電視" start="20261121100000 +0800" stop="20261121102500 +0800">
+  <programme channel="大愛電視" start="20261121101000 +0800" stop="20261121103500 +0800">
     <title lang="zh">人文講堂(普)</title>
   </programme>
-  <programme channel="大愛電視" start="20261121102500 +0800" stop="20261121103000 +0800">
-    <title lang="zh">365日日素(普)</title>
-  </programme>
-  <programme channel="大愛電視" start="20261121103000 +0800" stop="20261121110000 +0800">
+  <programme channel="大愛電視" start="20261121103500 +0800" stop="20261121110000 +0800">
     <title lang="zh">衲履足跡(普)</title>
   </programme>
   <programme channel="大愛電視" start="20261121110000 +0800" stop="20261121114500 +0800">
@@ -22380,41 +22434,20 @@
   <programme channel="大愛電視" start="20261122040000 +0800" stop="20261122043000 +0800">
     <title lang="zh">大愛午安新聞 LIVE(普)</title>
   </programme>
-  <programme channel="大愛電視" start="20261122043000 +0800" stop="20261122050000 +0800">
+  <programme channel="大愛電視" start="20261122043000 +0800" stop="20261122045900 +0800">
     <title lang="zh">人文講堂(普)</title>
   </programme>
-  <programme channel="大愛電視" start="20261122050000 +0800" stop="20261122053300 +0800">
+  <programme channel="大愛電視" start="20261122045900 +0800" stop="20261122053200 +0800">
     <title lang="zh">大愛全紀實(普)</title>
   </programme>
-  <programme channel="大愛電視" start="20261122053300 +0800" stop="20261122074500 +0800">
+  <programme channel="大愛電視" start="20261122053200 +0800" stop="20261122073500 +0800">
     <title lang="zh">大愛影展(普)</title>
   </programme>
-  <programme channel="大愛電視" start="20261122074500 +0800" stop="20261122080000 +0800">
-    <title lang="zh">證嚴上人說故事(普)</title>
+  <programme channel="大愛電視" start="20261122073500 +0800" stop="20261122101000 +0800">
+    <title lang="zh">2026無量義法髓頌經藏演繹(普)</title>
   </programme>
-  <programme channel="大愛電視" start="20261122080000 +0800" stop="20261122081500 +0800">
-    <title lang="zh">風月同天(普)</title>
-  </programme>
-  <programme channel="大愛電視" start="20261122081500 +0800" stop="20261122083000 +0800">
-    <title lang="zh">365日日素(普)</title>
-  </programme>
-  <programme channel="大愛電視" start="20261122083000 +0800" stop="20261122090000 +0800">
-    <title lang="zh">證嚴上人說法華(普)</title>
-  </programme>
-  <programme channel="大愛電視" start="20261122090000 +0800" stop="20261122092400 +0800">
-    <title lang="zh">守護大自然(普)</title>
-  </programme>
-  <programme channel="大愛電視" start="20261122092400 +0800" stop="20261122093000 +0800">
-    <title lang="zh">大愛真健康(普)</title>
-  </programme>
-  <programme channel="大愛電視" start="20261122093000 +0800" stop="20261122100000 +0800">
-    <title lang="zh">行動現場(普)</title>
-  </programme>
-  <programme channel="大愛電視" start="20261122100000 +0800" stop="20261122105400 +0800">
+  <programme channel="大愛電視" start="20261122101000 +0800" stop="20261122110000 +0800">
     <title lang="zh">青春愛讀書(普)</title>
-  </programme>
-  <programme channel="大愛電視" start="20261122105400 +0800" stop="20261122110000 +0800">
-    <title lang="zh">大愛真健康(普)</title>
   </programme>
   <programme channel="大愛電視" start="20261122110000 +0800" stop="20261122114500 +0800">
     <title lang="zh">大愛夜安新聞 LIVE(普)</title>
@@ -24694,10 +24727,10 @@
     <title lang="zh">民視英語新聞【普】</title>
   </programme>
   <programme channel="民視台灣台" start="20261120140000 +0800" stop="20261120150000 +0800">
-    <title lang="zh">台灣最前線【普】(E2657)</title>
+    <title lang="zh">台灣演義【普】(E800)</title>
   </programme>
   <programme channel="民視台灣台" start="20261120150000 +0800" stop="20261120155959 +0800">
-    <title lang="zh">台灣最前線【普】(E2657)</title>
+    <title lang="zh">民視異言堂【普】(E1405)</title>
   </programme>
   <programme channel="民視台灣台" start="20261120160000 +0800" stop="20261120170000 +0800">
     <title lang="zh">民視國際新聞【普】</title>
@@ -25023,9 +25056,6 @@
   <programme channel="民視影劇台" start="20261122145200 +0800" stop="20261122155959 +0800">
     <title lang="zh">父與子-第138集【普】</title>
   </programme>
-  <programme channel="民視新聞台" start="20261119160000 +0800" stop="20261119170000 +0800">
-    <title lang="zh">民視午夜新聞【普】</title>
-  </programme>
   <programme channel="民視新聞台" start="20261119170000 +0800" stop="20261119173000 +0800">
     <title lang="zh">民視英語新聞【普】</title>
   </programme>
@@ -25083,13 +25113,10 @@
   <programme channel="民視新聞台" start="20261120102500 +0800" stop="20261120115500 +0800">
     <title lang="zh">民視晚間新聞【普】</title>
   </programme>
-  <programme channel="民視新聞台" start="20261120115500 +0800" stop="20261120125500 +0800">
-    <title lang="zh">台灣最前線【普】(E2657)</title>
+  <programme channel="民視新聞台" start="20261120115500 +0800" stop="20261120133000 +0800">
+    <title lang="zh">民視整點新聞【普】</title>
   </programme>
-  <programme channel="民視新聞台" start="20261120125500 +0800" stop="20261120135500 +0800">
-    <title lang="zh">台灣最前線【普】(E2657)</title>
-  </programme>
-  <programme channel="民視新聞台" start="20261120135500 +0800" stop="20261120153000 +0800">
+  <programme channel="民視新聞台" start="20261120133000 +0800" stop="20261120153000 +0800">
     <title lang="zh">台灣向前行【普】(E2150)</title>
   </programme>
   <programme channel="民視新聞台" start="20261120153000 +0800" stop="20261120155959 +0800">
@@ -25107,11 +25134,8 @@
   <programme channel="民視新聞台" start="20261120183000 +0800" stop="20261120193000 +0800">
     <title lang="zh">民視晚間新聞【普】</title>
   </programme>
-  <programme channel="民視新聞台" start="20261120193000 +0800" stop="20261120203000 +0800">
-    <title lang="zh">台灣最前線【普】(E2657)</title>
-  </programme>
-  <programme channel="民視新聞台" start="20261120203000 +0800" stop="20261120213000 +0800">
-    <title lang="zh">台灣最前線【普】(E2657)</title>
+  <programme channel="民視新聞台" start="20261120193000 +0800" stop="20261120213000 +0800">
+    <title lang="zh">台灣向前行【普】(E2150)</title>
   </programme>
   <programme channel="民視新聞台" start="20261120213000 +0800" stop="20261120220000 +0800">
     <title lang="zh">民視五點晨間新聞【普】</title>
@@ -25162,7 +25186,7 @@
     <title lang="zh">民視晚間新聞【普】</title>
   </programme>
   <programme channel="民視新聞台" start="20261121115500 +0800" stop="20261121135500 +0800">
-    <title lang="zh">台灣最前線【普】(E2658)</title>
+    <title lang="zh">台灣最前線【普】(E2657)</title>
   </programme>
   <programme channel="民視新聞台" start="20261121135500 +0800" stop="20261121145500 +0800">
     <title lang="zh">十點不一樣【普】</title>
@@ -25183,7 +25207,7 @@
     <title lang="zh">民視午夜新聞【普】</title>
   </programme>
   <programme channel="民視新聞台" start="20261121200000 +0800" stop="20261121220000 +0800">
-    <title lang="zh">台灣最前線【普】(E2658)</title>
+    <title lang="zh">台灣最前線【普】(E2657)</title>
   </programme>
   <programme channel="民視新聞台" start="20261121220000 +0800" stop="20261121230000 +0800">
     <title lang="zh">民視六點晨間新聞【普】</title>
@@ -25241,9 +25265,6 @@
   </programme>
   <programme channel="民視新聞台" start="20261122150000 +0800" stop="20261122155959 +0800">
     <title lang="zh">民視午夜新聞【普】(E1736)</title>
-  </programme>
-  <programme channel="民視無線台" start="20261119160000 +0800" stop="20261119173000 +0800">
-    <title lang="zh">豆腐媽媽【普】(E237)</title>
   </programme>
   <programme channel="民視無線台" start="20261119173000 +0800" stop="20261119180000 +0800">
     <title lang="zh">元氣加油站【普】(E3016)</title>
@@ -25414,7 +25435,7 @@
     <title lang="zh">健康最前線【普】(E1)</title>
   </programme>
   <programme channel="民視無線台" start="20261121073000 +0800" stop="20261121080000 +0800">
-    <title lang="zh">生命醫視界【普】(E2)</title>
+    <title lang="zh">生命醫視界【普】(E1)</title>
   </programme>
   <programme channel="民視無線台" start="20261121080000 +0800" stop="20261121100000 +0800">
     <title lang="zh">豆腐媽媽【普】(E92)</title>
@@ -25501,7 +25522,7 @@
     <title lang="zh">健康最前線【普】(E1)</title>
   </programme>
   <programme channel="民視無線台" start="20261122073000 +0800" stop="20261122080000 +0800">
-    <title lang="zh">生命醫視界【普】(E2)</title>
+    <title lang="zh">生命醫視界【普】(E1)</title>
   </programme>
   <programme channel="民視無線台" start="20261122080000 +0800" stop="20261122093000 +0800">
     <title lang="zh">豆腐媽媽【普】(E93)</title>
@@ -27141,22 +27162,22 @@
   <programme channel="華視主頻" start="20261121140000 +0800" stop="20261121155959 +0800">
     <title lang="zh">天才衝衝衝</title>
   </programme>
-  <programme channel="華視主頻" start="20261121160000 +0800" stop="20261121161000 +0800">
+  <programme channel="華視主頻" start="20261121160000 +0800" stop="20261121161500 +0800">
     <title lang="zh">天才衝衝衝</title>
   </programme>
-  <programme channel="華視主頻" start="20261121161000 +0800" stop="20261121170000 +0800">
+  <programme channel="華視主頻" start="20261121161500 +0800" stop="20261121170000 +0800">
     <title lang="zh">華視2400夜間新聞</title>
   </programme>
   <programme channel="華視主頻" start="20261121170000 +0800" stop="20261121180000 +0800">
     <title lang="zh">華視夜間新聞</title>
   </programme>
-  <programme channel="華視主頻" start="20261121180000 +0800" stop="20261121181000 +0800">
+  <programme channel="華視主頻" start="20261121180000 +0800" stop="20261121181500 +0800">
     <title lang="zh">華視2400夜間新聞</title>
   </programme>
-  <programme channel="華視主頻" start="20261121181000 +0800" stop="20261121201000 +0800">
+  <programme channel="華視主頻" start="20261121181500 +0800" stop="20261121201500 +0800">
     <title lang="zh">天才衝衝衝</title>
   </programme>
-  <programme channel="華視主頻" start="20261121201000 +0800" stop="20261121210000 +0800">
+  <programme channel="華視主頻" start="20261121201500 +0800" stop="20261121210000 +0800">
     <title lang="zh">咱的城咱的市咱台灣的味</title>
   </programme>
   <programme channel="華視主頻" start="20261121210000 +0800" stop="20261121230000 +0800">
@@ -27209,9 +27230,6 @@
   </programme>
   <programme channel="華視主頻" start="20261122150000 +0800" stop="20261122155959 +0800">
     <title lang="zh">華視夜間新聞</title>
-  </programme>
-  <programme channel="華視新聞資訊台" start="20261119160000 +0800" stop="20261119170000 +0800">
-    <title lang="zh">華視2400夜間新聞</title>
   </programme>
   <programme channel="華視新聞資訊台" start="20261119170000 +0800" stop="20261119180000 +0800">
     <title lang="zh">World News 9</title>
@@ -28773,14 +28791,17 @@
   <programme channel="鏡電視新聞台" start="20261120180000 +0800" stop="20261120183000 +0800">
     <title lang="zh">台語新聞手語(20)(普)</title>
   </programme>
-  <programme channel="鏡電視新聞台" start="20261120183000 +0800" stop="20261120193000 +0800">
-    <title lang="zh">新聞鏡現場(20)(普)</title>
+  <programme channel="鏡電視新聞台" start="20261120183000 +0800" stop="20261120190000 +0800">
+    <title lang="zh">少年新聞週記(239)(普)</title>
   </programme>
-  <programme channel="鏡電視新聞台" start="20261120193000 +0800" stop="20261120200000 +0800">
+  <programme channel="鏡電視新聞台" start="20261120190000 +0800" stop="20261120193000 +0800">
     <title lang="zh">台語新聞手語(20)(普)</title>
   </programme>
-  <programme channel="鏡電視新聞台" start="20261120200000 +0800" stop="20261120203000 +0800">
+  <programme channel="鏡電視新聞台" start="20261120193000 +0800" stop="20261120200000 +0800">
     <title lang="zh">另一種注目(43)(護)</title>
+  </programme>
+  <programme channel="鏡電視新聞台" start="20261120200000 +0800" stop="20261120203000 +0800">
+    <title lang="zh">台語新聞手語(20)(普)</title>
   </programme>
   <programme channel="鏡電視新聞台" start="20261120203000 +0800" stop="20261120210000 +0800">
     <title lang="zh">文藝賦格(45)(普)</title>
@@ -28812,11 +28833,8 @@
   <programme channel="鏡電視新聞台" start="20261121060000 +0800" stop="20261121080000 +0800">
     <title lang="zh">大選鏡來講(21)(普)</title>
   </programme>
-  <programme channel="鏡電視新聞台" start="20261121080000 +0800" stop="20261121083000 +0800">
-    <title lang="zh">少年新聞週記(239)(普)</title>
-  </programme>
-  <programme channel="鏡電視新聞台" start="20261121083000 +0800" stop="20261121090000 +0800">
-    <title lang="zh">台語新聞(2)(普)</title>
+  <programme channel="鏡電視新聞台" start="20261121080000 +0800" stop="20261121090000 +0800">
+    <title lang="zh">1600整點新聞(21)(普)</title>
   </programme>
   <programme channel="鏡電視新聞台" start="20261121090000 +0800" stop="20261121100000 +0800">
     <title lang="zh">1700整點新聞(21)(普)</title>
@@ -28842,14 +28860,17 @@
   <programme channel="鏡電視新聞台" start="20261121180000 +0800" stop="20261121183000 +0800">
     <title lang="zh">台語新聞(2)(普)</title>
   </programme>
-  <programme channel="鏡電視新聞台" start="20261121183000 +0800" stop="20261121193000 +0800">
-    <title lang="zh">財富新鏡界(92)(普)</title>
+  <programme channel="鏡電視新聞台" start="20261121183000 +0800" stop="20261121190000 +0800">
+    <title lang="zh">少年新聞週記(239)(普)</title>
   </programme>
-  <programme channel="鏡電視新聞台" start="20261121193000 +0800" stop="20261121200000 +0800">
+  <programme channel="鏡電視新聞台" start="20261121190000 +0800" stop="20261121193000 +0800">
     <title lang="zh">台語新聞(2)(普)</title>
   </programme>
-  <programme channel="鏡電視新聞台" start="20261121200000 +0800" stop="20261121203000 +0800">
+  <programme channel="鏡電視新聞台" start="20261121193000 +0800" stop="20261121200000 +0800">
     <title lang="zh">另一種注目(44)(護)</title>
+  </programme>
+  <programme channel="鏡電視新聞台" start="20261121200000 +0800" stop="20261121203000 +0800">
+    <title lang="zh">台語新聞(2)(普)</title>
   </programme>
   <programme channel="鏡電視新聞台" start="20261121203000 +0800" stop="20261121210000 +0800">
     <title lang="zh">風味轉身(13)(普)</title>
@@ -28870,7 +28891,7 @@
     <title lang="zh">0900整點新聞(22)(普)</title>
   </programme>
   <programme channel="鏡電視新聞台" start="20261122020000 +0800" stop="20261122030000 +0800">
-    <title lang="zh">鏡新聞調查報告(197)(普)</title>
+    <title lang="zh">1000整點新聞(22)(普)</title>
   </programme>
   <programme channel="鏡電視新聞台" start="20261122030000 +0800" stop="20261122035500 +0800">
     <title lang="zh">1100整點新聞(22)(普)</title>
@@ -28881,11 +28902,8 @@
   <programme channel="鏡電視新聞台" start="20261122060000 +0800" stop="20261122080000 +0800">
     <title lang="zh">大選鏡來講(22)(普)</title>
   </programme>
-  <programme channel="鏡電視新聞台" start="20261122080000 +0800" stop="20261122083000 +0800">
-    <title lang="zh">少年新聞週記(239)(普)</title>
-  </programme>
-  <programme channel="鏡電視新聞台" start="20261122083000 +0800" stop="20261122090000 +0800">
-    <title lang="zh">台語新聞(2)(普)</title>
+  <programme channel="鏡電視新聞台" start="20261122080000 +0800" stop="20261122090000 +0800">
+    <title lang="zh">1600整點新聞(22)(普)</title>
   </programme>
   <programme channel="鏡電視新聞台" start="20261122090000 +0800" stop="20261122100000 +0800">
     <title lang="zh">1700整點新聞(22)(普)</title>
@@ -28897,13 +28915,10 @@
     <title lang="zh">有話鏡來講(22)(普)</title>
   </programme>
   <programme channel="鏡電視新聞台" start="20261122140000 +0800" stop="20261122150000 +0800">
+    <title lang="zh">2200整點新聞(22)(普)</title>
+  </programme>
+  <programme channel="鏡電視新聞台" start="20261122150000 +0800" stop="20261122160000 +0800">
     <title lang="zh">財富新鏡界(93)(普)</title>
-  </programme>
-  <programme channel="鏡電視新聞台" start="20261122150000 +0800" stop="20261122153000 +0800">
-    <title lang="zh">裴社長吃喝玩樂(3)(普)</title>
-  </programme>
-  <programme channel="鏡電視新聞台" start="20261122153000 +0800" stop="20261122160000 +0800">
-    <title lang="zh">裴社長吃喝玩樂(9)(普)</title>
   </programme>
   <programme channel="電影原聲台CMusic" start="20261119160000 +0800" stop="20261119160200 +0800">
     <title lang="zh">Scarlatti: Sonata D minor, K.32 (for clarinet &amp; double bass)(普)</title>
