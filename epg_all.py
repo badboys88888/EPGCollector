@@ -63,7 +63,10 @@ ENABLE = {
     "bein": True,
     "beinsports": True,
     "mncvision": True,
-    "starhub": True,
+    # starhub 默认关：它的 API 域名 waf-starhub-metadata-api-p001.ifs.vubiquity.com
+    # 已解析不到（NXDOMAIN，2026-11-22 查），接口已下线，跑了也是失败跳过。
+    # 找到新接口再改回 True。
+    "starhub": False,
     "ntdtv": True,
     "epg_script": True,
 }
@@ -731,13 +734,16 @@ def hami_fmt(ts):
 
 
 def grab_hami(days):
-    """返回 (ET根节点, 频道数, 节目数)。"""
+    """返回 (ET根节点, 频道数, 节目数)。
+    138 个台 × days 天 = 几百个 POST，顺序跑要十几分钟还看不到进度，
+    改成 8 线程并行 + 每完成 20 个打一条进度。"""
+    from concurrent.futures import ThreadPoolExecutor, as_completed
     channels = hami_load_channels()
     log(f"[hami] 频道数量: {len(channels)}")
     if not channels:
         raise RuntimeError("config 为空")
     today = datetime.now()
-    all_programs = []
+    jobs = []
     for ch in channels:
         cid = ch.get("id")
         name = ch.get("name")
@@ -745,9 +751,24 @@ def grab_hami(days):
             continue
         for d in range(days):
             date_str = (today + timedelta(days=d)).strftime("%Y-%m-%d")
-            data = hami_fetch_epg(cid, date_str)
-            parsed = hami_parse_epg(data, name)
-            all_programs.extend(parsed)
+            jobs.append((cid, name, date_str))
+    total = len(jobs)
+    log(f"[hami] 共 {total} 个请求，8 线程并行")
+    all_programs = []
+    done = 0
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        futs = {ex.submit(hami_fetch_epg, cid, ds): (cid, nm) for cid, nm, ds in jobs}
+        for fut in as_completed(futs):
+            cid, nm = futs[fut]
+            try:
+                data = fut.result()
+            except Exception as e:
+                log(f"[hami] {cid} 请求失败：{e}")
+                data = []
+            all_programs.extend(hami_parse_epg(data, nm))
+            done += 1
+            if done % 50 == 0 or done == total:
+                log(f"[hami] 进度 {done}/{total}")
     if not all_programs:
         raise RuntimeError("EPG为空（API限制 / 参数错误 / IP被挡）")
     tv = ET.Element("tv")
@@ -1695,7 +1716,18 @@ MNCVISION_HEADERS = {
 
 def mncvision_fetch_channels():
     log("[mncvision] 获取频道列表...")
-    res = requests.get(MNCVISION_BASE_URL, headers=MNCVISION_HEADERS, timeout=20)
+    # 网站首字节就慢（实测 1.2 秒以上），GitHub 跑时 20 秒超时过，
+    # 超时放宽到 60 秒，失败重试一次。
+    last_err = None
+    for attempt in range(2):
+        try:
+            res = requests.get(MNCVISION_BASE_URL, headers=MNCVISION_HEADERS, timeout=60)
+            break
+        except requests.exceptions.Timeout as e:
+            last_err = e
+            log(f"[mncvision] 频道列表超时，重试 {attempt + 1}/2")
+    else:
+        raise last_err
     log(f"[mncvision] 状态码: {res.status_code}")
     res.raise_for_status()
     matches = re.findall(r'<option value="([^"]+)">([^<]+)</option>', res.text)
@@ -1715,7 +1747,7 @@ def mncvision_fetch_schedule(channel_value, date):
         "fchannel": channel_value,
         "submit": "Cari",
     }
-    res = requests.post(MNCVISION_BASE_URL, headers=MNCVISION_HEADERS, data=data, timeout=20)
+    res = requests.post(MNCVISION_BASE_URL, headers=MNCVISION_HEADERS, data=data, timeout=60)
     log(f"[mncvision] {channel_value} -> {res.status_code}")
     res.raise_for_status()
     times = re.findall(r'<td class="text-center">(.*?)</td>', res.text)
