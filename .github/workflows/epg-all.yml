@@ -5,7 +5,7 @@ name: EPG 抓取（单文件版）
 # 输出 epg.xml.gz + channels.json。旧的分平台任务可以删了。
 on:
   schedule:
-    - cron: "0 */6 * * *"   # 每 6 小时跑一次
+    - cron: "0 3 * * *"     # 每天跑一次，北京时间 11:00
   workflow_dispatch:        # 手动也能跑
 
 jobs:
