@@ -151,9 +151,9 @@
   },
   "ZOO": {
     "epgid": "ZOO",
-    "name": "ZooMoo",
+    "name": "ZooMoo,Zoomoo",
     "logo": "https://assets.mytvsuper.com/channel/1780885287854827_ZOO.webp",
-    "source": "HK"
+    "source": "HK,ID"
   },
   "SEVK": {
     "epgid": "SEVK",
@@ -165,7 +165,7 @@
     "epgid": "3385",
     "name": "Nickelodeon",
     "logo": "https://assets.mytvsuper.com/channel/1780885297991536_CNIKO.webp",
-    "source": "HK"
+    "source": "HK,ID"
   },
   "412136": {
     "epgid": "412136",
@@ -189,7 +189,7 @@
     "epgid": "CTHR",
     "name": "Thrill",
     "logo": "https://assets.mytvsuper.com/channel/1780885362039682_CTHR.webp",
-    "source": "HK"
+    "source": "HK,ID"
   },
   "CCCM": {
     "epgid": "CCCM",
@@ -205,9 +205,9 @@
   },
   "370239": {
     "epgid": "370239",
-    "name": "ROCK Action",
+    "name": "ROCK Action,Rock Action",
     "logo": "https://assets.mytvsuper.com/channel/1780885393244598_CRTX.webp",
-    "source": "HK,TW"
+    "source": "HK,ID,TW"
   },
   "POPC": {
     "epgid": "POPC",
@@ -237,7 +237,7 @@
     "epgid": "CKIX",
     "name": "KIX",
     "logo": "https://assets.mytvsuper.com/channel/1780885411761930_CKIX.webp",
-    "source": "HK"
+    "source": "HK,ID"
   },
   "370207": {
     "epgid": "370207",
@@ -267,13 +267,13 @@
     "epgid": "370219",
     "name": "Love Nature,LOVE NATURE,Love Nature 4K,Love Nature HD",
     "logo": "https://assets.mytvsuper.com/channel/1780885450723823_LNH.webp",
-    "source": "HK,TW"
+    "source": "HK,ID,TW"
   },
   "370153": {
     "epgid": "370153",
-    "name": "Global Trekker",
+    "name": "Global Trekker,Global Trekker HD",
     "logo": "https://assets.mytvsuper.com/channel/1780885468557406_SMS.webp",
-    "source": "HK,TW"
+    "source": "HK,ID,TW"
   },
   "434391": {
     "epgid": "434391",
@@ -315,7 +315,7 @@
     "epgid": "456661",
     "name": "tvN,tvN HD",
     "logo": "https://assets.mytvsuper.com/channel/1780885602934726_CJTV.webp",
-    "source": "HK,SG,TW"
+    "source": "HK,ID,SG,TW"
   },
   "CTS1": {
     "epgid": "CTS1",
@@ -681,7 +681,7 @@
     "epgid": "3575",
     "name": "HITS Movies,HITS MOVIES,HITS MOVIES HD",
     "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch119_170_122",
-    "source": "HK,SG"
+    "source": "HK,ID,SG"
   },
   "410285": {
     "epgid": "410285",
@@ -699,7 +699,7 @@
     "epgid": "456598",
     "name": "Animax,Animax HD",
     "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch150_170_122",
-    "source": "HK,SG"
+    "source": "HK,ID,SG"
   },
   "1889": {
     "epgid": "1889",
@@ -759,7 +759,7 @@
     "epgid": "456518",
     "name": "BBC Earth,BBC Earth HD,BBCEarth",
     "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch220_170_122",
-    "source": "HK,SG,TW"
+    "source": "HK,ID,SG,TW"
   },
   "410302": {
     "epgid": "410302",
@@ -777,7 +777,7 @@
     "epgid": "1477",
     "name": "东风卫视,HISTORY,HISTORY HD,History",
     "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch223_170_122",
-    "source": "HK,SG,TW"
+    "source": "HK,ID,SG,TW"
   },
   "456502": {
     "epgid": "456502",
@@ -789,7 +789,7 @@
     "epgid": "412151",
     "name": "CNBC,CNBC HD",
     "logo": "https://images.now-tv.com/shares/channelPreview/img/zh_tw/color/ch319_170_122",
-    "source": "HK,SG"
+    "source": "HK,ID,SG"
   },
   "456641": {
     "epgid": "456641",
@@ -829,9 +829,9 @@
   },
   "457351": {
     "epgid": "457351",
-    "name": "Euronews,Euro News,Euronews HD,euronews",
+    "name": "Euronews,EURONEWS,Euro News,Euronews HD,euronews",
     "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch326_170_122",
-    "source": "HK,SG"
+    "source": "HK,ID,SG"
   },
   "410316": {
     "epgid": "410316",
@@ -843,7 +843,7 @@
     "epgid": "3906",
     "name": "CGTN",
     "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch330_170_122",
-    "source": "HK,SG"
+    "source": "HK,ID,SG"
   },
   "410343": {
     "epgid": "410343",
@@ -885,13 +885,13 @@
     "epgid": "456823",
     "name": "CBeebies,CBeebies HD",
     "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch447_170_122",
-    "source": "HK,SG,TW"
+    "source": "HK,ID,SG,TW"
   },
   "457231": {
     "epgid": "457231",
     "name": "Nick Jr.,Nick Jr. HD",
     "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch449_170_122",
-    "source": "HK,SG,TW"
+    "source": "HK,ID,SG,TW"
   },
   "456581": {
     "epgid": "456581",
@@ -903,19 +903,19 @@
     "epgid": "456569",
     "name": "AXN,AXN HD",
     "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch512_170_122",
-    "source": "HK,SG"
+    "source": "HK,ID,SG"
   },
   "456663": {
     "epgid": "456663",
     "name": "HITS,HITS HD",
     "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch513_170_122",
-    "source": "HK,SG"
+    "source": "HK,ID,SG"
   },
   "370192": {
     "epgid": "370192",
-    "name": "ROCK Entertainment,ROCK Entertainment HD",
+    "name": "ROCK Entertainment,ROCK Entertainment HD,Rock Entertainment",
     "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch517_170_122",
-    "source": "HK,SG,TW"
+    "source": "HK,ID,SG,TW"
   },
   "410369": {
     "epgid": "410369",
@@ -993,7 +993,7 @@
     "epgid": "4130",
     "name": "ABC Australia",
     "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch561_170_122",
-    "source": "HK"
+    "source": "HK,ID"
   },
   "410384": {
     "epgid": "410384",
@@ -1111,15 +1111,15 @@
   },
   "399482": {
     "epgid": "399482",
-    "name": "beIN SPORTS 1",
+    "name": "beIN SPORTS 1,beIN Sports 1,beIN Sports 1 HD",
     "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch638_170_122",
-    "source": "HK"
+    "source": "HK,ID"
   },
   "4146": {
     "epgid": "4146",
-    "name": "beIN Sports 2,beIN SPORTS 2,beIN SPORTS 2 HD",
+    "name": "beIN Sports 2,beIN SPORTS 2,beIN SPORTS 2 HD,beIN Sports 2 HD",
     "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch639_170_122",
-    "source": "HK,SG"
+    "source": "HK,ID,SG"
   },
   "曼联电视频道": {
     "epgid": "曼联电视频道",
@@ -1141,21 +1141,21 @@
   },
   "3118": {
     "epgid": "3118",
-    "name": "beIN Sports 3,beIN SPORTS 3,beIN SPORTS 3 HD",
+    "name": "beIN Sports 3,beIN SPORTS 3,beIN SPORTS 3 HD,beIN Sports 3 HD",
     "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch643_170_122",
-    "source": "HK,SG"
+    "source": "HK,ID,SG"
   },
   "492708": {
     "epgid": "492708",
     "name": "beIN SPORTS 4,beIN SPORTS 4 HD",
     "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch644_170_122",
-    "source": "HK,SG"
+    "source": "HK,ID,SG"
   },
   "492707": {
     "epgid": "492707",
     "name": "beIN SPORTS 5,beIN SPORTS 5 HD",
     "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch645_170_122",
-    "source": "HK,SG"
+    "source": "HK,ID,SG"
   },
   "410411": {
     "epgid": "410411",
@@ -1215,7 +1215,7 @@
     "epgid": "3929",
     "name": "NHK World Premium",
     "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch711_170_122",
-    "source": "HK"
+    "source": "HK,ID"
   },
   "420138": {
     "epgid": "420138",
@@ -1365,7 +1365,7 @@
     "epgid": "456666",
     "name": "Lifetime,Lifetime HD",
     "logo": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9616352'&EntityType='Item'&EntityId='571921'&Width=1920&Height=1080",
-    "source": "SG,TW"
+    "source": "ID,SG,TW"
   },
   "370245": {
     "epgid": "370245",
@@ -1375,9 +1375,9 @@
   },
   "456651": {
     "epgid": "456651",
-    "name": "DREAMWORKS,DreamWorks,DreamWorks HD",
+    "name": "DREAMWORKS,DreamWorks,DreamWorks HD,Dreamworks,Dreamworks HD",
     "logo": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9524850'&EntityType='Item'&EntityId='569526'&Width=1920&Height=1080",
-    "source": "SG,TW"
+    "source": "ID,SG,TW"
   },
   "370149": {
     "epgid": "370149",
@@ -2087,12 +2087,6 @@
     "logo": "https://storage.hoy.tv/v1/image/channel/3.jpg",
     "source": "HK"
   },
-  "4": {
-    "epgid": "4",
-    "name": "CCTV4,第73屆澳門格蘭披治大賽車 - 第4天 (英文評述) (早上7:50)",
-    "logo": "https://storage.hoy.tv/v1/image/channel/7.jpg",
-    "source": "HK"
-  },
   "492816": {
     "epgid": "492816",
     "name": "Channel 5",
@@ -2277,13 +2271,13 @@
     "epgid": "369819",
     "name": "CCM",
     "logo": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9619411'&EntityType='Item'&EntityId='572051'&Width=1920&Height=1080",
-    "source": "SG"
+    "source": "ID,SG"
   },
   "1298": {
     "epgid": "1298",
     "name": "Celestial Movies,Celestial Movies HD",
     "logo": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9619402'&EntityType='Item'&EntityId='572048'&Width=1920&Height=1080",
-    "source": "SG"
+    "source": "ID,SG"
   },
   "412186": {
     "epgid": "412186",
@@ -2341,9 +2335,9 @@
   },
   "412165": {
     "epgid": "412165",
-    "name": "FIGHT SPORTS,FIGHT SPORTS HD",
+    "name": "FIGHT SPORTS,FIGHT SPORTS HD,Fight Sports",
     "logo": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9488745'&EntityType='Item'&EntityId='567122'&Width=1920&Height=1080",
-    "source": "SG"
+    "source": "ID,SG"
   },
   "369713": {
     "epgid": "369713",
@@ -2503,15 +2497,15 @@
   },
   "412181": {
     "epgid": "412181",
-    "name": "SPOTV",
+    "name": "SPOTV,SPOTV HD",
     "logo": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624317'&EntityType='Item'&EntityId='572374'&Width=1920&Height=1080",
-    "source": "SG"
+    "source": "ID,SG"
   },
   "412187": {
     "epgid": "412187",
-    "name": "SPOTV2",
+    "name": "SPOTV2,SPOTV 2,SPOTV 2 HD",
     "logo": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624326'&EntityType='Item'&EntityId='572375'&Width=1920&Height=1080",
-    "source": "SG"
+    "source": "ID,SG"
   },
   "3835": {
     "epgid": "3835",
@@ -2847,7 +2841,7 @@
     "epgid": "457348",
     "name": "Bloomberg",
     "logo": "https://www.bein.com/en/wp-content/uploads/sites/3/2020/06/Bloomberg-1.png",
-    "source": "HK"
+    "source": "HK,ID"
   },
   "nat_geo": {
     "epgid": "nat_geo",
@@ -3154,6 +3148,510 @@
     "name": "BEINSSC",
     "logo": "https://prod-media.beinsports.com/image/498f84ba449942229231dcfbbee14ea1.png",
     "source": "HK"
+  },
+  "3416": {
+    "epgid": "3416",
+    "name": "Al Jazeera English",
+    "logo": "",
+    "source": "ID"
+  },
+  "Al Quran Al Kareem": {
+    "epgid": "Al Quran Al Kareem",
+    "name": "Al Quran Al Kareem",
+    "logo": "",
+    "source": "ID"
+  },
+  "ANTV": {
+    "epgid": "ANTV",
+    "name": "ANTV",
+    "logo": "",
+    "source": "ID"
+  },
+  "Arirang": {
+    "epgid": "Arirang",
+    "name": "Arirang",
+    "logo": "",
+    "source": "ID"
+  },
+  "412098": {
+    "epgid": "412098",
+    "name": "BBC World News",
+    "logo": "",
+    "source": "ID"
+  },
+  "BTV": {
+    "epgid": "BTV",
+    "name": "BTV",
+    "logo": "",
+    "source": "ID"
+  },
+  "BUDDY STARS": {
+    "epgid": "BUDDY STARS",
+    "name": "BUDDY STARS",
+    "logo": "",
+    "source": "ID"
+  },
+  "BUDDY STARS HD": {
+    "epgid": "BUDDY STARS HD",
+    "name": "BUDDY STARS HD",
+    "logo": "",
+    "source": "ID"
+  },
+  "Celebrities TV": {
+    "epgid": "Celebrities TV",
+    "name": "Celebrities TV",
+    "logo": "",
+    "source": "ID"
+  },
+  "461591": {
+    "epgid": "461591",
+    "name": "CGTN Documentary",
+    "logo": "",
+    "source": "ID"
+  },
+  "456649": {
+    "epgid": "456649",
+    "name": "Channel NewsAsia,Channel News Asia",
+    "logo": "",
+    "source": "ID"
+  },
+  "CINEEDGE": {
+    "epgid": "CINEEDGE",
+    "name": "CINEEDGE",
+    "logo": "",
+    "source": "ID"
+  },
+  "CINEEDGE HD": {
+    "epgid": "CINEEDGE HD",
+    "name": "CINEEDGE HD",
+    "logo": "",
+    "source": "ID"
+  },
+  "Crime Investigation": {
+    "epgid": "Crime Investigation",
+    "name": "Crime Investigation",
+    "logo": "",
+    "source": "ID"
+  },
+  "2756": {
+    "epgid": "2756",
+    "name": "DW English",
+    "logo": "",
+    "source": "ID"
+  },
+  "Entertainment": {
+    "epgid": "Entertainment",
+    "name": "Entertainment",
+    "logo": "",
+    "source": "ID"
+  },
+  "FOOD TRAVEL": {
+    "epgid": "FOOD TRAVEL",
+    "name": "FOOD TRAVEL",
+    "logo": "",
+    "source": "ID"
+  },
+  "Food Travel HD": {
+    "epgid": "Food Travel HD",
+    "name": "Food Travel HD",
+    "logo": "",
+    "source": "ID"
+  },
+  "FOX News": {
+    "epgid": "FOX News",
+    "name": "FOX News",
+    "logo": "",
+    "source": "ID"
+  },
+  "France 24 English": {
+    "epgid": "France 24 English",
+    "name": "France 24 English",
+    "logo": "",
+    "source": "ID"
+  },
+  "Galaxy": {
+    "epgid": "Galaxy",
+    "name": "Galaxy",
+    "logo": "",
+    "source": "ID"
+  },
+  "Galaxy Premium": {
+    "epgid": "Galaxy Premium",
+    "name": "Galaxy Premium",
+    "logo": "",
+    "source": "ID"
+  },
+  "GTV": {
+    "epgid": "GTV",
+    "name": "GTV",
+    "logo": "",
+    "source": "ID"
+  },
+  "GTV HD": {
+    "epgid": "GTV HD",
+    "name": "GTV HD",
+    "logo": "",
+    "source": "ID"
+  },
+  "Hanacaraka TV": {
+    "epgid": "Hanacaraka TV",
+    "name": "Hanacaraka TV",
+    "logo": "",
+    "source": "ID"
+  },
+  "IDX": {
+    "epgid": "IDX",
+    "name": "IDX",
+    "logo": "",
+    "source": "ID"
+  },
+  "IDX HD": {
+    "epgid": "IDX HD",
+    "name": "IDX HD",
+    "logo": "",
+    "source": "ID"
+  },
+  "IMC": {
+    "epgid": "IMC",
+    "name": "IMC",
+    "logo": "",
+    "source": "ID"
+  },
+  "Indosiar": {
+    "epgid": "Indosiar",
+    "name": "Indosiar",
+    "logo": "",
+    "source": "ID"
+  },
+  "Indosiar HD": {
+    "epgid": "Indosiar HD",
+    "name": "Indosiar HD",
+    "logo": "",
+    "source": "ID"
+  },
+  "iNews": {
+    "epgid": "iNews",
+    "name": "iNews",
+    "logo": "",
+    "source": "ID"
+  },
+  "iNews HD": {
+    "epgid": "iNews HD",
+    "name": "iNews HD",
+    "logo": "",
+    "source": "ID"
+  },
+  "JAKTV": {
+    "epgid": "JAKTV",
+    "name": "JAKTV",
+    "logo": "",
+    "source": "ID"
+  },
+  "Kids TV": {
+    "epgid": "Kids TV",
+    "name": "Kids TV",
+    "logo": "",
+    "source": "ID"
+  },
+  "Kids TV HD": {
+    "epgid": "Kids TV HD",
+    "name": "Kids TV HD",
+    "logo": "",
+    "source": "ID"
+  },
+  "Kompas TV": {
+    "epgid": "Kompas TV",
+    "name": "Kompas TV",
+    "logo": "",
+    "source": "ID"
+  },
+  "LIFE": {
+    "epgid": "LIFE",
+    "name": "LIFE",
+    "logo": "",
+    "source": "ID"
+  },
+  "MDTV": {
+    "epgid": "MDTV",
+    "name": "MDTV",
+    "logo": "",
+    "source": "ID"
+  },
+  "Metro TV": {
+    "epgid": "Metro TV",
+    "name": "Metro TV",
+    "logo": "",
+    "source": "ID"
+  },
+  "MNCTV": {
+    "epgid": "MNCTV",
+    "name": "MNCTV",
+    "logo": "",
+    "source": "ID"
+  },
+  "MNCTV HD": {
+    "epgid": "MNCTV HD",
+    "name": "MNCTV HD",
+    "logo": "",
+    "source": "ID"
+  },
+  "4136": {
+    "epgid": "4136",
+    "name": "Moonbug",
+    "logo": "",
+    "source": "ID"
+  },
+  "Music TV": {
+    "epgid": "Music TV",
+    "name": "Music TV",
+    "logo": "",
+    "source": "ID"
+  },
+  "Music TV HD": {
+    "epgid": "Music TV HD",
+    "name": "Music TV HD",
+    "logo": "",
+    "source": "ID"
+  },
+  "Muslim TV": {
+    "epgid": "Muslim TV",
+    "name": "Muslim TV",
+    "logo": "",
+    "source": "ID"
+  },
+  "157": {
+    "epgid": "157",
+    "name": "NHKWorld,NHK World",
+    "logo": "",
+    "source": "ID"
+  },
+  "Nickelodeon Jr": {
+    "epgid": "Nickelodeon Jr",
+    "name": "Nickelodeon Jr",
+    "logo": "",
+    "source": "ID"
+  },
+  "1242": {
+    "epgid": "1242",
+    "name": "ONE,ONE HD",
+    "logo": "",
+    "source": "ID"
+  },
+  "ORIGINALS": {
+    "epgid": "ORIGINALS",
+    "name": "ORIGINALS",
+    "logo": "",
+    "source": "ID"
+  },
+  "ORIGINALS HD": {
+    "epgid": "ORIGINALS HD",
+    "name": "ORIGINALS HD",
+    "logo": "",
+    "source": "ID"
+  },
+  "Outdoor Channel": {
+    "epgid": "Outdoor Channel",
+    "name": "Outdoor Channel",
+    "logo": "",
+    "source": "ID"
+  },
+  "Outdoor channel HD": {
+    "epgid": "Outdoor channel HD",
+    "name": "Outdoor channel HD",
+    "logo": "",
+    "source": "ID"
+  },
+  "RCTI": {
+    "epgid": "RCTI",
+    "name": "RCTI",
+    "logo": "",
+    "source": "ID"
+  },
+  "RCTI HD": {
+    "epgid": "RCTI HD",
+    "name": "RCTI HD",
+    "logo": "",
+    "source": "ID"
+  },
+  "SCTV": {
+    "epgid": "SCTV",
+    "name": "SCTV",
+    "logo": "",
+    "source": "ID"
+  },
+  "SCTV HD": {
+    "epgid": "SCTV HD",
+    "name": "SCTV HD",
+    "logo": "",
+    "source": "ID"
+  },
+  "536366": {
+    "epgid": "536366",
+    "name": "SEA Today,SEA TODAY",
+    "logo": "",
+    "source": "ID"
+  },
+  "Sindo News TV": {
+    "epgid": "Sindo News TV",
+    "name": "Sindo News TV",
+    "logo": "",
+    "source": "ID"
+  },
+  "Sindo News TV HD": {
+    "epgid": "Sindo News TV HD",
+    "name": "Sindo News TV HD",
+    "logo": "",
+    "source": "ID"
+  },
+  "Soccer Channel": {
+    "epgid": "Soccer Channel",
+    "name": "Soccer Channel",
+    "logo": "",
+    "source": "ID"
+  },
+  "Soccer Channel HD": {
+    "epgid": "Soccer Channel HD",
+    "name": "Soccer Channel HD",
+    "logo": "",
+    "source": "ID"
+  },
+  "Sportstars": {
+    "epgid": "Sportstars",
+    "name": "Sportstars",
+    "logo": "",
+    "source": "ID"
+  },
+  "Sportstars 2": {
+    "epgid": "Sportstars 2",
+    "name": "Sportstars 2",
+    "logo": "",
+    "source": "ID"
+  },
+  "Sportstars 2 HD": {
+    "epgid": "Sportstars 2 HD",
+    "name": "Sportstars 2 HD",
+    "logo": "",
+    "source": "ID"
+  },
+  "Sportstars 3": {
+    "epgid": "Sportstars 3",
+    "name": "Sportstars 3",
+    "logo": "",
+    "source": "ID"
+  },
+  "sportstars 3 HD": {
+    "epgid": "sportstars 3 HD",
+    "name": "sportstars 3 HD",
+    "logo": "",
+    "source": "ID"
+  },
+  "Sportstars 4": {
+    "epgid": "Sportstars 4",
+    "name": "Sportstars 4",
+    "logo": "",
+    "source": "ID"
+  },
+  "Sportstars 4 HD": {
+    "epgid": "Sportstars 4 HD",
+    "name": "Sportstars 4 HD",
+    "logo": "",
+    "source": "ID"
+  },
+  "Sportstars HD": {
+    "epgid": "Sportstars HD",
+    "name": "Sportstars HD",
+    "logo": "",
+    "source": "ID"
+  },
+  "Studio Universal": {
+    "epgid": "Studio Universal",
+    "name": "Studio Universal",
+    "logo": "",
+    "source": "ID"
+  },
+  "Studio Universal HD": {
+    "epgid": "Studio Universal HD",
+    "name": "Studio Universal HD",
+    "logo": "",
+    "source": "ID"
+  },
+  "Superrix": {
+    "epgid": "Superrix",
+    "name": "Superrix",
+    "logo": "",
+    "source": "ID"
+  },
+  "Superrix HD": {
+    "epgid": "Superrix HD",
+    "name": "Superrix HD",
+    "logo": "",
+    "source": "ID"
+  },
+  "Tawaf TV": {
+    "epgid": "Tawaf TV",
+    "name": "Tawaf TV",
+    "logo": "",
+    "source": "ID"
+  },
+  "Trans 7": {
+    "epgid": "Trans 7",
+    "name": "Trans 7",
+    "logo": "",
+    "source": "ID"
+  },
+  "Trans TV": {
+    "epgid": "Trans TV",
+    "name": "Trans TV",
+    "logo": "",
+    "source": "ID"
+  },
+  "2726": {
+    "epgid": "2726",
+    "name": "tvN Movies,tvN Movies HD",
+    "logo": "",
+    "source": "ID"
+  },
+  "tvOne": {
+    "epgid": "tvOne",
+    "name": "tvOne",
+    "logo": "",
+    "source": "ID"
+  },
+  "TVRI": {
+    "epgid": "TVRI",
+    "name": "TVRI",
+    "logo": "",
+    "source": "ID"
+  },
+  "UNIQUES": {
+    "epgid": "UNIQUES",
+    "name": "UNIQUES",
+    "logo": "",
+    "source": "ID"
+  },
+  "UNIQUES HD": {
+    "epgid": "UNIQUES HD",
+    "name": "UNIQUES HD",
+    "logo": "",
+    "source": "ID"
+  },
+  "Vision Prime": {
+    "epgid": "Vision Prime",
+    "name": "Vision Prime",
+    "logo": "",
+    "source": "ID"
+  },
+  "Vision Prime HD": {
+    "epgid": "Vision Prime HD",
+    "name": "Vision Prime HD",
+    "logo": "",
+    "source": "ID"
+  },
+  "Zee Bioskop": {
+    "epgid": "Zee Bioskop",
+    "name": "Zee Bioskop",
+    "logo": "",
+    "source": "ID"
   },
   "美東台": {
     "epgid": "美東台",
@@ -3467,15 +3965,15 @@
     "logo": "",
     "source": ""
   },
-  "CNN國際新聞台": {
-    "epgid": "CNN國際新聞台",
-    "name": "CNN國際新聞台",
-    "logo": "",
-    "source": ""
-  },
   "CNN頭條新聞台(HLN)": {
     "epgid": "CNN頭條新聞台(HLN)",
     "name": "CNN頭條新聞台(HLN)",
+    "logo": "",
+    "source": ""
+  },
+  "CNN國際新聞台": {
+    "epgid": "CNN國際新聞台",
+    "name": "CNN國際新聞台",
     "logo": "",
     "source": ""
   },
@@ -3497,15 +3995,15 @@
     "logo": "",
     "source": ""
   },
-  "Discovery科學台(Science)": {
-    "epgid": "Discovery科學台(Science)",
-    "name": "Discovery科學台(Science)",
-    "logo": "",
-    "source": ""
-  },
   "Ginx TV電競頻道": {
     "epgid": "Ginx TV電競頻道",
     "name": "Ginx TV電競頻道",
+    "logo": "",
+    "source": ""
+  },
+  "Discovery科學台(Science)": {
+    "epgid": "Discovery科學台(Science)",
+    "name": "Discovery科學台(Science)",
     "logo": "",
     "source": ""
   },
@@ -3527,15 +4025,15 @@
     "logo": "",
     "source": ""
   },
-  "HBLTV1台": {
-    "epgid": "HBLTV1台",
-    "name": "HBLTV1台",
-    "logo": "",
-    "source": ""
-  },
   "HBLTV2台": {
     "epgid": "HBLTV2台",
     "name": "HBLTV2台",
+    "logo": "",
+    "source": ""
+  },
+  "HBLTV1台": {
+    "epgid": "HBLTV1台",
+    "name": "HBLTV1台",
     "logo": "",
     "source": ""
   },
