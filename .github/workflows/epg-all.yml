@@ -1,0 +1,36 @@
+name: EPG 抓取（单文件版）
+
+# 一个 py 跑全部平台：mytvsuper / nowtv / hami / hoytv / mewatch /
+# bein / beinsports / mncvision / starhub / ntdtv，抓完自动合并，
+# 输出 epg.xml.gz + channels.json。旧的分平台任务可以删了。
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # 每 6 小时跑一次
+  workflow_dispatch:        # 手动也能跑
+
+jobs:
+  epg:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install requests
+        run: pip install requests
+
+      - name: Run epg_all.py
+        run: python3 epg_all.py
+
+      - name: Commit outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add epg.xml.gz channels.json
+          git diff --cached --quiet || git commit -m "Update EPG $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
