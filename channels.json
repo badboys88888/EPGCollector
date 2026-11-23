@@ -593,12 +593,6 @@
     "logo": "https://assets.mytvsuper.com/channel/1780885956231247_EVT7.webp",
     "source": "HK"
   },
-  "EVT8": {
-    "epgid": "EVT8",
-    "name": "Li-Ning HK Open Badminton Championships 2026 part of the HSBC BWF World Tour Super 500,李寧二零二六香港公開羽毛球錦標賽 滙豐世界羽聯世界巡迴賽超級500",
-    "logo": "https://assets.mytvsuper.com/channel/1794967015040915_EVT8.jpeg",
-    "source": "HK"
-  },
   "TEST": {
     "epgid": "TEST",
     "name": "測試頻道,Test Channel",
@@ -3713,18 +3707,6 @@
     "logo": "",
     "source": "OPENEPG"
   },
-  "AlkassSix.qa": {
-    "epgid": "AlkassSix.qa",
-    "name": "AlkassSix.qa",
-    "logo": "",
-    "source": "OPENEPG"
-  },
-  "AlkassThree.qa": {
-    "epgid": "AlkassThree.qa",
-    "name": "AlkassThree.qa",
-    "logo": "",
-    "source": "OPENEPG"
-  },
   "beIN.qa": {
     "epgid": "beIN.qa",
     "name": "beIN.qa",
@@ -3965,15 +3947,15 @@
     "logo": "",
     "source": ""
   },
-  "CNN頭條新聞台(HLN)": {
-    "epgid": "CNN頭條新聞台(HLN)",
-    "name": "CNN頭條新聞台(HLN)",
-    "logo": "",
-    "source": ""
-  },
   "CNN國際新聞台": {
     "epgid": "CNN國際新聞台",
     "name": "CNN國際新聞台",
+    "logo": "",
+    "source": ""
+  },
+  "CNN頭條新聞台(HLN)": {
+    "epgid": "CNN頭條新聞台(HLN)",
+    "name": "CNN頭條新聞台(HLN)",
     "logo": "",
     "source": ""
   },
@@ -3995,15 +3977,15 @@
     "logo": "",
     "source": ""
   },
-  "Ginx TV電競頻道": {
-    "epgid": "Ginx TV電競頻道",
-    "name": "Ginx TV電競頻道",
-    "logo": "",
-    "source": ""
-  },
   "Discovery科學台(Science)": {
     "epgid": "Discovery科學台(Science)",
     "name": "Discovery科學台(Science)",
+    "logo": "",
+    "source": ""
+  },
+  "Ginx TV電競頻道": {
+    "epgid": "Ginx TV電競頻道",
+    "name": "Ginx TV電競頻道",
     "logo": "",
     "source": ""
   },
@@ -4025,15 +4007,15 @@
     "logo": "",
     "source": ""
   },
-  "HBLTV2台": {
-    "epgid": "HBLTV2台",
-    "name": "HBLTV2台",
-    "logo": "",
-    "source": ""
-  },
   "HBLTV1台": {
     "epgid": "HBLTV1台",
     "name": "HBLTV1台",
+    "logo": "",
+    "source": ""
+  },
+  "HBLTV2台": {
+    "epgid": "HBLTV2台",
+    "name": "HBLTV2台",
     "logo": "",
     "source": ""
   },
@@ -4052,12 +4034,6 @@
   "台視主頻": {
     "epgid": "台視主頻",
     "name": "台視主頻",
-    "logo": "",
-    "source": ""
-  },
-  "愛爾達日韓台": {
-    "epgid": "愛爾達日韓台",
-    "name": "愛爾達日韓台",
     "logo": "",
     "source": ""
   },
