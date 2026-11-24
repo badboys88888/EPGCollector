@@ -2081,6 +2081,12 @@
     "logo": "https://storage.hoy.tv/v1/image/channel/3.jpg",
     "source": "HK"
   },
+  "2": {
+    "epgid": "2",
+    "name": "CCTV2,亞洲聯賽冠軍盃精英聯賽 - 拉查武里 對 柔佛DT (英文評述) (晚上8:10)",
+    "logo": "https://storage.hoy.tv/v1/image/channel/5.jpg",
+    "source": "HK"
+  },
   "492816": {
     "epgid": "492816",
     "name": "Channel 5",
@@ -3707,6 +3713,24 @@
     "logo": "",
     "source": "OPENEPG"
   },
+  "AlkassSix.qa": {
+    "epgid": "AlkassSix.qa",
+    "name": "AlkassSix.qa",
+    "logo": "",
+    "source": "OPENEPG"
+  },
+  "AlkassThree.qa": {
+    "epgid": "AlkassThree.qa",
+    "name": "AlkassThree.qa",
+    "logo": "",
+    "source": "OPENEPG"
+  },
+  "AlkassTwo.qa": {
+    "epgid": "AlkassTwo.qa",
+    "name": "AlkassTwo.qa",
+    "logo": "",
+    "source": "OPENEPG"
+  },
   "beIN.qa": {
     "epgid": "beIN.qa",
     "name": "beIN.qa",
@@ -4049,15 +4073,15 @@
     "logo": "",
     "source": ""
   },
-  "華視主頻": {
-    "epgid": "華視主頻",
-    "name": "華視主頻",
-    "logo": "",
-    "source": ""
-  },
   "華視新聞資訊台": {
     "epgid": "華視新聞資訊台",
     "name": "華視新聞資訊台",
+    "logo": "",
+    "source": ""
+  },
+  "華視主頻": {
+    "epgid": "華視主頻",
+    "name": "華視主頻",
     "logo": "",
     "source": ""
   },
