@@ -943,7 +943,7 @@
   },
   "1": {
     "epgid": "1",
-    "name": "CCTV-1,CCTV1",
+    "name": "CCTV-1,CCTV1,亞洲聯賽冠軍盃精英聯賽 - 大阪飛腳 對 泰港 (英文評述) (下午5:55)",
     "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch541_170_122",
     "source": "HK"
   },
@@ -2081,12 +2081,6 @@
     "logo": "https://storage.hoy.tv/v1/image/channel/3.jpg",
     "source": "HK"
   },
-  "2": {
-    "epgid": "2",
-    "name": "CCTV2,亞洲聯賽冠軍盃精英聯賽 - 拉查武里 對 柔佛DT (英文評述) (晚上8:10)",
-    "logo": "https://storage.hoy.tv/v1/image/channel/5.jpg",
-    "source": "HK"
-  },
   "492816": {
     "epgid": "492816",
     "name": "Channel 5",
@@ -2135,10 +2129,16 @@
     "logo": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5721803'&EntityType='Item'&EntityId='97073'&Width=1920&Height=1080",
     "source": "SG"
   },
-  "535294": {
-    "epgid": "535294",
-    "name": "LIVE 2",
-    "logo": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5721800'&EntityType='Item'&EntityId='97078'&Width=1920&Height=1080",
+  "98202": {
+    "epgid": "98202",
+    "name": "LIVE 5",
+    "logo": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='6215768'&EntityType='Item'&EntityId='98202'&Width=1920&Height=1080",
+    "source": "SG"
+  },
+  "204746": {
+    "epgid": "204746",
+    "name": "LIVE 6",
+    "logo": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5853379'&EntityType='Item'&EntityId='204746'&Width=1920&Height=1080",
     "source": "SG"
   },
   "492860": {
