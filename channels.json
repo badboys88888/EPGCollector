@@ -943,7 +943,7 @@
   },
   "1": {
     "epgid": "1",
-    "name": "CCTV-1,CCTV1,亞洲聯賽冠軍盃精英聯賽 - 大阪飛腳 對 泰港 (英文評述) (下午5:55)",
+    "name": "CCTV-1,CCTV1,亞洲聯賽冠軍盃二級聯賽 - 淡濱尼流浪 對 上海申花 (英文評述) (下午5:55)",
     "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch541_170_122",
     "source": "HK"
   },
@@ -4073,15 +4073,15 @@
     "logo": "",
     "source": ""
   },
-  "華視新聞資訊台": {
-    "epgid": "華視新聞資訊台",
-    "name": "華視新聞資訊台",
-    "logo": "",
-    "source": ""
-  },
   "華視主頻": {
     "epgid": "華視主頻",
     "name": "華視主頻",
+    "logo": "",
+    "source": ""
+  },
+  "華視新聞資訊台": {
+    "epgid": "華視新聞資訊台",
+    "name": "華視新聞資訊台",
     "logo": "",
     "source": ""
   },
