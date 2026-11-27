@@ -943,7 +943,7 @@
   },
   "1": {
     "epgid": "1",
-    "name": "CCTV-1,CCTV1,亞洲聯賽冠軍盃二級聯賽 - 淡濱尼流浪 對 上海申花 (英文評述) (下午5:55)",
+    "name": "CCTV-1,CCTV1",
     "logo": "https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch541_170_122",
     "source": "HK"
   },
@@ -2129,16 +2129,10 @@
     "logo": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5721803'&EntityType='Item'&EntityId='97073'&Width=1920&Height=1080",
     "source": "SG"
   },
-  "98202": {
-    "epgid": "98202",
-    "name": "LIVE 5",
-    "logo": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='6215768'&EntityType='Item'&EntityId='98202'&Width=1920&Height=1080",
-    "source": "SG"
-  },
-  "204746": {
-    "epgid": "204746",
-    "name": "LIVE 6",
-    "logo": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5853379'&EntityType='Item'&EntityId='204746'&Width=1920&Height=1080",
+  "535294": {
+    "epgid": "535294",
+    "name": "LIVE 2",
+    "logo": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='5721800'&EntityType='Item'&EntityId='97078'&Width=1920&Height=1080",
     "source": "SG"
   },
   "492860": {
@@ -2439,12 +2433,6 @@
     "epgid": "455185",
     "name": "Hub Sports 7,Hub Sports 7 HD",
     "logo": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624683'&EntityType='Item'&EntityId='572426'&Width=1920&Height=1080",
-    "source": "SG"
-  },
-  "455187": {
-    "epgid": "455187",
-    "name": "Hub Sports 8,Hub Sports 8 HD",
-    "logo": "https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='9624665'&EntityType='Item'&EntityId='572424'&Width=1920&Height=1080",
     "source": "SG"
   },
   "412156": {
