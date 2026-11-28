@@ -3959,15 +3959,15 @@
     "logo": "",
     "source": ""
   },
-  "CNN國際新聞台": {
-    "epgid": "CNN國際新聞台",
-    "name": "CNN國際新聞台",
-    "logo": "",
-    "source": ""
-  },
   "CNN頭條新聞台(HLN)": {
     "epgid": "CNN頭條新聞台(HLN)",
     "name": "CNN頭條新聞台(HLN)",
+    "logo": "",
+    "source": ""
+  },
+  "CNN國際新聞台": {
+    "epgid": "CNN國際新聞台",
+    "name": "CNN國際新聞台",
     "logo": "",
     "source": ""
   },
